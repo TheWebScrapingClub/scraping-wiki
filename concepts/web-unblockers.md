@@ -3,15 +3,6 @@ name: Web Unblockers
 type: concept
 first_seen: 2023-04-06
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api
-  - https://substack.thewebscraping.club/p/testing-smartproxy-site-unblocker
-  - https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test
-  - https://substack.thewebscraping.club/p/hands-on-6-testing-the-infatica-web
-  - https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024
-  - https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark
-  - https://substack.thewebscraping.club/p/web-unblocker-test-kasada
-  - https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping
 ---
 
 # Web Unblockers
@@ -103,3 +94,14 @@ The gap between unblockers and Browser-as-a-Service is closing as BaaS platforms
 - [Oxylabs Unblocker](../entities/oxylabs-unblocker.md)
 - [Smartproxy Unblocker](../entities/smartproxy-unblocker.md)
 - [scraping-infrastructure](./scraping-infrastructure.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api](https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api)
+- [https://substack.thewebscraping.club/p/testing-smartproxy-site-unblocker](https://substack.thewebscraping.club/p/testing-smartproxy-site-unblocker)
+- [https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test](https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test)
+- [https://substack.thewebscraping.club/p/hands-on-6-testing-the-infatica-web](https://substack.thewebscraping.club/p/hands-on-6-testing-the-infatica-web)
+- [https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024](https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024)
+- [https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark](https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark)
+- [https://substack.thewebscraping.club/p/web-unblocker-test-kasada](https://substack.thewebscraping.club/p/web-unblocker-test-kasada)
+- [https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping](https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping)

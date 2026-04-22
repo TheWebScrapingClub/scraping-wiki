@@ -3,10 +3,6 @@ name: websocket-scraping
 type: concept
 first_seen: 2024-04-04
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/scraping-real-time-data-bitstamp
-  - https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast
-  - https://substack.thewebscraping.club/p/how-fast-can-you-call-polymarket-apis
 ---
 
 # WebSocket Scraping
@@ -72,3 +68,9 @@ WebSocket scraping is straightforward when the protocol is JSON. The main compli
 
 - [api-scraping](./api-scraping.md)
 - [http-performance](./http-performance.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/scraping-real-time-data-bitstamp](https://substack.thewebscraping.club/p/scraping-real-time-data-bitstamp)
+- [https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast](https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast)
+- [https://substack.thewebscraping.club/p/how-fast-can-you-call-polymarket-apis](https://substack.thewebscraping.club/p/how-fast-can-you-call-polymarket-apis)

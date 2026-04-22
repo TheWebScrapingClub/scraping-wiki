@@ -3,12 +3,6 @@ name: inventory-tracking
 type: concept
 first_seen: 2023-09-14
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/scraping-inventory-level
-  - https://substack.thewebscraping.club/p/scraping-inventory-data
-  - https://substack.thewebscraping.club/p/scraping-inventory-levels
-  - https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory
-  - https://substack.thewebscraping.club/p/ikea-scraping-kallax
 ---
 
 # Inventory Tracking
@@ -74,3 +68,11 @@ Inventory tracking is one of the highest-value web scraping applications and one
 
 - [api-scraping](./api-scraping.md)
 - [location-data-scraping](./location-data-scraping.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/scraping-inventory-level](https://substack.thewebscraping.club/p/scraping-inventory-level)
+- [https://substack.thewebscraping.club/p/scraping-inventory-data](https://substack.thewebscraping.club/p/scraping-inventory-data)
+- [https://substack.thewebscraping.club/p/scraping-inventory-levels](https://substack.thewebscraping.club/p/scraping-inventory-levels)
+- [https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory](https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory)
+- [https://substack.thewebscraping.club/p/ikea-scraping-kallax](https://substack.thewebscraping.club/p/ikea-scraping-kallax)

@@ -4,10 +4,6 @@ type: entity
 category: library
 first_seen: 2024-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright
-  - https://substack.thewebscraping.club/p/oxymouse-and-playwright-mouse-movements
-  - https://substack.thewebscraping.club/p/bezier-curves-web-scraping
 ---
 
 # ghost-cursor
@@ -54,3 +50,9 @@ Based on TWSC testing:
 - [Datadome](datadome.md)
 - [mouse-movement-emulation](../concepts/mouse-movement-emulation.md)
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright](https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright)
+- [https://substack.thewebscraping.club/p/oxymouse-and-playwright-mouse-movements](https://substack.thewebscraping.club/p/oxymouse-and-playwright-mouse-movements)
+- [https://substack.thewebscraping.club/p/bezier-curves-web-scraping](https://substack.thewebscraping.club/p/bezier-curves-web-scraping)

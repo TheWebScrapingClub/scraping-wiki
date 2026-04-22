@@ -3,21 +3,6 @@ name: scraping-economics
 type: concept
 first_seen: 2022-08-06
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/from-0-to-2-billion-prices-scraped
-  - https://substack.thewebscraping.club/p/is-web-scraping-a-profitable-industry
-  - https://substack.thewebscraping.club/p/make-money-with-web-scraping
-  - https://substack.thewebscraping.club/p/the-state-of-web-scraping-and-ai
-  - https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping
-  - https://substack.thewebscraping.club/p/the-web-data-landscape-map
-  - https://substack.thewebscraping.club/p/selling-web-scraped-data
-  - https://substack.thewebscraping.club/p/monetize-web-scraping-databoutique
-  - https://substack.thewebscraping.club/p/the-lab-15-deep-diving-into-apify
-  - https://substack.thewebscraping.club/p/pay-to-crawl-is-it-feasible
-  - https://substack.thewebscraping.club/p/the-state-of-public-web-data-in-2024
-  - https://substack.thewebscraping.club/p/the-dirty-little-secret-of-internets
-  - https://scrapeops.io/blog/scraping-shock/
-  - https://foura.ai/blog/web-scraping-tarpits-collateral-damage
 ---
 
 # Scraping Economics
@@ -144,3 +129,20 @@ The data commodity model (marketplaces, shared datasets) is a structural respons
 - [llm-scraping](./llm-scraping.md)
 - [proxy-fundamentals](./proxy-fundamentals.md)
 - [web-scraping-legal-landscape](./web-scraping-legal-landscape.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/from-0-to-2-billion-prices-scraped](https://substack.thewebscraping.club/p/from-0-to-2-billion-prices-scraped)
+- [https://substack.thewebscraping.club/p/is-web-scraping-a-profitable-industry](https://substack.thewebscraping.club/p/is-web-scraping-a-profitable-industry)
+- [https://substack.thewebscraping.club/p/make-money-with-web-scraping](https://substack.thewebscraping.club/p/make-money-with-web-scraping)
+- [https://substack.thewebscraping.club/p/the-state-of-web-scraping-and-ai](https://substack.thewebscraping.club/p/the-state-of-web-scraping-and-ai)
+- [https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping](https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping)
+- [https://substack.thewebscraping.club/p/the-web-data-landscape-map](https://substack.thewebscraping.club/p/the-web-data-landscape-map)
+- [https://substack.thewebscraping.club/p/selling-web-scraped-data](https://substack.thewebscraping.club/p/selling-web-scraped-data)
+- [https://substack.thewebscraping.club/p/monetize-web-scraping-databoutique](https://substack.thewebscraping.club/p/monetize-web-scraping-databoutique)
+- [https://substack.thewebscraping.club/p/the-lab-15-deep-diving-into-apify](https://substack.thewebscraping.club/p/the-lab-15-deep-diving-into-apify)
+- [https://substack.thewebscraping.club/p/pay-to-crawl-is-it-feasible](https://substack.thewebscraping.club/p/pay-to-crawl-is-it-feasible)
+- [https://substack.thewebscraping.club/p/the-state-of-public-web-data-in-2024](https://substack.thewebscraping.club/p/the-state-of-public-web-data-in-2024)
+- [https://substack.thewebscraping.club/p/the-dirty-little-secret-of-internets](https://substack.thewebscraping.club/p/the-dirty-little-secret-of-internets)
+- [https://scrapeops.io/blog/scraping-shock/](https://scrapeops.io/blog/scraping-shock/)
+- [https://foura.ai/blog/web-scraping-tarpits-collateral-damage](https://foura.ai/blog/web-scraping-tarpits-collateral-damage)

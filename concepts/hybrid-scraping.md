@@ -3,10 +3,6 @@ name: hybrid-scraping
 type: concept
 first_seen:
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi
-  - https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with
-  - https://substack.thewebscraping.club/p/hybrid-scraping-browser-login-http-extraction
 ---
 
 # Hybrid Scraping
@@ -48,3 +44,9 @@ Hybrid scraping is an established pattern with clear implementation requirements
 - [homepage-first-navigation](./homepage-first-navigation.md)
 - [Camoufox](../entities/camoufox.md)
 - [Akamai](../entities/akamai.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi)
+- [https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with](https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with)
+- [https://substack.thewebscraping.club/p/hybrid-scraping-browser-login-http-extraction](https://substack.thewebscraping.club/p/hybrid-scraping-browser-login-http-extraction)

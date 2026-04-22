@@ -4,9 +4,6 @@ type: entity
 category: tool
 first_seen: 2026-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/pydoll-webdriver-scraping
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026
 ---
 
 # Pydoll
@@ -48,3 +45,8 @@ The future features listed in the documentation (Bezier curves, physics scrollin
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
 - [playwright](playwright.md)
 - [undetected-chromedriver](undetected-chromedriver.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/pydoll-webdriver-scraping](https://substack.thewebscraping.club/p/pydoll-webdriver-scraping)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)

@@ -4,9 +4,6 @@ type: entity
 category: tool
 first_seen: 2024-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/botasaurus-web-scraping-framework
-  - https://substack.thewebscraping.club/p/testing-the-new-botasaurus-4
 ---
 
 # Botasaurus
@@ -53,3 +50,8 @@ The decorator API is clean and the task parallelization genuinely reduces code c
 - [nodriver](nodriver.md)
 - [Cloudflare](cloudflare.md)
 - [Datadome](datadome.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/botasaurus-web-scraping-framework](https://substack.thewebscraping.club/p/botasaurus-web-scraping-framework)
+- [https://substack.thewebscraping.club/p/testing-the-new-botasaurus-4](https://substack.thewebscraping.club/p/testing-the-new-botasaurus-4)

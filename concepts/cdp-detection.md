@@ -3,11 +3,6 @@ name: cdp-detection
 type: concept
 first_seen: 2024-07-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/playwright-stealth-cdp
-  - https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping
-  - https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi
-  - https://substack.thewebscraping.club/p/playwright-scrapers-undetected
 ---
 
 # CDP Detection
@@ -63,3 +58,10 @@ Patchright is the recommended drop-in solution for teams running Playwright on C
 - [DataDome](../entities/datadome.md)
 - [Camoufox](../entities/camoufox.md)
 - [Playwright](../entities/playwright.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/playwright-stealth-cdp](https://substack.thewebscraping.club/p/playwright-stealth-cdp)
+- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
+- [https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi](https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi)
+- [https://substack.thewebscraping.club/p/playwright-scrapers-undetected](https://substack.thewebscraping.club/p/playwright-scrapers-undetected)

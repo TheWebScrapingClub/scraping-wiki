@@ -4,9 +4,6 @@ type: entity
 category: anti-bot
 first_seen: 2023-02-02
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix
-  - https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges
 ---
 
 ## What it is
@@ -36,3 +33,8 @@ F5 Bot Defense has limited coverage in the TWSC corpus. The characterization her
 - [Kasada](kasada.md)
 - [PerimeterX](perimeterx.md)
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix)
+- [https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges)

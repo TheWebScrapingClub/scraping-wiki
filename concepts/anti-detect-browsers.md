@@ -3,17 +3,6 @@ name: Anti-Detect Browsers
 type: concept
 first_seen: 2022-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-with-kameleo
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-free-tools
-  - https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests
-  - https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments
-  - https://substack.thewebscraping.club/p/antidetect-browser-webscraping
-  - https://substack.thewebscraping.club/p/dolphin-anty-product-review
-  - https://substack.thewebscraping.club/p/browser-automation-landscape-2025
-  - https://substack.thewebscraping.club/p/anti-detect-pricing-comparison
 ---
 
 # Anti-Detect Browsers
@@ -113,3 +102,16 @@ Pricing reference (2024):
 - [Kameleo](../entities/kameleo.md)
 - [Dolphin Anty](../entities/dolphin-anty.md)
 - [anti-detect-browser-benchmark-2024](../comparisons/anti-detect-browser-benchmark-2024.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright](https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh](https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-with-kameleo](https://substack.thewebscraping.club/p/bypassing-cloudflare-with-kameleo)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-free-tools](https://substack.thewebscraping.club/p/bypassing-cloudflare-free-tools)
+- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments](https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments)
+- [https://substack.thewebscraping.club/p/antidetect-browser-webscraping](https://substack.thewebscraping.club/p/antidetect-browser-webscraping)
+- [https://substack.thewebscraping.club/p/dolphin-anty-product-review](https://substack.thewebscraping.club/p/dolphin-anty-product-review)
+- [https://substack.thewebscraping.club/p/browser-automation-landscape-2025](https://substack.thewebscraping.club/p/browser-automation-landscape-2025)
+- [https://substack.thewebscraping.club/p/anti-detect-pricing-comparison](https://substack.thewebscraping.club/p/anti-detect-pricing-comparison)

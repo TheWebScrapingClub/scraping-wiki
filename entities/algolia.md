@@ -4,9 +4,6 @@ type: entity
 category: target
 first_seen: 2023-12-10
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/algolia-and-web-scraping-an-introduction
-  - https://substack.thewebscraping.club/p/scraping-algolia-endpoints
 ---
 
 # Algolia
@@ -69,3 +66,8 @@ Algolia endpoints can be identified by:
 - [api-scraping](../concepts/api-scraping.md)
 - [tls-fingerprinting](../concepts/tls-fingerprinting.md)
 - [Akamai](akamai.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/algolia-and-web-scraping-an-introduction](https://substack.thewebscraping.club/p/algolia-and-web-scraping-an-introduction)
+- [https://substack.thewebscraping.club/p/scraping-algolia-endpoints](https://substack.thewebscraping.club/p/scraping-algolia-endpoints)

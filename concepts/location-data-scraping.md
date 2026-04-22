@@ -3,10 +3,6 @@ name: location-data-scraping
 type: concept
 first_seen: 2023-11-09
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/the-lab-31-scraping-location-data
-  - https://substack.thewebscraping.club/p/scraping-food-delivery-apps
-  - https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory
 ---
 
 # Location Data Scraping
@@ -82,3 +78,9 @@ The world grid pattern is reusable infrastructure. A filtered, populated grid at
 
 - [api-scraping](./api-scraping.md)
 - [inventory-tracking](./inventory-tracking.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/the-lab-31-scraping-location-data](https://substack.thewebscraping.club/p/the-lab-31-scraping-location-data)
+- [https://substack.thewebscraping.club/p/scraping-food-delivery-apps](https://substack.thewebscraping.club/p/scraping-food-delivery-apps)
+- [https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory](https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory)

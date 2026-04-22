@@ -4,9 +4,6 @@ type: entity
 category: tool
 first_seen: 2024-09-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver
-  - https://substack.thewebscraping.club/p/open-source-python-libraries-scraping
 ---
 
 # Nodriver
@@ -56,3 +53,8 @@ A direct comparison: Playwright with the same local machine also opened Harrods 
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
 - [CDP Detection](../concepts/cdp-detection.md)
 - [Cloudflare](cloudflare.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver](https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver)
+- [https://substack.thewebscraping.club/p/open-source-python-libraries-scraping](https://substack.thewebscraping.club/p/open-source-python-libraries-scraping)

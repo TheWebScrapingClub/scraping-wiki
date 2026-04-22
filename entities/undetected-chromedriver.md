@@ -4,9 +4,6 @@ type: entity
 category: tool
 first_seen: 2023-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026
 ---
 
 # Undetected ChromeDriver
@@ -51,3 +48,8 @@ At the time of the 2026 test, the repository had not received an update in 7 mon
 - [playwright](playwright.md)
 - [pydoll](pydoll.md)
 - [camoufox](camoufox.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome](https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)

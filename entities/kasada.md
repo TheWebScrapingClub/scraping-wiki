@@ -4,16 +4,6 @@ type: entity
 category: anti-bot
 first_seen: 2022-08-05
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source
-  - https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome
-  - https://substack.thewebscraping.club/p/scraping-a-kasada-website
-  - https://substack.thewebscraping.club/p/scraping-kasada-protected-websites
-  - https://substack.thewebscraping.club/p/bypassing-kasada-web-scraping
-  - https://substack.thewebscraping.club/p/how-to-by-pass-kasada-bot-mitigation
-  - https://substack.thewebscraping.club/p/octo-browser-bypass-kasada
-  - https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix
-  - https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges
 ---
 
 ## What it is
@@ -70,3 +60,15 @@ SEO impact is a documented side effect of aggressive Kasada deployment. Bing and
 - [Undetected-chromedriver](undetected-chromedriver.md)
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
 - [TLS Fingerprinting](../concepts/tls-fingerprinting.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source](https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source)
+- [https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome](https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome)
+- [https://substack.thewebscraping.club/p/scraping-a-kasada-website](https://substack.thewebscraping.club/p/scraping-a-kasada-website)
+- [https://substack.thewebscraping.club/p/scraping-kasada-protected-websites](https://substack.thewebscraping.club/p/scraping-kasada-protected-websites)
+- [https://substack.thewebscraping.club/p/bypassing-kasada-web-scraping](https://substack.thewebscraping.club/p/bypassing-kasada-web-scraping)
+- [https://substack.thewebscraping.club/p/how-to-by-pass-kasada-bot-mitigation](https://substack.thewebscraping.club/p/how-to-by-pass-kasada-bot-mitigation)
+- [https://substack.thewebscraping.club/p/octo-browser-bypass-kasada](https://substack.thewebscraping.club/p/octo-browser-bypass-kasada)
+- [https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix)
+- [https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges)

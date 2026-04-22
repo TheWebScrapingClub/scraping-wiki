@@ -3,13 +3,6 @@ name: Firefox-based vs Chrome-based Stealth Tools
 type: comparison
 subjects: [Camoufox, Pydoll, undetected-chromedriver, Patchright, Playwright]
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026
-  - https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source
-  - https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome
-  - https://substack.thewebscraping.club/p/scraping-datadome-camoufox
-  - https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile
-  - https://substack.thewebscraping.club/p/cloudflare-bypass-2026
 ---
 
 ## What is being compared
@@ -54,3 +47,12 @@ Avoid Pydoll for production scraping until stability issues are resolved. Avoid 
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
 - [CDP Detection](../concepts/cdp-detection.md)
 - [Hybrid Scraping](../concepts/hybrid-scraping.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)
+- [https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source](https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source)
+- [https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome](https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome)
+- [https://substack.thewebscraping.club/p/scraping-datadome-camoufox](https://substack.thewebscraping.club/p/scraping-datadome-camoufox)
+- [https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile](https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile)
+- [https://substack.thewebscraping.club/p/cloudflare-bypass-2026](https://substack.thewebscraping.club/p/cloudflare-bypass-2026)

@@ -4,11 +4,6 @@ type: entity
 category: tool
 first_seen: 2023-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/kameleo-anti-detect-browser
-  - https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests
-  - https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments
-  - https://substack.thewebscraping.club/p/anti-detect-pricing-comparison
 ---
 
 # Kameleo
@@ -47,3 +42,10 @@ The local API integration works reliably. Connecting a Playwright script to a ru
 - [gologin](gologin.md)
 - [dolphin-anty](dolphin-anty.md)
 - [anti-detect-browser-benchmark-2024](../comparisons/anti-detect-browser-benchmark-2024.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/kameleo-anti-detect-browser](https://substack.thewebscraping.club/p/kameleo-anti-detect-browser)
+- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments](https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments)
+- [https://substack.thewebscraping.club/p/anti-detect-pricing-comparison](https://substack.thewebscraping.club/p/anti-detect-pricing-comparison)

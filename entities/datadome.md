@@ -4,17 +4,6 @@ type: entity
 category: anti-bot
 first_seen: 2022-09-15
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/scraping-datadome-camoufox
-  - https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright
-  - https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session
-  - https://substack.thewebscraping.club/p/fingerprint-injection-playwright
-  - https://substack.thewebscraping.club/p/scraping-datadome-api-hermes
-  - https://substack.thewebscraping.club/p/how-to-scrape-datadome-2023
-  - https://substack.thewebscraping.club/p/bypassing-datadome-2023-scraping
-  - https://substack.thewebscraping.club/p/scraping-idealista-bypass-datadome
-  - https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix
-  - https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges
 ---
 
 ## What it is
@@ -80,3 +69,16 @@ Mobile impersonation can bypass stricter Datadome configurations on some targets
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
 - [TLS Fingerprinting](../concepts/tls-fingerprinting.md)
 - [Cookie and Session Reuse](../concepts/cookie-session-reuse.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/scraping-datadome-camoufox](https://substack.thewebscraping.club/p/scraping-datadome-camoufox)
+- [https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright](https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright)
+- [https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session](https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session)
+- [https://substack.thewebscraping.club/p/fingerprint-injection-playwright](https://substack.thewebscraping.club/p/fingerprint-injection-playwright)
+- [https://substack.thewebscraping.club/p/scraping-datadome-api-hermes](https://substack.thewebscraping.club/p/scraping-datadome-api-hermes)
+- [https://substack.thewebscraping.club/p/how-to-scrape-datadome-2023](https://substack.thewebscraping.club/p/how-to-scrape-datadome-2023)
+- [https://substack.thewebscraping.club/p/bypassing-datadome-2023-scraping](https://substack.thewebscraping.club/p/bypassing-datadome-2023-scraping)
+- [https://substack.thewebscraping.club/p/scraping-idealista-bypass-datadome](https://substack.thewebscraping.club/p/scraping-idealista-bypass-datadome)
+- [https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix)
+- [https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges)

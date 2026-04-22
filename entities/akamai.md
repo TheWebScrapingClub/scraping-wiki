@@ -4,17 +4,6 @@ type: entity
 category: anti-bot
 first_seen: 2023-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypass-akamai-bot-protection
-  - https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected
-  - https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi
-  - https://substack.thewebscraping.club/p/bypassing-akamai-for-free
-  - https://substack.thewebscraping.club/p/bypassing-akamai-proxidize
-  - https://substack.thewebscraping.club/p/scraping-akamai-protected-website
-  - https://substack.thewebscraping.club/p/scraping-akamai-protected-websites
-  - https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python
-  - https://substack.thewebscraping.club/p/nike-scraping-benchmark
-  - https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/
 ---
 
 ## What it is
@@ -82,3 +71,16 @@ scrapy-impersonate has a known issue when combined with proxies: network errors 
 - [Datadome](datadome.md)
 - [Cookie and Session Reuse](../concepts/cookie-session-reuse.md)
 - [Hybrid Scraping](../concepts/hybrid-scraping.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypass-akamai-bot-protection](https://substack.thewebscraping.club/p/bypass-akamai-bot-protection)
+- [https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected](https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected)
+- [https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi)
+- [https://substack.thewebscraping.club/p/bypassing-akamai-for-free](https://substack.thewebscraping.club/p/bypassing-akamai-for-free)
+- [https://substack.thewebscraping.club/p/bypassing-akamai-proxidize](https://substack.thewebscraping.club/p/bypassing-akamai-proxidize)
+- [https://substack.thewebscraping.club/p/scraping-akamai-protected-website](https://substack.thewebscraping.club/p/scraping-akamai-protected-website)
+- [https://substack.thewebscraping.club/p/scraping-akamai-protected-websites](https://substack.thewebscraping.club/p/scraping-akamai-protected-websites)
+- [https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python](https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python)
+- [https://substack.thewebscraping.club/p/nike-scraping-benchmark](https://substack.thewebscraping.club/p/nike-scraping-benchmark)
+- [https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/](https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/)

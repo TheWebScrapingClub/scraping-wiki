@@ -4,9 +4,6 @@ type: entity
 category: tool
 first_seen: 2026-01-11
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/anycrawl-llm-ready-web-scraping
-  - https://substack.thewebscraping.club/p/anycrawl-testing-the-llm-ready-web
 ---
 
 # AnyCrawl
@@ -57,3 +54,8 @@ TWSC classification: comparable to FireCrawl for LLM pipeline use cases. Not com
 - [llm-scraping](../concepts/llm-scraping.md)
 - [Playwright](./playwright.md)
 - [scraping-infrastructure](../concepts/scraping-infrastructure.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/anycrawl-llm-ready-web-scraping](https://substack.thewebscraping.club/p/anycrawl-llm-ready-web-scraping)
+- [https://substack.thewebscraping.club/p/anycrawl-testing-the-llm-ready-web](https://substack.thewebscraping.club/p/anycrawl-testing-the-llm-ready-web)

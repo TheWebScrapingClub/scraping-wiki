@@ -3,17 +3,6 @@ name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/the-costs-of-web-scraping
-  - https://substack.thewebscraping.club/p/optimizing-costs-for-web-scraping
-  - https://substack.thewebscraping.club/p/scraping-aws-lambda-serverless
-  - https://substack.thewebscraping.club/p/running-scrapers-on-github-actions
-  - https://substack.thewebscraping.club/p/scheduling-scrapers-airflow
-  - https://substack.thewebscraping.club/p/scrapyd-manage-schedule-scrapers
-  - https://substack.thewebscraping.club/p/scrapeops-managing-scrapers-execution
-  - https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator
-  - https://substack.thewebscraping.club/p/the-true-costs-of-a-web-scraping
-  - https://andrewkchan.dev/posts/crawler.html
 ---
 
 # Scraping Infrastructure
@@ -115,3 +104,16 @@ As of 2025, the infrastructure decision tree is: sporadic invocation → Lambda/
 - [Scrapoxy](../entities/scrapoxy.md)
 - [Playwright](../entities/playwright.md)
 - [Camoufox](../entities/camoufox.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/the-costs-of-web-scraping](https://substack.thewebscraping.club/p/the-costs-of-web-scraping)
+- [https://substack.thewebscraping.club/p/optimizing-costs-for-web-scraping](https://substack.thewebscraping.club/p/optimizing-costs-for-web-scraping)
+- [https://substack.thewebscraping.club/p/scraping-aws-lambda-serverless](https://substack.thewebscraping.club/p/scraping-aws-lambda-serverless)
+- [https://substack.thewebscraping.club/p/running-scrapers-on-github-actions](https://substack.thewebscraping.club/p/running-scrapers-on-github-actions)
+- [https://substack.thewebscraping.club/p/scheduling-scrapers-airflow](https://substack.thewebscraping.club/p/scheduling-scrapers-airflow)
+- [https://substack.thewebscraping.club/p/scrapyd-manage-schedule-scrapers](https://substack.thewebscraping.club/p/scrapyd-manage-schedule-scrapers)
+- [https://substack.thewebscraping.club/p/scrapeops-managing-scrapers-execution](https://substack.thewebscraping.club/p/scrapeops-managing-scrapers-execution)
+- [https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator](https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator)
+- [https://substack.thewebscraping.club/p/the-true-costs-of-a-web-scraping](https://substack.thewebscraping.club/p/the-true-costs-of-a-web-scraping)
+- [https://andrewkchan.dev/posts/crawler.html](https://andrewkchan.dev/posts/crawler.html)

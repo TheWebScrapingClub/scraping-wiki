@@ -3,11 +3,6 @@ name: Certificate Pinning
 type: concept
 first_seen: 2022-09-04
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypass-certificate-pinning
-  - https://substack.thewebscraping.club/p/how-to-scrape-data-from-mobile-apps
-  - https://substack.thewebscraping.club/p/jwt-tokens-and-api-scraping
-  - https://substack.thewebscraping.club/p/http-toolkit-network-intercept
 ---
 
 # Certificate Pinning
@@ -91,3 +86,10 @@ Certificate pinning bypass via Frida on a rooted Android virtual device is the s
 - [mobile-app-scraping](./mobile-app-scraping.md)
 - [api-scraping](./api-scraping.md)
 - [tls-fingerprinting](./tls-fingerprinting.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypass-certificate-pinning](https://substack.thewebscraping.club/p/bypass-certificate-pinning)
+- [https://substack.thewebscraping.club/p/how-to-scrape-data-from-mobile-apps](https://substack.thewebscraping.club/p/how-to-scrape-data-from-mobile-apps)
+- [https://substack.thewebscraping.club/p/jwt-tokens-and-api-scraping](https://substack.thewebscraping.club/p/jwt-tokens-and-api-scraping)
+- [https://substack.thewebscraping.club/p/http-toolkit-network-intercept](https://substack.thewebscraping.club/p/http-toolkit-network-intercept)

@@ -4,9 +4,6 @@ type: entity
 category: library
 first_seen: 2023-11-23
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/the-lab-32-hrequests-vs-anti-bots
-  - https://substack.thewebscraping.club/p/apis-in-web-scraping
 ---
 
 # hRequests
@@ -70,3 +67,8 @@ hRequests was also recommended as the HTTP client for API scraping (apis-in-web-
 - [camoufox](camoufox.md)
 - [DataDome](datadome.md)
 - [Kasada](kasada.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/the-lab-32-hrequests-vs-anti-bots](https://substack.thewebscraping.club/p/the-lab-32-hrequests-vs-anti-bots)
+- [https://substack.thewebscraping.club/p/apis-in-web-scraping](https://substack.thewebscraping.club/p/apis-in-web-scraping)

@@ -4,8 +4,6 @@ type: entity
 category: tool
 first_seen: 2024-02-15
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator
 ---
 
 # Scrapoxy
@@ -43,3 +41,7 @@ Scrapoxy's datacenter pool capability — using cloud VMs as proxy nodes — pro
 - [proxy-fundamentals](../concepts/proxy-fundamentals.md)
 - [scraping-infrastructure](../concepts/scraping-infrastructure.md)
 - [hybrid-scraping](../concepts/hybrid-scraping.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator](https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator)

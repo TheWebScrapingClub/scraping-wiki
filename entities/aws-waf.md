@@ -4,8 +4,6 @@ type: entity
 category: anti-bot
 first_seen: 2024-06-06
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypassing-aws-waf-scraping
 ---
 
 ## What it is
@@ -44,3 +42,7 @@ Unlike dedicated anti-bot systems, AWS WAF does not perform continuous behaviora
 - [Cookie and Session Reuse](../concepts/cookie-session-reuse.md)
 - [Cloudflare](cloudflare.md)
 - [Playwright](playwright.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypassing-aws-waf-scraping](https://substack.thewebscraping.club/p/bypassing-aws-waf-scraping)

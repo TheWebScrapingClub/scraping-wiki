@@ -4,18 +4,6 @@ type: entity
 category: tool
 first_seen: 2023-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/playwright-stealth-cdp
-  - https://substack.thewebscraping.club/p/fingerprint-injection-playwright
-  - https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright
-  - https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with
-  - https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3
-  - https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping
-  - https://substack.thewebscraping.club/p/playwright-scrapers-undetected
-  - https://substack.thewebscraping.club/p/how-to-start-with-scrapy-and-playwright
-  - https://substack.thewebscraping.club/p/advanced-logging-in-playwright
-  - https://substack.thewebscraping.club/p/playwright-tips-tricks-scraping
-  - https://substack.thewebscraping.club/p/5-features-playwright-web-scraping
 ---
 
 # Playwright
@@ -110,3 +98,17 @@ Playwright's built-in `request` and `response` events on the page object provide
 - [Datadome](datadome.md)
 - [PerimeterX](perimeterx.md)
 - [pydoll](pydoll.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/playwright-stealth-cdp](https://substack.thewebscraping.club/p/playwright-stealth-cdp)
+- [https://substack.thewebscraping.club/p/fingerprint-injection-playwright](https://substack.thewebscraping.club/p/fingerprint-injection-playwright)
+- [https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright](https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright)
+- [https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with](https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with)
+- [https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3](https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3)
+- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
+- [https://substack.thewebscraping.club/p/playwright-scrapers-undetected](https://substack.thewebscraping.club/p/playwright-scrapers-undetected)
+- [https://substack.thewebscraping.club/p/how-to-start-with-scrapy-and-playwright](https://substack.thewebscraping.club/p/how-to-start-with-scrapy-and-playwright)
+- [https://substack.thewebscraping.club/p/advanced-logging-in-playwright](https://substack.thewebscraping.club/p/advanced-logging-in-playwright)
+- [https://substack.thewebscraping.club/p/playwright-tips-tricks-scraping](https://substack.thewebscraping.club/p/playwright-tips-tricks-scraping)
+- [https://substack.thewebscraping.club/p/5-features-playwright-web-scraping](https://substack.thewebscraping.club/p/5-features-playwright-web-scraping)

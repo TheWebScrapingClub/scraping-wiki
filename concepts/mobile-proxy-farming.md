@@ -3,11 +3,6 @@ name: Mobile Proxy Farming
 type: concept
 first_seen: 2023-01-15
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/mobile-proxy-raspberry
-  - https://substack.thewebscraping.club/p/building-mobile-proxy-farm
-  - https://substack.thewebscraping.club/p/how-build-mobile-proxy-farm-airproxy
-  - https://substack.thewebscraping.club/p/differences-residential-mobile-proxies
 ---
 
 # Mobile Proxy Farming
@@ -79,3 +74,10 @@ As of 2025, commercial mobile proxy pricing has dropped to approximately $8/GB f
 - [web-unblockers](./web-unblockers.md)
 - [Cloudflare](../entities/cloudflare.md)
 - [Akamai](../entities/akamai.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/mobile-proxy-raspberry](https://substack.thewebscraping.club/p/mobile-proxy-raspberry)
+- [https://substack.thewebscraping.club/p/building-mobile-proxy-farm](https://substack.thewebscraping.club/p/building-mobile-proxy-farm)
+- [https://substack.thewebscraping.club/p/how-build-mobile-proxy-farm-airproxy](https://substack.thewebscraping.club/p/how-build-mobile-proxy-farm-airproxy)
+- [https://substack.thewebscraping.club/p/differences-residential-mobile-proxies](https://substack.thewebscraping.club/p/differences-residential-mobile-proxies)

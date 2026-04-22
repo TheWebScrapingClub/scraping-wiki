@@ -4,11 +4,6 @@ type: entity
 category: tool
 first_seen: 2023-04-06
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api
-  - https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024
-  - https://substack.thewebscraping.club/p/web-unblocker-test-kasada
-  - https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark
 ---
 
 # Zyte API
@@ -57,3 +52,10 @@ Cost benchmark (2023): Zyte's weighted average pricing across their top 250,000 
 - [DataDome](./datadome.md)
 - [Oxylabs Unblocker](./oxylabs-unblocker.md)
 - [Smartproxy Unblocker](./smartproxy-unblocker.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api](https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api)
+- [https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024](https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024)
+- [https://substack.thewebscraping.club/p/web-unblocker-test-kasada](https://substack.thewebscraping.club/p/web-unblocker-test-kasada)
+- [https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark](https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark)

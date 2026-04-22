@@ -3,21 +3,6 @@ name: web-scraping-legal-landscape
 type: concept
 first_seen: 2023-02-07
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/is-web-scraping-legal
-  - https://substack.thewebscraping.club/p/meta-vs-bright-data-court-ruling
-  - https://substack.thewebscraping.club/p/x-vs-bright-data-case-scraping
-  - https://substack.thewebscraping.club/p/google-vs-serpapi-web-scraping-case
-  - https://substack.thewebscraping.club/p/google-vs-serpapi-scraping-industry-implications
-  - https://substack.thewebscraping.club/p/understanding-robots-txt-implications
-  - https://substack.thewebscraping.club/p/understanding-robotstxt-and-its-implications
-  - https://substack.thewebscraping.club/p/web-scraping-legal-context
-  - https://substack.thewebscraping.club/p/is-it-legal-to-scrape-social-networks
-  - https://substack.thewebscraping.club/p/assessing-legal-compliance-of-web-scraping
-  - https://substack.thewebscraping.club/p/avoid-copyright-violations-scraping
-  - https://substack.thewebscraping.club/p/google-vs-ipidea-takedown
-  - https://substack.thewebscraping.club/p/web-scraping-and-ai-2023-legal-wrap-up
-  - https://substack.thewebscraping.club/p/google-vs-serpapi-web-scraping-case
 ---
 
 # Web Scraping Legal Landscape
@@ -91,3 +76,20 @@ The AI dimension adds another layer: Google's data access advantage over AI comp
 
 - [proxy-fundamentals](./proxy-fundamentals.md)
 - [scraping-economics](./scraping-economics.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/is-web-scraping-legal](https://substack.thewebscraping.club/p/is-web-scraping-legal)
+- [https://substack.thewebscraping.club/p/meta-vs-bright-data-court-ruling](https://substack.thewebscraping.club/p/meta-vs-bright-data-court-ruling)
+- [https://substack.thewebscraping.club/p/x-vs-bright-data-case-scraping](https://substack.thewebscraping.club/p/x-vs-bright-data-case-scraping)
+- [https://substack.thewebscraping.club/p/google-vs-serpapi-web-scraping-case](https://substack.thewebscraping.club/p/google-vs-serpapi-web-scraping-case)
+- [https://substack.thewebscraping.club/p/google-vs-serpapi-scraping-industry-implications](https://substack.thewebscraping.club/p/google-vs-serpapi-scraping-industry-implications)
+- [https://substack.thewebscraping.club/p/understanding-robots-txt-implications](https://substack.thewebscraping.club/p/understanding-robots-txt-implications)
+- [https://substack.thewebscraping.club/p/understanding-robotstxt-and-its-implications](https://substack.thewebscraping.club/p/understanding-robotstxt-and-its-implications)
+- [https://substack.thewebscraping.club/p/web-scraping-legal-context](https://substack.thewebscraping.club/p/web-scraping-legal-context)
+- [https://substack.thewebscraping.club/p/is-it-legal-to-scrape-social-networks](https://substack.thewebscraping.club/p/is-it-legal-to-scrape-social-networks)
+- [https://substack.thewebscraping.club/p/assessing-legal-compliance-of-web-scraping](https://substack.thewebscraping.club/p/assessing-legal-compliance-of-web-scraping)
+- [https://substack.thewebscraping.club/p/avoid-copyright-violations-scraping](https://substack.thewebscraping.club/p/avoid-copyright-violations-scraping)
+- [https://substack.thewebscraping.club/p/google-vs-ipidea-takedown](https://substack.thewebscraping.club/p/google-vs-ipidea-takedown)
+- [https://substack.thewebscraping.club/p/web-scraping-and-ai-2023-legal-wrap-up](https://substack.thewebscraping.club/p/web-scraping-and-ai-2023-legal-wrap-up)
+- [https://substack.thewebscraping.club/p/google-vs-serpapi-web-scraping-case](https://substack.thewebscraping.club/p/google-vs-serpapi-web-scraping-case)

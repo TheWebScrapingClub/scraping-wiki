@@ -3,28 +3,6 @@ name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/everything-about-proxies
-  - https://substack.thewebscraping.club/p/choosing-proxy-provider-scraping
-  - https://substack.thewebscraping.club/p/five-secrets-of-the-proxy-industry
-  - https://substack.thewebscraping.club/p/the-unit-economics-of-proxy-providers
-  - https://substack.thewebscraping.club/p/differences-residential-mobile-proxies
-  - https://substack.thewebscraping.club/p/evaluating-proxy-providers-ips
-  - https://substack.thewebscraping.club/p/how-many-ip-needed-scraping
-  - https://substack.thewebscraping.club/p/costs-web-scraping-proxy
-  - https://substack.thewebscraping.club/p/optimizing-proxy-costs
-  - https://substack.thewebscraping.club/p/proxy-pricing-playbook-september
-  - https://substack.thewebscraping.club/p/where-do-proxy-companies-take-ip
-  - https://substack.thewebscraping.club/p/x-forwarded-for-header-proxies
-  - https://substack.thewebscraping.club/p/reverse-proxies-and-webscraping
-  - https://substack.thewebscraping.club/p/managing-proxy-bans-proxy-retries
-  - https://substack.thewebscraping.club/p/bypassing-geo-fencing-scraping
-  - https://substack.thewebscraping.club/p/scraping-using-tor
-  - https://substack.thewebscraping.club/p/optimizing-costs-for-web-scraping
-  - https://harshanu.space/en/tech/dumb-vibe-coders/
-  - https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/
-  - https://voidmob.com/blog/dns-leak-proxy-killer-carrier-native-dns
-  - https://voidmob.com/blog/free-vpns-proxies-sell-your-device
 ---
 
 # Proxy Fundamentals
@@ -209,3 +187,27 @@ As of 2026-02, adversarial use of reverse proxy patterns (Starkiller) has indust
 - [Cloudflare](../entities/cloudflare.md)
 - [Akamai](../entities/akamai.md)
 - [Scrapoxy](../entities/scrapoxy.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/everything-about-proxies](https://substack.thewebscraping.club/p/everything-about-proxies)
+- [https://substack.thewebscraping.club/p/choosing-proxy-provider-scraping](https://substack.thewebscraping.club/p/choosing-proxy-provider-scraping)
+- [https://substack.thewebscraping.club/p/five-secrets-of-the-proxy-industry](https://substack.thewebscraping.club/p/five-secrets-of-the-proxy-industry)
+- [https://substack.thewebscraping.club/p/the-unit-economics-of-proxy-providers](https://substack.thewebscraping.club/p/the-unit-economics-of-proxy-providers)
+- [https://substack.thewebscraping.club/p/differences-residential-mobile-proxies](https://substack.thewebscraping.club/p/differences-residential-mobile-proxies)
+- [https://substack.thewebscraping.club/p/evaluating-proxy-providers-ips](https://substack.thewebscraping.club/p/evaluating-proxy-providers-ips)
+- [https://substack.thewebscraping.club/p/how-many-ip-needed-scraping](https://substack.thewebscraping.club/p/how-many-ip-needed-scraping)
+- [https://substack.thewebscraping.club/p/costs-web-scraping-proxy](https://substack.thewebscraping.club/p/costs-web-scraping-proxy)
+- [https://substack.thewebscraping.club/p/optimizing-proxy-costs](https://substack.thewebscraping.club/p/optimizing-proxy-costs)
+- [https://substack.thewebscraping.club/p/proxy-pricing-playbook-september](https://substack.thewebscraping.club/p/proxy-pricing-playbook-september)
+- [https://substack.thewebscraping.club/p/where-do-proxy-companies-take-ip](https://substack.thewebscraping.club/p/where-do-proxy-companies-take-ip)
+- [https://substack.thewebscraping.club/p/x-forwarded-for-header-proxies](https://substack.thewebscraping.club/p/x-forwarded-for-header-proxies)
+- [https://substack.thewebscraping.club/p/reverse-proxies-and-webscraping](https://substack.thewebscraping.club/p/reverse-proxies-and-webscraping)
+- [https://substack.thewebscraping.club/p/managing-proxy-bans-proxy-retries](https://substack.thewebscraping.club/p/managing-proxy-bans-proxy-retries)
+- [https://substack.thewebscraping.club/p/bypassing-geo-fencing-scraping](https://substack.thewebscraping.club/p/bypassing-geo-fencing-scraping)
+- [https://substack.thewebscraping.club/p/scraping-using-tor](https://substack.thewebscraping.club/p/scraping-using-tor)
+- [https://substack.thewebscraping.club/p/optimizing-costs-for-web-scraping](https://substack.thewebscraping.club/p/optimizing-costs-for-web-scraping)
+- [https://harshanu.space/en/tech/dumb-vibe-coders/](https://harshanu.space/en/tech/dumb-vibe-coders/)
+- [https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/](https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/)
+- [https://voidmob.com/blog/dns-leak-proxy-killer-carrier-native-dns](https://voidmob.com/blog/dns-leak-proxy-killer-carrier-native-dns)
+- [https://voidmob.com/blog/free-vpns-proxies-sell-your-device](https://voidmob.com/blog/free-vpns-proxies-sell-your-device)

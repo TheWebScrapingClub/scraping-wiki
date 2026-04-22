@@ -4,11 +4,6 @@ type: entity
 category: tool
 first_seen: 2023-08-10
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test
-  - https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024
-  - https://substack.thewebscraping.club/p/web-unblocker-test-kasada
-  - https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping
 ---
 
 # Oxylabs Web Unblocker
@@ -56,3 +51,10 @@ Oxylabs Unblocker was the most cost-efficient provider in the Kasada benchmark. 
 - [DataDome](./datadome.md)
 - [Zyte API](./zyte-api.md)
 - [Smartproxy Unblocker](./smartproxy-unblocker.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test](https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test)
+- [https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024](https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024)
+- [https://substack.thewebscraping.club/p/web-unblocker-test-kasada](https://substack.thewebscraping.club/p/web-unblocker-test-kasada)
+- [https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping](https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping)

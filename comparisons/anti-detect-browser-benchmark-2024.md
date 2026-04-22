@@ -11,9 +11,6 @@ subjects:
   - Octo Browser
   - Incogniton
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests
-  - https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments
 ---
 
 # Anti-Detect Browser Benchmark 2024
@@ -72,3 +69,8 @@ Kameleo's WebRTC gap, confirmed as a configuration error, illustrates a recurrin
 - [kameleo](../entities/kameleo.md)
 - [camoufox](../entities/camoufox.md)
 - [firefox-vs-chrome-stealth](firefox-vs-chrome-stealth.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments](https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments)

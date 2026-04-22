@@ -3,11 +3,6 @@ name: ML-Based Bot Detection
 type: concept
 first_seen: 2023-02-02
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/machine-learning-for-detecting-bots
-  - https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix
-  - https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges
-  - https://github.com/RoloBits/isHumanCadence
 ---
 
 ## Definition
@@ -116,3 +111,10 @@ The industry expectation is that ML models will continue to incorporate hardware
 - [Kasada](../entities/kasada.md)
 - [PerimeterX](../entities/perimeterx.md)
 - [F5 Bot Defense](../entities/f5-bot-defense.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/machine-learning-for-detecting-bots](https://substack.thewebscraping.club/p/machine-learning-for-detecting-bots)
+- [https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix)
+- [https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges)
+- [https://github.com/RoloBits/isHumanCadence](https://github.com/RoloBits/isHumanCadence)

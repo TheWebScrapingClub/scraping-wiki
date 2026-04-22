@@ -3,17 +3,6 @@ name: HTTP Performance in Scraping
 type: concept
 first_seen: 2022-11-08
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/faster-web-scraping-with-http3
-  - https://substack.thewebscraping.club/p/http-caching-scraping
-  - https://substack.thewebscraping.club/p/python-async-for-faster-scraping
-  - https://substack.thewebscraping.club/p/scraping-high-frequency-python
-  - https://substack.thewebscraping.club/p/rate-limit-scraping-exponential-backoff
-  - https://substack.thewebscraping.club/p/change-ciphers-scrapy
-  - https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast
-  - https://substack.thewebscraping.club/p/how-fast-can-you-call-polymarket-apis
-  - https://substack.thewebscraping.club/p/scraping-real-time-data-bitstamp
-  - https://singh-sanjay.com/2026/03/09/concurrent-requests-reverse-proxy.html
 ---
 
 # HTTP Performance in Scraping
@@ -162,3 +151,16 @@ Async scraping is the baseline for any production pipeline. HTTP caching is an u
 - [proxy-fundamentals](./proxy-fundamentals.md)
 - [api-scraping](./api-scraping.md)
 - [curl-cffi](../entities/curl-cffi.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/faster-web-scraping-with-http3](https://substack.thewebscraping.club/p/faster-web-scraping-with-http3)
+- [https://substack.thewebscraping.club/p/http-caching-scraping](https://substack.thewebscraping.club/p/http-caching-scraping)
+- [https://substack.thewebscraping.club/p/python-async-for-faster-scraping](https://substack.thewebscraping.club/p/python-async-for-faster-scraping)
+- [https://substack.thewebscraping.club/p/scraping-high-frequency-python](https://substack.thewebscraping.club/p/scraping-high-frequency-python)
+- [https://substack.thewebscraping.club/p/rate-limit-scraping-exponential-backoff](https://substack.thewebscraping.club/p/rate-limit-scraping-exponential-backoff)
+- [https://substack.thewebscraping.club/p/change-ciphers-scrapy](https://substack.thewebscraping.club/p/change-ciphers-scrapy)
+- [https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast](https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast)
+- [https://substack.thewebscraping.club/p/how-fast-can-you-call-polymarket-apis](https://substack.thewebscraping.club/p/how-fast-can-you-call-polymarket-apis)
+- [https://substack.thewebscraping.club/p/scraping-real-time-data-bitstamp](https://substack.thewebscraping.club/p/scraping-real-time-data-bitstamp)
+- [https://singh-sanjay.com/2026/03/09/concurrent-requests-reverse-proxy.html](https://singh-sanjay.com/2026/03/09/concurrent-requests-reverse-proxy.html)

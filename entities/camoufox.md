@@ -4,17 +4,6 @@ type: entity
 category: tool
 first_seen: 2024-10-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/scraping-datadome-camoufox
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026
-  - https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source
-  - https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi
-  - https://substack.thewebscraping.club/p/scrapling-hands-on-guide
-  - https://substack.thewebscraping.club/p/cloudflare-bypass-2026
-  - https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile
-  - https://substack.thewebscraping.club/p/camoufox-server-docker
-  - https://substack.thewebscraping.club/p/camoufox-server-in-aws
-  - https://substack.thewebscraping.club/p/how-to-create-camoufox-docker-image
 ---
 
 # Camoufox
@@ -81,3 +70,16 @@ This architecture allows Camoufox capacity to scale horizontally while maintaini
 - [curl-cffi](curl-cffi.md)
 - [scrapling](scrapling.md)
 - [playwright](playwright.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/scraping-datadome-camoufox](https://substack.thewebscraping.club/p/scraping-datadome-camoufox)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)
+- [https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source](https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source)
+- [https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi)
+- [https://substack.thewebscraping.club/p/scrapling-hands-on-guide](https://substack.thewebscraping.club/p/scrapling-hands-on-guide)
+- [https://substack.thewebscraping.club/p/cloudflare-bypass-2026](https://substack.thewebscraping.club/p/cloudflare-bypass-2026)
+- [https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile](https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile)
+- [https://substack.thewebscraping.club/p/camoufox-server-docker](https://substack.thewebscraping.club/p/camoufox-server-docker)
+- [https://substack.thewebscraping.club/p/camoufox-server-in-aws](https://substack.thewebscraping.club/p/camoufox-server-in-aws)
+- [https://substack.thewebscraping.club/p/how-to-create-camoufox-docker-image](https://substack.thewebscraping.club/p/how-to-create-camoufox-docker-image)

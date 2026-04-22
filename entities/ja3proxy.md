@@ -4,8 +4,6 @@ type: entity
 category: tool
 first_seen: 2025-05-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypass-akamai-bot-protection
 ---
 
 # JA3Proxy
@@ -47,3 +45,7 @@ The setup worked: requests routed through JA3Proxy with the Chrome profile passe
 - [curl-cffi](curl-cffi.md)
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
 - [Akamai](../concepts/akamai.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypass-akamai-bot-protection](https://substack.thewebscraping.club/p/bypass-akamai-bot-protection)

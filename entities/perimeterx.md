@@ -4,16 +4,6 @@ type: entity
 category: anti-bot
 first_seen: 2022-11-24
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with
-  - https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3
-  - https://substack.thewebscraping.club/p/fingerprint-injection-playwright
-  - https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome
-  - https://substack.thewebscraping.club/p/bypassing-perimeterx-2023
-  - https://substack.thewebscraping.club/p/bypassing-perimeterx-scrapy
-  - https://substack.thewebscraping.club/p/scraping-perimeterx-websites
-  - https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix
-  - https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges
 ---
 
 ## What it is
@@ -72,3 +62,15 @@ Site-level variance is high. Crunchbase, Booking, and NeimanMarcus all behave di
 - [Kasada](kasada.md)
 - [Homepage-first Navigation](../concepts/homepage-first-navigation.md)
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with](https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with)
+- [https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3](https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3)
+- [https://substack.thewebscraping.club/p/fingerprint-injection-playwright](https://substack.thewebscraping.club/p/fingerprint-injection-playwright)
+- [https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome](https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome)
+- [https://substack.thewebscraping.club/p/bypassing-perimeterx-2023](https://substack.thewebscraping.club/p/bypassing-perimeterx-2023)
+- [https://substack.thewebscraping.club/p/bypassing-perimeterx-scrapy](https://substack.thewebscraping.club/p/bypassing-perimeterx-scrapy)
+- [https://substack.thewebscraping.club/p/scraping-perimeterx-websites](https://substack.thewebscraping.club/p/scraping-perimeterx-websites)
+- [https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix)
+- [https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges)

@@ -4,11 +4,6 @@ type: entity
 category: tool
 first_seen: 2024-05-30
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/scraping-with-llms-scrapegraphai
-  - https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping
-  - https://substack.thewebscraping.club/p/writing-scrapers-with-llms
-  - https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping
 ---
 
 # ScrapeGraphAI
@@ -71,3 +66,10 @@ A cost experiment across 100 URLs from 33 e-commerce sites produced: 72% success
 - [llm-scraping](../concepts/llm-scraping.md)
 - [ai-scraping-assistants](../concepts/ai-scraping-assistants.md)
 - [hybrid-scraping](../concepts/hybrid-scraping.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/scraping-with-llms-scrapegraphai](https://substack.thewebscraping.club/p/scraping-with-llms-scrapegraphai)
+- [https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping](https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping)
+- [https://substack.thewebscraping.club/p/writing-scrapers-with-llms](https://substack.thewebscraping.club/p/writing-scrapers-with-llms)
+- [https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping](https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping)

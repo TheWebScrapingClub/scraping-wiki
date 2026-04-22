@@ -4,8 +4,6 @@ type: entity
 category: tool
 first_seen: 2026-03-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/kadoa-review-ai-powered-scraping
 ---
 
 # Kadoa
@@ -56,3 +54,7 @@ Not all websites are supported — the UI displays an error for unsupported targ
 
 - [llm-scraping](../concepts/llm-scraping.md)
 - [proxy-fundamentals](../concepts/proxy-fundamentals.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/kadoa-review-ai-powered-scraping](https://substack.thewebscraping.club/p/kadoa-review-ai-powered-scraping)

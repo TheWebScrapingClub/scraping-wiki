@@ -3,11 +3,6 @@ name: homepage-first-navigation
 type: concept
 first_seen:
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/cloudflare-how-to-scrape
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026
-  - https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3
-  - https://substack.thewebscraping.club/p/scraping-datadome-camoufox
 ---
 
 # Homepage-First Navigation
@@ -51,3 +46,10 @@ Homepage-first navigation is a baseline requirement rather than an advanced tech
 - [Cloudflare](../entities/cloudflare.md)
 - [PerimeterX](../entities/perimeterx.md)
 - [DataDome](../entities/datadome.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/cloudflare-how-to-scrape](https://substack.thewebscraping.club/p/cloudflare-how-to-scrape)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)
+- [https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3](https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3)
+- [https://substack.thewebscraping.club/p/scraping-datadome-camoufox](https://substack.thewebscraping.club/p/scraping-datadome-camoufox)

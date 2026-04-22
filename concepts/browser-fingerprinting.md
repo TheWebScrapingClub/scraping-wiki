@@ -3,17 +3,6 @@ name: browser-fingerprinting
 type: concept
 first_seen: 2010-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/browser-fingerprinting-how-it-works
-  - https://substack.thewebscraping.club/p/understanding-browser-fingerprint
-  - https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different
-  - https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping
-  - https://substack.thewebscraping.club/p/browser-fingerprinting-test-online
-  - https://substack.thewebscraping.club/p/the-latest-papers-about-browser-fingerpinting
-  - https://substack.thewebscraping.club/p/how-to-mask-device-fingerprint
-  - https://substack.thewebscraping.club/p/scraper-fingerprints-and-proxies
-  - https://blog.castle.io/detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle/
-  - https://github.com/antoinevastel/fpscanner
 ---
 
 # Browser Fingerprinting
@@ -123,3 +112,16 @@ The practical challenge for scrapers is not understanding what is collected but 
 - [Camoufox](../entities/camoufox.md)
 - [Cloudflare](../entities/cloudflare.md)
 - [Akamai](../entities/akamai.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/browser-fingerprinting-how-it-works](https://substack.thewebscraping.club/p/browser-fingerprinting-how-it-works)
+- [https://substack.thewebscraping.club/p/understanding-browser-fingerprint](https://substack.thewebscraping.club/p/understanding-browser-fingerprint)
+- [https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different](https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different)
+- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
+- [https://substack.thewebscraping.club/p/browser-fingerprinting-test-online](https://substack.thewebscraping.club/p/browser-fingerprinting-test-online)
+- [https://substack.thewebscraping.club/p/the-latest-papers-about-browser-fingerpinting](https://substack.thewebscraping.club/p/the-latest-papers-about-browser-fingerpinting)
+- [https://substack.thewebscraping.club/p/how-to-mask-device-fingerprint](https://substack.thewebscraping.club/p/how-to-mask-device-fingerprint)
+- [https://substack.thewebscraping.club/p/scraper-fingerprints-and-proxies](https://substack.thewebscraping.club/p/scraper-fingerprints-and-proxies)
+- [https://blog.castle.io/detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle/](https://blog.castle.io/detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle/)
+- [https://github.com/antoinevastel/fpscanner](https://github.com/antoinevastel/fpscanner)

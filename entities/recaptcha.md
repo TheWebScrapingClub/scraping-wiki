@@ -4,10 +4,6 @@ type: entity
 category: anti-bot
 first_seen: 2023-08-27
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/are-captchas-still-a-thing
-  - https://substack.thewebscraping.club/p/bypassing-recaptcha-v3
-  - https://substack.thewebscraping.club/p/bypassing-recaptchas-with-open-source
 ---
 
 ## What it is
@@ -64,3 +60,9 @@ Camoufox is the most reliable open-source approach for sites using reCAPTCHA v3,
 - [Datadome](datadome.md)
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
 - [Camoufox](camoufox.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/are-captchas-still-a-thing](https://substack.thewebscraping.club/p/are-captchas-still-a-thing)
+- [https://substack.thewebscraping.club/p/bypassing-recaptcha-v3](https://substack.thewebscraping.club/p/bypassing-recaptcha-v3)
+- [https://substack.thewebscraping.club/p/bypassing-recaptchas-with-open-source](https://substack.thewebscraping.club/p/bypassing-recaptchas-with-open-source)

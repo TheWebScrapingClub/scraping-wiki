@@ -3,14 +3,6 @@ name: tls-fingerprinting
 type: concept
 first_seen: 2017-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypass-akamai-bot-protection
-  - https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different
-  - https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping
-  - https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi
-  - https://substack.thewebscraping.club/p/change-ciphers-scrapy
-  - https://substack.thewebscraping.club/p/faster-web-scraping-with-http3
-  - https://substack.thewebscraping.club/p/http-caching-scraping
 ---
 
 # TLS Fingerprinting
@@ -58,3 +50,13 @@ HTTP/3 fingerprinting is an emerging frontier. WAFs have not yet widely deployed
 - [Akamai](../entities/akamai.md)
 - [Cloudflare](../entities/cloudflare.md)
 - [Camoufox](../entities/camoufox.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypass-akamai-bot-protection](https://substack.thewebscraping.club/p/bypass-akamai-bot-protection)
+- [https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different](https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different)
+- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
+- [https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi)
+- [https://substack.thewebscraping.club/p/change-ciphers-scrapy](https://substack.thewebscraping.club/p/change-ciphers-scrapy)
+- [https://substack.thewebscraping.club/p/faster-web-scraping-with-http3](https://substack.thewebscraping.club/p/faster-web-scraping-with-http3)
+- [https://substack.thewebscraping.club/p/http-caching-scraping](https://substack.thewebscraping.club/p/http-caching-scraping)

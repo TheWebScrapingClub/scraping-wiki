@@ -4,9 +4,6 @@ type: entity
 category: library
 first_seen: 2024-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/scrapling-hands-on-guide
-  - https://substack.thewebscraping.club/p/nike-scraping-benchmark
 ---
 
 # Scrapling
@@ -47,3 +44,8 @@ We covered Scrapling in a hands-on guide that tested all three fetchers against 
 - [camoufox](camoufox.md)
 - [playwright](playwright.md)
 - [curl-cffi](curl-cffi.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/scrapling-hands-on-guide](https://substack.thewebscraping.club/p/scrapling-hands-on-guide)
+- [https://substack.thewebscraping.club/p/nike-scraping-benchmark](https://substack.thewebscraping.club/p/nike-scraping-benchmark)

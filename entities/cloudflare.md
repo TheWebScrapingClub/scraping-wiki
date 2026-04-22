@@ -4,28 +4,6 @@ type: entity
 category: anti-bot
 first_seen: 2023-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/cloudflare-how-to-scrape
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026
-  - https://substack.thewebscraping.club/p/cloudflare-turnstile-what-is-that
-  - https://substack.thewebscraping.club/p/fingerprint-injection-playwright
-  - https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome
-  - https://substack.thewebscraping.club/p/scrapling-hands-on-guide
-  - https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping
-  - https://substack.thewebscraping.club/p/bypass-cloudflare-browser-check
-  - https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-free-tools
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-with-kameleo
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver
-  - https://substack.thewebscraping.club/p/cloudflare-bypass-2026
-  - https://substack.thewebscraping.club/p/cloudflare-web-unblocker-benchmark
-  - https://substack.thewebscraping.club/p/scraping-cloudflare-websites-2023-q1-update
-  - https://substack.thewebscraping.club/p/scraping-cloudflare-websites-an-api
-  - https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot
-  - https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile
-  - https://substack.thewebscraping.club/p/testing-bright-data-unblockler-cloudflare
-  - https://medium.com/@smitgharat0001/cloudflare-bypass-origin-server-deserves-some-love-too-e8bd2182cfea
 ---
 
 ## What it is
@@ -108,3 +86,27 @@ Camoufox's fingerprint rotation means some profiles from its database are detect
 - [Datadome](datadome.md)
 - [PerimeterX](perimeterx.md)
 - [Cloudflare Bypass Evolution](../timelines/cloudflare-bypass-evolution.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/cloudflare-how-to-scrape](https://substack.thewebscraping.club/p/cloudflare-how-to-scrape)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)
+- [https://substack.thewebscraping.club/p/cloudflare-turnstile-what-is-that](https://substack.thewebscraping.club/p/cloudflare-turnstile-what-is-that)
+- [https://substack.thewebscraping.club/p/fingerprint-injection-playwright](https://substack.thewebscraping.club/p/fingerprint-injection-playwright)
+- [https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome](https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome)
+- [https://substack.thewebscraping.club/p/scrapling-hands-on-guide](https://substack.thewebscraping.club/p/scrapling-hands-on-guide)
+- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
+- [https://substack.thewebscraping.club/p/bypass-cloudflare-browser-check](https://substack.thewebscraping.club/p/bypass-cloudflare-browser-check)
+- [https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright](https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-free-tools](https://substack.thewebscraping.club/p/bypassing-cloudflare-free-tools)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh](https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-with-kameleo](https://substack.thewebscraping.club/p/bypassing-cloudflare-with-kameleo)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver](https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver)
+- [https://substack.thewebscraping.club/p/cloudflare-bypass-2026](https://substack.thewebscraping.club/p/cloudflare-bypass-2026)
+- [https://substack.thewebscraping.club/p/cloudflare-web-unblocker-benchmark](https://substack.thewebscraping.club/p/cloudflare-web-unblocker-benchmark)
+- [https://substack.thewebscraping.club/p/scraping-cloudflare-websites-2023-q1-update](https://substack.thewebscraping.club/p/scraping-cloudflare-websites-2023-q1-update)
+- [https://substack.thewebscraping.club/p/scraping-cloudflare-websites-an-api](https://substack.thewebscraping.club/p/scraping-cloudflare-websites-an-api)
+- [https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot](https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot)
+- [https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile](https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile)
+- [https://substack.thewebscraping.club/p/testing-bright-data-unblockler-cloudflare](https://substack.thewebscraping.club/p/testing-bright-data-unblockler-cloudflare)
+- [https://medium.com/@smitgharat0001/cloudflare-bypass-origin-server-deserves-some-love-too-e8bd2182cfea](https://medium.com/@smitgharat0001/cloudflare-bypass-origin-server-deserves-some-love-too-e8bd2182cfea)

@@ -4,11 +4,6 @@ type: entity
 category: tool
 first_seen: 2023-07-13
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/testing-smartproxy-site-unblocker
-  - https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024
-  - https://substack.thewebscraping.club/p/web-unblocker-test-kasada
-  - https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark
 ---
 
 # Smartproxy Site Unblocker
@@ -55,3 +50,10 @@ The improvement from 0% Kasada success in July 2023 to 92% in June 2024 is signi
 - [DataDome](./datadome.md)
 - [Zyte API](./zyte-api.md)
 - [Oxylabs Unblocker](./oxylabs-unblocker.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/testing-smartproxy-site-unblocker](https://substack.thewebscraping.club/p/testing-smartproxy-site-unblocker)
+- [https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024](https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024)
+- [https://substack.thewebscraping.club/p/web-unblocker-test-kasada](https://substack.thewebscraping.club/p/web-unblocker-test-kasada)
+- [https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark](https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark)

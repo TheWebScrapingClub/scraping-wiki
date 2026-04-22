@@ -4,17 +4,6 @@ type: entity
 category: library
 first_seen: 2023-10-08
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/three-web-scraping-tools-just-discovered
-  - https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi
-  - https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping
-  - https://substack.thewebscraping.club/p/bypass-akamai-bot-protection
-  - https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot
-  - https://substack.thewebscraping.club/p/bypassing-akamai-for-free
-  - https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python
-  - https://substack.thewebscraping.club/p/faster-web-scraping-with-http3
-  - https://substack.thewebscraping.club/p/http-caching-scraping
-  - https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast
 ---
 
 # curl-cffi
@@ -75,3 +64,16 @@ curl-cffi is the correct client for implementing HTTP conditional requests on Cl
 - [ja3proxy](ja3proxy.md)
 - [Akamai](../concepts/akamai.md)
 - [scrapling](scrapling.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/three-web-scraping-tools-just-discovered](https://substack.thewebscraping.club/p/three-web-scraping-tools-just-discovered)
+- [https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi)
+- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
+- [https://substack.thewebscraping.club/p/bypass-akamai-bot-protection](https://substack.thewebscraping.club/p/bypass-akamai-bot-protection)
+- [https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot](https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot)
+- [https://substack.thewebscraping.club/p/bypassing-akamai-for-free](https://substack.thewebscraping.club/p/bypassing-akamai-for-free)
+- [https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python](https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python)
+- [https://substack.thewebscraping.club/p/faster-web-scraping-with-http3](https://substack.thewebscraping.club/p/faster-web-scraping-with-http3)
+- [https://substack.thewebscraping.club/p/http-caching-scraping](https://substack.thewebscraping.club/p/http-caching-scraping)
+- [https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast](https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast)

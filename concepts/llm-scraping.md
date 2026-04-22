@@ -3,20 +3,6 @@ name: llm-scraping
 type: concept
 first_seen: 2024-05-30
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/scraping-with-llms-gpt-vision
-  - https://substack.thewebscraping.club/p/how-to-use-llms-in-scraping
-  - https://substack.thewebscraping.club/p/scraping-with-llms-scrapegraphai
-  - https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping
-  - https://substack.thewebscraping.club/p/writing-scrapers-with-llms
-  - https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping
-  - https://substack.thewebscraping.club/p/building-self-healing-scrapers-with-gpt
-  - https://substack.thewebscraping.club/p/anycrawl-llm-ready-web-scraping
-  - https://substack.thewebscraping.club/p/anycrawl-testing-the-llm-ready-web
-  - https://substack.thewebscraping.club/p/when-browsers-think-chatgpt-atlas-cursor-browserbase
-  - https://github.com/vercel-labs/agent-browser
-  - https://folding-sky.com/blog/ios-26-macos-26-swiftui-headless-browser-webpage-webview
-  - https://github.com/vifreefly/kimuraframework
 ---
 
 # LLM Scraping
@@ -111,3 +97,19 @@ These tools do not replace specialized scrapers but they do reduce the discovery
 - [hybrid-scraping](./hybrid-scraping.md)
 - [ai-scraping-assistants](./ai-scraping-assistants.md)
 - [AnyCrawl](../entities/anycrawl.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/scraping-with-llms-gpt-vision](https://substack.thewebscraping.club/p/scraping-with-llms-gpt-vision)
+- [https://substack.thewebscraping.club/p/how-to-use-llms-in-scraping](https://substack.thewebscraping.club/p/how-to-use-llms-in-scraping)
+- [https://substack.thewebscraping.club/p/scraping-with-llms-scrapegraphai](https://substack.thewebscraping.club/p/scraping-with-llms-scrapegraphai)
+- [https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping](https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping)
+- [https://substack.thewebscraping.club/p/writing-scrapers-with-llms](https://substack.thewebscraping.club/p/writing-scrapers-with-llms)
+- [https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping](https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping)
+- [https://substack.thewebscraping.club/p/building-self-healing-scrapers-with-gpt](https://substack.thewebscraping.club/p/building-self-healing-scrapers-with-gpt)
+- [https://substack.thewebscraping.club/p/anycrawl-llm-ready-web-scraping](https://substack.thewebscraping.club/p/anycrawl-llm-ready-web-scraping)
+- [https://substack.thewebscraping.club/p/anycrawl-testing-the-llm-ready-web](https://substack.thewebscraping.club/p/anycrawl-testing-the-llm-ready-web)
+- [https://substack.thewebscraping.club/p/when-browsers-think-chatgpt-atlas-cursor-browserbase](https://substack.thewebscraping.club/p/when-browsers-think-chatgpt-atlas-cursor-browserbase)
+- [https://github.com/vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)
+- [https://folding-sky.com/blog/ios-26-macos-26-swiftui-headless-browser-webpage-webview](https://folding-sky.com/blog/ios-26-macos-26-swiftui-headless-browser-webpage-webview)
+- [https://github.com/vifreefly/kimuraframework](https://github.com/vifreefly/kimuraframework)

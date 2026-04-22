@@ -135,11 +135,11 @@ Page structure:
 
 ## Source references
 
-- In the `sources` frontmatter list, use the full Substack URL: `https://substack.thewebscraping.club/p/<slug>`
-- The URL slug matches the local markdown filename without the `.md` extension
-- For inline text references to articles, use markdown links with the URL
-- For news and research sources without a public URL, use the filename as a reference identifier
-- Always add the source URL to the page's `sources` frontmatter list when adding information from a new article
+- Sources are listed at the bottom of each page in a `## Sources` section as a bulleted list of markdown links
+- Use the full URL: `- [https://substack.thewebscraping.club/p/<slug>](https://substack.thewebscraping.club/p/<slug>)`
+- For news and research sources, use the `url_canonical` from the article's frontmatter
+- For inline text references, use markdown links with the URL
+- Always add the source URL to the page's Sources section when adding information from a new article
 
 ## Contradiction resolution policy
 

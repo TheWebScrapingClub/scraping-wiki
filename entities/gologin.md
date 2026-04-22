@@ -4,11 +4,6 @@ type: entity
 category: tool
 first_seen: 2019-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests
-  - https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments
-  - https://substack.thewebscraping.club/p/antidetect-browser-webscraping
-  - https://substack.thewebscraping.club/p/browser-automation-landscape-2025
 ---
 
 # GoLogin
@@ -45,3 +40,10 @@ The tool was also mentioned as a reference point in an earlier 2022 overview whe
 - [kameleo](kameleo.md)
 - [dolphin-anty](dolphin-anty.md)
 - [anti-detect-browser-benchmark-2024](../comparisons/anti-detect-browser-benchmark-2024.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments](https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments)
+- [https://substack.thewebscraping.club/p/antidetect-browser-webscraping](https://substack.thewebscraping.club/p/antidetect-browser-webscraping)
+- [https://substack.thewebscraping.club/p/browser-automation-landscape-2025](https://substack.thewebscraping.club/p/browser-automation-landscape-2025)

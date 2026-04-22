@@ -3,11 +3,6 @@ name: Mouse Movement Emulation
 type: concept
 first_seen: 2024-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright
-  - https://substack.thewebscraping.club/p/oxymouse-and-playwright-mouse-movements
-  - https://substack.thewebscraping.club/p/bezier-curves-web-scraping
-  - https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/
 ---
 
 # Mouse Movement Emulation
@@ -79,3 +74,10 @@ As of 2024-2026, Akamai's MACT analysis reveals that the defender's toolbox for 
 - [Cloudflare](../entities/cloudflare.md)
 - [Kasada](../entities/kasada.md)
 - [browser-fingerprinting](./browser-fingerprinting.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright](https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright)
+- [https://substack.thewebscraping.club/p/oxymouse-and-playwright-mouse-movements](https://substack.thewebscraping.club/p/oxymouse-and-playwright-mouse-movements)
+- [https://substack.thewebscraping.club/p/bezier-curves-web-scraping](https://substack.thewebscraping.club/p/bezier-curves-web-scraping)
+- [https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/](https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/)

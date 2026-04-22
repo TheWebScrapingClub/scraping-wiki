@@ -3,10 +3,6 @@ name: cookie-session-reuse
 type: concept
 first_seen:
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session
-  - https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected
-  - https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with
 ---
 
 # Cookie and Session Reuse
@@ -51,3 +47,9 @@ Cookie and session reuse is a fundamental technique with well-understood impleme
 - [Cloudflare](../entities/cloudflare.md)
 - [PerimeterX](../entities/perimeterx.md)
 - [DataDome](../entities/datadome.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session](https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session)
+- [https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected](https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected)
+- [https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with](https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with)

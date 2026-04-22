@@ -4,10 +4,6 @@ type: entity
 category: tool
 first_seen: 2023-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/dolphin-anty-product-review
-  - https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests
-  - https://substack.thewebscraping.club/p/browser-automation-landscape-2025
 ---
 
 # Dolphin{anty}
@@ -51,3 +47,9 @@ The free plan's 10-profile limit makes it usable for evaluation without commitme
 - [browser-fingerprinting](../concepts/browser-fingerprinting.md)
 - [kameleo](kameleo.md)
 - [gologin](gologin.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/dolphin-anty-product-review](https://substack.thewebscraping.club/p/dolphin-anty-product-review)
+- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://substack.thewebscraping.club/p/browser-automation-landscape-2025](https://substack.thewebscraping.club/p/browser-automation-landscape-2025)

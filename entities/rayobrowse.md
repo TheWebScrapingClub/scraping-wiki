@@ -4,9 +4,6 @@ type: entity
 category: browser
 first_seen: 2026-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/rayobrowse-browser-scraping
-  - https://substack.thewebscraping.club/p/two-stealth-browsers-proxy-prices
 ---
 
 # Rayobrowse
@@ -49,3 +46,8 @@ The Docker deployment workflow is: pull the image, run the container with port m
 - [camoufox](camoufox.md)
 - [anti-detect-browsers](../concepts/anti-detect-browsers.md)
 - [cdp-detection](../concepts/cdp-detection.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/rayobrowse-browser-scraping](https://substack.thewebscraping.club/p/rayobrowse-browser-scraping)
+- [https://substack.thewebscraping.club/p/two-stealth-browsers-proxy-prices](https://substack.thewebscraping.club/p/two-stealth-browsers-proxy-prices)

@@ -3,9 +3,6 @@ name: WebDriver vs CDP vs WebDriver BiDi
 type: concept
 first_seen: 2024-01-01
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi
-  - https://substack.thewebscraping.club/p/pydoll-webdriver-scraping
 ---
 
 # WebDriver vs CDP vs WebDriver BiDi
@@ -72,3 +69,8 @@ As of early 2026:
 - [pydoll](../entities/pydoll.md)
 - [nodriver](../entities/nodriver.md)
 - [camoufox](../entities/camoufox.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi](https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi)
+- [https://substack.thewebscraping.club/p/pydoll-webdriver-scraping](https://substack.thewebscraping.club/p/pydoll-webdriver-scraping)

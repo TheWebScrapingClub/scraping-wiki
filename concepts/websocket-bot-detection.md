@@ -3,8 +3,6 @@ name: WebSocket Bot Detection
 type: concept
 first_seen: 2026-03-22
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/websocket-bot-detection-scraping
 ---
 
 ## Definition
@@ -71,3 +69,7 @@ As of March 2026, WebSocket bot detection is a growing but underexplored area in
 - [Browser Fingerprinting](browser-fingerprinting.md)
 - [AWS WAF](../entities/aws-waf.md)
 - [Hybrid Scraping](hybrid-scraping.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/websocket-bot-detection-scraping](https://substack.thewebscraping.club/p/websocket-bot-detection-scraping)

@@ -3,19 +3,6 @@ name: Cloudflare Bypass Evolution
 type: timeline
 subject: cloudflare
 last_updated: 2026-04-22
-sources:
-  - https://substack.thewebscraping.club/p/cloudflare-how-to-scrape
-  - https://substack.thewebscraping.club/p/cloudflare-turnstile-what-is-that
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026
-  - https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome
-  - https://substack.thewebscraping.club/p/fingerprint-injection-playwright
-  - https://substack.thewebscraping.club/p/scrapling-hands-on-guide
-  - https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright
-  - https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh
-  - https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver
-  - https://substack.thewebscraping.club/p/cloudflare-web-unblocker-benchmark
-  - https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile
 ---
 
 ## Subject
@@ -102,3 +89,18 @@ The undetected-chromedriver repository has been inactive for 7+ months, signalin
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
 - [TLS Fingerprinting](../concepts/tls-fingerprinting.md)
 - [Homepage-first Navigation](../concepts/homepage-first-navigation.md)
+
+## Sources
+
+- [https://substack.thewebscraping.club/p/cloudflare-how-to-scrape](https://substack.thewebscraping.club/p/cloudflare-how-to-scrape)
+- [https://substack.thewebscraping.club/p/cloudflare-turnstile-what-is-that](https://substack.thewebscraping.club/p/cloudflare-turnstile-what-is-that)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)
+- [https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome](https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome)
+- [https://substack.thewebscraping.club/p/fingerprint-injection-playwright](https://substack.thewebscraping.club/p/fingerprint-injection-playwright)
+- [https://substack.thewebscraping.club/p/scrapling-hands-on-guide](https://substack.thewebscraping.club/p/scrapling-hands-on-guide)
+- [https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright](https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright)
+- [https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot](https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh](https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh)
+- [https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver](https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver)
+- [https://substack.thewebscraping.club/p/cloudflare-web-unblocker-benchmark](https://substack.thewebscraping.club/p/cloudflare-web-unblocker-benchmark)
+- [https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile](https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile)
