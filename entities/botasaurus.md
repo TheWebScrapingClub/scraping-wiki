@@ -4,6 +4,9 @@ type: entity
 category: tool
 first_seen: 2024-01-01
 last_updated: 2026-04-22
+sources:
+  - botasaurus-web-scraping-framework.md
+  - testing-the-new-botasaurus-4.md
 ---
 
 # Botasaurus

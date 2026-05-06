@@ -4,6 +4,17 @@ type: entity
 category: anti-bot
 first_seen: 2023-01-01
 last_updated: 2026-04-22
+sources:
+  - bypass-akamai-bot-protection.md
+  - the-lab-30-how-to-bypass-akamai-protected.md
+  - hybrid-scraping-camoufox-curl-cffi.md
+  - bypassing-akamai-for-free.md
+  - bypassing-akamai-proxidize.md
+  - scraping-akamai-protected-website.md
+  - scraping-akamai-protected-websites.md
+  - hrequests-bypass-akamai-with-python.md
+  - nike-scraping-benchmark.md
+  - https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering
 ---
 
 ## What it is

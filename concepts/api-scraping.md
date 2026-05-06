@@ -3,6 +3,17 @@ name: API Scraping
 type: concept
 first_seen: 2022-09-04
 last_updated: 2026-04-22
+sources:
+  - apis-in-web-scraping.md
+  - scraping-apis-with-bearer-token.md
+  - jwt-tokens-and-api-scraping.md
+  - scraping-algolia-endpoints.md
+  - algolia-and-web-scraping-an-introduction.md
+  - the-lab-1-scraping-data-from-an-app.md
+  - the-lab-12-reverse-engineering-mobile.md
+  - scraping-linkedin-public-data.md
+  - the-lab-26-from-internal-api-to-insights.md
+  - scraping-food-delivery-apps.md
 ---
 
 # API Scraping

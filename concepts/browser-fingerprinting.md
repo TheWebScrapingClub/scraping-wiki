@@ -3,6 +3,17 @@ name: browser-fingerprinting
 type: concept
 first_seen: 2010-01-01
 last_updated: 2026-04-22
+sources:
+  - browser-fingerprinting-how-it-works.md
+  - understanding-browser-fingerprint.md
+  - the-lab-33-fingerprinting-at-different.md
+  - the-stealth-stack-web-scraping.md
+  - browser-fingerprinting-test-online.md
+  - the-latest-papers-about-browser-fingerpinting.md
+  - how-to-mask-device-fingerprint.md
+  - scraper-fingerprints-and-proxies.md
+  - https://blog.castle.io/detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle
+  - https://github.com/antoinevastel/fpscanner
 ---
 
 # Browser Fingerprinting

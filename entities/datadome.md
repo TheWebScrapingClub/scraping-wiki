@@ -4,6 +4,17 @@ type: entity
 category: anti-bot
 first_seen: 2022-09-15
 last_updated: 2026-04-22
+sources:
+  - scraping-datadome-camoufox.md
+  - bypass-datadome-mouse-movements-in-playwright.md
+  - the-lab-94-using-cookies-and-session.md
+  - fingerprint-injection-playwright.md
+  - scraping-datadome-api-hermes.md
+  - how-to-scrape-datadome-2023.md
+  - bypassing-datadome-2023-scraping.md
+  - scraping-idealista-bypass-datadome.md
+  - anti-detect-anti-bot-matrix.md
+  - the-lab-21-bypass-anti-bot-challenges.md
 ---
 
 ## What it is

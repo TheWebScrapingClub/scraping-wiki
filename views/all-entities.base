@@ -1,0 +1,25 @@
+# View: every entity page in the wiki, grouped by category, sorted by last_updated.
+# Use to skim what TWSC currently knows about tools, anti-bot systems, and providers.
+filters:
+  and:
+    - 'type == "entity"'
+properties:
+  file.name:
+    displayName: "Page"
+  category:
+    displayName: "Category"
+  last_updated:
+    displayName: "Last updated"
+  first_seen:
+    displayName: "First seen"
+views:
+  - type: table
+    name: "All entities"
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - file.name
+      - category
+      - last_updated
+      - first_seen

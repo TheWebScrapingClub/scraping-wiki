@@ -3,6 +3,17 @@ name: Anti-Detect Browsers
 type: concept
 first_seen: 2022-01-01
 last_updated: 2026-04-22
+sources:
+  - bypass-cloudflare-scraping-playwright.md
+  - bypassing-cloudflare-gologin-playwrigh.md
+  - bypassing-cloudflare-with-kameleo.md
+  - bypassing-cloudflare-free-tools.md
+  - anti-detect-browsers-fingerprint-tests.md
+  - anti-detect-browser-royal-rumble-comments.md
+  - antidetect-browser-webscraping.md
+  - dolphin-anty-product-review.md
+  - browser-automation-landscape-2025.md
+  - anti-detect-pricing-comparison.md
 ---
 
 # Anti-Detect Browsers
@@ -78,7 +89,7 @@ TWSC ran a structured benchmark of 8 anti-detect browsers using CreepJS and Brow
 
 After publication, MultiLogin noted that their browser (Stealthfox) is Firefox-based, not Chromium, which may affect how CreepJS scores it relative to Chromium-based tools. Scores across engine families may not be directly comparable.
 
-[GoLogin](../entities/gologin.md) and NSTBrowser scored within 4% of the real device baseline. [Incogniton](../entities/incogniton.md) scored 38% below.
+[GoLogin](../entities/gologin.md) and NSTBrowser scored within 4% of the real device baseline. Incogniton scored 38% below.
 
 ## Current state
 

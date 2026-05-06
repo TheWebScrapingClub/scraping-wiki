@@ -4,6 +4,11 @@ type: entity
 category: tool
 first_seen: 2023-01-01
 last_updated: 2026-04-22
+sources:
+  - kameleo-anti-detect-browser.md
+  - anti-detect-browsers-fingerprint-tests.md
+  - anti-detect-browser-royal-rumble-comments.md
+  - anti-detect-pricing-comparison.md
 ---
 
 # Kameleo

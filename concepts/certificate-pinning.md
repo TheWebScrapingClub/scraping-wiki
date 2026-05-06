@@ -3,6 +3,11 @@ name: Certificate Pinning
 type: concept
 first_seen: 2022-09-04
 last_updated: 2026-04-22
+sources:
+  - bypass-certificate-pinning.md
+  - how-to-scrape-data-from-mobile-apps.md
+  - jwt-tokens-and-api-scraping.md
+  - http-toolkit-network-intercept.md
 ---
 
 # Certificate Pinning

@@ -4,6 +4,8 @@ type: entity
 category: tool
 first_seen: 2024-02-15
 last_updated: 2026-04-22
+sources:
+  - scrapoxy-proxy-aggregator.md
 ---
 
 # Scrapoxy

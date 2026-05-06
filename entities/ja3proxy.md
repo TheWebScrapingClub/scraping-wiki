@@ -4,6 +4,8 @@ type: entity
 category: tool
 first_seen: 2025-05-01
 last_updated: 2026-04-22
+sources:
+  - bypass-akamai-bot-protection.md
 ---
 
 # JA3Proxy
@@ -26,7 +28,7 @@ At the time of the article covering it (May 2025), JA3Proxy supported Chrome pro
 
 ## TWSC experience
 
-We used JA3Proxy on [Akamai](../concepts/akamai.md) targeting mrporter.com. The HTTP client used was httpx rather than requests, because Akamai's bot detection uses HTTP/2 signals and requests does not support HTTP/2. JA3Proxy handled the TLS fingerprint layer while httpx handled the HTTP/2 framing.
+We used JA3Proxy on [Akamai](akamai.md) targeting mrporter.com. The HTTP client used was httpx rather than requests, because Akamai's bot detection uses HTTP/2 signals and requests does not support HTTP/2. JA3Proxy handled the TLS fingerprint layer while httpx handled the HTTP/2 framing.
 
 The Docker installation was broken at the time of testing. We built JA3Proxy from source using Go, which also had dependency issues that required manual resolution before the build succeeded.
 
@@ -44,7 +46,7 @@ The setup worked: requests routed through JA3Proxy with the Chrome profile passe
 
 - [curl-cffi](curl-cffi.md)
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
-- [Akamai](../concepts/akamai.md)
+- [Akamai](akamai.md)
 
 ## Sources
 

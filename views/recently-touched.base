@@ -1,0 +1,25 @@
+# View: any wiki page updated in the last 90 days.
+# Use to see what is currently moving in TWSC's understanding of the space.
+filters:
+  and:
+    - 'last_updated >= date("today") - "90d"'
+properties:
+  file.name:
+    displayName: "Page"
+  type:
+    displayName: "Type"
+  category:
+    displayName: "Category"
+  last_updated:
+    displayName: "Last updated"
+views:
+  - type: table
+    name: "Recently touched"
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - category
+      - last_updated

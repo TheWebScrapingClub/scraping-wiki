@@ -4,6 +4,9 @@ type: entity
 category: library
 first_seen: 2023-11-23
 last_updated: 2026-04-22
+sources:
+  - the-lab-32-hrequests-vs-anti-bots.md
+  - apis-in-web-scraping.md
 ---
 
 # hRequests

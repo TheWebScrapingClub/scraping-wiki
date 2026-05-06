@@ -4,6 +4,10 @@ type: entity
 category: tool
 first_seen: 2023-01-01
 last_updated: 2026-04-22
+sources:
+  - dolphin-anty-product-review.md
+  - anti-detect-browsers-fingerprint-tests.md
+  - browser-automation-landscape-2025.md
 ---
 
 # Dolphin{anty}

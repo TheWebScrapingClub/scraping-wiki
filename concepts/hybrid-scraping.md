@@ -3,6 +3,10 @@ name: hybrid-scraping
 type: concept
 first_seen:
 last_updated: 2026-04-22
+sources:
+  - hybrid-scraping-camoufox-curl-cffi.md
+  - the-lab-35-bypassing-perimeterx-with.md
+  - hybrid-scraping-browser-login-http-extraction.md
 ---
 
 # Hybrid Scraping

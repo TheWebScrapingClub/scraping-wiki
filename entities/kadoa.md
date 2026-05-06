@@ -4,6 +4,8 @@ type: entity
 category: tool
 first_seen: 2026-03-01
 last_updated: 2026-04-22
+sources:
+  - kadoa-review-ai-powered-scraping.md
 ---
 
 # Kadoa

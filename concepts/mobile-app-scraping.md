@@ -3,6 +3,13 @@ name: Mobile App Scraping
 type: concept
 first_seen: 2022-09-04
 last_updated: 2026-04-22
+sources:
+  - the-lab-1-scraping-data-from-an-app.md
+  - the-lab-12-reverse-engineering-mobile.md
+  - how-to-scrape-data-from-mobile-apps.md
+  - bypass-certificate-pinning.md
+  - jwt-tokens-and-api-scraping.md
+  - http-toolkit-network-intercept.md
 ---
 
 # Mobile App Scraping

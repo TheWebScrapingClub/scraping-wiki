@@ -3,6 +3,10 @@ name: location-data-scraping
 type: concept
 first_seen: 2023-11-09
 last_updated: 2026-04-22
+sources:
+  - the-lab-31-scraping-location-data.md
+  - scraping-food-delivery-apps.md
+  - the-lab-28-deep-dive-on-inventory.md
 ---
 
 # Location Data Scraping

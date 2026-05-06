@@ -4,6 +4,16 @@ type: entity
 category: anti-bot
 first_seen: 2022-11-24
 last_updated: 2026-04-22
+sources:
+  - the-lab-35-bypassing-perimeterx-with.md
+  - the-lab-56-bypassing-perimeterx-3.md
+  - fingerprint-injection-playwright.md
+  - undetected-chromedriver-cloudflare-datadome.md
+  - bypassing-perimeterx-2023.md
+  - bypassing-perimeterx-scrapy.md
+  - scraping-perimeterx-websites.md
+  - anti-detect-anti-bot-matrix.md
+  - the-lab-21-bypass-anti-bot-challenges.md
 ---
 
 ## What it is

@@ -3,6 +3,9 @@ name: WebDriver vs CDP vs WebDriver BiDi
 type: concept
 first_seen: 2024-01-01
 last_updated: 2026-04-22
+sources:
+  - webdriver-vs-cdp-vs-bidi.md
+  - pydoll-webdriver-scraping.md
 ---
 
 # WebDriver vs CDP vs WebDriver BiDi

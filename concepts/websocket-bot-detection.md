@@ -3,6 +3,8 @@ name: WebSocket Bot Detection
 type: concept
 first_seen: 2026-03-22
 last_updated: 2026-04-22
+sources:
+  - websocket-bot-detection-scraping.md
 ---
 
 ## Definition

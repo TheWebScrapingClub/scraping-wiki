@@ -3,6 +3,21 @@ name: scraping-economics
 type: concept
 first_seen: 2022-08-06
 last_updated: 2026-04-22
+sources:
+  - from-0-to-2-billion-prices-scraped.md
+  - is-web-scraping-a-profitable-industry.md
+  - make-money-with-web-scraping.md
+  - the-state-of-web-scraping-and-ai.md
+  - llm-scrapegraphai-costs-web-scraping.md
+  - the-web-data-landscape-map.md
+  - selling-web-scraped-data.md
+  - monetize-web-scraping-databoutique.md
+  - the-lab-15-deep-diving-into-apify.md
+  - pay-to-crawl-is-it-feasible.md
+  - the-state-of-public-web-data-in-2024.md
+  - the-dirty-little-secret-of-internets.md
+  - https://scrapeops.io/blog/scraping-shock
+  - https://foura.ai/blog/web-scraping-tarpits-collateral-damage
 ---
 
 # Scraping Economics

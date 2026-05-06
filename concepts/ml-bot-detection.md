@@ -3,6 +3,11 @@ name: ML-Based Bot Detection
 type: concept
 first_seen: 2023-02-02
 last_updated: 2026-04-22
+sources:
+  - machine-learning-for-detecting-bots.md
+  - anti-detect-anti-bot-matrix.md
+  - the-lab-21-bypass-anti-bot-challenges.md
+  - https://github.com/RoloBits/isHumanCadence
 ---
 
 ## Definition

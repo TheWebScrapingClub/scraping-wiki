@@ -4,6 +4,9 @@ type: entity
 category: tool
 first_seen: 2024-09-01
 last_updated: 2026-04-22
+sources:
+  - bypassing-cloudflare-with-nodriver.md
+  - open-source-python-libraries-scraping.md
 ---
 
 # Nodriver

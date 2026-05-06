@@ -3,6 +3,11 @@ name: cdp-detection
 type: concept
 first_seen: 2024-07-01
 last_updated: 2026-04-22
+sources:
+  - playwright-stealth-cdp.md
+  - the-stealth-stack-web-scraping.md
+  - webdriver-vs-cdp-vs-bidi.md
+  - playwright-scrapers-undetected.md
 ---
 
 # CDP Detection
@@ -19,7 +24,7 @@ The important characteristic of this technique is that it is generic. It does no
 
 A straightforward way to verify this behavior: open the target page with no DevTools attached and pass the check. Then open Chrome DevTools on the same page — the anti-bot detects the CDP connection and reclassifies the session as automated, even though no code changed.
 
-[BrowserScan](../entities/browserscan.md) exposes an explicit CDP detection test that makes this observable directly.
+[BrowserScan](https://www.browserscan.net) exposes an explicit CDP detection test that makes this observable directly.
 
 ## Where It Matters
 

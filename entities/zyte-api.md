@@ -4,6 +4,11 @@ type: entity
 category: tool
 first_seen: 2023-04-06
 last_updated: 2026-04-22
+sources:
+  - hands-on-2-testing-the-new-zyte-api.md
+  - web-unblocker-benchmark-march-2024.md
+  - web-unblocker-test-kasada.md
+  - the-web-unblocker-cost-benchmark.md
 ---
 
 # Zyte API

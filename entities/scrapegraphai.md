@@ -4,6 +4,11 @@ type: entity
 category: tool
 first_seen: 2024-05-30
 last_updated: 2026-04-22
+sources:
+  - scraping-with-llms-scrapegraphai.md
+  - llm-scrapegraphai-costs-web-scraping.md
+  - writing-scrapers-with-llms.md
+  - the-lab-84-ai-driven-web-scraping.md
 ---
 
 # ScrapeGraphAI

@@ -1,6 +1,16 @@
 # TWSC Wiki Index
 
-Last updated: 2026-04-22
+Last updated: 2026-05-06
+
+## Visual maps and views
+
+- `canvases/`: JSON Canvas (`.canvas`) visual maps of landscapes and ecosystems
+  - `agentic-browsers-landscape-2026.canvas` — full agentic-browser landscape from the May 2026 DataDome lab article
+- `views/`: Obsidian Bases (`.base`) live queries over wiki content
+  - `all-entities.base` — every entity, grouped by category
+  - `anti-bot-vendors.base` — anti-bot category only
+  - `recently-touched.base` — wiki pages updated in the last 90 days
+  - `tools-and-browsers.base` — tools, browsers, and libraries
 
 ## Entities
 
@@ -40,6 +50,25 @@ Last updated: 2026-04-22
 - [Oxylabs Unblocker](entities/oxylabs-unblocker.md) - 96/100 overall. Cheapest on Kasada benchmark ($0.10/101 URLs). Best dashboard.
 - [Smartproxy Unblocker](entities/smartproxy-unblocker.md) - 80/100 overall. $12/GB. Kasada improved from 0% (2023) to 92% (2024).
 - [Zyte API](entities/zyte-api.md) - 100/100 with browser rendering. Fails Kasada. Per-request dynamic pricing. Scrapy integration via scrapy-zyte-api.
+
+
+### Added 2026-05-06
+- [FingerprinterJS](entities/fingerprinterjs.md) — FingerprinterJS v2.0 is a browser fingerprinting and bot detection tool.
+- [iherb-cli](entities/iherb-cli.md) — A Rust command-line tool for querying product data from iHerb using a headless browser.
+- [FPScanner](entities/fpscanner.md) — A lightweight browser fingerprinting library for bot detection.
+- [chaser-oxide](entities/chaser-oxide.md) — A Rust-based fork of `chromiumoxide` for hardened, undetectable browser automation.
+- [proxelar](entities/proxelar.md) — A Rust-based MITM proxy for intercepting and modifying HTTP/HTTPS traffic.
+- [Obscura](entities/obscura.md) — A headless browser engine written in Rust for web scraping and AI agent automation.
+- [MasterHttpRelayVPN](entities/masterhttprelayvpn.md) — A domain-fronted HTTP/SOCKS5 proxy tool that tunnels traffic through Google Apps Script for scraping
+- [TransparentTorProxy](entities/transparenttorproxy.md) — A Linux CLI utility that transparently routes all system traffic through the Tor network using nftab
+- [wxpath](entities/wxpath.md) — wxpath is a Python library for declarative web crawling using XPath.
+- [Libretto](entities/libretto.md) — A toolkit for building robust web integrations and maintaining browser automations.
+- [GoScrapy](entities/goscrapy.md) — A high-performance web scraping framework for Go, designed with the familiar architecture of Python'
+- [Feedstock](entities/feedstock.md) — A high-performance web crawler and scraper for TypeScript, powered by Bun and Playwright.
+- [Crawl4AI](entities/crawl4ai.md) — An open-source web crawler and scraper for LLM-friendly Markdown output.
+- [Reader](entities/reader.md) — An open-source, production-grade web scraping engine built for LLMs.
+- [Proxy Server](entities/proxy-server.md) — A service that brokers connections between the browser and phone.
+- [Kimurai](entities/kimurai.md) — A Ruby-based web scraping framework that uses AI to assist in data extraction.
 
 ## Concepts
 

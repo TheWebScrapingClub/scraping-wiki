@@ -17,6 +17,8 @@ wiki/
   concepts/          # Pages for techniques, patterns, and ideas.
   comparisons/       # Side-by-side analyses between entities or approaches.
   timelines/         # How something evolved over time.
+  canvases/          # JSON Canvas visual maps of landscapes and ecosystems.
+  views/             # Obsidian Bases queries (.base) for live cross-cutting views.
 ```
 
 ## Page types
@@ -125,6 +127,43 @@ Page structure:
 2. **Timeline** - chronological entries, each with date, what changed, and source reference
 3. **Current state** - latest known status
 4. **Related** - wiki links
+
+### Canvas pages (`canvases/`)
+
+JSON Canvas (`.canvas`) visual maps of a landscape, ecosystem, or set of relationships. Used for things that are inherently graph-shaped and where a list or table flattens too much information: vendor ecosystems, competitor maps, evolution flows, "who-acquired-whom" diagrams.
+
+A canvas is a companion to entity pages, not a replacement for them. Each node should reference an existing entity or concept page when one exists.
+
+Filename: `kebab-case.canvas`.
+
+Authoring rules:
+
+- Use the `json-canvas` skill to create or edit `.canvas` files. Do not hand-write JSON Canvas syntax.
+- Each node that represents a wiki entity must include the entity's wikilink in the node label or text (e.g., `[[Bright Data]]`) so Obsidian renders the connection.
+- Group related nodes (same category) into a JSON Canvas group with a label.
+- Edges should carry a label when the relationship type is non-obvious (e.g., "acquired", "spun off from", "competitor in").
+- Maintain a one-line description at the top-left text node explaining what the canvas tracks and the date it was last refreshed.
+
+When to create a canvas vs. a comparison page:
+
+- Comparison page when you have 2-4 entities and a stable set of dimensions. Reads as a table.
+- Canvas when you have 5+ entities or the relationships between them are the point. Reads as a graph.
+
+### View pages (`views/`)
+
+Obsidian Bases (`.base`) files: declarative queries over the rest of the vault. A view does not store knowledge, it surfaces it. Use views for cross-cutting reads that change as the underlying entity/concept pages change.
+
+Examples of useful views:
+- All entities in the `anti-bot` category, ordered by `last_updated`
+- All entity pages with no inbound wikilinks (orphan check)
+- All comparison pages mentioning a given entity
+- All entities first seen in the last 90 days
+
+Authoring rules:
+
+- Use the `obsidian-bases` skill to create or edit `.base` files. Do not hand-write base syntax.
+- Each view file must have a one-line comment header explaining what the view shows.
+- Views must filter on properties already present in the page schemas above (e.g., `type`, `category`, `last_updated`). If a view requires a property not yet in the schema, add the property to the schema first.
 
 ## Cross-referencing
 

@@ -3,6 +3,11 @@ name: Mobile Proxy Farming
 type: concept
 first_seen: 2023-01-15
 last_updated: 2026-04-22
+sources:
+  - mobile-proxy-raspberry.md
+  - building-mobile-proxy-farm.md
+  - how-build-mobile-proxy-farm-airproxy.md
+  - differences-residential-mobile-proxies.md
 ---
 
 # Mobile Proxy Farming

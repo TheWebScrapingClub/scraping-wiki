@@ -3,6 +3,11 @@ name: homepage-first-navigation
 type: concept
 first_seen:
 last_updated: 2026-04-22
+sources:
+  - cloudflare-how-to-scrape.md
+  - bypassing-cloudflare-in-2026.md
+  - the-lab-56-bypassing-perimeterx-3.md
+  - scraping-datadome-camoufox.md
 ---
 
 # Homepage-First Navigation

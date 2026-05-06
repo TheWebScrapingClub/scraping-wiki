@@ -1,0 +1,20 @@
+# View: every entity in the anti-bot category.
+# Use as a quick map of the anti-bot vendor landscape TWSC has covered.
+filters:
+  and:
+    - 'type == "entity"'
+    - 'category == "anti-bot"'
+properties:
+  file.name:
+    displayName: "Vendor"
+  last_updated:
+    displayName: "Last updated"
+  first_seen:
+    displayName: "First covered"
+views:
+  - type: table
+    name: "Anti-bot vendors"
+    order:
+      - file.name
+      - last_updated
+      - first_seen

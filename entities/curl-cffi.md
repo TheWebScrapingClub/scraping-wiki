@@ -4,6 +4,17 @@ type: entity
 category: library
 first_seen: 2023-10-08
 last_updated: 2026-04-22
+sources:
+  - three-web-scraping-tools-just-discovered.md
+  - hybrid-scraping-camoufox-curl-cffi.md
+  - the-stealth-stack-web-scraping.md
+  - bypass-akamai-bot-protection.md
+  - the-lab-29-bypass-cloudflare-bot.md
+  - bypassing-akamai-for-free.md
+  - hrequests-bypass-akamai-with-python.md
+  - faster-web-scraping-with-http3.md
+  - http-caching-scraping.md
+  - how-to-get-data-from-polymarket-fast.md
 ---
 
 # curl-cffi
@@ -62,7 +73,7 @@ curl-cffi is the correct client for implementing HTTP conditional requests on Cl
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
 - [camoufox](camoufox.md)
 - [ja3proxy](ja3proxy.md)
-- [Akamai](../concepts/akamai.md)
+- [Akamai](akamai.md)
 - [scrapling](scrapling.md)
 
 ## Sources

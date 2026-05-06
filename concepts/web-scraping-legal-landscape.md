@@ -3,6 +3,20 @@ name: web-scraping-legal-landscape
 type: concept
 first_seen: 2023-02-07
 last_updated: 2026-04-22
+sources:
+  - is-web-scraping-legal.md
+  - meta-vs-bright-data-court-ruling.md
+  - x-vs-bright-data-case-scraping.md
+  - google-vs-serpapi-web-scraping-case.md
+  - google-vs-serpapi-scraping-industry-implications.md
+  - understanding-robots-txt-implications.md
+  - understanding-robotstxt-and-its-implications.md
+  - web-scraping-legal-context.md
+  - is-it-legal-to-scrape-social-networks.md
+  - assessing-legal-compliance-of-web-scraping.md
+  - avoid-copyright-violations-scraping.md
+  - google-vs-ipidea-takedown.md
+  - web-scraping-and-ai-2023-legal-wrap-up.md
 ---
 
 # Web Scraping Legal Landscape

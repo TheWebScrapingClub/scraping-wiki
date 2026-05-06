@@ -4,6 +4,10 @@ type: entity
 category: anti-bot
 first_seen: 2023-08-27
 last_updated: 2026-04-22
+sources:
+  - are-captchas-still-a-thing.md
+  - bypassing-recaptcha-v3.md
+  - bypassing-recaptchas-with-open-source.md
 ---
 
 ## What it is

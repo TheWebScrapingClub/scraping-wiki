@@ -4,6 +4,8 @@ type: entity
 category: anti-bot
 first_seen: 2024-06-06
 last_updated: 2026-04-22
+sources:
+  - bypassing-aws-waf-scraping.md
 ---
 
 ## What it is

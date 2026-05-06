@@ -3,6 +3,13 @@ name: Firefox-based vs Chrome-based Stealth Tools
 type: comparison
 subjects: [Camoufox, Pydoll, undetected-chromedriver, Patchright, Playwright]
 last_updated: 2026-04-22
+sources:
+  - bypassing-cloudflare-in-2026.md
+  - bypassing-kasada-2025-open-source.md
+  - undetected-chromedriver-cloudflare-datadome.md
+  - scraping-datadome-camoufox.md
+  - how-to-bypass-cloudflare-turnstile.md
+  - cloudflare-bypass-2026.md
 ---
 
 ## What is being compared

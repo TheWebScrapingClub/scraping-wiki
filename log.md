@@ -509,3 +509,40 @@ Pages updated:
 - concepts/scraping-infrastructure.md: Added "Billion-Page Crawl Benchmark (2025)" section (1.005B pages, $462, 25.5 hours, Redis per-domain frontiers, parsing bottleneck). 1 new source.
 
 Total changes: 10 pages updated, 0 pages created.
+
+## [2026-05-06] schema-update | Add canvases and views as first-class wiki types
+
+Operation: schema and infrastructure update.
+Changes:
+- `wiki/schema.md`: added `canvases/` and `views/` to the directory layout; documented two new page types (`Canvas pages` for JSON Canvas visual maps, `View pages` for Obsidian Bases queries).
+- `wiki/canvases/`: new directory; first canvas `agentic-browsers-landscape-2026.canvas` mapping the agentic-browser landscape from the lab-datadome-2026-leroymerlin article (32 nodes, 6 edges, 4 group clusters).
+- `wiki/views/`: new directory; four starter Obsidian Bases queries (`all-entities`, `anti-bot-vendors`, `recently-touched`, `tools-and-browsers`).
+- `skills/wiki-ingest/SKILL.md`: now delegates page writes to the `obsidian-markdown` skill and preprocesses URL sources through `defuddle`.
+- `skills/wiki-lint/SKILL.md`: structural audit now runs through `obsidian-cli`; canvas wikilinks and `.base` view properties added to lint coverage.
+- `skills/the-lab-article-reviewer/SKILL.md` (step 10): fact-check step now prefers `defuddle` over `WebFetch` for long-form vendor pages.
+
+These changes integrate the kepano/obsidian-skills bundle (defuddle, obsidian-markdown, obsidian-bases, json-canvas, obsidian-cli) into the existing TWSC writing and ingestion workflow.
+
+## [2026-05-06] create | Pass 2 batch ingest from GitHub news
+
+Created 16 new entity pages from RELEVANT GitHub news classified by Qwen2.5-7B on llama.cpp/DGX:
+
+- fingerprinterjs (tool) — FingerprinterJS
+- iherb-cli (tool) — iherb-cli
+- fpscanner (library) — FPScanner
+- chaser-oxide (tool) — chaser-oxide
+- proxelar (tool) — proxelar
+- obscura (tool) — Obscura
+- masterhttprelayvpn (tool) — MasterHttpRelayVPN
+- transparenttorproxy (tool) — TransparentTorProxy
+- wxpath (library) — wxpath
+- libretto (tool) — Libretto
+- goscrapy (library) — GoScrapy
+- feedstock (tool) — Feedstock
+- crawl4ai (tool) — Crawl4AI
+- reader (tool) — Reader
+- proxy-server (tool) — Proxy Server
+- kimurai (tool) — Kimurai
+
+Skipped (entity page already exists): scrapling
+

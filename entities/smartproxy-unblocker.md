@@ -4,6 +4,11 @@ type: entity
 category: tool
 first_seen: 2023-07-13
 last_updated: 2026-04-22
+sources:
+  - testing-smartproxy-site-unblocker.md
+  - web-unblocker-benchmark-march-2024.md
+  - web-unblocker-test-kasada.md
+  - the-web-unblocker-cost-benchmark.md
 ---
 
 # Smartproxy Site Unblocker

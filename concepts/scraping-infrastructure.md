@@ -3,6 +3,17 @@ name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
 last_updated: 2026-04-22
+sources:
+  - the-costs-of-web-scraping.md
+  - optimizing-costs-for-web-scraping.md
+  - scraping-aws-lambda-serverless.md
+  - running-scrapers-on-github-actions.md
+  - scheduling-scrapers-airflow.md
+  - scrapyd-manage-schedule-scrapers.md
+  - scrapeops-managing-scrapers-execution.md
+  - scrapoxy-proxy-aggregator.md
+  - the-true-costs-of-a-web-scraping.md
+  - https://andrewkchan.dev/posts/crawler.html
 ---
 
 # Scraping Infrastructure

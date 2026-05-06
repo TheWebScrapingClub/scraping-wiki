@@ -3,6 +3,17 @@ name: HTTP Performance in Scraping
 type: concept
 first_seen: 2022-11-08
 last_updated: 2026-04-22
+sources:
+  - faster-web-scraping-with-http3.md
+  - http-caching-scraping.md
+  - python-async-for-faster-scraping.md
+  - scraping-high-frequency-python.md
+  - rate-limit-scraping-exponential-backoff.md
+  - change-ciphers-scrapy.md
+  - how-to-get-data-from-polymarket-fast.md
+  - how-fast-can-you-call-polymarket-apis.md
+  - scraping-real-time-data-bitstamp.md
+  - https://singh-sanjay.com/2026/03/09/concurrent-requests-reverse-proxy.html
 ---
 
 # HTTP Performance in Scraping

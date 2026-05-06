@@ -4,6 +4,11 @@ type: entity
 category: tool
 first_seen: 2019-01-01
 last_updated: 2026-04-22
+sources:
+  - anti-detect-browsers-fingerprint-tests.md
+  - anti-detect-browser-royal-rumble-comments.md
+  - antidetect-browser-webscraping.md
+  - browser-automation-landscape-2025.md
 ---
 
 # GoLogin

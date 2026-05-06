@@ -11,6 +11,9 @@ subjects:
   - Octo Browser
   - Incogniton
 last_updated: 2026-04-22
+sources:
+  - anti-detect-browsers-fingerprint-tests.md
+  - anti-detect-browser-royal-rumble-comments.md
 ---
 
 # Anti-Detect Browser Benchmark 2024

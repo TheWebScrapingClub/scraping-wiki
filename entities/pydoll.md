@@ -4,6 +4,9 @@ type: entity
 category: tool
 first_seen: 2026-01-01
 last_updated: 2026-04-22
+sources:
+  - pydoll-webdriver-scraping.md
+  - bypassing-cloudflare-in-2026.md
 ---
 
 # Pydoll

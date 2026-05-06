@@ -4,6 +4,10 @@ type: entity
 category: library
 first_seen: 2024-01-01
 last_updated: 2026-04-22
+sources:
+  - bypass-datadome-mouse-movements-in-playwright.md
+  - oxymouse-and-playwright-mouse-movements.md
+  - bezier-curves-web-scraping.md
 ---
 
 # ghost-cursor

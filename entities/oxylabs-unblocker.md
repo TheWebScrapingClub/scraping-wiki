@@ -4,6 +4,11 @@ type: entity
 category: tool
 first_seen: 2023-08-10
 last_updated: 2026-04-22
+sources:
+  - oxylabs-web-unblocker-test.md
+  - web-unblocker-benchmark-march-2024.md
+  - web-unblocker-test-kasada.md
+  - web-unblocker-vs-browser-as-a-service-scraping.md
 ---
 
 # Oxylabs Web Unblocker

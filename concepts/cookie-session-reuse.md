@@ -3,6 +3,10 @@ name: cookie-session-reuse
 type: concept
 first_seen:
 last_updated: 2026-04-22
+sources:
+  - the-lab-94-using-cookies-and-session.md
+  - the-lab-30-how-to-bypass-akamai-protected.md
+  - the-lab-35-bypassing-perimeterx-with.md
 ---
 
 # Cookie and Session Reuse

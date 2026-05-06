@@ -4,6 +4,17 @@ type: entity
 category: tool
 first_seen: 2024-10-01
 last_updated: 2026-04-22
+sources:
+  - scraping-datadome-camoufox.md
+  - bypassing-cloudflare-in-2026.md
+  - bypassing-kasada-2025-open-source.md
+  - hybrid-scraping-camoufox-curl-cffi.md
+  - scrapling-hands-on-guide.md
+  - cloudflare-bypass-2026.md
+  - how-to-bypass-cloudflare-turnstile.md
+  - camoufox-server-docker.md
+  - camoufox-server-in-aws.md
+  - how-to-create-camoufox-docker-image.md
 ---
 
 # Camoufox
@@ -28,7 +39,7 @@ Headless operation on Linux uses `headless="virtual"` mode, which runs the brows
 
 Camoufox is consistently our best open-source performer against [Cloudflare](cloudflare.md). In the 2026 benchmark across 100 requests, it achieved 99% success on Harrods (Cloudflare managed challenge) and 31% on Indeed, where the failure rate was caused by rate limiting rather than bot detection.
 
-Against [Kasada](kasada.md), Camoufox bypasses the challenge without additional configuration. Against [Datadome](datadome.md) and [Hermes](hermes.md), it works with workarounds. In October 2024, a configuration change on hermes.com broke the direct approach overnight and required identifying an alternate entry point that bypassed the Datadome-protected route entirely.
+Against [Kasada](kasada.md), Camoufox bypasses the challenge without additional configuration. Against [Datadome](datadome.md) on hermes.com, it works with workarounds. In October 2024, a configuration change on hermes.com broke the direct approach overnight and required identifying an alternate entry point that bypassed the Datadome-protected route entirely.
 
 We also use Camoufox in a hybrid scraping pattern: the browser handles authentication and cookie acquisition, then [curl_cffi](curl-cffi.md) takes over for bulk requests. This combination successfully handled [Akamai](akamai.md) on Net-a-Porter.
 
