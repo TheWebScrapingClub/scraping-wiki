@@ -17,6 +17,9 @@ sources:
 - 404privacy-com.md
 - detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle.md
 - python-in-plain-english-modern-anti-bot-systems-and-how-to-bypass-them-4d2847552.md
+- dbi-changelog-week-17june-2024.md
+- dbi-privacy-leak-detecting-canvas-countermeasures.md
+- dbi-role-of-weak-fingerprinting-signals.md
 ---
 
 # Browser Fingerprinting

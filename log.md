@@ -586,3 +586,25 @@ Appended 37 sources to existing wiki pages:
 - entities/reader.md: 1 new source
 - entities/scrapling.md: 1 new source
 
+
+## [2026-05-07] update | Pass 3 source linking
+
+Created 9 new entity pages from orphan RELEVANT news:
+- aiohttp (library) — AIOHTTP
+- device-and-browser-info (tool) — Device and Browser Info
+- google-analytics-4 (tool) — Google Analytics 4
+- puppeteer (tool) — Puppeteer
+- canvas-fingerprint-defender (tool) — Canvas fingerprint defender
+- python-requests (library) — python-requests
+- downloadlistphonenumbers-js (tool) — downloadListPhoneNumbers.js
+- open-bullet-2 (tool) — Open Bullet 2
+- simple-selenium-chrome-crawler (tool) — Simple Selenium Chrome Crawler
+
+Appended 16 sources to existing wiki pages:
+- concepts/anti-detect-browsers.md: 3 new sources
+- concepts/browser-fingerprinting.md: 3 new sources
+- concepts/proxy-fundamentals.md: 4 new sources
+- concepts/webdriver-vs-cdp-vs-bidi.md: 3 new sources
+- entities/device-and-browser-info.md: 2 new sources
+- entities/ipidea.md: 1 new source
+

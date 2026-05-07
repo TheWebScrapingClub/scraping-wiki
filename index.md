@@ -71,7 +71,7 @@ Last updated: 2026-05-07
 - [Kimurai](entities/kimurai.md) — A Ruby-based web scraping framework that uses AI to assist in data extraction.
 
 
-### Added 2026-05-07 (Pass 3)
+### Added 2026-05-07
 - [is-antibot](entities/is-antibot.md) — A library that detects antibot and CAPTCHA challenges from 30+ providers using signals.
 - [BlankTrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints 
 - [IPIDEA](entities/ipidea.md) — A residential proxy network that enrolled 9 million Android devices into a botnet.
@@ -92,6 +92,17 @@ Last updated: 2026-05-07
 - [Spidra](entities/spidra.md) — A web scraping platform that uses AI to extract data from websites.
 - [Tadpole](entities/tadpole.md) — A language for writing declarative, modular scraping code.
 - [obscrd](entities/obscrd.md) — An open-source content protection system for React that scrambles HTML and blocks AI crawlers.
+
+
+### Added 2026-05-07 (Pass 3)
+- [AIOHTTP](entities/aiohttp.md) — AIOHTTP is an asynchronous HTTP Client/Server for asyncio and Python, used for creating bots and scr
+- [Device and Browser Info](entities/device-and-browser-info.md) — A platform offering tools and articles for browser fingerprinting and bot detection.
+- [Puppeteer](entities/puppeteer.md) — A Node.js library which provides a high-level API to control Chrome or Chromium over the DevTools Pr
+- [Canvas fingerprint defender](entities/canvas-fingerprint-defender.md) — A browser extension that defends against canvas fingerprinting.
+- [python-requests](entities/python-requests.md) — A Python HTTP library for making HTTP(s) requests.
+- [downloadListPhoneNumbers.js](entities/downloadlistphonenumbers-js.md) — A JavaScript script for scraping temporary phone numbers from a website.
+- [Open Bullet 2](entities/open-bullet-2.md) — A credential stuffing tool that can be used for web scraping and automation.
+- [Simple Selenium Chrome Crawler](entities/simple-selenium-chrome-crawler.md) — A Python script that uses Selenium and Chrome to crawl web pages and extract links.
 
 ## Concepts
 

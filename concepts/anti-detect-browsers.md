@@ -20,6 +20,9 @@ sources:
 - news-thewebscraping-club.md
 - owlbrowser-net.md
 - posts-bot-detection.md
+- dbi-fingerprint-unmodified-chrome-puppeteer.md
+- dbi-getting-started-bot-detection.md
+- dbi-remove-chrome-controlled-by-automated-test-puppeteer.md
 ---
 
 # Anti-Detect Browsers

@@ -3,9 +3,10 @@ name: ipidea
 type: entity
 category: proxy-provider
 first_seen: 2026-05-07
-last_updated: 2026-05-07
+last_updated: '2026-05-07'
 sources:
-  - blog-free-vpns-proxies-sell-your-device.md
+- blog-free-vpns-proxies-sell-your-device.md
+- dbi-inside-ipidea-residential-proxy-network.md
 ---
 
 # IPIDEA

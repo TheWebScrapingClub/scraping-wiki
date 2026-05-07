@@ -36,6 +36,10 @@ sources:
 - posts-what-does-a-vpn-protect-you-from.md
 - python-web-scraping-with-scrapingduck.md
 - spinov001-art-awesome-web-scraping-2026.md
+- dbi-aio-http-library.md
+- dbi-common-questions-proxies.md
+- dbi-inside-ipidea-residential-proxy-network.md
+- dbi-python-requests-library.md
 ---
 
 # Proxy Fundamentals
