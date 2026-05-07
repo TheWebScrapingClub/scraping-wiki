@@ -2,29 +2,40 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: 2026-04-22
+last_updated: '2026-05-07'
 sources:
-  - everything-about-proxies.md
-  - choosing-proxy-provider-scraping.md
-  - five-secrets-of-the-proxy-industry.md
-  - the-unit-economics-of-proxy-providers.md
-  - differences-residential-mobile-proxies.md
-  - evaluating-proxy-providers-ips.md
-  - how-many-ip-needed-scraping.md
-  - costs-web-scraping-proxy.md
-  - optimizing-proxy-costs.md
-  - proxy-pricing-playbook-september.md
-  - where-do-proxy-companies-take-ip.md
-  - x-forwarded-for-header-proxies.md
-  - reverse-proxies-and-webscraping.md
-  - managing-proxy-bans-proxy-retries.md
-  - bypassing-geo-fencing-scraping.md
-  - scraping-using-tor.md
-  - optimizing-costs-for-web-scraping.md
-  - https://harshanu.space/en/tech/dumb-vibe-coders
-  - https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa
-  - https://voidmob.com/blog/dns-leak-proxy-killer-carrier-native-dns
-  - https://voidmob.com/blog/free-vpns-proxies-sell-your-device
+- everything-about-proxies.md
+- choosing-proxy-provider-scraping.md
+- five-secrets-of-the-proxy-industry.md
+- the-unit-economics-of-proxy-providers.md
+- differences-residential-mobile-proxies.md
+- evaluating-proxy-providers-ips.md
+- how-many-ip-needed-scraping.md
+- costs-web-scraping-proxy.md
+- optimizing-proxy-costs.md
+- proxy-pricing-playbook-september.md
+- where-do-proxy-companies-take-ip.md
+- x-forwarded-for-header-proxies.md
+- reverse-proxies-and-webscraping.md
+- managing-proxy-bans-proxy-retries.md
+- bypassing-geo-fencing-scraping.md
+- scraping-using-tor.md
+- optimizing-costs-for-web-scraping.md
+- https://harshanu.space/en/tech/dumb-vibe-coders
+- https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa
+- https://voidmob.com/blog/dns-leak-proxy-killer-carrier-native-dns
+- https://voidmob.com/blog/free-vpns-proxies-sell-your-device
+- blog-free-vpns-proxies-sell-your-device.md
+- blog-how-i-broke-the-anti-bot-behind-nike-kick-and-twitch.md
+- clashmac-app.md
+- getwick-dev.md
+- gh-v6-com.md
+- kampala.md
+- meshscrape-com.md
+- p-use-ipv6-scraping-nyxproxy.md
+- posts-what-does-a-vpn-protect-you-from.md
+- python-web-scraping-with-scrapingduck.md
+- spinov001-art-awesome-web-scraping-2026.md
 ---
 
 # Proxy Fundamentals

@@ -546,3 +546,43 @@ Created 16 new entity pages from RELEVANT GitHub news classified by Qwen2.5-7B o
 
 Skipped (entity page already exists): scrapling
 
+
+## [2026-05-07] update | Pass 3 source linking
+
+Created 20 new entity pages from orphan RELEVANT news:
+- is-antibot (library) — is-antibot
+- blanktrace (proxy-provider) — BlankTrace
+- ipidea (proxy-provider) — IPIDEA
+- clashmac (proxy-provider) — ClashMac
+- ricci-flow-ai-web-scraper (tool) — Ricci Flow – AI Web Scraper
+- wick (tool) — Wick
+- kampala (proxy-provider) — Kampala
+- konform-browser (browser) — Konform Browser
+- lightpanda (browser) — Lightpanda
+- lucidextractor (tool) — LucidExtractor
+- meshscrape (proxy-provider) — MeshScrape
+- owl-browser (tool) — Owl Browser
+- nyxproxy (proxy-provider) — NyxProxy
+- browser-use (tool) — Browser Use
+- scrapingduck (tool) — ScrapingDuck
+- scrapingsandbox (tool) — ScrapingSandbox
+- spidersuite (tool) — SpiderSuite
+- spidra (tool) — Spidra
+- tadpole (tool) — Tadpole
+- obscrd (tool) — obscrd
+
+Appended 37 sources to existing wiki pages:
+- concepts/ai-scraping-assistants.md: 3 new sources
+- concepts/anti-detect-browsers.md: 6 new sources
+- concepts/api-scraping.md: 1 new source
+- concepts/browser-fingerprinting.md: 3 new sources
+- concepts/http-performance.md: 2 new sources
+- concepts/inventory-tracking.md: 2 new sources
+- concepts/llm-scraping.md: 3 new sources
+- concepts/proxy-fundamentals.md: 11 new sources
+- concepts/tls-fingerprinting.md: 1 new source
+- concepts/web-scraping-legal-landscape.md: 2 new sources
+- entities/kasada.md: 1 new source
+- entities/reader.md: 1 new source
+- entities/scrapling.md: 1 new source
+

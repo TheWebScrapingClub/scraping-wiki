@@ -3,17 +3,18 @@ name: Kasada
 type: entity
 category: anti-bot
 first_seen: 2022-08-05
-last_updated: 2026-04-22
+last_updated: '2026-05-07'
 sources:
-  - bypassing-kasada-2025-open-source.md
-  - undetected-chromedriver-cloudflare-datadome.md
-  - scraping-a-kasada-website.md
-  - scraping-kasada-protected-websites.md
-  - bypassing-kasada-web-scraping.md
-  - how-to-by-pass-kasada-bot-mitigation.md
-  - octo-browser-bypass-kasada.md
-  - anti-detect-anti-bot-matrix.md
-  - the-lab-21-bypass-anti-bot-challenges.md
+- bypassing-kasada-2025-open-source.md
+- undetected-chromedriver-cloudflare-datadome.md
+- scraping-a-kasada-website.md
+- scraping-kasada-protected-websites.md
+- bypassing-kasada-web-scraping.md
+- how-to-by-pass-kasada-bot-mitigation.md
+- octo-browser-bypass-kasada.md
+- anti-detect-anti-bot-matrix.md
+- the-lab-21-bypass-anti-bot-challenges.md
+- blog-how-i-broke-the-anti-bot-behind-nike-kick-and-twitch.md
 ---
 
 ## What it is

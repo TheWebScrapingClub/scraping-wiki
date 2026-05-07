@@ -2,15 +2,16 @@
 name: tls-fingerprinting
 type: concept
 first_seen: 2017-01-01
-last_updated: 2026-04-22
+last_updated: '2026-05-07'
 sources:
-  - bypass-akamai-bot-protection.md
-  - the-lab-33-fingerprinting-at-different.md
-  - the-stealth-stack-web-scraping.md
-  - hybrid-scraping-camoufox-curl-cffi.md
-  - change-ciphers-scrapy.md
-  - faster-web-scraping-with-http3.md
-  - http-caching-scraping.md
+- bypass-akamai-bot-protection.md
+- the-lab-33-fingerprinting-at-different.md
+- the-stealth-stack-web-scraping.md
+- hybrid-scraping-camoufox-curl-cffi.md
+- change-ciphers-scrapy.md
+- faster-web-scraping-with-http3.md
+- http-caching-scraping.md
+- antibot-microlink-io.md
 ---
 
 # TLS Fingerprinting

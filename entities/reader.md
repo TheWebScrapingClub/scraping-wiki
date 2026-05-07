@@ -3,9 +3,10 @@ name: reader
 type: entity
 category: tool
 first_seen: 2026-05-06
-last_updated: 2026-05-06
+last_updated: '2026-05-07'
 sources:
-  - vakra-dev-reader.md
+- vakra-dev-reader.md
+- blog-why-i-built-reader.md
 ---
 
 # Reader

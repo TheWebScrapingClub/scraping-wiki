@@ -3,10 +3,11 @@ name: scrapling
 type: entity
 category: library
 first_seen: 2024-01-01
-last_updated: 2026-04-22
+last_updated: '2026-05-07'
 sources:
-  - scrapling-hands-on-guide.md
-  - nike-scraping-benchmark.md
+- scrapling-hands-on-guide.md
+- nike-scraping-benchmark.md
+- D4Vinci-Scrapling.md
 ---
 
 # Scrapling

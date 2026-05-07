@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-06
+Last updated: 2026-05-07
 
 ## Visual maps and views
 
@@ -69,6 +69,29 @@ Last updated: 2026-05-06
 - [Reader](entities/reader.md) — An open-source, production-grade web scraping engine built for LLMs.
 - [Proxy Server](entities/proxy-server.md) — A service that brokers connections between the browser and phone.
 - [Kimurai](entities/kimurai.md) — A Ruby-based web scraping framework that uses AI to assist in data extraction.
+
+
+### Added 2026-05-07 (Pass 3)
+- [is-antibot](entities/is-antibot.md) — A library that detects antibot and CAPTCHA challenges from 30+ providers using signals.
+- [BlankTrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints 
+- [IPIDEA](entities/ipidea.md) — A residential proxy network that enrolled 9 million Android devices into a botnet.
+- [ClashMac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
+- [Ricci Flow – AI Web Scraper](entities/ricci-flow-ai-web-scraper.md) — A Chrome extension for AI-powered web scraping that extracts data from websites and exports it to Ex
+- [Wick](entities/wick.md) — Wick is an open-source tool that allows AI agents to access web pages as if they were real browsers.
+- [Kampala](entities/kampala.md) — Kampala is a tool for intercepting and automating web traffic.
+- [Konform Browser](entities/konform-browser.md) — Konform Browser is a stealth browser based on Firefox ESR for web scraping and automation.
+- [Lightpanda](entities/lightpanda.md) — Lightpanda is a browser built for AI and automation, offering faster execution and lower memory usag
+- [LucidExtractor](entities/lucidextractor.md) — An enterprise web scraping and SEO analysis platform.
+- [MeshScrape](entities/meshscrape.md) — A service that offers a distributed IP network for web scraping to avoid blocks and rate limits.
+- [Owl Browser](entities/owl-browser.md) — A self-hosted browser automation engine for automation at scale with 256 parallel contexts and undet
+- [NyxProxy](entities/nyxproxy.md) — A tool for building a self-hosted, rotating proxy gateway using IPv6 /64 subnets.
+- [Browser Use](entities/browser-use.md) — Browser Use is a cloud-based browser automation platform that aims to create undetectable browsers.
+- [ScrapingDuck](entities/scrapingduck.md) — A scraping API that handles IP rotation, JavaScript rendering, and provides a free tier for web scra
+- [ScrapingSandbox](entities/scrapingsandbox.md) — A web scraping sandbox for learning and testing web scraping techniques.
+- [SpiderSuite](entities/spidersuite.md) — A powerful web crawler and security testing tool for penetration testers and security researchers.
+- [Spidra](entities/spidra.md) — A web scraping platform that uses AI to extract data from websites.
+- [Tadpole](entities/tadpole.md) — A language for writing declarative, modular scraping code.
+- [obscrd](entities/obscrd.md) — An open-source content protection system for React that scrambles HTML and blocks AI crawlers.
 
 ## Concepts
 

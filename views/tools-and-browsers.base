@@ -1,22 +1,20 @@
-# View: every entity that is a tool, browser, or library.
-# Use when researching what TWSC has tested or documented in the scraping toolkit.
 filters:
   and:
-    - 'type == "entity"'
+    - type == "entity"
     - or:
-        - 'category == "tool"'
-        - 'category == "browser"'
-        - 'category == "library"'
+        - category == "tool"
+        - category == "browser"
+        - category == "library"
 properties:
   file.name:
-    displayName: "Tool"
+    displayName: Tool
   category:
-    displayName: "Kind"
+    displayName: Kind
   last_updated:
-    displayName: "Last updated"
+    displayName: Last updated
 views:
   - type: table
-    name: "Tools and browsers"
+    name: Tools and browsers
     groupBy:
       property: category
       direction: ASC

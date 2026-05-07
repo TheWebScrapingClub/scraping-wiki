@@ -2,13 +2,15 @@
 name: inventory-tracking
 type: concept
 first_seen: 2023-09-14
-last_updated: 2026-04-22
+last_updated: '2026-05-07'
 sources:
-  - scraping-inventory-level.md
-  - scraping-inventory-data.md
-  - scraping-inventory-levels.md
-  - the-lab-28-deep-dive-on-inventory.md
-  - ikea-scraping-kallax.md
+- scraping-inventory-level.md
+- scraping-inventory-data.md
+- scraping-inventory-levels.md
+- the-lab-28-deep-dive-on-inventory.md
+- ikea-scraping-kallax.md
+- blog-7-essential-use-cases-for-web-scraping.md
+- scrapingsandbox-com.md
 ---
 
 # Inventory Tracking

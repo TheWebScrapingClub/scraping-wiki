@@ -2,21 +2,24 @@
 name: llm-scraping
 type: concept
 first_seen: 2024-05-30
-last_updated: 2026-04-22
+last_updated: '2026-05-07'
 sources:
-  - scraping-with-llms-gpt-vision.md
-  - how-to-use-llms-in-scraping.md
-  - scraping-with-llms-scrapegraphai.md
-  - llm-scrapegraphai-costs-web-scraping.md
-  - writing-scrapers-with-llms.md
-  - the-lab-84-ai-driven-web-scraping.md
-  - building-self-healing-scrapers-with-gpt.md
-  - anycrawl-llm-ready-web-scraping.md
-  - anycrawl-testing-the-llm-ready-web.md
-  - when-browsers-think-chatgpt-atlas-cursor-browserbase.md
-  - https://github.com/vercel-labs/agent-browser
-  - https://folding-sky.com/blog/ios-26-macos-26-swiftui-headless-browser-webpage-webview
-  - https://github.com/vifreefly/kimuraframework
+- scraping-with-llms-gpt-vision.md
+- how-to-use-llms-in-scraping.md
+- scraping-with-llms-scrapegraphai.md
+- llm-scrapegraphai-costs-web-scraping.md
+- writing-scrapers-with-llms.md
+- the-lab-84-ai-driven-web-scraping.md
+- building-self-healing-scrapers-with-gpt.md
+- anycrawl-llm-ready-web-scraping.md
+- anycrawl-testing-the-llm-ready-web.md
+- when-browsers-think-chatgpt-atlas-cursor-browserbase.md
+- https://github.com/vercel-labs/agent-browser
+- https://folding-sky.com/blog/ios-26-macos-26-swiftui-headless-browser-webpage-webview
+- https://github.com/vifreefly/kimuraframework
+- blog-why-i-built-reader.md
+- detail-ricci-flow-ai-web-scrap-ngeodkdeahmlnceiomeeidoidhniopam.md
+- tadpolehq-com.md
 ---
 
 # LLM Scraping

@@ -2,13 +2,16 @@
 name: ai-scraping-assistants
 type: concept
 first_seen: 2025-03-21
-last_updated: 2026-04-22
+last_updated: '2026-05-07'
 sources:
-  - cursor-mcp-web-scraping-assistant.md
-  - claude-cursor-ai-scraping-assistant.md
-  - the-lab-84-ai-driven-web-scraping.md
-  - building-self-healing-scrapers-with-gpt.md
-  - writing-scrapers-with-llms.md
+- cursor-mcp-web-scraping-assistant.md
+- claude-cursor-ai-scraping-assistant.md
+- the-lab-84-ai-driven-web-scraping.md
+- building-self-healing-scrapers-with-gpt.md
+- writing-scrapers-with-llms.md
+- D4Vinci-Scrapling.md
+- spidra-io.md
+- www-obscrd-dev.md
 ---
 
 # AI Scraping Assistants
