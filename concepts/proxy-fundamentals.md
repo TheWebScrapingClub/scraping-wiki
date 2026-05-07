@@ -40,6 +40,8 @@ sources:
 - dbi-common-questions-proxies.md
 - dbi-inside-ipidea-residential-proxy-network.md
 - dbi-python-requests-library.md
+- dbi-authenticate-google-read-aloud.md
+- dbi-proxy-db-benchmark-firehol-may-2025.md
 ---
 
 # Proxy Fundamentals

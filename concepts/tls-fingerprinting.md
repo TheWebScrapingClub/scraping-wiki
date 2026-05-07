@@ -12,6 +12,7 @@ sources:
 - faster-web-scraping-with-http3.md
 - http-caching-scraping.md
 - antibot-microlink-io.md
+- dbi-analyze-open-bullet2-request-mode.md
 ---
 
 # TLS Fingerprinting

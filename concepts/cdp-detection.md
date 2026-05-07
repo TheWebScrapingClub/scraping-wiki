@@ -2,12 +2,14 @@
 name: cdp-detection
 type: concept
 first_seen: 2024-07-01
-last_updated: 2026-04-22
+last_updated: '2026-05-07'
 sources:
-  - playwright-stealth-cdp.md
-  - the-stealth-stack-web-scraping.md
-  - webdriver-vs-cdp-vs-bidi.md
-  - playwright-scrapers-undetected.md
+- playwright-stealth-cdp.md
+- the-stealth-stack-web-scraping.md
+- webdriver-vs-cdp-vs-bidi.md
+- playwright-scrapers-undetected.md
+- dbi-detecting-headless-chrome-puppeteer-2024.md
+- dbi-detecting-headless-chrome-selenium-2024.md
 ---
 
 # CDP Detection

@@ -608,3 +608,27 @@ Appended 16 sources to existing wiki pages:
 - entities/device-and-browser-info.md: 2 new sources
 - entities/ipidea.md: 1 new source
 
+
+## [2026-05-07] update | Pass 3 source linking
+
+Created 9 new entity pages from orphan RELEVANT news:
+- nodejs-based-scraper (tool) — NodeJS-based scraper
+- uaparser-js (library) — UAParser.js
+- selenium-headless-chrome-detection (anti-bot) — Selenium/Headless Chrome Detection
+- facebookexternalhit (tool) — facebookexternalhit
+- go-http-client (library) — Go HTTP Client
+- linkedinbot (tool) — LinkedInBot
+- firehol (proxy-provider) — FireHOL
+- cheerio (library) — Cheerio
+- sec-ch-ua-form-factors (anti-bot) — Sec-CH-UA-Form-Factors
+
+Appended 28 sources to existing wiki pages:
+- concepts/api-scraping.md: 1 new source
+- concepts/bot-detection.md: 4 new sources
+- concepts/browser-fingerprinting.md: 11 new sources
+- concepts/cdp-detection.md: 2 new sources
+- concepts/proxy-fundamentals.md: 2 new sources
+- concepts/tls-fingerprinting.md: 1 new source
+- entities/open-bullet-2.md: 2 new sources
+- entities/puppeteer.md: 5 new sources
+

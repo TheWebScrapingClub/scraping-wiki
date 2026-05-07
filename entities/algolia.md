@@ -1,9 +1,9 @@
 ---
 name: Algolia
 type: entity
-category: target
+category: tool
 first_seen: 2023-12-10
-last_updated: 2026-04-22
+last_updated: 2026-05-07
 sources:
   - algolia-and-web-scraping-an-introduction.md
   - scraping-algolia-endpoints.md

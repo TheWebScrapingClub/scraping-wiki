@@ -20,6 +20,17 @@ sources:
 - dbi-changelog-week-17june-2024.md
 - dbi-privacy-leak-detecting-canvas-countermeasures.md
 - dbi-role-of-weak-fingerprinting-signals.md
+- dbi-analysis-temporary-phone-numbers.md
+- dbi-analyze-open-bullet2-puppeteer-mode.md
+- dbi-changelog-week-14july-2024.md
+- dbi-detect-lie-os-fraud.md
+- dbi-exclude-bots-from-google-analytics-2024.md
+- dbi-httpheaders.md
+- dbi-scraping-temporary-phone-numbers.md
+- dbi-sec-ch-ua-forms-factor.md
+- dbi-take-good-screenshots-with-puppeteer.md
+- dbi-use-puppeteer-with-chrome-macos.md
+- dbi-webglrenderervalues.md
 ---
 
 # Browser Fingerprinting

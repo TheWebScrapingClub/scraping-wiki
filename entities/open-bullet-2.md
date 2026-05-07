@@ -3,9 +3,11 @@ name: open-bullet-2
 type: entity
 category: tool
 first_seen: 2026-05-07
-last_updated: 2026-05-07
+last_updated: '2026-05-07'
 sources:
-  - dbi-selenium-chrome-mode-open-bullet2.md
+- dbi-selenium-chrome-mode-open-bullet2.md
+- dbi-analyze-open-bullet2-request-mode.md
+- dbi-overview-open-bullet2.md
 ---
 
 # Open Bullet 2

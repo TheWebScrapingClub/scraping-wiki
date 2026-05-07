@@ -15,6 +15,7 @@ sources:
 - the-lab-26-from-internal-api-to-insights.md
 - scraping-food-delivery-apps.md
 - lucidextractor-liceron-in.md
+- dbi-overview-open-bullet2.md
 ---
 
 # API Scraping
