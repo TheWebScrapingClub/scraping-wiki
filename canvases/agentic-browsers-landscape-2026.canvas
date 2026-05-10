@@ -1,44 +1,349 @@
 {
-	"nodes":[
-		{"id":"8a1c5e2f7b3d4a91","type":"text","x":0,"y":0,"width":1100,"height":140,"text":"# Agentic browsers landscape — 2026\n\nVisual map of the agentic-browser space as of May 2026. Nodes are products or companies; edges show ownership, ships-with, and DataDome bypass results from [[lab-datadome-2026-leroymerlin]].\n\nLast refreshed: 2026-05-06"},
-		{"id":"a1b2c3d4e5f60789","type":"group","x":-40,"y":200,"width":480,"height":540,"label":"Big AI labs"},
-		{"id":"f1e2d3c4b5a69708","type":"text","x":0,"y":260,"width":200,"height":90,"text":"**[[OpenAI Operator]]**\nJan 2025"},
-		{"id":"12ab34cd56ef7890","type":"text","x":220,"y":260,"width":200,"height":90,"text":"**[[ChatGPT Atlas]]**\nOct 2025\nbrowser by OpenAI"},
-		{"id":"9876fedcba543210","type":"text","x":0,"y":380,"width":200,"height":90,"text":"**[[Anthropic Computer Use]]**\nOct 2024"},
-		{"id":"0a1b2c3d4e5f6789","type":"text","x":220,"y":380,"width":200,"height":90,"text":"**[[Perplexity Comet]]**\n2025"},
-		{"id":"b1c2d3e4f5a60917","type":"group","x":510,"y":200,"width":540,"height":820,"label":"Y Combinator agentic browsers"},
-		{"id":"111222333444aaaa","type":"text","x":540,"y":260,"width":240,"height":100,"text":"**[[Hyperbrowser]]**\nYC S21\ncloud browser infra + CAPTCHA"},
-		{"id":"222333444555bbbb","type":"text","x":800,"y":260,"width":240,"height":100,"text":"**[[Browserbase]]**\nYC W24\nmanaged Chromium"},
-		{"id":"333444555666cccc","type":"text","x":800,"y":380,"width":240,"height":80,"text":"**[[Stagehand]]**\nagent SDK by Browserbase"},
-		{"id":"444555666777dddd","type":"text","x":540,"y":480,"width":240,"height":100,"text":"**[[BrowserOS]]**\nYC S24\nopen-source local agent browser"},
-		{"id":"555666777888eeee","type":"text","x":800,"y":480,"width":240,"height":100,"text":"**[[Browser Use]]**\nYC W25\nopen-source agent + cloud"},
-		{"id":"666777888999ffff","type":"text","x":540,"y":620,"width":240,"height":100,"text":"**[[Skyvern]]**\nself-hosted browser agent\nLLM + computer vision"},
-		{"id":"c1d2e3f4a5b60718","type":"group","x":1090,"y":200,"width":540,"height":540,"label":"Proxy companies pivoting to browsers"},
-		{"id":"777888999aaabbcc","type":"text","x":1120,"y":260,"width":250,"height":100,"text":"**[[Bright Data Scraping Browser]]**\nresidential + stealth + CAPTCHA\n*passed our DataDome test 8/10*","color":"4"},
-		{"id":"888999aaabbcc012","type":"text","x":1390,"y":260,"width":230,"height":100,"text":"**[[Oxylabs]]**\nHeadless Browser"},
-		{"id":"999aaabbccddee03","type":"text","x":1120,"y":380,"width":250,"height":100,"text":"**[[ZenRows Scraping Browser]]**\nproxy_country=fr\nbuilt-in CAPTCHA"},
-		{"id":"aabbccddeeff0405","type":"text","x":1390,"y":380,"width":230,"height":100,"text":"**[[Rayobyte]]**\nRayoBrowse (self-hosted Docker)"},
-		{"id":"bbccddeeff050607","type":"text","x":1120,"y":510,"width":250,"height":80,"text":"**[[Decodo]]**\nNo browser product\nWeb Scraping API + Site Unblocker"},
-		{"id":"ccddeeff06070809","type":"text","x":1390,"y":510,"width":230,"height":80,"text":"**[[NetNut]]**\nNo browser product\nWebsite Unblocker"},
-		{"id":"d1e2f3a4b5c60829","type":"group","x":1090,"y":770,"width":540,"height":280,"label":"Other browsers in the test"},
-		{"id":"ddeeff0708091011","type":"text","x":1120,"y":830,"width":250,"height":80,"text":"**[[Camoufox]]**\nstealth Firefox fork\n(open source)"},
-		{"id":"eeff070809101213","type":"text","x":1390,"y":830,"width":230,"height":80,"text":"**[[Lightpanda]]**\nheadless engine in Zig"},
-		{"id":"ff07080910121314","type":"text","x":1120,"y":930,"width":250,"height":80,"text":"**[[Browserless]]**\nbrowser-as-a-service"},
-		{"id":"0708091012131415","type":"text","x":1390,"y":930,"width":230,"height":80,"text":"**[[Pydoll]]**\nCDP-driven Chromium\n(open source)"},
-		{"id":"e1f2a3b4c5d60738","type":"group","x":-40,"y":1090,"width":1670,"height":240,"label":"Anti-bot vendors"},
-		{"id":"1011121314151617","type":"text","x":0,"y":1150,"width":220,"height":90,"text":"**[[DataDome]]**\nfocus of this test\nleroymerlin.fr","color":"1"},
-		{"id":"1112131415161718","type":"text","x":240,"y":1150,"width":240,"height":90,"text":"**[[Cloudflare Bot Management]]**"},
-		{"id":"1213141516171819","type":"text","x":500,"y":1150,"width":240,"height":90,"text":"**[[Akamai Bot Manager]]**"},
-		{"id":"131415161718191a","type":"text","x":760,"y":1150,"width":200,"height":90,"text":"**[[HUMAN]]**\n(formerly White Ops)"},
-		{"id":"1415161718191a1b","type":"text","x":980,"y":1150,"width":200,"height":90,"text":"**[[Kasada]]**"},
-		{"id":"15161718191a1b1c","type":"text","x":1240,"y":1150,"width":380,"height":90,"text":"**Test verdict on leroymerlin.fr (DataDome)**\nOnly Bright Data Scraping Browser passed (8/10).\nEvery other tool stopped at the homepage.\nSee [[lab-datadome-2026-leroymerlin]]."}
+	"nodes": [
+		{
+			"id": "8a1c5e2f7b3d4a91",
+			"type": "text",
+			"x": 0,
+			"y": 0,
+			"width": 1100,
+			"height": 140,
+			"text": "# Agentic browsers landscape \u2014 2026\n\nVisual map of the agentic-browser space as of May 2026. Nodes are products or companies; edges show ownership, ships-with, and DataDome bypass results from [[lab-datadome-2026-leroymerlin]].\n\nLast refreshed: 2026-05-06"
+		},
+		{
+			"id": "a1b2c3d4e5f60789",
+			"type": "group",
+			"x": -40,
+			"y": 200,
+			"width": 480,
+			"height": 540,
+			"label": "Big AI labs"
+		},
+		{
+			"id": "f1e2d3c4b5a69708",
+			"type": "text",
+			"x": 0,
+			"y": 260,
+			"width": 200,
+			"height": 90,
+			"text": "**[[OpenAI Operator]]**\nJan 2025"
+		},
+		{
+			"id": "12ab34cd56ef7890",
+			"type": "text",
+			"x": 220,
+			"y": 260,
+			"width": 200,
+			"height": 90,
+			"text": "**[[ChatGPT Atlas]]**\nOct 2025\nbrowser by OpenAI"
+		},
+		{
+			"id": "9876fedcba543210",
+			"type": "text",
+			"x": 0,
+			"y": 380,
+			"width": 200,
+			"height": 90,
+			"text": "**[[Anthropic Computer Use]]**\nOct 2024"
+		},
+		{
+			"id": "0a1b2c3d4e5f6789",
+			"type": "text",
+			"x": 220,
+			"y": 380,
+			"width": 200,
+			"height": 90,
+			"text": "**[[Perplexity Comet]]**\n2025"
+		},
+		{
+			"id": "b1c2d3e4f5a60917",
+			"type": "group",
+			"x": 510,
+			"y": 200,
+			"width": 540,
+			"height": 820,
+			"label": "Agentic browser startups"
+		},
+		{
+			"id": "111222333444aaaa",
+			"type": "text",
+			"x": 540,
+			"y": 260,
+			"width": 240,
+			"height": 100,
+			"text": "**[[Hyperbrowser]]**\nYC S21\ncloud browser infra + CAPTCHA"
+		},
+		{
+			"id": "222333444555bbbb",
+			"type": "text",
+			"x": 800,
+			"y": 260,
+			"width": 240,
+			"height": 100,
+			"text": "**[[Browserbase]]**\n2024 (a16z-backed)\nmanaged Chromium"
+		},
+		{
+			"id": "333444555666cccc",
+			"type": "text",
+			"x": 800,
+			"y": 380,
+			"width": 240,
+			"height": 80,
+			"text": "**[[Stagehand]]**\nagent SDK by Browserbase"
+		},
+		{
+			"id": "444555666777dddd",
+			"type": "text",
+			"x": 540,
+			"y": 480,
+			"width": 240,
+			"height": 100,
+			"text": "**[[BrowserOS]]**\nYC S24\nopen-source local agent browser"
+		},
+		{
+			"id": "555666777888eeee",
+			"type": "text",
+			"x": 800,
+			"y": 480,
+			"width": 240,
+			"height": 100,
+			"text": "**[[Browser Use]]**\nYC W25\nopen-source agent + cloud"
+		},
+		{
+			"id": "666777888999ffff",
+			"type": "text",
+			"x": 540,
+			"y": 620,
+			"width": 240,
+			"height": 100,
+			"text": "**[[Skyvern]]**\nself-hosted browser agent\nLLM + computer vision"
+		},
+		{
+			"id": "c1d2e3f4a5b60718",
+			"type": "group",
+			"x": 1090,
+			"y": 200,
+			"width": 540,
+			"height": 540,
+			"label": "Proxy companies pivoting to browsers"
+		},
+		{
+			"id": "777888999aaabbcc",
+			"type": "text",
+			"x": 1120,
+			"y": 260,
+			"width": 250,
+			"height": 100,
+			"text": "**[[Bright Data Scraping Browser]]**\nresidential + stealth + CAPTCHA\n*passed our DataDome test 8/10*",
+			"color": "4"
+		},
+		{
+			"id": "888999aaabbcc012",
+			"type": "text",
+			"x": 1390,
+			"y": 260,
+			"width": 230,
+			"height": 100,
+			"text": "**[[Oxylabs]]**\nHeadless Browser"
+		},
+		{
+			"id": "999aaabbccddee03",
+			"type": "text",
+			"x": 1120,
+			"y": 380,
+			"width": 250,
+			"height": 100,
+			"text": "**[[ZenRows Scraping Browser]]**\nproxy_country=fr\nbuilt-in CAPTCHA"
+		},
+		{
+			"id": "aabbccddeeff0405",
+			"type": "text",
+			"x": 1390,
+			"y": 380,
+			"width": 230,
+			"height": 100,
+			"text": "**[[Rayobyte]]**\nRayoBrowse (self-hosted Docker)"
+		},
+		{
+			"id": "bbccddeeff050607",
+			"type": "text",
+			"x": 1120,
+			"y": 510,
+			"width": 250,
+			"height": 80,
+			"text": "**[[Decodo]]**\nNo browser product\nWeb Scraping API + Site Unblocker"
+		},
+		{
+			"id": "ccddeeff06070809",
+			"type": "text",
+			"x": 1390,
+			"y": 510,
+			"width": 230,
+			"height": 80,
+			"text": "**[[NetNut]]**\nNo browser product\nWebsite Unblocker"
+		},
+		{
+			"id": "d1e2f3a4b5c60829",
+			"type": "group",
+			"x": 1090,
+			"y": 770,
+			"width": 540,
+			"height": 280,
+			"label": "Other browsers in the test"
+		},
+		{
+			"id": "ddeeff0708091011",
+			"type": "text",
+			"x": 1120,
+			"y": 830,
+			"width": 250,
+			"height": 80,
+			"text": "**[[Camoufox]]**\nstealth Firefox fork\n(open source)"
+		},
+		{
+			"id": "eeff070809101213",
+			"type": "text",
+			"x": 1390,
+			"y": 830,
+			"width": 230,
+			"height": 80,
+			"text": "**[[Lightpanda]]**\nheadless engine in Zig"
+		},
+		{
+			"id": "ff07080910121314",
+			"type": "text",
+			"x": 1120,
+			"y": 930,
+			"width": 250,
+			"height": 80,
+			"text": "**[[Browserless]]**\nbrowser-as-a-service"
+		},
+		{
+			"id": "0708091012131415",
+			"type": "text",
+			"x": 1390,
+			"y": 930,
+			"width": 230,
+			"height": 80,
+			"text": "**[[Pydoll]]**\nCDP-driven Chromium\n(open source)"
+		},
+		{
+			"id": "e1f2a3b4c5d60738",
+			"type": "group",
+			"x": -40,
+			"y": 1090,
+			"width": 1670,
+			"height": 240,
+			"label": "Anti-bot vendors"
+		},
+		{
+			"id": "1011121314151617",
+			"type": "text",
+			"x": 0,
+			"y": 1150,
+			"width": 220,
+			"height": 90,
+			"text": "**[[DataDome]]**\nfocus of this test\nleroymerlin.fr",
+			"color": "1"
+		},
+		{
+			"id": "1112131415161718",
+			"type": "text",
+			"x": 240,
+			"y": 1150,
+			"width": 240,
+			"height": 90,
+			"text": "**[[Cloudflare Bot Management]]**"
+		},
+		{
+			"id": "1213141516171819",
+			"type": "text",
+			"x": 500,
+			"y": 1150,
+			"width": 240,
+			"height": 90,
+			"text": "**[[Akamai Bot Manager]]**"
+		},
+		{
+			"id": "131415161718191a",
+			"type": "text",
+			"x": 760,
+			"y": 1150,
+			"width": 200,
+			"height": 90,
+			"text": "**[[HUMAN]]**\n(formerly White Ops)"
+		},
+		{
+			"id": "1415161718191a1b",
+			"type": "text",
+			"x": 980,
+			"y": 1150,
+			"width": 200,
+			"height": 90,
+			"text": "**[[Kasada]]**"
+		},
+		{
+			"id": "15161718191a1b1c",
+			"type": "text",
+			"x": 1240,
+			"y": 1150,
+			"width": 380,
+			"height": 90,
+			"text": "**Test verdict on leroymerlin.fr (DataDome)**\nOnly Bright Data Scraping Browser passed (8/10).\nEvery other tool stopped at the homepage.\nSee [[lab-datadome-2026-leroymerlin]]."
+		}
 	],
-	"edges":[
-		{"id":"edge01","fromNode":"222333444555bbbb","fromSide":"bottom","toNode":"333444555666cccc","toSide":"top","label":"ships"},
-		{"id":"edge02","fromNode":"777888999aaabbcc","fromSide":"bottom","toNode":"1011121314151617","toSide":"top","label":"passes 8/10","color":"4"},
-		{"id":"edge03","fromNode":"999aaabbccddee03","fromSide":"bottom","toNode":"1011121314151617","toSide":"top","label":"high score, allowed","color":"5"},
-		{"id":"edge04","fromNode":"ddeeff0708091011","fromSide":"bottom","toNode":"1011121314151617","toSide":"top","label":"blocked","color":"1"},
-		{"id":"edge05","fromNode":"555666777888eeee","fromSide":"bottom","toNode":"1011121314151617","toSide":"top","label":"agent gives up","color":"1"},
-		{"id":"edge06","fromNode":"ff07080910121314","fromSide":"bottom","toNode":"1011121314151617","toSide":"top","label":"blocked (free tier)","color":"1"}
+	"edges": [
+		{
+			"id": "edge01",
+			"fromNode": "222333444555bbbb",
+			"fromSide": "bottom",
+			"toNode": "333444555666cccc",
+			"toSide": "top",
+			"label": "ships"
+		},
+		{
+			"id": "edge02",
+			"fromNode": "777888999aaabbcc",
+			"fromSide": "bottom",
+			"toNode": "1011121314151617",
+			"toSide": "top",
+			"label": "passes 8/10",
+			"color": "4"
+		},
+		{
+			"id": "edge03",
+			"fromNode": "999aaabbccddee03",
+			"fromSide": "bottom",
+			"toNode": "1011121314151617",
+			"toSide": "top",
+			"label": "high score, allowed",
+			"color": "5"
+		},
+		{
+			"id": "edge04",
+			"fromNode": "ddeeff0708091011",
+			"fromSide": "bottom",
+			"toNode": "1011121314151617",
+			"toSide": "top",
+			"label": "blocked",
+			"color": "1"
+		},
+		{
+			"id": "edge05",
+			"fromNode": "555666777888eeee",
+			"fromSide": "bottom",
+			"toNode": "1011121314151617",
+			"toSide": "top",
+			"label": "agent gives up",
+			"color": "1"
+		},
+		{
+			"id": "edge06",
+			"fromNode": "ff07080910121314",
+			"fromSide": "bottom",
+			"toNode": "1011121314151617",
+			"toSide": "top",
+			"label": "blocked (free tier)",
+			"color": "1"
+		}
 	]
 }

@@ -64,7 +64,7 @@ Example: [Cloudflare Bypass Evolution](timelines/cloudflare-bypass-evolution.md)
 
 [JSON Canvas](https://jsoncanvas.org/) files (`.canvas`) are graph-shaped visualizations Obsidian renders as an interactive whiteboard. Used for landscapes where 5+ entities and the relationships between them are the point. Each node references the matching entity page, so the canvas works as a navigable map.
 
-Example: [Agentic Browsers Landscape 2026](canvases/agentic-browsers-landscape-2026.canvas) covering OpenAI Operator/Atlas, Anthropic Computer Use, Perplexity Comet, Browser Use, Browserbase, BrowserOS, Hyperbrowser, and the YC batches that produced them.
+Example: [Agentic Browsers Landscape 2026](canvases/agentic-browsers-landscape-2026.canvas) covering OpenAI Operator/Atlas, Anthropic Computer Use, Perplexity Comet, Browser Use, Browserbase, BrowserOS, Hyperbrowser, and the proxy companies pivoting to managed browsers.
 
 ### Views (4 queries)
 
