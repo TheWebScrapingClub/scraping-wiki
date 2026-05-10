@@ -14,48 +14,73 @@ The pattern comes from Andrej Karpathy's [LLM Wiki](https://gist.github.com/karp
 
 The Obsidian-friendly authoring conventions and the use of `.canvas` (JSON Canvas) and `.base` (Obsidian Bases) files come from Steph Ango (kepano), Obsidian's CEO, and his [obsidian-skills](https://github.com/kepano/obsidian-skills) bundle. The wiki uses `defuddle` for clean source extraction, `obsidian-markdown` conventions for page authoring, `obsidian-bases` for live cross-cutting views, and `json-canvas` for visual landscape maps.
 
-## How it works
+## Sources
 
-A daily cron pipeline runs on a Mac mini paired with an [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) (GB10 Blackwell GPU) over an SSH tunnel:
+The wiki is built from publicly available articles, posts, and READMEs. The main feeds are:
 
-1. **HN ingestion** at 07:00 fetches new web-scraping news from the Hacker News Algolia index.
-2. **DBI ingestion** at 07:30 syncs new posts from deviceandbrowserinfo.com.
-3. **Wiki update** at 10:30 runs the local LLM pipeline:
-   - **Pass 1** — a Gemma 4 E2B classifier (Q8 GGUF, served by `llama.cpp` on the DGX) decides whether each new source belongs in the wiki. The classifier flags both tool/library content AND research-side content (detection techniques, fingerprint signal analysis, browser-platform news).
-   - **Pass 2** — for new entities (tools/products/libraries that don't yet have a wiki page), the LLM drafts an entity page following the [schema](schema.md), with frontmatter, sections, and validated cross-links.
-   - **Pass 3** — for items whose primary entity already exists, the source filename is appended to the page's `sources:` list. The LLM also picks at most one related concept page that the source enriches and adds the source there too.
-   - **Index recompact** — `index.md` is regenerated from the actual wiki tree, grouping entities by category and alphabetizing within each group. Curated blurbs from prior versions are preserved.
-   - **Auto-commit and push** — if the wiki tree changed, a daily commit goes to GitHub.
+- [The Web Scraping Club](https://thewebscraping.club/) — every TWSC article from 2022 onward.
+- [Device and Browser Info](https://deviceandbrowserinfo.com/) — Antoine Vastel's research on browser fingerprinting and bot detection.
+- [Hacker News](https://news.ycombinator.com/) — front-page submissions matching the wiki domain (web scraping, anti-bot, proxies, browsers, fingerprinting).
+- Vendor research blogs (DataDome, Cloudflare, Akamai, Castle.io, Bright Data, Oxylabs, and more).
+- Selected GitHub repositories and project sites for tools, libraries, and stealth browsers.
 
-Contradictions between old and new findings are resolved explicitly: the most recent observation wins for behavioral claims, but both versions are preserved with dates so the evolution remains visible. The full ruleset is in [schema.md](schema.md).
+Every page lists its specific sources in YAML frontmatter under `sources:`, and the trail goes back to a URL or a filename inside this repository.
 
-We do not write the wiki manually. The LLM does the bookkeeping, cross-referencing, and maintenance. We focus on testing, writing, and asking the right questions.
+## How it's maintained
+
+We do not maintain this wiki manually. An LLM pipeline reads new articles every day, decides which ones belong in the wiki, drafts new entity or concept pages, links sources to existing pages, and commits the result. Contradictions between old and new findings are resolved explicitly: the newest behavioral observation wins, but the prior version is preserved with a date so the evolution remains visible. The full ruleset is in [schema.md](schema.md).
+
+These are summaries of public articles, restructured for navigation. If you spot an error, an outdated claim, or a misattribution, please open an issue on this repository pointing to the specific page and what is wrong. We will fix it on the next daily run.
 
 ## What you will find
 
-**120 pages** across these types:
+The wiki holds **120 pages** across six types. Each type answers a different shape of question.
 
-- **Entities** (85 pages): anti-bot systems (Cloudflare, Akamai, DataDome, PerimeterX/HUMAN, Kasada, AWS WAF, reCAPTCHA, F5), scraping tools and libraries (Camoufox, Playwright, Scrapling, curl_cffi, Pydoll, Crawl4AI, GoScrapy, and many more), stealth and anti-detect browsers (Kameleo, GoLogin, Lightpanda, Konform, Owl, Browser Use), proxy networks and tools (NyxProxy, MeshScrape, BlankTrace, ClashMac, IPidea, Firehol), and web unblocker services.
+### Entities (85 pages)
 
-- **Concepts** (27 pages): browser fingerprinting, TLS fingerprinting, CDP detection, ML-based bot detection, the bot detection discipline as a whole, hybrid scraping, cookie reuse patterns, proxy economics, LLM-based scraping, legal landscape, mouse movement emulation, WebSocket detection, IPv6 proxy rotation, and more.
+One page per concrete thing in the domain. An entity is a tool, a library, a stealth browser, a commercial anti-bot product, a proxy network, or any other identifiable subject that has its own technical profile. The page describes what it is, how it works, what TWSC observed when testing it, and known limitations.
 
-- **Comparisons** (2 pages): Firefox vs Chrome stealth tools, anti-detect browser benchmark 2024.
+Examples: [DataDome](entities/datadome.md), [Cloudflare](entities/cloudflare.md), [Camoufox](entities/camoufox.md), [Scrapling](entities/scrapling.md), [Playwright](entities/playwright.md), [curl_cffi](entities/curl-cffi.md), [Lightpanda](entities/lightpanda.md), [Browser Use](entities/browser-use.md).
 
-- **Timelines** (1 page): Cloudflare bypass evolution from 2022 to 2026.
+### Concepts (27 pages)
 
-- **Canvases** (1 visual map): the agentic-browsers landscape covering OpenAI Operator/Atlas, Anthropic Computer Use, Perplexity Comet, Browser Use, Browserbase, BrowserOS, Hyperbrowser, and the YC batches that produced them.
+One page per technique, pattern, or domain idea. Concepts cover the *how* and the *why*: how a detection technique works, what signals it relies on, where it shows up across vendors. They reference the entities that implement or exploit them.
 
-- **Views** (4 Obsidian Bases queries): all entities by category, anti-bot vendors, recently-touched pages, tools and browsers.
+Examples: [Browser Fingerprinting](concepts/browser-fingerprinting.md), [TLS Fingerprinting](concepts/tls-fingerprinting.md), [CDP Detection](concepts/cdp-detection.md), [Bot Detection](concepts/bot-detection.md), [ML-Based Bot Detection](concepts/ml-bot-detection.md), [Hybrid Scraping](concepts/hybrid-scraping.md), [Cookie and Session Reuse](concepts/cookie-session-reuse.md), [Proxy Fundamentals](concepts/proxy-fundamentals.md).
 
-Every factual claim traces back to a source article filename in the page's `sources:` frontmatter.
+### Comparisons (2 pages)
+
+Side-by-side analyses when two or more entities or approaches occupy the same niche and the question "which one and when?" is itself the topic. Each comparison page has a tabular dimension and a narrative of the differences that actually matter.
+
+Examples: [Firefox vs Chrome Stealth](comparisons/firefox-vs-chrome-stealth.md), [Anti-Detect Browser Benchmark 2024](comparisons/anti-detect-browser-benchmark-2024.md).
+
+### Timelines (1 page)
+
+How something evolved over time, tracked across multiple sources. Used for situations where the *current* state is meaningless without the trajectory that produced it.
+
+Example: [Cloudflare Bypass Evolution](timelines/cloudflare-bypass-evolution.md) from 2022 to 2026.
+
+### Canvases (1 visual map)
+
+[JSON Canvas](https://jsoncanvas.org/) files (`.canvas`) are graph-shaped visualizations Obsidian renders as an interactive whiteboard. Used for landscapes where 5+ entities and the relationships between them are the point. Each node references the matching entity page, so the canvas works as a navigable map.
+
+Example: [Agentic Browsers Landscape 2026](canvases/agentic-browsers-landscape-2026.canvas) covering OpenAI Operator/Atlas, Anthropic Computer Use, Perplexity Comet, Browser Use, Browserbase, BrowserOS, Hyperbrowser, and the YC batches that produced them.
+
+### Views (4 queries)
+
+[Obsidian Bases](https://help.obsidian.md/bases) files (`.base`) are declarative queries over the rest of the vault. A view does not store knowledge — it surfaces it. As soon as a new entity or concept is added with the matching frontmatter, the view updates automatically. Useful for cross-cutting reads like "every anti-bot vendor sorted by last update" or "every entity touched in the last 90 days".
+
+Files: [all-entities](views/all-entities.base), [anti-bot-vendors](views/anti-bot-vendors.base), [recently-touched](views/recently-touched.base), [tools-and-browsers](views/tools-and-browsers.base).
 
 ## How to navigate
 
-Start from [index.md](index.md) for the full catalog grouped by category. Then click into the specific entity or concept page you care about.
+Start from [index.md](index.md) for the full catalog grouped by category, then drill into the specific entity, concept, or comparison page you care about. Each page lists its `sources:` in YAML frontmatter and ends with a `## Sources` section linking back to the original URLs.
 
 ## Use as an Obsidian vault
 
-This repository works directly as an Obsidian vault. Clone it on its own or symlink it under your existing vault, then open the folder in Obsidian:
+[Obsidian](https://obsidian.md/) is a free local-first markdown editor that treats a folder of `.md` files as a personal knowledge base. It builds a graph of cross-links, supports YAML frontmatter as queryable metadata, and ships with a Bases plugin (since 1.7) that turns the queries above into live tables.
+
+This repository works directly as an Obsidian vault. Clone it standalone or symlink it under your existing vault, then open the folder in Obsidian:
 
 ```bash
 # standalone
@@ -66,18 +91,16 @@ open -a Obsidian ~/Vaults/scraping-wiki
 ln -s /path/to/scraping-wiki ~/MyVault/Wiki
 ```
 
-What you get inside Obsidian:
+Once open, you can:
 
-- Graph view shows connections between entities and concepts via the markdown cross-links in each page.
-- The `.base` files under [views/](views/) render as live cross-cutting tables (e.g. all anti-bot vendors grouped by last update) thanks to the built-in Bases plugin.
-- The `.canvas` file under [canvases/](canvases/) renders as an interactive visual map.
-- YAML frontmatter (`type`, `category`, `last_updated`, `sources`) is queryable from Bases and from Dataview if you use it.
+- Browse the **graph view** — every cross-link between entities and concepts becomes an edge, and the wiki's structure becomes visible as a network.
+- Click any `.base` file under [views/](views/) to render a live, sortable table of matching pages.
+- Click [agentic-browsers-landscape-2026.canvas](canvases/agentic-browsers-landscape-2026.canvas) to open the interactive landscape map.
+- Use any markdown editor or `git diff` to read the wiki — Obsidian is convenient but optional.
 
-For best results, enable the Bases core plugin (built-in since Obsidian 1.7).
+## Reporting errors
 
-## Contributing
-
-This wiki reflects what The Web Scraping Club has tested and observed, plus what the daily pipeline picks up from outside research. If you find something outdated or wrong, open an issue referencing the specific page and claim. If you have test results that contradict or extend what is documented here, we want to hear about it.
+If you find something outdated, wrong, or misattributed, please open an issue on this repository pointing to the specific page and the claim that is off. Since the wiki is regenerated continuously, a simple GitHub issue is enough — no PR needed unless you also want to attach test results.
 
 ## License
 
