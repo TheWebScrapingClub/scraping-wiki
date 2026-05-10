@@ -2,12 +2,13 @@
 name: Bot Detection
 type: concept
 first_seen: 2024-01-01
-last_updated: '2026-05-07'
+last_updated: '2026-05-10'
 sources:
 - dbi-everything-about-user-agent.md
 - dbi-facebookexternalhit.md
 - dbi-go-http-client.md
 - dbi-linkedin-bot.md
+- 2026-01-29-fossil-captcha-solver.md
 ---
 
 # Bot Detection

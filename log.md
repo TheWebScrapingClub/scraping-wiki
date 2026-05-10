@@ -632,3 +632,16 @@ Appended 28 sources to existing wiki pages:
 - entities/open-bullet-2.md: 2 new sources
 - entities/puppeteer.md: 5 new sources
 
+
+## [2026-05-10] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- resurf (tool) — Resurf
+- mochi-js (library) — mochi.js
+
+Appended 4 sources to existing wiki pages:
+- concepts/bot-detection.md: 1 new source
+- concepts/browser-fingerprinting.md: 1 new source
+- concepts/proxy-fundamentals.md: 1 new source
+- concepts/webdriver-vs-cdp-vs-bidi.md: 1 new source
+

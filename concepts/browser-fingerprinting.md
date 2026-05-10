@@ -2,7 +2,7 @@
 name: browser-fingerprinting
 type: concept
 first_seen: 2010-01-01
-last_updated: '2026-05-07'
+last_updated: '2026-05-10'
 sources:
 - browser-fingerprinting-how-it-works.md
 - understanding-browser-fingerprint.md
@@ -31,6 +31,7 @@ sources:
 - dbi-take-good-screenshots-with-puppeteer.md
 - dbi-use-puppeteer-with-chrome-macos.md
 - dbi-webglrenderervalues.md
+- mochijs-com.md
 ---
 
 # Browser Fingerprinting

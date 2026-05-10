@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-07
+Last updated: 2026-05-10
 
 ## Visual maps and views
 
@@ -73,6 +73,7 @@ Last updated: 2026-05-07
 - [linkedinbot](entities/linkedinbot.md) — A scraper used by LinkedIn to gather information about shared URLs in posts or messages.
 - [lucidextractor](entities/lucidextractor.md) — An enterprise web scraping and SEO analysis platform.
 - [masterhttprelayvpn](entities/masterhttprelayvpn.md) — A domain-fronted HTTP/SOCKS5 proxy tool that tunnels traffic through Google Apps Script for scraping
+- [mochi-js](entities/mochi-js.md) — mochi.js is a Bun-native, raw-CDP browser automation framework designed to create relationally-coherent fingerprints.
 - [nodejs-based-scraper](entities/nodejs-based-scraper.md) — A previous project mentioned in the series used NodeJS to collect temporary phone numbers and messag
 - [Nodriver](entities/nodriver.md) — Chrome automation without WebDriver layer. Passes CDP tests natively but cannot forge hardware fingerprint.
 - [obscrd](entities/obscrd.md) — An open-source content protection system for React that scrambles HTML and blocks AI crawlers.
@@ -86,6 +87,7 @@ Last updated: 2026-05-07
 - [pydoll](entities/pydoll.md) — Async CDP Chrome automation. Stability issues in 2026 benchmarks.
 - [python-requests](entities/python-requests.md) — A Python HTTP library for making HTTP(s) requests.
 - [reader](entities/reader.md) — An open-source, production-grade web scraping engine built for LLMs.
+- [resurf](entities/resurf.md) — Resurf is a deterministic and reproducible test environment designed for systematically testing AI browser agents against realistic, stateful environments.
 - [ricci-flow-ai-web-scraper](entities/ricci-flow-ai-web-scraper.md) — A Chrome extension for AI-powered web scraping that extracts data from websites and exports it to Ex
 - [ScrapeGraphAI](entities/scrapegraphai.md) — LLM-powered scraping library and commercial API. Non-deterministic, best for horizontal multi-site extraction.
 - [scrapingduck](entities/scrapingduck.md) — A scraping API that handles IP rotation, JavaScript rendering, and provides a free tier for web scra
