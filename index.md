@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-12
+Last updated: 2026-05-13
 
 ## Visual maps and views
 
@@ -74,6 +74,7 @@ Last updated: 2026-05-12
 - [linkedinbot](entities/linkedinbot.md) — A scraper used by LinkedIn to gather information about shared URLs in posts or messages.
 - [lucidextractor](entities/lucidextractor.md) — An enterprise web scraping and SEO analysis platform.
 - [masterhttprelayvpn](entities/masterhttprelayvpn.md) — A domain-fronted HTTP/SOCKS5 proxy tool that tunnels traffic through Google Apps Script for scraping
+- [mitmproxy](entities/mitmproxy.md) — mitmproxy is a small interceptor written in Python used to build a proxy, exemplified by the `simple-proxy` project.
 - [mochi-js](entities/mochi-js.md) — mochi.js is a Bun-native, raw-CDP browser automation framework designed to create relationally-coherent fingerprints.
 - [nodejs-based-scraper](entities/nodejs-based-scraper.md) — A previous project mentioned in the series used NodeJS to collect temporary phone numbers and messag
 - [Nodriver](entities/nodriver.md) — Chrome automation without WebDriver layer. Passes CDP tests natively but cannot forge hardware fingerprint.
@@ -90,6 +91,7 @@ Last updated: 2026-05-12
 - [reader](entities/reader.md) — An open-source, production-grade web scraping engine built for LLMs.
 - [resurf](entities/resurf.md) — Resurf is a deterministic and reproducible test environment designed for systematically testing AI browser agents against realistic, stateful environments.
 - [ricci-flow-ai-web-scraper](entities/ricci-flow-ai-web-scraper.md) — A Chrome extension for AI-powered web scraping that extracts data from websites and exports it to Ex
+- [roxy](entities/roxy.md) — Roxy is a feature-rich RSS proxy written in Go that is designed to combine multiple RSS feeds into a single, queryable feed.
 - [ScrapeGraphAI](entities/scrapegraphai.md) — LLM-powered scraping library and commercial API. Non-deterministic, best for horizontal multi-site extraction.
 - [scrapingduck](entities/scrapingduck.md) — A scraping API that handles IP rotation, JavaScript rendering, and provides a free tier for web scra
 - [scrapingsandbox](entities/scrapingsandbox.md) — A web scraping sandbox for learning and testing web scraping techniques.
