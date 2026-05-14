@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-13
+Last updated: 2026-05-14
 
 ## Visual maps and views
 
@@ -35,6 +35,7 @@ Last updated: 2026-05-13
 - [blanktrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
 - [firehol](entities/firehol.md) — A community-driven project that aggregates multiple IP lists, including open proxies, Tor exit nodes
+- [hysteria](entities/hysteria.md) — Hysteria is a powerful, lightning fast, and censorship-resistant proxy.
 - [ipidea](entities/ipidea.md) — A residential proxy network that enrolled 9 million Android devices into a botnet.
 - [kampala](entities/kampala.md) — Kampala is a tool for intercepting and automating web traffic.
 - [meshscrape](entities/meshscrape.md) — A service that offers a distributed IP network for web scraping to avoid blocks and rate limits.

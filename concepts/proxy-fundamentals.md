@@ -2,7 +2,7 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-05-13'
+last_updated: '2026-05-14'
 sources:
 - everything-about-proxies.md
 - choosing-proxy-provider-scraping.md
@@ -44,6 +44,7 @@ sources:
 - dbi-proxy-db-benchmark-firehol-may-2025.md
 - githubv6-com.md
 - TimoKats-roxy.md
+- apernet-hysteria.md
 ---
 
 # Proxy Fundamentals
