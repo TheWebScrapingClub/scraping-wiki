@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-14
+Last updated: 2026-05-17
 
 ## Visual maps and views
 
@@ -64,6 +64,7 @@ Last updated: 2026-05-14
 - [gologin](entities/gologin.md) — Anti-detect browser, Orbita engine. Top benchmark performer 223/260 in 2024.
 - [goscrapy](entities/goscrapy.md) — A high-performance web scraping framework for Go, designed with the familiar architecture of Python'
 - [groxy](entities/groxy.md) — Groxy is a small Go library designed for building forward proxy servers.
+- [hodor](entities/hodor.md) — Hodor is a tiny reverse proxy written in Rust designed to gate web applications behind a single shared password.
 - [hRequests](entities/hrequests.md) — TLS-fingerprinted HTTP with embedded headless browser. Akamai/Cloudflare/PX pass; DataDome/Kasada fail.
 - [iherb-cli](entities/iherb-cli.md) — A Rust command-line tool for querying product data from iHerb using a headless browser.
 - [is-antibot](entities/is-antibot.md) — A library that detects antibot and CAPTCHA challenges from 30+ providers using signals.
