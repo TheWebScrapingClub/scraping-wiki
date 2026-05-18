@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-17
+Last updated: 2026-05-18
 
 ## Visual maps and views
 
