@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-18
+Last updated: 2026-05-19
 
 ## Visual maps and views
 
@@ -74,6 +74,7 @@ Last updated: 2026-05-18
 - [kimurai](entities/kimurai.md) — A Ruby-based web scraping framework that uses AI to assist in data extraction.
 - [libretto](entities/libretto.md) — A toolkit for building robust web integrations and maintaining browser automations.
 - [linkedinbot](entities/linkedinbot.md) — A scraper used by LinkedIn to gather information about shared URLs in posts or messages.
+- [llmcap](entities/llmcap.md) — LLMCap is a service designed to enforce hard dollar caps on LLM API calls across various providers.
 - [lucidextractor](entities/lucidextractor.md) — An enterprise web scraping and SEO analysis platform.
 - [masterhttprelayvpn](entities/masterhttprelayvpn.md) — A domain-fronted HTTP/SOCKS5 proxy tool that tunnels traffic through Google Apps Script for scraping
 - [mitmproxy](entities/mitmproxy.md) — mitmproxy is a small interceptor written in Python used to build a proxy, exemplified by the `simple-proxy` project.
