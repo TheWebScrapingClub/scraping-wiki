@@ -2,7 +2,7 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-05-19'
+last_updated: '2026-05-20'
 sources:
 - everything-about-proxies.md
 - choosing-proxy-provider-scraping.md
@@ -47,6 +47,7 @@ sources:
 - apernet-hysteria.md
 - michidk-hodor.md
 - www-llmcap-io.md
+- blacknon-childflow.md
 ---
 
 # Proxy Fundamentals

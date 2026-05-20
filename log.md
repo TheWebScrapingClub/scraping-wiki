@@ -698,3 +698,17 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/proxy-fundamentals.md: 1 new source
 
+
+## [2026-05-20] update | Pass 3 source linking
+
+Created 4 new entity pages from orphan RELEVANT news:
+- childflow (tool) — childflow
+- invisible-playwright (browser) — invisible_playwright
+- webassembly-simd (library) — WebAssembly SIMD
+- browserbase-chrome (browser) — Browserbase Chrome
+
+Appended 4 sources to existing wiki pages:
+- concepts/ai-scraping-assistants.md: 1 new source
+- concepts/browser-fingerprinting.md: 2 new sources
+- concepts/proxy-fundamentals.md: 1 new source
+

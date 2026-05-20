@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-19
+Last updated: 2026-05-20
 
 ## Visual maps and views
 
@@ -27,6 +27,8 @@ Last updated: 2026-05-19
 - [selenium-headless-chrome-detection](entities/selenium-headless-chrome-detection.md) — Describes four methods to detect bots using Selenium running in headless Chrome environments.
 
 ### Browsers
+- [browserbase-chrome](entities/browserbase-chrome.md) — Browserbase Chrome is utilized for running real-browser Quality Assurance (QA) against deployed previews of projects.
+- [invisible-playwright](entities/invisible-playwright.md) — invisible_playwright is a patched replacement for Playwright designed specifically for Firefox that is engineered to pass advanced bot detection tests.
 - [konform-browser](entities/konform-browser.md) — Konform Browser is a stealth browser based on Firefox ESR for web scraping and automation.
 - [lightpanda](entities/lightpanda.md) — Lightpanda is a browser built for AI and automation, offering faster execution and lower memory usag
 - [rayobrowse](entities/rayobrowse.md) — Rayobyte's stealth Chromium fork. Closed-source, Docker-based, CDP compatible. C++ patching. 100% benchmark score. Beta (2026).
@@ -51,6 +53,7 @@ Last updated: 2026-05-19
 - [canvas-fingerprint-defender](entities/canvas-fingerprint-defender.md) — A browser extension that defends against canvas fingerprinting.
 - [chaser-oxide](entities/chaser-oxide.md) — A Rust-based fork of `chromiumoxide` for hardened, undetectable browser automation.
 - [cheerio](entities/cheerio.md) — A library used in the Node.js environment for parsing HTML and extracting data from web pages.
+- [childflow](entities/childflow.md) — childflow is a per-command-tree network sandbox designed for Linux environments.
 - [crawl4ai](entities/crawl4ai.md) — An open-source web crawler and scraper for LLM-friendly Markdown output.
 - [curl-cffi](entities/curl-cffi.md) — Python HTTP client with TLS impersonation. Critical for hybrid scraping. Also covers scrapy-impersonate and hrequests.
 - [device-and-browser-info](entities/device-and-browser-info.md) — A platform offering tools and articles for browser fingerprinting and bot detection.
@@ -107,6 +110,7 @@ Last updated: 2026-05-19
 - [transparenttorproxy](entities/transparenttorproxy.md) — A Linux CLI utility that transparently routes all system traffic through the Tor network using nftab
 - [uaparser-js](entities/uaparser-js.md) — A JavaScript library recommended for parsing user agents to extract browser and OS information.
 - [undetected-chromedriver](entities/undetected-chromedriver.md) — Patched Selenium. Stagnant repo, succeeded by Nodriver/Zendriver.
+- [webassembly-simd](entities/webassembly-simd.md) — WebAssembly SIMD refers to Single Instruction, Multiple Data operations introduced to the WebAssembly specification.
 - [wick](entities/wick.md) — Wick is an open-source tool that allows AI agents to access web pages as if they were real browsers.
 - [wxpath](entities/wxpath.md) — wxpath is a Python library for declarative web crawling using XPath.
 
