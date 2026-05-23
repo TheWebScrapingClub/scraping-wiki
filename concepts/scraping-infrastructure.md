@@ -2,7 +2,7 @@
 name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-05-13'
+last_updated: '2026-05-23'
 sources:
 - the-costs-of-web-scraping.md
 - optimizing-costs-for-web-scraping.md
@@ -16,6 +16,7 @@ sources:
 - https://andrewkchan.dev/posts/crawler.html
 - SalzDevs-groxy.md
 - agudulin-simple-proxy.md
+- free-proxy-list.md
 ---
 
 # Scraping Infrastructure
