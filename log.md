@@ -721,3 +721,14 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 1 new source
 
+
+## [2026-05-24] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- beautiful-code-screenshots-codeshot (tool) — Beautiful Code Screenshots (CodeShot)
+- scrapy (library) — Scrapy
+
+Appended 2 sources to existing wiki pages:
+- concepts/llm-scraping.md: 1 new source
+- concepts/scraping-economics.md: 1 new source
+

@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-23
+Last updated: 2026-05-24
 
 ## Visual maps and views
 
@@ -48,6 +48,7 @@ Last updated: 2026-05-23
 - [aiohttp](entities/aiohttp.md) — AIOHTTP is an asynchronous HTTP Client/Server for asyncio and Python, used for creating bots and scr
 - [Algolia](entities/algolia.md) — Client-side search API. EndClothing full catalog with no anti-bot despite Akamai on site.
 - [AnyCrawl](entities/anycrawl.md) — MIT-licensed LLM-ready scraping API. JSON extraction mode, MCP server. No anti-bot bypass. Comparable to FireCrawl.
+- [beautiful-code-screenshots-codeshot](entities/beautiful-code-screenshots-codeshot.md) — CodeShot is an API toolkit designed for developers and AI agents that facilitates code screenshotting, website scraping, and link preview generation.
 - [botasaurus](entities/botasaurus.md) — Python scraping framework with decorator-based API. Works locally against Cloudflare/DataDome/Kasada. Fails from server (SwiftShader exposure).
 - [browser-use](entities/browser-use.md) — Browser Use is a cloud-based browser automation platform that aims to create undetectable browsers.
 - [camoufox](entities/camoufox.md) — Custom Firefox build. Best performer on strict Cloudflare/DataDome configs. Bypasses reCAPTCHA v3 (2025).
@@ -104,6 +105,7 @@ Last updated: 2026-05-23
 - [scrapingsandbox](entities/scrapingsandbox.md) — A web scraping sandbox for learning and testing web scraping techniques.
 - [scrapling](entities/scrapling.md) — Python library with three fetchers (static, dynamic, stealth). 1735x faster than BS4. Fetcher class achieves 100% on Nike/Akamai without browser overhead.
 - [Scrapoxy](entities/scrapoxy.md) — Open-source proxy aggregator. Unifies providers and cloud VM egress. ~20% cost savings vs. pure cloud.
+- [scrapy](entities/scrapy.md) — Scrapy is a Python library that is used in typical web scraping setups.
 - [simple-selenium-chrome-crawler](entities/simple-selenium-chrome-crawler.md) — A Python script that uses Selenium and Chrome to crawl web pages and extract links.
 - [spidersuite](entities/spidersuite.md) — A powerful web crawler and security testing tool for penetration testers and security researchers.
 - [spidra](entities/spidra.md) — A web scraping platform that uses AI to extract data from websites.
