@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-24
+Last updated: 2026-05-26
 
 ## Visual maps and views
 
@@ -42,6 +42,7 @@ Last updated: 2026-05-24
 - [kampala](entities/kampala.md) — Kampala is a tool for intercepting and automating web traffic.
 - [meshscrape](entities/meshscrape.md) — A service that offers a distributed IP network for web scraping to avoid blocks and rate limits.
 - [momoproxy](entities/momoproxy.md) — MoMoProxy is a service that provides free and paid proxy lists for various protocols, including HTTP, HTTPS, and SOCKS.
+- [ncro](entities/ncro.md) — Nix Cache Route Optimizer, or ncro, is a small HTTP proxy written in Rust that functions as an intermediary between the `nix-daemon` and configured substituters.
 - [nyxproxy](entities/nyxproxy.md) — A tool for building a self-hosted, rotating proxy gateway using IPv6 /64 subnets.
 
 ### Tools and libraries
@@ -106,6 +107,7 @@ Last updated: 2026-05-24
 - [scrapling](entities/scrapling.md) — Python library with three fetchers (static, dynamic, stealth). 1735x faster than BS4. Fetcher class achieves 100% on Nike/Akamai without browser overhead.
 - [Scrapoxy](entities/scrapoxy.md) — Open-source proxy aggregator. Unifies providers and cloud VM egress. ~20% cost savings vs. pure cloud.
 - [scrapy](entities/scrapy.md) — Scrapy is a Python library that is used in typical web scraping setups.
+- [sensecollect](entities/sensecollect.md) — SenseCollect is a self-service platform designed to simplify web data extraction for lead generation and market intelligence.
 - [simple-selenium-chrome-crawler](entities/simple-selenium-chrome-crawler.md) — A Python script that uses Selenium and Chrome to crawl web pages and extract links.
 - [spidersuite](entities/spidersuite.md) — A powerful web crawler and security testing tool for penetration testers and security researchers.
 - [spidra](entities/spidra.md) — A web scraping platform that uses AI to extract data from websites.

@@ -2,16 +2,17 @@
 name: Web Unblockers
 type: concept
 first_seen: 2023-04-06
-last_updated: 2026-04-22
+last_updated: '2026-05-26'
 sources:
-  - hands-on-2-testing-the-new-zyte-api.md
-  - testing-smartproxy-site-unblocker.md
-  - oxylabs-web-unblocker-test.md
-  - hands-on-6-testing-the-infatica-web.md
-  - web-unblocker-benchmark-march-2024.md
-  - the-web-unblocker-cost-benchmark.md
-  - web-unblocker-test-kasada.md
-  - web-unblocker-vs-browser-as-a-service-scraping.md
+- hands-on-2-testing-the-new-zyte-api.md
+- testing-smartproxy-site-unblocker.md
+- oxylabs-web-unblocker-test.md
+- hands-on-6-testing-the-infatica-web.md
+- web-unblocker-benchmark-march-2024.md
+- the-web-unblocker-cost-benchmark.md
+- web-unblocker-test-kasada.md
+- web-unblocker-vs-browser-as-a-service-scraping.md
+- sensecollect-com.md
 ---
 
 # Web Unblockers
