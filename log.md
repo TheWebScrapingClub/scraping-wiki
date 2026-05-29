@@ -743,3 +743,19 @@ Appended 2 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 1 new source
 - concepts/web-unblockers.md: 1 new source
 
+
+## [2026-05-29] update | Pass 3 source linking
+
+Created 5 new entity pages from orphan RELEVANT news:
+- squid (proxy-provider) — Squid
+- cloudflare-bot-management (anti-bot) — Cloudflare Bot Management
+- ag2b (tool) — AG2B
+- atproxy (proxy-provider) — atproxy
+- pangolin (proxy-provider) — Pangolin
+
+Appended 6 sources to existing wiki pages:
+- concepts/ai-scraping-assistants.md: 1 new source
+- concepts/bot-detection.md: 1 new source
+- concepts/mobile-app-scraping.md: 1 new source
+- concepts/proxy-fundamentals.md: 3 new sources
+

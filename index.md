@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-26
+Last updated: 2026-05-29
 
 ## Visual maps and views
 
@@ -18,6 +18,7 @@ Last updated: 2026-05-26
 - [Akamai Bot Manager](entities/akamai.md) — TLS/JA3-heavy detection with behavioral JS sensor. Silent drop on mismatch. Nike.com catalog uses Akamai only; TLS impersonation sufficient.
 - [AWS WAF](entities/aws-waf.md) — Amazon WAF with JavaScript challenge. Cookie factory pattern works: browser gets aws-waf-token, Scrapy reuses it.
 - [Cloudflare](entities/cloudflare.md) — Multi-layer defense (TLS, JSD, Turnstile, ML scoring). Most tested anti-bot in TWSC corpus.
+- [cloudflare-bot-management](entities/cloudflare-bot-management.md) — BotScope is a platform designed to audit anti-agentic defenses for any website, utilizing advanced heuristics to detect anti-bot and anti-agent measures with precision.
 - [Datadome](entities/datadome.md) — Behavioral analysis focus. Hermes.com is the canonical hard target. Chrome leaks automation signals that Firefox/Brave do not.
 - [F5 Bot Defense](entities/f5-bot-defense.md) — Enterprise anti-bot from F5 Networks. AI/behavioral focus. Second largest by market share (2022).
 - [Kasada](entities/kasada.md) — Australian company. 429 signature. Hardware fingerprinting. Zero-trust first-request philosophy.
@@ -34,6 +35,7 @@ Last updated: 2026-05-26
 - [rayobrowse](entities/rayobrowse.md) — Rayobyte's stealth Chromium fork. Closed-source, Docker-based, CDP compatible. C++ patching. 100% benchmark score. Beta (2026).
 
 ### Proxy networks and tools
+- [atproxy](entities/atproxy.md) — atproxy is a program written in Rust designed to transparently proxy TCP traffic originating from an Android application.
 - [blanktrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
 - [firehol](entities/firehol.md) — A community-driven project that aggregates multiple IP lists, including open proxies, Tor exit nodes
@@ -44,8 +46,11 @@ Last updated: 2026-05-26
 - [momoproxy](entities/momoproxy.md) — MoMoProxy is a service that provides free and paid proxy lists for various protocols, including HTTP, HTTPS, and SOCKS.
 - [ncro](entities/ncro.md) — Nix Cache Route Optimizer, or ncro, is a small HTTP proxy written in Rust that functions as an intermediary between the `nix-daemon` and configured substituters.
 - [nyxproxy](entities/nyxproxy.md) — A tool for building a self-hosted, rotating proxy gateway using IPv6 /64 subnets.
+- [pangolin](entities/pangolin.md) — Pangolin is a peer-to-peer alternative to Cloudflare Tunnels that utilizes a client-to-site VPN combined with an edge reverse proxy to provide cloaked HTTPS traffic.
+- [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
 
 ### Tools and libraries
+- [ag2b](entities/ag2b.md) — AG2B (Agent to Browser) is a client-side agentic runtime designed to allow an agent to execute its tasks directly within the user's browser.
 - [aiohttp](entities/aiohttp.md) — AIOHTTP is an asynchronous HTTP Client/Server for asyncio and Python, used for creating bots and scr
 - [Algolia](entities/algolia.md) — Client-side search API. EndClothing full catalog with no anti-bot despite Akamai on site.
 - [AnyCrawl](entities/anycrawl.md) — MIT-licensed LLM-ready scraping API. JSON extraction mode, MCP server. No anti-bot bypass. Comparable to FireCrawl.
