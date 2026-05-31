@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-05-29
+Last updated: 2026-05-31
 
 ## Visual maps and views
 
@@ -15,6 +15,7 @@ Last updated: 2026-05-29
 ## Entities
 
 ### Anti-bot systems
+- [ai-agent-reader-page](entities/ai-agent-reader-page.md) — This page is designed to present different content versions of a web page, distinguishing between what a human reader sees and what a software agent reads.
 - [Akamai Bot Manager](entities/akamai.md) — TLS/JA3-heavy detection with behavioral JS sensor. Silent drop on mismatch. Nike.com catalog uses Akamai only; TLS impersonation sufficient.
 - [AWS WAF](entities/aws-waf.md) — Amazon WAF with JavaScript challenge. Cookie factory pattern works: browser gets aws-waf-token, Scrapy reuses it.
 - [Cloudflare](entities/cloudflare.md) — Multi-layer defense (TLS, JSD, Turnstile, ML scoring). Most tested anti-bot in TWSC corpus.
@@ -62,6 +63,7 @@ Last updated: 2026-05-29
 - [chaser-oxide](entities/chaser-oxide.md) — A Rust-based fork of `chromiumoxide` for hardened, undetectable browser automation.
 - [cheerio](entities/cheerio.md) — A library used in the Node.js environment for parsing HTML and extracting data from web pages.
 - [childflow](entities/childflow.md) — childflow is a per-command-tree network sandbox designed for Linux environments.
+- [clashmax](entities/clashmax.md) — ClashMax is a native macOS graphical client built with SwiftUI that serves as a Mihomo proxy client.
 - [crawl4ai](entities/crawl4ai.md) — An open-source web crawler and scraper for LLM-friendly Markdown output.
 - [curl-cffi](entities/curl-cffi.md) — Python HTTP client with TLS impersonation. Critical for hybrid scraping. Also covers scrapy-impersonate and hrequests.
 - [device-and-browser-info](entities/device-and-browser-info.md) — A platform offering tools and articles for browser fingerprinting and bot detection.

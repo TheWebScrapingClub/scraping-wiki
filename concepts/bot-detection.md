@@ -2,7 +2,7 @@
 name: Bot Detection
 type: concept
 first_seen: 2024-01-01
-last_updated: '2026-05-29'
+last_updated: '2026-05-31'
 sources:
 - dbi-everything-about-user-agent.md
 - dbi-facebookexternalhit.md
@@ -12,6 +12,7 @@ sources:
 - blog-best-proxy-for-twitter-2026.md
 - insights-rotational-bot-identity-detection.md
 - botscope-org.md
+- taken-agents.md
 ---
 
 # Bot Detection

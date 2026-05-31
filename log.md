@@ -759,3 +759,14 @@ Appended 6 sources to existing wiki pages:
 - concepts/mobile-app-scraping.md: 1 new source
 - concepts/proxy-fundamentals.md: 3 new sources
 
+
+## [2026-05-31] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- clashmax (tool) — ClashMax
+- ai-agent-reader-page (anti-bot) — AI Agent Reader Page
+
+Appended 2 sources to existing wiki pages:
+- concepts/bot-detection.md: 1 new source
+- concepts/proxy-fundamentals.md: 1 new source
+
