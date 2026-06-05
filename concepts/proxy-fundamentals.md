@@ -2,7 +2,7 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-05-31'
+last_updated: '2026-06-05'
 sources:
 - everything-about-proxies.md
 - choosing-proxy-provider-scraping.md
@@ -52,6 +52,7 @@ sources:
 - blog-proxy-pool-size-stopped-mattering.md
 - news-building-a-peer-to-edge-peer-reverse-proxy.md
 - marvinli001-ClashMax.md
+- r-RedditEng-comments-1ttwqaj-fromproxytoproxylessremovingenvoyfrom.md
 ---
 
 # Proxy Fundamentals

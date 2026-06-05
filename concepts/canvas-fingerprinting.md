@@ -2,10 +2,11 @@
 name: canvas-fingerprinting
 type: concept
 first_seen: 2024-10-24
-last_updated: '2026-06-04'
+last_updated: '2026-06-05'
 sources:
 - scraping-datadome-camoufox.md
 - dbi-privacy-leak-detecting-canvas-countermeasures.md
+- posts-rise-of-vibe-coded-anti-bot-systems.md
 ---
 
 # Canvas Fingerprinting

@@ -837,3 +837,14 @@ Pages updated (backlinks):
 
 Total changes: 2 pages created, 6 pages updated.
 
+
+## [2026-06-05] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- envoy (tool) — Envoy
+
+Appended 3 sources to existing wiki pages:
+- concepts/canvas-fingerprinting.md: 1 new source
+- concepts/proxy-fundamentals.md: 1 new source
+- entities/cloudflare.md: 1 new source
+
