@@ -779,3 +779,61 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/mobile-proxy-farming.md: 1 new source
 
+
+## [2026-06-04] create | canvas-fingerprinting concept page
+
+Created concept page from the WWW'25 Pixel-Recovery paper research and our 2026 Camoufox fork analysis (in-progress Lab article, code under code/camoufox_fork_analysis/).
+
+Pages created:
+- concepts/canvas-fingerprinting.md: New concept. Explains the canvas element and readback APIs, flat vs edge regions, the four defense families, the Pixel-Recovery attack (Nguyen and Vadrevu, WWW '25) against position-seeded uniform noise, why Brave Farbling resists (content-dependent per-session noise), content-aware noise as the counter (LeooNic Camoufox patch), and our PropertyTracer observation of Datadome reading toDataURL/getImageData on leboncoin plus the official Camoufox noise behavior (9105/18240 flat pixels perturbed when seeded; noise off by default).
+
+Pages updated (backlinks + last_updated):
+- concepts/browser-fingerprinting.md: added canvas-fingerprinting to Related.
+- entities/camoufox.md: added Canvas Fingerprinting to Related.
+- entities/datadome.md: added Canvas Fingerprinting to Related.
+- entities/canvas-fingerprint-defender.md: added canvas-fingerprinting and browser-fingerprinting to Related.
+- index.md: added canvas-fingerprinting under Concepts; bumped Last updated to 2026-06-04.
+
+Sources added: WWW'25 paper (ACM DOI + author PDF), canvas-fp-attacks repo, LeooNic and camoufox-reverse forks, existing scraping-datadome-camoufox and deviceandbrowserinfo canvas-countermeasures sources.
+
+Total changes: 1 page created, 5 pages updated.
+
+
+## [2026-06-04] ingest | Is Camoufox still effective, and do the forks help? (Lab draft)
+
+Source: `drafts/lab-camoufox-forks-cloverlabs-draft.md` (in-progress Lab article; published URL forthcoming).
+
+Pages created:
+- entities/camoufox-reverse.md: New entity (browser). The WhiteNightShadow Camoufox fork with an engine-level PropertyTracer. What it is, how it is driven (CAMOU_CONFIG propertyTrace, raw Playwright, MOZ_DISABLE_CONTENT_SANDBOX on macOS), TWSC use (watching Datadome read canvas/WebGL on leboncoin, home vs ad pages), limitations (FF135, instrument not daily driver).
+
+Pages updated:
+- entities/camoufox.md: added "Project governance and fork ecosystem (2026)" section (CloverLabs/VulpineOS handoff, daijro source-of-truth, cloverlabs-camoufox alpha, the three notable forks, mirror-fork noise, the JWriter20 100%-blocked-vs-official structural finding). Added Known limitations: canvas noise off by default (9105/18240 when seeded), the leboncoin ad-page pass rate, and a dated WebRTC note. New source + Related (camoufox-reverse).
+- entities/datadome.md: added leboncoin engine-level trace finding (home 140 reads / 30 props vs ad page 584 reads, cookie.get 1->220, new surfaces; canvas/WebGL read; ad pages 403 direct, pass via proxy) and the JWriter20 structural-detection finding. New source + Related (camoufox-reverse).
+- concepts/canvas-fingerprinting.md: added camoufox-reverse to Related.
+- index.md: added camoufox-reverse under Browsers.
+
+Contradiction documented (not overwritten): camoufox.md "How it works" states GeoIP aligns the WebRTC IP to the proxy exit. Our 2026-06 test found that on a FF146 build behind an HTTP proxy the reflexive STUN candidate still exposed the real WAN IP (host candidate suppressed). Noted with date in Known limitations per schema rule 1.
+
+Key additions: the CloverLabs governance change and fork ecosystem (new to the wiki), the engine-level view of Datadome's reads on leboncoin, and the counterintuitive result that the most-patched fork (JWriter20) is blocked 100% while stock Camoufox passes, with the cause isolated to the request/connection layer rather than any static fingerprint.
+
+Total changes: 1 page created, 4 pages updated.
+
+
+## [2026-06-04] create | WebRTC IP leak concept + Camoufox vs forks comparison
+
+Source: `drafts/lab-camoufox-forks-cloverlabs-draft.md` and the 2026-06 fork analysis.
+
+Pages created:
+- concepts/webrtc-ip-leak.md: New concept. Defines the leak (ICE host vs server-reflexive candidates, STUN over UDP bypassing an HTTP proxy), the Firefox prefs that mitigate it, the about:blank methodological caveat, and our finding that stock Camoufox 146 leaks the real WAN IP under an HTTP proxy while the JWriter20 fork gathers zero candidates. Consolidates the earlier thin Browserleaks mention from the geo-fencing article.
+- comparisons/camoufox-vs-forks.md: New comparison. Table + narrative across official Camoufox, camoufox-reverse, LeooNic, JWriter20 on base FF version, what each changes, standard-stack runnability, canvas, WebRTC, and Datadome block rate on leboncoin. Verdict: run stock official on a clean IP.
+
+Pages updated (backlinks):
+- entities/camoufox.md: linked webrtc-ip-leak in the WebRTC limitation; added webrtc-ip-leak and Camoufox vs forks to Related.
+- entities/datadome.md: added webrtc-ip-leak to Related.
+- entities/camoufox-reverse.md: added Camoufox vs forks to Related.
+- concepts/browser-fingerprinting.md: added webrtc-ip-leak to Related.
+- concepts/canvas-fingerprinting.md: added Camoufox vs forks to Related.
+- index.md: added webrtc-ip-leak under Concepts and Camoufox vs its forks under Comparisons.
+
+Total changes: 2 pages created, 6 pages updated.
+

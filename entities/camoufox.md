@@ -3,7 +3,7 @@ name: camoufox
 type: entity
 category: tool
 first_seen: 2024-10-01
-last_updated: 2026-04-22
+last_updated: 2026-06-04
 sources:
   - scraping-datadome-camoufox.md
   - bypassing-cloudflare-in-2026.md
@@ -15,6 +15,7 @@ sources:
   - camoufox-server-docker.md
   - camoufox-server-in-aws.md
   - how-to-create-camoufox-docker-image.md
+  - lab-camoufox-forks-cloverlabs-draft.md
 ---
 
 # Camoufox
@@ -64,9 +65,24 @@ The NLB routes TCP traffic directly to EC2 instances. The Auto Scaling Group man
 
 This architecture allows Camoufox capacity to scale horizontally while maintaining the stateless browser-per-request model.
 
+## Project governance and fork ecosystem (2026)
+
+Development of Camoufox moved to a company. As of 2026, the daijro README states that active browser development happens at CloverLabsAI/camoufox and VulpineOS, while the daijro repository is the source-of-truth that merges checkpoint releases. Clover Labs is a Toronto venture studio building AI agents, listed among the project sponsors alongside Scrapfly. Alpha features (per-context fingerprints, hardware spoofing) ship first in the `cloverlabs-camoufox` pip package; the stable `camoufox` package is released on a delay.
+
+The public repository has more than 750 forks, but the large majority are mirror bots with no commits of their own (identical `pushed_at` to the parent). Reading the commit history of the active forks narrows the field to three that change anti-detect behavior:
+
+- [camoufox-reverse](camoufox-reverse.md) (WhiteNightShadow) adds an engine-level PropertyTracer that records which DOM getters a page reads. It is an instrument for observing detectors, not a better disguise.
+- LeooNic/camoufox adds content-aware [canvas](../concepts/canvas-fingerprinting.md) noise, a sigma-lognormal humanized mouse engine, and RDPBrowser, an automation path over the Firefox Remote Debugging Protocol instead of Juggler. Its published Firefox 149 build did not launch under the standard Playwright stack in our 2026-06 testing — it aborts at startup before Juggler attaches, and LeooNic issue #1 confirms the FF149 port is still in progress. It runs only through its own RDP tooling.
+- JWriter20/camoufox ships targeted stealth fixes, the headline being a closed WebRTC IP leak under a proxy on Firefox 146 (daijro issue #538), plus a real pytest suite.
+
+A counterintuitive result came out of testing these against [Datadome](datadome.md) on leboncoin.fr in 2026-06. The JWriter20 fork, the one that improves stealth, was blocked on 100% of ad pages while the official build passed almost all of them. This reproduced in both run orders and with the spoofed OS pinned identically. The page-level JS fingerprint, the TLS/JA3-JA4 ClientHello, and the HTTP/2 fingerprint were all identical between the two builds, so the block is structural to the JWriter20 build and lives in its request or connection behavior, not in any static fingerprint. The practical lesson is that a more-patched fork is not automatically a safer choice: stock Camoufox on a clean residential IP outperformed the forks here.
+
 ## Known limitations
 
 - Anti-bot vendors can still detect behavioral patterns if request velocity is high. The 31% on Indeed reflects this.
+- Canvas pixel noise is disabled by default in current builds, consistent with a CloverLabs "Disable Canvas Noise" commit. When forced on via `canvas:seed`, the stock algorithm perturbs roughly half of all pixels including flat solid fills (9105 of 18240 interior pixels in our two-block probe), which is the reversible style the WWW'25 Pixel-Recovery attack targets (see [canvas fingerprinting](../concepts/canvas-fingerprinting.md)). Stock Camoufox relies on a realistic fingerprint and a clean IP rather than on canvas randomization.
+- WebRTC IP under a proxy: previously documented above that GeoIP aligns the WebRTC IP to the proxy exit. As of 2026-06, on a Firefox 146 build behind an HTTP proxy, we observed a [WebRTC IP leak](../concepts/webrtc-ip-leak.md), with the reflexive STUN (srflx) candidate still exposing the real WAN IP while the host/LAN candidate was suppressed. The JWriter20 fork closes this with `default_address_only` and `proxy_only_*` prefs that make WebRTC gather no candidates behind a proxy. Test the WebRTC surface per build and per Firefox version.
+- On leboncoin.fr the homepage passes cleanly, but the ad detail pages return 403 on a direct connection. Through a clean residential proxy, official Camoufox 146 passed about 95 to 100% of ad pages, and a short burst of blocked requests from one IP heated the address quickly.
 - Hermes.com demonstrated that vendor-side configuration changes can break a working bypass without any change on our end. Monitoring and fast response are required.
 - The `headless="virtual"` mode requires xvfb on Linux, which adds infrastructure overhead compared to true headless tools.
 - Fingerprint rotation means some profiles in the database are detected by strict configurations. In 2025 testing against Indeed.com Turnstile (run locally), Camoufox required multiple retries before landing on a clean profile. This inconsistency makes it less reliable than Botasaurus or Patchright in that specific scenario when running locally without a proxy.
@@ -75,6 +91,10 @@ This architecture allows Camoufox capacity to scale horizontally while maintaini
 ## Related
 
 - [Browser Fingerprinting](../concepts/browser-fingerprinting.md)
+- [Canvas Fingerprinting](../concepts/canvas-fingerprinting.md)
+- [WebRTC IP Leak](../concepts/webrtc-ip-leak.md)
+- [camoufox-reverse](camoufox-reverse.md)
+- [Camoufox vs forks](../comparisons/camoufox-vs-forks.md)
 - [Cloudflare](cloudflare.md)
 - [Datadome](datadome.md)
 - [Kasada](kasada.md)
@@ -94,3 +114,6 @@ This architecture allows Camoufox capacity to scale horizontally while maintaini
 - [https://substack.thewebscraping.club/p/camoufox-server-docker](https://substack.thewebscraping.club/p/camoufox-server-docker)
 - [https://substack.thewebscraping.club/p/camoufox-server-in-aws](https://substack.thewebscraping.club/p/camoufox-server-in-aws)
 - [https://substack.thewebscraping.club/p/how-to-create-camoufox-docker-image](https://substack.thewebscraping.club/p/how-to-create-camoufox-docker-image)
+- TWSC Lab article, forthcoming 2026: "Is Camoufox still effective, and do the forks help?" (draft: `drafts/lab-camoufox-forks-cloverlabs-draft.md`)
+- [daijro/camoufox (README: CloverLabs/VulpineOS handoff)](https://github.com/daijro/camoufox)
+- [CloverLabsAI/camoufox](https://github.com/CloverLabsAI/camoufox)

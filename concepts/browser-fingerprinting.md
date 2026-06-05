@@ -2,7 +2,7 @@
 name: browser-fingerprinting
 type: concept
 first_seen: 2010-01-01
-last_updated: '2026-05-20'
+last_updated: '2026-06-04'
 sources:
 - browser-fingerprinting-how-it-works.md
 - understanding-browser-fingerprint.md
@@ -137,6 +137,8 @@ The practical challenge for scrapers is not understanding what is collected but 
 
 ## Related
 
+- [canvas-fingerprinting](./canvas-fingerprinting.md)
+- [webrtc-ip-leak](./webrtc-ip-leak.md)
 - [tls-fingerprinting](./tls-fingerprinting.md)
 - [cdp-detection](./cdp-detection.md)
 - [hybrid-scraping](./hybrid-scraping.md)

@@ -3,7 +3,7 @@ name: canvas-fingerprint-defender
 type: entity
 category: tool
 first_seen: 2026-05-07
-last_updated: 2026-05-07
+last_updated: 2026-06-04
 sources:
   - dbi-privacy-leak-detecting-canvas-countermeasures.md
 ---
@@ -24,6 +24,8 @@ Not yet tested by TWSC.
 
 ## Related
 
+- [canvas-fingerprinting](../concepts/canvas-fingerprinting.md)
+- [browser-fingerprinting](../concepts/browser-fingerprinting.md)
 - [Dolphin Anty](../entities/dolphin-anty.md)
 
 

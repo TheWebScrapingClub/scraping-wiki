@@ -3,7 +3,7 @@ name: Datadome
 type: entity
 category: anti-bot
 first_seen: 2022-09-15
-last_updated: 2026-04-22
+last_updated: 2026-06-04
 sources:
   - scraping-datadome-camoufox.md
   - bypass-datadome-mouse-movements-in-playwright.md
@@ -15,6 +15,7 @@ sources:
   - scraping-idealista-bypass-datadome.md
   - anti-detect-anti-bot-matrix.md
   - the-lab-21-bypass-anti-bot-challenges.md
+  - lab-camoufox-forks-cloverlabs-draft.md
 ---
 
 ## What it is
@@ -57,6 +58,10 @@ Ghost Cursor, a Bezier curve plus Fitts's Law mouse movement library, was necess
 
 Cookie and session reuse was explored in [the-lab-94-using-cookies-and-session](https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session). The results across leboncoin.fr, Allegro, and Idealista showed that there is no universal answer: each target requires independent testing to determine whether and how cookies can be reused.
 
+**leboncoin.fr engine-level trace (2026-06)**: Using [camoufox-reverse](camoufox-reverse.md), a Camoufox fork with a PropertyTracer at the SpiderMonkey layer, we observed which DOM getters Datadome's script reads. The protection is not uniform across the site. The homepage runs a light probe (about 30 distinct properties, 140 reads), while an ad detail page runs a much heavier one (584 reads): `document.cookie.get` jumps from 1 to 220, and `sessionStorage`, `window.scrollY`, `navigator.globalPrivacyControl`, and `mediaDevices.enumerateDevices` appear, none of which the homepage touched. Both pages read the [canvas](../concepts/canvas-fingerprinting.md) and WebGL (`toDataURL`, `getImageData`, `webgl.getParameter`, `offscreenCanvas.getContext`). Ad pages return 403 on a direct connection but pass through a clean residential proxy.
+
+A separate 2026-06 finding: the JWriter20 [Camoufox](camoufox.md) fork was blocked on 100% of leboncoin ad pages while stock Camoufox passed almost all of them, despite an identical page-level JS fingerprint, TLS/JA3-JA4 ClientHello, and HTTP/2 fingerprint between the two builds. The block reproduced with the spoofed OS pinned identically, so Datadome was reacting to a request or connection-level signal in the JWriter20 build, not to any static fingerprint we could measure.
+
 ## Known limitations
 
 Hermes.com represents a configuration that is near the edge of what open-source tooling can handle. The October 2024 break demonstrated that Datadome updates can invalidate working setups without notice.
@@ -74,6 +79,9 @@ Mobile impersonation can bypass stricter Datadome configurations on some targets
 ## Related
 
 - [Camoufox](camoufox.md)
+- [camoufox-reverse](camoufox-reverse.md)
+- [Canvas Fingerprinting](../concepts/canvas-fingerprinting.md)
+- [WebRTC IP Leak](../concepts/webrtc-ip-leak.md)
 - [Cloudflare](cloudflare.md)
 - [PerimeterX](perimeterx.md)
 - [Ghost Cursor](ghost-cursor.md)
