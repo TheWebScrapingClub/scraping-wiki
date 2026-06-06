@@ -848,3 +848,12 @@ Appended 3 sources to existing wiki pages:
 - concepts/proxy-fundamentals.md: 1 new source
 - entities/cloudflare.md: 1 new source
 
+
+## [2026-06-06] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- vnc2go (proxy-provider) — VNC2Go
+
+Appended 1 sources to existing wiki pages:
+- concepts/proxy-fundamentals.md: 1 new source
+
