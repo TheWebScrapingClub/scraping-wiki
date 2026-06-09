@@ -857,3 +857,14 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/proxy-fundamentals.md: 1 new source
 
+
+## [2026-06-09] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- guestlist-tools (library) — guestlist-tools
+- intuned-agent (tool) — Intuned Agent
+
+Appended 2 sources to existing wiki pages:
+- concepts/ai-scraping-assistants.md: 1 new source
+- concepts/web-unblockers.md: 1 new source
+
