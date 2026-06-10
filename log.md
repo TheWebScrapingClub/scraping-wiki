@@ -868,3 +868,16 @@ Appended 2 sources to existing wiki pages:
 - concepts/ai-scraping-assistants.md: 1 new source
 - concepts/web-unblockers.md: 1 new source
 
+
+## [2026-06-10] update | Pass 3 source linking
+
+Created 3 new entity pages from orphan RELEVANT news:
+- chromiumfish (browser) — ChromiumFish
+- bot-detection-system (anti-bot) — Bot Detection System
+- claw-patrol (anti-bot) — Claw Patrol
+
+Appended 3 sources to existing wiki pages:
+- concepts/anti-detect-browsers.md: 1 new source
+- concepts/bot-detection.md: 1 new source
+- concepts/scraping-infrastructure.md: 1 new source
+

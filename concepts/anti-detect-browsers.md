@@ -2,7 +2,7 @@
 name: Anti-Detect Browsers
 type: concept
 first_seen: 2022-01-01
-last_updated: '2026-05-07'
+last_updated: '2026-06-10'
 sources:
 - bypass-cloudflare-scraping-playwright.md
 - bypassing-cloudflare-gologin-playwrigh.md
@@ -23,6 +23,7 @@ sources:
 - dbi-fingerprint-unmodified-chrome-puppeteer.md
 - dbi-getting-started-bot-detection.md
 - dbi-remove-chrome-controlled-by-automated-test-puppeteer.md
+- arman-bd-chromiumfish.md
 ---
 
 # Anti-Detect Browsers
