@@ -2,7 +2,7 @@
 name: Web Unblockers
 type: concept
 first_seen: 2023-04-06
-last_updated: '2026-06-09'
+last_updated: '2026-06-16'
 sources:
 - hands-on-2-testing-the-new-zyte-api.md
 - testing-smartproxy-site-unblocker.md
@@ -14,6 +14,7 @@ sources:
 - web-unblocker-vs-browser-as-a-service-scraping.md
 - sensecollect-com.md
 - guestlist-tools.md
+- demo.md
 ---
 
 # Web Unblockers

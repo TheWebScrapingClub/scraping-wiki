@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-06-11
+Last updated: 2026-06-16
 
 ## Visual maps and views
 
@@ -29,6 +29,7 @@ Last updated: 2026-06-11
 - [reCAPTCHA](entities/recaptcha.md) — Google CAPTCHA system (v1/v2/v3). v3 is invisible risk scoring. Camoufox bypasses it; open-source token extractors do not.
 - [sec-ch-ua-form-factors](entities/sec-ch-ua-form-factors.md) — A new HTTP client hint supported by Chrome that describes the user's device type (e.g., Desktop, Mob
 - [selenium-headless-chrome-detection](entities/selenium-headless-chrome-detection.md) — Describes four methods to detect bots using Selenium running in headless Chrome environments.
+- [usehuma](entities/usehuma.md) — useHUMA is an anti-bot startup that provides bot detection services.
 
 ### Browsers
 - [browserbase-chrome](entities/browserbase-chrome.md) — Browserbase Chrome is utilized for running real-browser Quality Assurance (QA) against deployed previews of projects.
@@ -38,8 +39,10 @@ Last updated: 2026-06-11
 - [konform-browser](entities/konform-browser.md) — Konform Browser is a stealth browser based on Firefox ESR for web scraping and automation.
 - [lightpanda](entities/lightpanda.md) — Lightpanda is a browser built for AI and automation, offering faster execution and lower memory usag
 - [rayobrowse](entities/rayobrowse.md) — Rayobyte's stealth Chromium fork. Closed-source, Docker-based, CDP compatible. C++ patching. 100% benchmark score. Beta (2026).
+- [real-browser](entities/real-browser.md) — A real browser is a tool used to actively check job boards to determine if job postings are still live and active.
 
 ### Proxy networks and tools
+- [agent-vault-proxy](entities/agent-vault-proxy.md) — agent-vault-proxy is a tool designed to provide just-in-time API keys for AI agents and other processes routed through it.
 - [atproxy](entities/atproxy.md) — atproxy is a program written in Rust designed to transparently proxy TCP traffic originating from an Android application.
 - [blanktrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
