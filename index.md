@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-06-17
+Last updated: 2026-06-20
 
 ## Visual maps and views
 
@@ -132,6 +132,7 @@ Last updated: 2026-06-17
 - [simple-selenium-chrome-crawler](entities/simple-selenium-chrome-crawler.md) — A Python script that uses Selenium and Chrome to crawl web pages and extract links.
 - [spidersuite](entities/spidersuite.md) — A powerful web crawler and security testing tool for penetration testers and security researchers.
 - [spidra](entities/spidra.md) — A web scraping platform that uses AI to extract data from websites.
+- [supercrawl](entities/supercrawl.md) — SuperCrawl is an open-source web crawler implemented in the Rust programming language.
 - [tadpole](entities/tadpole.md) — A language for writing declarative, modular scraping code.
 - [transparenttorproxy](entities/transparenttorproxy.md) — A Linux CLI utility that transparently routes all system traffic through the Tor network using nftab
 - [uaparser-js](entities/uaparser-js.md) — A JavaScript library recommended for parsing user agents to extract browser and OS information.

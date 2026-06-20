@@ -908,3 +908,9 @@ Appended 2 sources to existing wiki pages:
 Created 1 new entity pages from orphan RELEVANT news:
 - nakshguard (proxy-provider) — NakshGuard
 
+
+## [2026-06-20] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- supercrawl (library) — SuperCrawl
+
