@@ -914,3 +914,14 @@ Created 1 new entity pages from orphan RELEVANT news:
 Created 1 new entity pages from orphan RELEVANT news:
 - supercrawl (library) — SuperCrawl
 
+
+## [2026-06-22] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- client-side-bot-detection (anti-bot) — Client-side bot detection
+- greyfox-community-edition (proxy-provider) — GreyFox Community Edition
+
+Appended 2 sources to existing wiki pages:
+- concepts/bot-detection.md: 1 new source
+- concepts/scraping-infrastructure.md: 1 new source
+

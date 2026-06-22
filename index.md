@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-06-20
+Last updated: 2026-06-22
 
 ## Visual maps and views
 
@@ -20,6 +20,7 @@ Last updated: 2026-06-20
 - [AWS WAF](entities/aws-waf.md) — Amazon WAF with JavaScript challenge. Cookie factory pattern works: browser gets aws-waf-token, Scrapy reuses it.
 - [bot-detection-system](entities/bot-detection-system.md) — A bot detection system separates real users from unwanted automation by employing probabilistic scoring rather than relying on a single check.
 - [claw-patrol](entities/claw-patrol.md) — Claw Patrol is a security firewall designed to sit between agents and production environments.
+- [client-side-bot-detection](entities/client-side-bot-detection.md) — Client-side bot detection involves running detection logic within the browser environment, which presents an asymmetry where the code executes in an environment controlled by the attacker, including their CPU, debugger, and clock.
 - [Cloudflare](entities/cloudflare.md) — Multi-layer defense (TLS, JSD, Turnstile, ML scoring). Most tested anti-bot in TWSC corpus.
 - [cloudflare-bot-management](entities/cloudflare-bot-management.md) — BotScope is a platform designed to audit anti-agentic defenses for any website, utilizing advanced heuristics to detect anti-bot and anti-agent measures with precision.
 - [Datadome](entities/datadome.md) — Behavioral analysis focus. Hermes.com is the canonical hard target. Chrome leaks automation signals that Firefox/Brave do not.
@@ -47,6 +48,7 @@ Last updated: 2026-06-20
 - [blanktrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
 - [firehol](entities/firehol.md) — A community-driven project that aggregates multiple IP lists, including open proxies, Tor exit nodes
+- [greyfox-community-edition](entities/greyfox-community-edition.md) — GreyFox Community Edition is a self-hosted AI traffic proxy and local operator console designed for teams seeking to control LLM token usage, enforce per-user limits, reuse exact cached responses, and maintain visibility into AI traffic within their own infrastructure.
 - [hysteria](entities/hysteria.md) — Hysteria is a powerful, lightning fast, and censorship-resistant proxy.
 - [ipidea](entities/ipidea.md) — A residential proxy network that enrolled 9 million Android devices into a botnet.
 - [kampala](entities/kampala.md) — Kampala is a tool for intercepting and automating web traffic.
