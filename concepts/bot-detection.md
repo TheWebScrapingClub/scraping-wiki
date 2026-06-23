@@ -2,7 +2,7 @@
 name: Bot Detection
 type: concept
 first_seen: 2024-01-01
-last_updated: '2026-06-22'
+last_updated: '2026-06-23'
 sources:
 - dbi-everything-about-user-agent.md
 - dbi-facebookexternalhit.md
@@ -16,6 +16,7 @@ sources:
 - blog-how-bot-detection-works.md
 - blog-anatomy-of-a-55k-bot-attack.md
 - blog-reverse-once-run-forever.md
+- https://browser-use.com/posts/bot-detection
 ---
 
 # Bot Detection
@@ -49,6 +50,12 @@ Researchers like Antoine Vastel (DataDome) and the team behind Castle.io publish
 ## What We Tested
 
 TWSC articles routinely benchmark anti-bot products to see which scraping configurations they catch and which they pass. Findings flow into individual entity pages ([DataDome](../entities/datadome.md), [Cloudflare](../entities/cloudflare.md), etc.) and concept pages on specific signals ([CDP Detection](cdp-detection.md), [Browser Fingerprinting](browser-fingerprinting.md), [TLS Fingerprinting](tls-fingerprinting.md), [Mouse Movement Emulation](mouse-movement-emulation.md)).
+
+## Detect More Than They Block
+
+A point worth separating from the signal layers: anti-bot systems can detect far more automation than they actually block. False positives hurt conversion, so vendors set blocking thresholds conservatively and leave many detection rules in "monitor only" mode. Browser Use's framing (February 2026) is that most automation works today not because it is undetectable but because the switch from monitor to block has not been flipped. JavaScript patches, stealth plugins, and CDP hacks are already detectable; they are simply tolerated. The expectation is that as AI agents flood the web and bot traffic crosses a tipping point, the cost of letting bots through will exceed the cost of occasionally blocking humans, and thresholds will tighten. A stealth stack that relies on lenient thresholds rather than genuine coherence is exposed to that shift.
+
+A related scaling risk: anti-bot AI looks for shared fingerprint signatures across requests and applies temporal rules at the network level, not just per session. A fleet of scrapers sharing one fingerprint pattern (for example, Linux-everywhere with the same spoofed Windows profile) can be blocked wholesale when a single member is flagged. At scale, fingerprint diversity that matches real-world OS distribution (Windows ~60%, macOS ~35%, Linux ~5%) matters as much as per-session coherence. See [browser-fingerprinting](browser-fingerprinting.md) and [browser-use](../entities/browser-use.md).
 
 ## Current State
 

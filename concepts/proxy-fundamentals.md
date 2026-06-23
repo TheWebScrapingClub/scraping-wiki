@@ -2,7 +2,7 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-06-06'
+last_updated: '2026-06-23'
 sources:
 - everything-about-proxies.md
 - choosing-proxy-provider-scraping.md
@@ -54,6 +54,7 @@ sources:
 - marvinli001-ClashMax.md
 - r-RedditEng-comments-1ttwqaj-fromproxytoproxylessremovingenvoyfrom.md
 - vnc2go-odinglynn-com.md
+- https://spur.us/blog/smart-tv-apps-residential-proxy-sdks
 ---
 
 # Proxy Fundamentals
@@ -189,6 +190,18 @@ The takedown confirms that a significant portion of "clean" residential proxy po
 
 Source: voidmob.com/blog/free-vpns-proxies-sell-your-device (2026-02-17)
 
+### Smart TV App Proxy SDKs (2025/2026)
+
+The SDK enrollment model extends beyond mobile devices to smart TV platforms. A Spur scan of 6,038 apps on LG webOS and Samsung Tizen found that 2,058 (34%) contained embedded proxy SDKs. Three SDK providers were identified: Bright Data, Massive, and Honeygain (a subsidiary of Oxylabs). Bright Data entities accounted for 367 proxy-flagged apps; Honeygain for 16.
+
+The technical implementation varies by provider. Bright Data's SDK includes an explicit private IP blocklist (127.0.0.0/8, 10.0.0.0/8, 172.16.0.0/12, 169.254.0.0/16, 192.168.0.0/16), limiting which traffic it will proxy. Massive's SDK parses `host:port` values and opens raw socket connections. Honeygain's SDK responds to server messages with a `connect` type parameter.
+
+All three SDKs keep running after the host app is closed. Consent is typically framed as an "ad-free option": the user selects no-ads gameplay in exchange for background network access, without the proxy function being named explicitly.
+
+Platform policy is inconsistent. Amazon explicitly bans proxy services via its Device and System Abuse Policy; Roku reportedly blocks Bright SDK. LG and Samsung have no equivalent public policies, which explains why this deployment vector concentrates on their platforms.
+
+Source: Spur — [https://spur.us/blog/smart-tv-apps-residential-proxy-sdks](https://spur.us/blog/smart-tv-apps-residential-proxy-sdks) (2025/2026)
+
 Alternative sourcing methods include router farming (compromised home routers) and SIM card farms, which are the physical basis for many mobile proxy providers (see [mobile-proxy-farming](./mobile-proxy-farming.md)).
 
 ### Third-Party Reverse Proxy Trust Model (2026-03)
@@ -233,6 +246,7 @@ As of 2026-02, adversarial use of reverse proxy patterns (Starkiller) has indust
 - [tls-fingerprinting](./tls-fingerprinting.md)
 - [browser-fingerprinting](./browser-fingerprinting.md)
 - [mobile-proxy-farming](./mobile-proxy-farming.md)
+- [static-isp-proxies](./static-isp-proxies.md)
 - [web-unblockers](./web-unblockers.md)
 - [scraping-infrastructure](./scraping-infrastructure.md)
 - [Cloudflare](../entities/cloudflare.md)

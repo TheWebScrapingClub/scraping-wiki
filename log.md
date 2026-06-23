@@ -936,3 +936,96 @@ Appended 2 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 1 new source
 - concepts/websocket-scraping.md: 1 new source
 
+
+## [2026-06-23] create | Static ISP proxies — concept + entities from Spur YouTube webinar
+
+Source: Spur research team (Riley Kilmer, Sean) — YouTube webinar on static ISP proxy sourcing and detection. https://www.youtube.com/watch?v=MQ1zpnlMMUc (2025/2026). Additional source: Spur blog post on Netnut border router co-option https://spur.us/blog/how-proxy-providers-co-opt-entire-networks.
+
+Pages created:
+- concepts/static-isp-proxies.md — Hybrid proxy category. Two subcategories (real ISP space leased via IPXO/BYOP; fake ISPs in datacenters). Sold per IP, long-lived, ~10% of residential bandwidth cost. Use cases: account management, anti-bot evasion, no bandwidth billing. Detection: abuse.radar.com signature, Ashburn concentration, Netnut source port 40,000–40,200. Tunnel vs client proxy classification.
+- entities/netnut.md — ISP proxy provider using border router co-option via Divvy Networks. GRE tunnel architecture (spoofed source IP, 200-port window 40,000–40,200 for return traffic matching). Howard University /16 case study (>20% of observed Netnut traffic). Detectable via source port range. Classified as client proxies, not tunnels.
+- entities/ipxo.md — IPv4 leasing marketplace. Most static ISP proxy infrastructure traces back to IPXO-leased ranges. Abuse reporting via abuse.radar.com. IP reputation persists after block reclamation.
+
+Pages updated:
+- concepts/proxy-fundamentals.md: added static-isp-proxies to Related section.
+- wiki/index.md: added static-isp-proxies under Concepts; added IPXO and Netnut under Proxy networks and tools.
+
+Total changes: 3 pages created, 2 pages updated.
+
+## [2026-06-23] ingest | Smart TV proxy SDK findings from Spur blog
+
+Source: Spur — "Smart TV Apps & Residential Proxy SDKs," https://spur.us/blog/smart-tv-apps-residential-proxy-sdks
+
+Pages updated:
+- concepts/proxy-fundamentals.md: added "Smart TV App Proxy SDKs (2025/2026)" subsection under IP Sourcing. Content: 34% SDK prevalence (2,058 of 6,038 scanned apps on LG webOS + Samsung Tizen), three providers (Bright Data, Massive, Honeygain/Oxylabs), per-provider technical implementation (IP blocklist, socket parsing, connect-type messages), consent framing as ad-free option, SDKs persist after app close, platform policy gap (Amazon/Roku ban; LG/Samsung no policy). Source added to frontmatter; last_updated bumped to 2026-06-23.
+
+Total changes: 1 page updated.
+
+---
+
+Follow-up enrichment from Spur blog post (https://spur.us/blog/how-proxy-providers-co-opt-entire-networks):
+- entities/netnut.md: major update with MikroTik/Juniper config details, PDNS subdomain pattern (rtr-<isp>.divinetworks.com), confirmed PoP IPs, Howard University precise stats (17k IPs, 224/224 /24s, AS919, three unannounced gaps), Plains Internet case study, BGP distribution analysis detection method, $13,208/month financial figure, KYC gap between DiviNetworks marketing and actual reseller practice.
+- concepts/static-isp-proxies.md: enriched Netnut detection section with PBR, DIVINET-RETURN marks, PDNS pattern. Both sources added.
+
+
+## [2026-06-23] ingest | blog.azerpas.com and brokenbrowser.com
+
+Sources: all posts from both blogs scraped via Firecrawl to research/azerpas/ (2 posts) and research/brokenbrowser/ (42 posts).
+
+Pages created:
+- concepts/prerender-stealth-request.md: new page documenting the `<link rel="prerender">` stealth request technique discovered by Manuel Garcia (brokenbrowser.com, May 2026). Covers: why Chrome's speculative navigation pipeline bypasses CSP, why it is invisible to the DevTools Network tab, why it sends the real User-Agent even when DevTools UA override is active. Wire signature (`Sec-Purpose: prefetch`, absent `Sec-Fetch-Dest`). Bot detection relevance: UA spoofing asymmetry, one-way exfiltration channel. Chromium-only; Modern Speculation Rules API is unaffected. Source: https://www.brokenbrowser.com/blog/2026-05-09-prerender-stealth-csp-bypass
+
+Pages updated:
+- entities/webassembly-simd.md: major enrichment from Anthony Manikhouth's PoC (azerpas.com, May 2026). Added: measurement method (dependency chain loops, millions of iterations), 2,124 device dataset, KNN classifier with LOO evaluation, final accuracy figures (V8: 82.1% CPU / 95.2% brand; JSC: ~80% CPU / 100% brand), per-CPU accuracy table (highlights and outliers), PCA / t-SNE clustering description, engine variance (M3 f32x4_div varies 25% between V8 and JSC), spoofing analysis (jitter insufficient because ratios are the signal), compiler drift risk, scraping implications (server CPUs identifiable). Source updated to canonical URL.
+- concepts/browser-fingerprinting.md: added silent `<object>` tag extension detection technique from brokenbrowser (2024). Documents how `<object>` avoids the console 404 noise that `fetch()` produces, the calibration state machine (400ms timeout on invalid URL), false-positive detection in WebView environments, and 1.5s cleanup cycle. Sources frontmatter and last_updated bumped.
+- wiki/index.md: added prerender-stealth-request to Concepts section; updated last_updated note.
+
+Total changes: 1 page created, 3 pages updated. 44 source files saved to research/.
+
+## [2026-06-23] ingest | azerpas cleanup + DataDome research by same author
+
+Context: azerpas blog has only 2 posts. grand-canyon (personal) was removed from research/ and excluded from future scrapes. wasm-simd was already ingested (entities/webassembly-simd.md). The blog's /about page revealed the author (Anthony Manikhouth) is a DataDome R&D engineer who publishes his relevant technical writing on datadome.co. User approved ingesting both linked DataDome articles.
+
+Sources scraped to research/datadome/:
+- how-chromes-new-ai-web-apis-enable-hardware-fingerprinting.md (Apr 2026)
+- end-of-fingerprinting-how-browser-privacy-reshaping-bot-detection.md (Dec 2025)
+
+Pages created:
+- concepts/ai-web-api-fingerprinting.md: Chrome on-device AI APIs (Summarizer Chrome 138, LanguageModel Chrome 148) as hardware capability probe. Summarizer.availability() tier segmentation (only 4% of global traffic qualifies), cross-checks against hardwareConcurrency/deviceMemory/WebGL renderer, GPU performance class inference from Chromium source, inference timing fingerprinting (TTFT + decode throughput via promptStreaming). Cross-linked to webassembly-simd (both measure real execution vs declarative properties).
+- concepts/browser-privacy-fingerprinting-defenses.md: Safari Advanced Fingerprinting Protection (iOS 26 default), Safari Lockdown Mode, Firefox resistFingerprinting (full removed-API list), Brave farbling, Chrome moving opposite direction. Impact: classic fingerprinting becoming low-entropy; detection shifts to behavioral + server-side. Specific altered values documented (AudioContext.sampleRate 48000/44100, WebGL renderer Mozilla, removed WebCodecs APIs).
+
+Pages updated:
+- entities/datadome.md: added "Detection Research (DataDome R&D, 2025–2026)" section summarizing both articles and DataDome's philosophy ("test what they can actually do" vs "what they claim to be"). Both source URLs added to frontmatter; last_updated bumped.
+- concepts/browser-fingerprinting.md: added paragraphs on AI Web API fingerprinting and browser privacy defenses in Current State; added both new concepts plus webassembly-simd to Related.
+- wiki/index.md: added both new concepts under Concepts; updated last_updated note.
+
+Both authored by Anthony Manikhouth (also author of the azerpas wasm-simd post), making the WASM SIMD research and the DataDome AI-API research a coherent cluster on hardware-timing fingerprinting.
+
+Total changes: 2 pages created, 3 pages updated. 2 source files saved to research/datadome/. 1 file removed (research/azerpas/grand-canyon.md).
+
+## [2026-06-23] ingest | Browser Use Firecracker cloud infrastructure
+
+Source: Browser Use — "How We Made Cloud Browsers 3x Cheaper and Faster," https://browser-use.com/posts/firecracker-browser-infra (June 15, 2026). Scraped to research/browser-use/firecracker-browser-infra.md.
+
+Pages updated:
+- entities/browser-use.md: added "Cloud Infrastructure (Firecracker microVMs)" section. Covers: one Firecracker microVM per session on regular EC2 (nested virtualization) vs .metal; $0.02/browser-hour (3x cheaper), <400ms VM cold start, 825ms p50 / 1.35s p99 create latency over 10k-session test; migration from Unikraft for EC2 autoscaling; custom control plane vs CloudWatch; memory optimization (2MB pages + userfaultfd hot-page preload, resume-to-ready 9.8s→3.1s, ~91x fewer page faults); CPU two-phase vCPU pinning + sibling hyperthreads + real-time priority (17%→0% lost sessions in 1k test); fully headless stealth (2% headless vs 50% headful baseline; low-level Chromium fork; tens of thousands of real fingerprints; 81% own benchmark / 84.8% Halluminate BrowserBench); remaining 545ms Chromium startup bottleneck and planned post-Chromium snapshotting. last_updated and Related/Sources updated.
+- concepts/scraping-infrastructure.md: added "Cloud Browser Infrastructure (microVM-per-session)" subsection under What We Tested, documenting the Browser Use Firecracker pattern as an external reference (isolation + fast-start + cheap trilemma, nested-virtualization tradeoff, key figures). Source added to frontmatter; browser-use added to Related.
+- wiki/index.md: improved browser-use description (was generic); updated last_updated note.
+
+Total changes: 2 pages updated. 1 source file saved to research/browser-use/.
+
+## [2026-06-23] ingest | Browser Use agent sandboxing + bot-detection deep dive
+
+Sources scraped to research/browser-use/:
+- two-ways-to-sandbox-agents.md — "How We Built Secure, Scalable Agent Sandbox Infrastructure" (Feb 25, 2026)
+- bot-detection.md — "Browser agent bot detection is about to change" (Feb 2, 2026; this is the post the browser-use entity was originally seeded from, now ingested in full)
+
+Pages created:
+- concepts/agent-sandboxing.md: the two patterns for sandboxing code-executing agents (isolate the tool vs isolate the agent). Pattern 2 detail: one container image (Unikraft micro-VM prod / Docker dev via sandbox_mode switch), 3-env-var trust surface, hardening (bytecode-only .pyc, root→sandbox privilege drop, os.environ stripping), control plane as credentialed proxy (LLM proxying with server-side history reconstruction, presigned-URL file sync, gateway protocol), independent scaling. Cross-linked to agent-vault-proxy, claw-patrol, nakshguard, greyfox as adjacent control-plane/credential tools.
+
+Pages updated:
+- entities/browser-use.md: substantial expansion. "How it works" now carries the strategic thesis (antibots detect more than they block; thresholds will tighten as AI agents flood) and the full multi-layer stack (IP reputation, timezone/locale, hardware consistency, API availability, behavioral). New sections: Real-world fingerprints (Windows 60/macOS 35/Linux 5 distribution; fleet-level temporal blocking risk of Linux-everywhere), Performance and efficiency patches (compositor throttling, feature stripping, V8 tuning, CDP message optimization, portable profile encryption vs --password-store=basic), In-house CAPTCHA solving (Turnstile/PerimeterX/reCAPTCHA, free), and Agent Sandbox Architecture (Unikraft Pattern 2, distinct from the Firecracker browser layer). Frontmatter sources and Related updated.
+- concepts/bot-detection.md: added "Detect More Than They Block" section (conservative thresholds, monitor→block flip, fleet-level shared-fingerprint temporal blocking, real-world OS distribution). Source + last_updated updated.
+- wiki/index.md: added agent-sandboxing under Concepts; updated last_updated note.
+
+Total changes: 1 page created, 3 pages updated. 2 source files saved to research/browser-use/.

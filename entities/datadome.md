@@ -3,7 +3,7 @@ name: Datadome
 type: entity
 category: anti-bot
 first_seen: 2022-09-15
-last_updated: 2026-06-04
+last_updated: 2026-06-23
 sources:
   - scraping-datadome-camoufox.md
   - bypass-datadome-mouse-movements-in-playwright.md
@@ -16,6 +16,8 @@ sources:
   - anti-detect-anti-bot-matrix.md
   - the-lab-21-bypass-anti-bot-challenges.md
   - lab-camoufox-forks-cloverlabs-draft.md
+  - https://datadome.co/threat-research/how-chromes-new-ai-web-apis-enable-hardware-fingerprinting/
+  - https://datadome.co/threat-research/end-of-fingerprinting-how-browser-privacy-reshaping-bot-detection/
 ---
 
 ## What it is
@@ -61,6 +63,14 @@ Cookie and session reuse was explored in [the-lab-94-using-cookies-and-session](
 **leboncoin.fr engine-level trace (2026-06)**: Using [camoufox-reverse](camoufox-reverse.md), a Camoufox fork with a PropertyTracer at the SpiderMonkey layer, we observed which DOM getters Datadome's script reads. The protection is not uniform across the site. The homepage runs a light probe (about 30 distinct properties, 140 reads), while an ad detail page runs a much heavier one (584 reads): `document.cookie.get` jumps from 1 to 220, and `sessionStorage`, `window.scrollY`, `navigator.globalPrivacyControl`, and `mediaDevices.enumerateDevices` appear, none of which the homepage touched. Both pages read the [canvas](../concepts/canvas-fingerprinting.md) and WebGL (`toDataURL`, `getImageData`, `webgl.getParameter`, `offscreenCanvas.getContext`). Ad pages return 403 on a direct connection but pass through a clean residential proxy.
 
 A separate 2026-06 finding: the JWriter20 [Camoufox](camoufox.md) fork was blocked on 100% of leboncoin ad pages while stock Camoufox passed almost all of them, despite an identical page-level JS fingerprint, TLS/JA3-JA4 ClientHello, and HTTP/2 fingerprint between the two builds. The block reproduced with the spoofed OS pinned identically, so Datadome was reacting to a request or connection-level signal in the JWriter20 build, not to any static fingerprint we could measure.
+
+## Detection Research (DataDome R&D, 2025–2026)
+
+DataDome R&D engineer Anthony Manikhouth has published two pieces of public research that show where the vendor's detection is heading.
+
+**Browser privacy is degrading classic fingerprinting (Dec 2025).** Safari Advanced Fingerprinting Protection (default in iOS 26), Firefox `resistFingerprinting`, and Brave farbling now noise, fix, or remove the canvas/WebGL/WebAudio/screen surfaces that vendors relied on. DataDome's stated response: reclassify those signals from high-confidence identifiers to low-entropy anomaly indicators, and lean on behavioral analytics and server-side telemetry, which are immune to client-side API restrictions. This aligns with TWSC's own testing, where behavioral and connection-level signals consistently mattered more than static fingerprint values. See [browser-privacy-fingerprinting-defenses](../concepts/browser-privacy-fingerprinting-defenses.md).
+
+**AI Web APIs as a hardware probe (Apr 2026).** Chrome's on-device AI APIs (Summarizer, and the upcoming LanguageModel) only run on high-end hardware, so `Summarizer.availability()` segments traffic into capability tiers (only ~4% of global traffic can run it) and cross-checks against `navigator.hardwareConcurrency`, `deviceMemory`, and the WebGL renderer to catch spoofing. Inference timing (TTFT and decode throughput via `promptStreaming`) produces a performance fingerprint tied to real execution capability. DataDome's framing captures its current philosophy: "instead of asking browsers what they claim to be, we can now test what they can actually do." See [ai-web-api-fingerprinting](../concepts/ai-web-api-fingerprinting.md).
 
 ## Known limitations
 

@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-06-23
+Last updated: 2026-06-23 (static-isp-proxies, netnut, ipxo, prerender-stealth-request, ai-web-api-fingerprinting, browser-privacy-fingerprinting-defenses, agent-sandboxing added; webassembly-simd, browser-fingerprinting, datadome, browser-use, scraping-infrastructure, bot-detection enriched)
 
 ## Visual maps and views
 
@@ -45,6 +45,8 @@ Last updated: 2026-06-23
 
 ### Proxy networks and tools
 - [agent-vault-proxy](entities/agent-vault-proxy.md) — agent-vault-proxy is a tool designed to provide just-in-time API keys for AI agents and other processes routed through it.
+- [IPXO](entities/ipxo.md) — IPv4 leasing marketplace; abuse.radar.com is its reporting surface; most static ISP proxy infrastructure traces back here.
+- [Netnut](entities/netnut.md) — ISP proxy provider using border router co-option via Divvy Networks; GRE tunnel architecture; detectable via TCP source port 40,000–40,200.
 - [atproxy](entities/atproxy.md) — atproxy is a program written in Rust designed to transparently proxy TCP traffic originating from an Android application.
 - [blanktrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
@@ -72,7 +74,7 @@ Last updated: 2026-06-23
 - [AnyCrawl](entities/anycrawl.md) — MIT-licensed LLM-ready scraping API. JSON extraction mode, MCP server. No anti-bot bypass. Comparable to FireCrawl.
 - [beautiful-code-screenshots-codeshot](entities/beautiful-code-screenshots-codeshot.md) — CodeShot is an API toolkit designed for developers and AI agents that facilitates code screenshotting, website scraping, and link preview generation.
 - [botasaurus](entities/botasaurus.md) — Python scraping framework with decorator-based API. Works locally against Cloudflare/DataDome/Kasada. Fails from server (SwiftShader exposure).
-- [browser-use](entities/browser-use.md) — Browser Use is a cloud-based browser automation platform that aims to create undetectable browsers.
+- [browser-use](entities/browser-use.md) — Cloud browser automation with a low-level Chromium fork for stealth. Fully headless (81% block avoidance). Cloud runs one Firecracker microVM per session on regular EC2; $0.02/browser-hour, <400ms VM cold start.
 - [camoufox](entities/camoufox.md) — Custom Firefox build. Best performer on strict Cloudflare/DataDome configs. Bypasses reCAPTCHA v3 (2025).
 - [canvas-fingerprint-defender](entities/canvas-fingerprint-defender.md) — A browser extension that defends against canvas fingerprinting.
 - [chaser-oxide](entities/chaser-oxide.md) — A Rust-based fork of `chromiumoxide` for hardened, undetectable browser automation.
@@ -152,6 +154,10 @@ Last updated: 2026-06-23
 
 ## Concepts
 
+- [static-isp-proxies](concepts/static-isp-proxies.md) — Hybrid between datacenter and residential proxies. IP space from real or fake ISPs, routed through datacenters. Sold per IP, long-lived, cheaper per-bandwidth than residential. Two sourcing models: IPXO/BYOP leasing and Netnut's border router co-option.
+- [ai-web-api-fingerprinting](concepts/ai-web-api-fingerprinting.md) — Chrome's on-device AI APIs (Summarizer, LanguageModel) only run on high-end hardware. Their availability segments traffic into capability tiers (~4% can run Summarizer) and inference timing (TTFT, throughput) produces a hardware fingerprint hard to spoof. DataDome research, 2026.
+- [browser-privacy-fingerprinting-defenses](concepts/browser-privacy-fingerprinting-defenses.md) — Safari (iOS 26 default), Firefox resistFingerprinting, and Brave farbling noise/fix/remove canvas, WebGL, WebAudio, and screen APIs, pushing classic client-side fingerprinting toward low entropy. Chrome moves the opposite way. DataDome research, 2025.
+- [agent-sandboxing](concepts/agent-sandboxing.md) — Two patterns for isolating code-executing AI agents from infrastructure and secrets: isolate the tool, or isolate the agent behind a credentialed control plane. Browser Use's Pattern 2 implementation (Unikraft micro-VM, 3 env vars, bytecode-only, control plane proxy for LLM/files/billing).
 - [ai-scraping-assistants](concepts/ai-scraping-assistants.md) — AI scraping assistants are setups where a large language model is embedded into the development workflow to generate, modify, or repair scrapers — rather than to extract data at runtime. The LLM acts as an accelerator for the developer, not as a replacement for the scraper itself. The canonical current form is an AI-powered IDE (Cursor) connected to custom tooling via the Model Context Protocol (MCP).
 - [Anti-Detect Browsers](concepts/anti-detect-browsers.md) — Anti-detect browsers are Chromium or Firefox forks engineered to present a consistent, plausible fingerprint from a database of real device profiles. Unlike standard browser automation which exposes the actual hardware and software environment of the machine running the scraper, anti-detect browsers attach a pre-built fingerprint from a real consumer device to the automation session, regardless of the actual underlying hardware.
 - [API Scraping](concepts/api-scraping.md) — API scraping is the practice of identifying and replicating the internal HTTP requests that a browser or app makes to fetch data, bypassing HTML parsing entirely. The data is already structured, usually JSON, and the endpoint is observable by monitoring network traffic in DevTools or a proxy tool.
@@ -171,6 +177,7 @@ Last updated: 2026-06-23
 - [Mobile App Scraping](concepts/mobile-app-scraping.md) — Mobile app scraping is the practice of intercepting the network traffic generated by a mobile app and replicating the underlying API calls in a scraper. Since mobile apps communicate with backends through the same HTTP/HTTPS protocol as browsers, the data they fetch can be captured and reproduced.
 - [Mobile Proxy Farming](concepts/mobile-proxy-farming.md) — Mobile proxy farming is the practice of building and operating infrastructure that routes proxy traffic through real cellular network connections — typically USB modems or SIM-equipped hardware — to produce genuine mobile IP addresses with CGNAT-level trust properties. Unlike SDK-sourced residential proxies, which borrow device connections from consumer apps, a proxy farm gives the operator full control over the hardware, IP rotation, and connectivity.
 - [Mouse Movement Emulation](concepts/mouse-movement-emulation.md) — Mouse movement emulation is the practice of generating pointer trajectories that match the statistical properties of human hand movement during browser automation. Anti-bot systems that monitor mouse events can distinguish between the instantaneous or straight-line movements produced by automation frameworks and the curved, velocity-varied paths that humans produce. Emulation attempts to make automated mouse behavior indistinguishable from real user input at the event listener level.
+- [prerender-stealth-request](concepts/prerender-stealth-request.md) — `<link rel="prerender">` in Chromium fires a real HTTP GET that bypasses CSP, is invisible to DevTools Network tab, and leaks the real User-Agent even when DevTools UA override is active. Chromium-only. Relevant to bot detection and UA spoofing asymmetry.
 - [proxy-fundamentals](concepts/proxy-fundamentals.md) — Proxies route outbound HTTP requests through an intermediate IP address, changing the apparent origin of the request. In a scraping context, the proxy's IP reputation, ASN, and network type are often more consequential than any browser-level signal.
 - [Scraping Infrastructure](concepts/scraping-infrastructure.md) — Scraping infrastructure encompasses the compute, storage, scheduling, monitoring, and proxy management systems that run scrapers reliably at scale. The choice of infrastructure directly determines cost structure, IP rotation capability, and operational overhead. A scraper that works on a laptop fails at 100,000 requests per day without the right infrastructure beneath it.
 - [scraping-economics](concepts/scraping-economics.md) — The economics of web scraping encompass the cost structure of running scraping operations, the business models for monetizing scraped data, and the market dynamics of the web data industry. The industry spans two distinct roles: those who sell the infrastructure and tools that enable scraping ("selling shovels"), and those who scrape and sell the resulting data.

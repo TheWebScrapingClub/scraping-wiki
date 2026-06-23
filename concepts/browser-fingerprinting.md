@@ -2,7 +2,7 @@
 name: browser-fingerprinting
 type: concept
 first_seen: 2010-01-01
-last_updated: '2026-06-04'
+last_updated: '2026-06-23'
 sources:
 - browser-fingerprinting-how-it-works.md
 - understanding-browser-fingerprint.md
@@ -34,6 +34,7 @@ sources:
 - mochijs-com.md
 - feder-cr-invisibleplaywright.md
 - writing-wasm-simd-fingerprinting.md
+- https://www.brokenbrowser.com/blog/2024-11-12-detecting-chrome-extensions-without-console-noise
 ---
 
 # Browser Fingerprinting
@@ -90,6 +91,14 @@ Example: Grammarly's extension ID is `kbfnbcaeplbcioakkpcpgfkobkghlhen`. LinkedI
 
 Source: blog.castle.io/detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle/ (2026-01-14)
 
+**Silent extension probing with `<object>` (brokenbrowser, 2024)**: the `fetch()` approach leaves a 404 error in the DevTools console when the extension is not present — visible noise during debugging or automated analysis. An `<object>` element handles failed loads silently: if the extension is not installed or the resource is not listed in `web_accessible_resources`, the element produces no console output and fires no event. If the resource is present, `onload` fires normally.
+
+The technique requires a calibration step: first inject an `<object>` pointing to a guaranteed-nonexistent URL and wait 400ms. If `onload` fires during calibration, the environment produces false positives (some desktop WebView environments do this) and the entire detection batch should be aborted. After successful calibration, batched probes can be queued and run with 1.5-second cleanup intervals.
+
+Limitation: only extensions that declare `web_accessible_resources` can be detected either way. Extensions that expose no resources are invisible to both methods.
+
+Source: brokenbrowser.com/blog/2024-11-12-detecting-chrome-extensions-without-console-noise (November 2024)
+
 ## FPScanner: Self-Hosted Bot Detection Library
 
 `antoinevastel/fpscanner` (GitHub, 623 stars as of early 2026, Castle-sponsored) is a self-hosted browser fingerprinting and bot detection library addressing the gap between naive open-source tools and expensive black-box CDN-based solutions. It is specifically designed for teams that cannot or do not want to route traffic through a third-party vendor.
@@ -131,13 +140,18 @@ In the 2024 anti-detect browser benchmark using CreepJS and BrowserScan, scores 
 
 Browser fingerprinting is a mature and well-documented technique. The signals have not changed dramatically since 2020, but the scoring models that consume them have become more sophisticated. Partial fingerprint spoofing (changing only `navigator.webdriver`) is no longer sufficient against serious anti-bot deployments.
 
-New attack vectors continue to emerge. WebGPU-SPY (GPU cache timing) represents an approach that operates below the standard fingerprinting signal layer and is not addressed by current anti-detect tools.
+New attack vectors continue to emerge. WebGPU-SPY (GPU cache timing) represents an approach that operates below the standard fingerprinting signal layer and is not addressed by current anti-detect tools. A parallel shift comes from on-device AI: Chrome's Summarizer and LanguageModel APIs only run on high-end hardware, so their availability and inference timing act as a hardware capability probe that is tied to real execution speed rather than declarative properties. See [ai-web-api-fingerprinting](./ai-web-api-fingerprinting.md).
+
+At the same time, browser vendors are hardening the classic surfaces. Safari Advanced Fingerprinting Protection (default in iOS 26), Firefox `resistFingerprinting`, and Brave farbling noise, fix, or remove canvas, WebGL, WebAudio, and screen signals, pushing classic fingerprinting toward low entropy. See [browser-privacy-fingerprinting-defenses](./browser-privacy-fingerprinting-defenses.md). The two trends are connected: as declarative surfaces lose entropy, detection moves toward execution-capability probes, behavioral analytics, and server-side telemetry.
 
 The practical challenge for scrapers is not understanding what is collected but achieving full coherence across all signal layers simultaneously.
 
 ## Related
 
 - [canvas-fingerprinting](./canvas-fingerprinting.md)
+- [ai-web-api-fingerprinting](./ai-web-api-fingerprinting.md)
+- [browser-privacy-fingerprinting-defenses](./browser-privacy-fingerprinting-defenses.md)
+- [webassembly-simd](../entities/webassembly-simd.md)
 - [webrtc-ip-leak](./webrtc-ip-leak.md)
 - [tls-fingerprinting](./tls-fingerprinting.md)
 - [cdp-detection](./cdp-detection.md)
@@ -157,4 +171,5 @@ The practical challenge for scrapers is not understanding what is collected but 
 - [https://substack.thewebscraping.club/p/how-to-mask-device-fingerprint](https://substack.thewebscraping.club/p/how-to-mask-device-fingerprint)
 - [https://substack.thewebscraping.club/p/scraper-fingerprints-and-proxies](https://substack.thewebscraping.club/p/scraper-fingerprints-and-proxies)
 - [https://blog.castle.io/detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle/](https://blog.castle.io/detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle/)
+- [https://www.brokenbrowser.com/blog/2024-11-12-detecting-chrome-extensions-without-console-noise](https://www.brokenbrowser.com/blog/2024-11-12-detecting-chrome-extensions-without-console-noise)
 - [https://github.com/antoinevastel/fpscanner](https://github.com/antoinevastel/fpscanner)

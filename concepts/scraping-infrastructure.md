@@ -14,6 +14,7 @@ sources:
 - scrapoxy-proxy-aggregator.md
 - the-true-costs-of-a-web-scraping.md
 - https://andrewkchan.dev/posts/crawler.html
+- https://browser-use.com/posts/firecracker-browser-infra
 - SalzDevs-groxy.md
 - agudulin-simple-proxy.md
 - free-proxy-list.md
@@ -112,6 +113,12 @@ The benchmark confirms that commodity cloud compute at this scale costs less tha
 
 Source: andrewkchan.dev/posts/crawler.html
 
+### Cloud Browser Infrastructure (microVM-per-session)
+
+Managed cloud-browser providers face a different infrastructure problem than HTTP crawlers: each browser session needs to start fast, stay isolated from other sessions (shared cookies, cache, or logged-in state across tenants is a security failure), and be cheap enough to create and discard thousands at a time. [Browser Use](../entities/browser-use.md) documented one production approach in June 2026: one Firecracker microVM per browser session, resumed from a snapshot, running on regular EC2 rather than `.metal` bare metal. Running Firecracker on regular EC2 means nested virtualization (a VM inside AWS's own VM), which they accept because regular EC2 provisions faster and costs less, trading latency on host-assisted operations like page faults.
+
+Concrete figures from that build: $0.02 per browser hour, VM cold start under 400ms, end-to-end create latency 825ms p50 / 1.35s p99 over a 10,000-session test. The optimizations that mattered under nesting were 2MB memory pages plus a `userfaultfd` handler preloading hot pages (resume-to-ready 9.8s → 3.1s, page faults ~91x fewer), two-phase vCPU pinning (unpinned during Chromium's launch burst, pinned to stable cores after ready), and giving each browser both sibling hyperthreads to avoid core contention. The takeaway for anyone sizing browser infrastructure: browsers are quiet after startup, so many pack onto one host, but the launch burst is the hard part to schedule. See [Browser Use](../entities/browser-use.md) for the full breakdown.
+
 ## Current State
 
 As of 2025, the infrastructure decision tree is: sporadic invocation → Lambda/GitHub Actions; sustained medium volume → containers (Fargate/ECS); sustained high volume → VMs or bare metal; multi-step pipeline → Airflow or equivalent orchestrator. Hetzner is the documented cost leader for EU-region compute. AWS Lambda provides free IP rotation but from detectable ASN ranges.
@@ -123,6 +130,7 @@ As of 2025, the infrastructure decision tree is: sporadic invocation → Lambda/
 - [Scrapoxy](../entities/scrapoxy.md)
 - [Playwright](../entities/playwright.md)
 - [Camoufox](../entities/camoufox.md)
+- [browser-use](../entities/browser-use.md)
 
 ## Sources
 
