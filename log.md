@@ -925,3 +925,14 @@ Appended 2 sources to existing wiki pages:
 - concepts/bot-detection.md: 1 new source
 - concepts/scraping-infrastructure.md: 1 new source
 
+
+## [2026-06-23] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- residential-proxy (proxy-provider) — Residential Proxy
+- otto (browser) — Otto
+
+Appended 2 sources to existing wiki pages:
+- concepts/scraping-infrastructure.md: 1 new source
+- concepts/websocket-scraping.md: 1 new source
+

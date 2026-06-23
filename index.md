@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-06-22
+Last updated: 2026-06-23
 
 ## Visual maps and views
 
@@ -39,6 +39,7 @@ Last updated: 2026-06-22
 - [invisible-playwright](entities/invisible-playwright.md) — invisible_playwright is a patched replacement for Playwright designed specifically for Firefox that is engineered to pass advanced bot detection tests.
 - [konform-browser](entities/konform-browser.md) — Konform Browser is a stealth browser based on Firefox ESR for web scraping and automation.
 - [lightpanda](entities/lightpanda.md) — Lightpanda is a browser built for AI and automation, offering faster execution and lower memory usag
+- [otto](entities/otto.md) — Otto is a secure remote browser automation platform designed to control real browser tabs without the need to host a browser farm or manage significant infrastructure overhead.
 - [rayobrowse](entities/rayobrowse.md) — Rayobyte's stealth Chromium fork. Closed-source, Docker-based, CDP compatible. C++ patching. 100% benchmark score. Beta (2026).
 - [real-browser](entities/real-browser.md) — A real browser is a tool used to actively check job boards to determine if job postings are still live and active.
 
@@ -60,6 +61,7 @@ Last updated: 2026-06-22
 - [nyxproxy](entities/nyxproxy.md) — A tool for building a self-hosted, rotating proxy gateway using IPv6 /64 subnets.
 - [pangolin](entities/pangolin.md) — Pangolin is a peer-to-peer alternative to Cloudflare Tunnels that utilizes a client-to-site VPN combined with an edge reverse proxy to provide cloaked HTTPS traffic.
 - [productivityproxy](entities/productivityproxy.md) — ProductivityProxy is a local macOS application that runs a proxy on the user's machine, allowing them to define custom request and response policies using a visual graph interface.
+- [residential-proxy](entities/residential-proxy.md) — A residential proxy is software designed to route other people's internet traffic out through a user's home network.
 - [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
 - [vnc2go](entities/vnc2go.md) — VNC2Go is described as a private, in-browser service that routes traffic through a random proxy.
 

@@ -2,11 +2,12 @@
 name: websocket-scraping
 type: concept
 first_seen: 2024-04-04
-last_updated: 2026-04-22
+last_updated: '2026-06-23'
 sources:
-  - scraping-real-time-data-bitstamp.md
-  - how-to-get-data-from-polymarket-fast.md
-  - how-fast-can-you-call-polymarket-apis.md
+- scraping-real-time-data-bitstamp.md
+- how-to-get-data-from-polymarket-fast.md
+- how-fast-can-you-call-polymarket-apis.md
+- telepat-io-otto.md
 ---
 
 # WebSocket Scraping
