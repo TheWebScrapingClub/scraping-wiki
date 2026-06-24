@@ -2,10 +2,11 @@
 name: Static ISP Proxies
 type: concept
 first_seen: 2026-06-23
-last_updated: 2026-06-23
+last_updated: '2026-06-24'
 sources:
 - https://www.youtube.com/watch?v=MQ1zpnlMMUc
 - https://spur.us/blog/how-proxy-providers-co-opt-entire-networks
+- femboyisp-purroute.md
 ---
 
 # Static ISP Proxies
