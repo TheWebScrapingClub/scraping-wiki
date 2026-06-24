@@ -62,7 +62,7 @@ sources:
 ## Definition
 
 Proxies route outbound HTTP requests through an intermediate IP address, changing the apparent origin of the request. In a scraping context, the proxy's IP reputation, ASN, and network type are often more consequential than any browser-level signal.
-
+ 
 ## How It Works
 
 There are four proxy types with meaningfully different characteristics.

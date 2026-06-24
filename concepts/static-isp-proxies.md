@@ -15,7 +15,7 @@ sources:
 Static ISP proxies are a hybrid category between datacenter and residential proxies. The IP addresses belong to real ISP allocations (Comcast, RCN, AT&T, Verizon) or to fabricated ISPs with fictional names. In both cases the server handling traffic is physically in a datacenter. The distinguishing characteristic is that the address block carries ISP reputation rather than datacenter ASN reputation, and the IP stays assigned to a single customer for weeks or months rather than rotating.
 
 Two distinct subcategories exist. The first uses genuine ISP space leased from organizations that own legacy IP blocks — universities, small regional ISPs, school districts — via IP leasing marketplaces or direct BYOP (bring your own prefix) arrangements with real ISPs. The second uses address blocks allocated to fake ISPs: fictitious organizations with a website that fails even a cursory legitimacy test, routed through datacenter infrastructure.
-
+ 
 ## How It Works
 
 ### Sourcing from Real ISPs

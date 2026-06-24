@@ -14,7 +14,7 @@ sources:
 A `<link rel="prerender">` element in Chromium-based browsers fires a real HTTP request that bypasses Content Security Policy, does not appear in the DevTools Network tab, and sends the browser's real User-Agent even when DevTools' Network Conditions UA override is active. Discovered by Manuel Garcia (brokenbrowser.com) in May 2026, independently confirmed by soutag (who found it earlier but did not publish).
 
 Chromium only. Firefox and Safari do not implement `rel=prerender`.
-
+ 
 ## Why It Works
 
 Chrome treats `<link rel="prerender">` as a speculative top-level navigation hint, not a sub-resource fetch. That classification puts it in a separate pipeline with three consequences:

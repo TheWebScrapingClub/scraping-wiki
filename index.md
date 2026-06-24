@@ -1,7 +1,7 @@
 # TWSC Wiki Index
 
 Last updated: 2026-06-23 (static-isp-proxies, netnut, ipxo, prerender-stealth-request, ai-web-api-fingerprinting, browser-privacy-fingerprinting-defenses, agent-sandboxing added; webassembly-simd, browser-fingerprinting, datadome, browser-use, scraping-infrastructure, bot-detection enriched)
-
+ 
 ## Visual maps and views
 
 - `canvases/`: JSON Canvas (`.canvas`) visual maps of landscapes and ecosystems

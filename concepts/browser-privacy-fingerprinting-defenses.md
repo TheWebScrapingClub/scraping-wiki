@@ -14,7 +14,7 @@ sources:
 Apple, Mozilla, and Brave have shipped browser-level anti-fingerprinting protections that partition storage and add noise to or remove the very APIs that bot detection vendors relied on for high-entropy device identification. The consequence for both tracking and bot detection is that classic client-side fingerprinting is becoming low-entropy: previously distinctive signals now return generic or randomized values across users. Documented by Anthony Manikhouth (DataDome R&D) in December 2025.
 
 This is the defensive counterpart to [AI Web API fingerprinting](./ai-web-api-fingerprinting.md): as these classic surfaces are hardened, detection vendors move toward behavioral signals, server-side telemetry, and execution-capability probes.
-
+ 
 ## What Each Browser Changes
 
 ### Safari — Advanced Fingerprinting Protection

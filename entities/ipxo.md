@@ -14,7 +14,7 @@ sources:
 ## What It Is
 
 IPXO is an IP address leasing marketplace. Organizations holding large IPv4 allocations — universities, school districts, regional ISPs, and other early adopters with legacy blocks — can monetize unused space by leasing it through IPXO without permanently transferring ownership. Operators building static ISP proxy infrastructure use IPXO to acquire prefixes, which they then announce via BYOP arrangements with real ISPs.
-
+ 
 ## How It Works
 
 A lessee acquires a prefix through IPXO, registers an organization name or customer identifier, and takes the prefix to an ISP for routing under a BYOP arrangement. The traffic produced by those IPs appears to originate from a genuine ISP network. IPXO facilitates the IP address supply side; the lessee handles downstream routing and proxy infrastructure.

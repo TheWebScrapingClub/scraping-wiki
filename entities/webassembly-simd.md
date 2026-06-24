@@ -8,7 +8,7 @@ sources:
   - writing-wasm-simd-fingerprinting.md
   - https://blog.azerpas.com/writing/wasm-simd-fingerprinting
 ---
-
+ 
 # WebAssembly SIMD
 
 ## What it is

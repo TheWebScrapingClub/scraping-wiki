@@ -19,7 +19,7 @@ sources:
   - https://datadome.co/threat-research/how-chromes-new-ai-web-apis-enable-hardware-fingerprinting/
   - https://datadome.co/threat-research/end-of-fingerprinting-how-browser-privacy-reshaping-bot-detection/
 ---
-
+ 
 ## What it is
 
 Datadome is a bot protection service focused heavily on behavioral analysis. Unlike systems that concentrate on TLS or network-level fingerprinting, Datadome's primary detection surface is what a session does: request sequences, timing, mouse movement patterns, and page transition behavior. It uses a trust score assigned to each visitor, updated continuously throughout the session.

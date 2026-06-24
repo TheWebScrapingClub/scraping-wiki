@@ -24,7 +24,7 @@ sources:
 ## Definition
 
 Bot detection is the umbrella discipline of identifying automated traffic on a website and distinguishing it from legitimate human visitors. It sits opposite to web scraping: the same fingerprints, behaviors, and protocol-level traces that scrapers try to hide are what detection systems look for. Reading the detection literature is the most direct way for a scraper engineer to understand which signals actually leak.
-
+ 
 ## How It Works
 
 Bot detection operates at multiple layers, often in combination:

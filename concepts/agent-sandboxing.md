@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 When an AI agent can execute arbitrary code (run Python, shell commands, write files), it can read anything on the machine it runs on: environment variables, API keys, database credentials, internal services. Agent sandboxing is the architecture that isolates that code execution from the infrastructure and secrets it must never reach. There are two structural patterns, documented by Browser Use in February 2026 from running millions of web agents.
-
+ 
 ## The Two Patterns
 
 **Pattern 1 — isolate the tool.** The agent loop runs on your infrastructure. Only the dangerous operations (code execution, terminal access) run in a separate sandbox, which the agent calls over HTTP. The code runs somewhere with nothing to leak, but the agent itself still sits next to your secrets and shares resources with your backend.

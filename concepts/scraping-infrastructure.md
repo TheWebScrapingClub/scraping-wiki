@@ -30,7 +30,7 @@ sources:
 ## Definition
 
 Scraping infrastructure encompasses the compute, storage, scheduling, monitoring, and proxy management systems that run scrapers reliably at scale. The choice of infrastructure directly determines cost structure, IP rotation capability, and operational overhead. A scraper that works on a laptop fails at 100,000 requests per day without the right infrastructure beneath it.
-
+ 
 ## How It Works
 
 ### Compute Options

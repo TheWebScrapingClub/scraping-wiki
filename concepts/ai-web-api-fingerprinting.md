@@ -12,7 +12,7 @@ sources:
 ## Definition
 
 Chrome's on-device AI Web APIs (Translator, Language Detector, Summarizer, and the upcoming LanguageModel) only function on hardware that meets specific minimum specifications. Querying whether these APIs are available, and measuring how fast they run, turns them into a hardware capability probe. The signal is harder to spoof than declarative properties like `navigator.hardwareConcurrency` because it reflects what the device can actually do, not what it claims. Documented by Anthony Manikhouth (DataDome R&D) in April 2026.
-
+ 
 ## How It Works
 
 ### Capability tier detection via availability

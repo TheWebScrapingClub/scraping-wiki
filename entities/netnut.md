@@ -18,7 +18,7 @@ Netnut is an ISP proxy provider that acquires IP space through a border router c
 ## How It Works
 
 DiviNetworks deploys GRE (Generic Routing Encapsulation) tunnels paired with policy-based routing (PBR) on the border routers of partner ISPs. The configuration redirects a selected slice of traffic through DiviNetworks infrastructure, converting the partner ISP's allocated IP space into commercial proxy inventory. DiviNetworks claims the configuration affects only 0.2% of total traffic volume on partner networks.
-
+ 
 ### Router Configuration
 
 For MikroTik devices, the configuration follows this structure:

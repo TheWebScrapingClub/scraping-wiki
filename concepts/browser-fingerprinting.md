@@ -40,7 +40,7 @@ sources:
 # Browser Fingerprinting
 
 ## Definition
-
+ 
 A stateless, cookieless tracking mechanism that identifies browsers by collecting and hashing the outputs of browser APIs. Unlike cookies, fingerprints require no storage on the client and persist across sessions, incognito modes, and cookie clears.
 
 ## How It Works
