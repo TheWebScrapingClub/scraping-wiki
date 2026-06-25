@@ -2,7 +2,7 @@
 name: HTTP Performance in Scraping
 type: concept
 first_seen: 2022-11-08
-last_updated: '2026-05-07'
+last_updated: '2026-06-25'
 sources:
 - faster-web-scraping-with-http3.md
 - http-caching-scraping.md
@@ -16,6 +16,7 @@ sources:
 - https://singh-sanjay.com/2026/03/09/concurrent-requests-reverse-proxy.html
 - p-partial-content-web-crawling-using.md
 - posts-crawlerhtml.md
+- nicfio-Scraper.md
 ---
 
 # HTTP Performance in Scraping

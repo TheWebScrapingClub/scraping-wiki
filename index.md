@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-06-24
+Last updated: 2026-06-25
 
 ## Visual maps and views
 
@@ -65,6 +65,7 @@ Last updated: 2026-06-24
 - [productivityproxy](entities/productivityproxy.md) — ProductivityProxy is a local macOS application that runs a proxy on the user's machine, allowing them to define custom request and response policies using a visual graph interface.
 - [purroute](entities/purroute.md) — Purroute is an advanced proxy server designed to act as an auto-detecting proxy router or gateway.
 - [residential-proxy](entities/residential-proxy.md) — A residential proxy is software designed to route other people's internet traffic out through a user's home network.
+- [residential-proxy-networks](entities/residential-proxy-networks.md) — Residential proxy networks route internet traffic through real consumer IP addresses.
 - [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
 - [vnc2go](entities/vnc2go.md) — VNC2Go is described as a private, in-browser service that routes traffic through a random proxy.
 
