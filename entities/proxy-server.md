@@ -3,9 +3,10 @@ name: proxy-server
 type: entity
 category: tool
 first_seen: 2026-05-06
-last_updated: 2026-05-06
+last_updated: '2026-06-27'
 sources:
-  - vgaj-proxy.md
+- vgaj-proxy.md
+- kmcheung12-goodshelf.md
 ---
 
 # Proxy Server

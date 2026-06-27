@@ -2,7 +2,7 @@
 name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-06-25'
+last_updated: '2026-06-27'
 sources:
 - the-costs-of-web-scraping.md
 - optimizing-costs-for-web-scraping.md
@@ -24,6 +24,7 @@ sources:
 - skillful-fox-studio-grey-fox-community.md
 - blog-smart-tv-apps-residential-proxy-sdks.md
 - 50-of-lg-and-samsung-smart-tv-apps-embed-residential-proxies.md
+- kmcheung12-goodshelf.md
 ---
 
 # Scraping Infrastructure
