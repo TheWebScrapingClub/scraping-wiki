@@ -2,9 +2,10 @@
 name: Bot Detection
 type: concept
 first_seen: 2024-01-01
-last_updated: '2026-06-23'
+last_updated: '2026-06-29'
 sources:
 - dbi-everything-about-user-agent.md
+- https://konstantinlebedev.com/bypassing-automated-traffic-detection/
 - dbi-facebookexternalhit.md
 - dbi-go-http-client.md
 - dbi-linkedin-bot.md
@@ -38,6 +39,8 @@ Bot detection operates at multiple layers, often in combination:
 **Fingerprint layer.** Canvas rendering, WebGL parameters, audio context, font enumeration, screen and timezone consistency, GPU info from WebGPU. Anti-bot vendors maintain large databases of "human" fingerprint distributions and flag outliers.
 
 **Behavioral layer.** Mouse movement profile, scroll patterns, click cadence, time-on-page distributions, navigation graph. Hard to fake convincingly without dedicated emulation libraries.
+
+A practical dynamic runs through these layers. As scrapers learn to forge the upper, client-controlled signals (first the User-Agent, then the full ordered header set), detection sinks toward the layers a client cannot set from its request code. The current floor is the TLS handshake, fixed by the client's TLS library rather than anything in the request, which is why it is the signal that gives most HTTP clients away first (documented in Konstantin Lebedev's 2026 primer).
 
 [ML-Based Bot Detection](ml-bot-detection.md) covers the model-driven side that combines all these layers into a risk score.
 
