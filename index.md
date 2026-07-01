@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-06-27
+Last updated: 2026-06-29
 
 ## Visual maps and views
 
@@ -83,6 +83,7 @@ Last updated: 2026-06-27
 - [cheerio](entities/cheerio.md) — A library used in the Node.js environment for parsing HTML and extracting data from web pages.
 - [childflow](entities/childflow.md) — childflow is a per-command-tree network sandbox designed for Linux environments.
 - [clashmax](entities/clashmax.md) — ClashMax is a native macOS graphical client built with SwiftUI that serves as a Mihomo proxy client.
+- [coorl](entities/coorl.md) — Curl-compatible CLI that mimics Chrome's TLS (JA3/JA4) fingerprint. No browser, no JS. TLS-layer only. Narrower CLI peer to curl-cffi (by Konstantin Lebedev).
 - [crawl4ai](entities/crawl4ai.md) — An open-source web crawler and scraper for LLM-friendly Markdown output.
 - [curl-cffi](entities/curl-cffi.md) — Python HTTP client with TLS impersonation. Critical for hybrid scraping. Also covers scrapy-impersonate and hrequests.
 - [device-and-browser-info](entities/device-and-browser-info.md) — A platform offering tools and articles for browser fingerprinting and bot detection.

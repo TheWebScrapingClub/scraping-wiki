@@ -1055,3 +1055,11 @@ Appended 2 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 1 new source
 - entities/proxy-server.md: 1 new source
 
+
+## [2026-06-29] ingest | Bypassing automated traffic detection (Konstantin Lebedev)
+
+Source: https://konstantinlebedev.com/bypassing-automated-traffic-detection/
+Pages created: entities/coorl.md
+Pages updated: concepts/tls-fingerprinting.md, concepts/bot-detection.md, entities/cloudflare.md, entities/curl-cffi.md
+Key additions: coorl entity (curl-compatible CLI mimicking Chrome's JA3/JA4, TLS-layer only, CLI peer to curl-cffi). Named JA4 as JA3's successor and added tls.peet.ws as an inspection endpoint on the TLS fingerprinting page. Recorded the diagnostic that a Cloudflare edge rejection returns a Cloudflare error page (Ray ID + 403) instead of an origin response, on both the Cloudflare entity and the TLS concept. Added the layered dynamic (detection sinks toward signals the client cannot set from code, currently the TLS handshake) to bot-detection. No contradictions with existing content; the source confirms the wiki's TLS-first model.
+

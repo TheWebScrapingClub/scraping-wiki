@@ -3,9 +3,10 @@ name: Cloudflare
 type: entity
 category: anti-bot
 first_seen: 2023-01-01
-last_updated: '2026-06-05'
+last_updated: '2026-06-29'
 sources:
 - cloudflare-how-to-scrape.md
+- https://konstantinlebedev.com/bypassing-automated-traffic-detection/
 - bypassing-cloudflare-in-2026.md
 - cloudflare-turnstile-what-is-that.md
 - fingerprint-injection-playwright.md
@@ -37,7 +38,7 @@ Cloudflare is a CDN and network security provider whose bot management layer sit
 
 Cloudflare operates several detection mechanisms that can be active simultaneously or in isolation depending on how the site owner has configured their zone.
 
-At the network level, Cloudflare inspects TLS handshake characteristics and HTTP/2 fingerprints. A mismatch between the declared user-agent and the actual TLS signature is enough to flag a request before any content is served.
+At the network level, Cloudflare inspects TLS handshake characteristics and HTTP/2 fingerprints. A mismatch between the declared user-agent and the actual TLS signature is enough to flag a request before any content is served. When a request is rejected at this layer, Cloudflare answers from its own edge: you get a Cloudflare error page with a Ray ID and a 403, not a response from the origin. That distinct error page is the diagnostic that the block happened before the request reached the application, which separates a TLS or edge rejection from an origin-level or application error (documented by Konstantin Lebedev, 2026).
 
 The JS Detection (JSD) layer runs client-side JavaScript that collects browser environment signals and issues the `cf_clearance` cookie to sessions that pass. The `__cf_bm` cookie is issued separately by Bot Management and has a shorter lifespan.
 
@@ -133,3 +134,4 @@ Camoufox's fingerprint rotation means some profiles from its database are detect
 - [https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile](https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile)
 - [https://substack.thewebscraping.club/p/testing-bright-data-unblockler-cloudflare](https://substack.thewebscraping.club/p/testing-bright-data-unblockler-cloudflare)
 - [https://medium.com/@smitgharat0001/cloudflare-bypass-origin-server-deserves-some-love-too-e8bd2182cfea](https://medium.com/@smitgharat0001/cloudflare-bypass-origin-server-deserves-some-love-too-e8bd2182cfea)
+- [https://konstantinlebedev.com/bypassing-automated-traffic-detection/](https://konstantinlebedev.com/bypassing-automated-traffic-detection/)

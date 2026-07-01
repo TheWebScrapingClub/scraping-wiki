@@ -21,7 +21,7 @@ sources:
 
 ## What it is
 
-curl-cffi is a Python binding for curl-impersonate. Rather than using Python's standard SSL stack, it links against BoringSSL, which is the SSL library Chrome uses. This means the TLS handshake it produces is structurally identical to what a real Chrome or Firefox browser sends.
+curl-cffi is a Python binding for curl-impersonate. Rather than using Python's standard SSL stack, it links against BoringSSL, which is the SSL library Chrome uses. This means the TLS handshake it produces is structurally identical to what a real Chrome or Firefox browser sends. A command-line counterpart built on the same idea is [coorl](coorl.md), narrower in scope: a curl-compatible CLI that handshakes like Chrome, with no Python library and no Firefox profile.
 
 ## How it works
 
@@ -75,6 +75,7 @@ curl-cffi is the correct client for implementing HTTP conditional requests on Cl
 - [ja3proxy](ja3proxy.md)
 - [Akamai](akamai.md)
 - [scrapling](scrapling.md)
+- [coorl](coorl.md)
 
 ## Sources
 
