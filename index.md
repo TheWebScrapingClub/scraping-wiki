@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-06-29
+Last updated: 2026-07-01
 
 ## Visual maps and views
 
@@ -44,7 +44,9 @@ Last updated: 2026-06-29
 - [real-browser](entities/real-browser.md) — A real browser is a tool used to actively check job boards to determine if job postings are still live and active.
 
 ### Proxy networks and tools
+- [3rd-party-proxy](entities/3rd-party-proxy.md) — The 3rd Party Proxy is recommended as the browser runtime for the TraceAIO project.
 - [agent-vault-proxy](entities/agent-vault-proxy.md) — agent-vault-proxy is a tool designed to provide just-in-time API keys for AI agents and other processes routed through it.
+- [antigravity-proxy](entities/antigravity-proxy.md) — The `antigravity-proxy` is a local Node.js proxy designed to function as a TLS-terminating server.
 - [atproxy](entities/atproxy.md) — atproxy is a program written in Rust designed to transparently proxy TCP traffic originating from an Android application.
 - [blanktrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
@@ -184,7 +186,7 @@ Last updated: 2026-06-29
 - [Scraping Infrastructure](concepts/scraping-infrastructure.md) — Scraping infrastructure encompasses the compute, storage, scheduling, monitoring, and proxy management systems that run scrapers reliably at scale. The choice of infrastructure directly determines cost structure, IP rotation capability, and operational overhead. A scraper that works on a laptop fails at 100,000 requests per day without the right infrastructure beneath it.
 - [scraping-economics](concepts/scraping-economics.md) — The economics of web scraping encompass the cost structure of running scraping operations, the business models for monetizing scraped data, and the market dynamics of the web data industry. The industry spans two distinct roles: those who sell the infrastructure and tools that enable scraping ("selling shovels"), and those who scrape and sell the resulting data.
 - [Static ISP Proxies](concepts/static-isp-proxies.md) — Static ISP proxies are a hybrid category between datacenter and residential proxies. The IP addresses belong to real ISP allocations (Comcast, RCN, AT&T, Verizon) or to fabricated ISPs with fictional names. In both cases the server handling traffic is physically in a datacenter. The distinguishing characteristic is that the address block carries ISP reputation rather than datacenter ASN reputation, and the IP stays assigned to a single customer for weeks or months rather than rotating.
-- [tls-fingerprinting](concepts/tls-fingerprinting.md) — A detection technique that identifies the client making an HTTPS request by analyzing the structure of its TLS ClientHello message, before any application-layer data is exchanged. The most common implementation is JA3, which produces an MD5 hash from five fields in the handshake: TLS version, cipher suite IDs, extension IDs, elliptic curve IDs, and elliptic curve format IDs.
+- [tls-fingerprinting](concepts/tls-fingerprinting.md) — A detection technique that identifies the client making an HTTPS request by analyzing the structure of its TLS ClientHello message, before any application-layer data is exchanged. The most common implementation is JA3, which produces an MD5 hash from five fields in the handshake: TLS version, cipher suite IDs, extension IDs, elliptic curve IDs, and elliptic curve format IDs. JA4 is the more recent successor scheme, more granular and harder to evade, but built on the same principle of hashing handshake fields the client never chooses from code.
 - [Web Unblockers](concepts/web-unblockers.md) — A web unblocker is a managed API that accepts a target URL and returns the page content after transparently handling IP rotation, CAPTCHA solving, browser fingerprinting, and anti-bot bypass on the provider's infrastructure. The caller makes a standard HTTP request; the provider does the work of getting through the target's defenses.
 - [web-scraping-legal-landscape](concepts/web-scraping-legal-landscape.md) — The legal landscape for web scraping is a contested, evolving body of case law and regulation across multiple jurisdictions. No single statute governs it. Whether any particular scraping operation is legal depends on the interaction of: the Computer Fraud and Abuse Act (CFAA), the Digital Millennium Copyright Act (DMCA), copyright law, contract law (Terms of Service), and in Europe, the GDPR. The area has shifted materially between 2022 and 2026, with courts increasingly being asked to define where public data access ends and illegal circumvention begins.
 - [WebDriver vs CDP vs WebDriver BiDi](concepts/webdriver-vs-cdp-vs-bidi.md) — Three distinct protocols exist for controlling a browser programmatically. They differ in design origin, transport mechanism, browser support, and what detection surface they expose. Choosing the wrong one for a scraping context can introduce detection vectors that are independent of any fingerprint or behavior emulation.

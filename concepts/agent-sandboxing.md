@@ -2,9 +2,10 @@
 name: Agent Sandboxing
 type: concept
 first_seen: 2026-06-23
-last_updated: 2026-06-23
+last_updated: '2026-07-01'
 sources:
 - https://browser-use.com/posts/two-ways-to-sandbox-agents
+- rajibbora1965-WhatsAppCoding.md
 ---
 
 # Agent Sandboxing

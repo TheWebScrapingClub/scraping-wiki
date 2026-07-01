@@ -1063,3 +1063,15 @@ Pages created: entities/coorl.md
 Pages updated: concepts/tls-fingerprinting.md, concepts/bot-detection.md, entities/cloudflare.md, entities/curl-cffi.md
 Key additions: coorl entity (curl-compatible CLI mimicking Chrome's JA3/JA4, TLS-layer only, CLI peer to curl-cffi). Named JA4 as JA3's successor and added tls.peet.ws as an inspection endpoint on the TLS fingerprinting page. Recorded the diagnostic that a Cloudflare edge rejection returns a Cloudflare error page (Ray ID + 403) instead of an origin response, on both the Cloudflare entity and the TLS concept. Added the layered dynamic (detection sinks toward signals the client cannot set from code, currently the TLS handshake) to bot-detection. No contradictions with existing content; the source confirms the wiki's TLS-first model.
 
+
+## [2026-07-01] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- antigravity-proxy (proxy-provider) — antigravity-proxy
+- 3rd-party-proxy (proxy-provider) — 3rd Party Proxy
+
+Appended 3 sources to existing wiki pages:
+- concepts/agent-sandboxing.md: 1 new source
+- concepts/llm-scraping.md: 1 new source
+- concepts/scraping-infrastructure.md: 1 new source
+
