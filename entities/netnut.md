@@ -3,10 +3,11 @@ name: Netnut
 type: entity
 category: proxy-provider
 first_seen: 2026-06-23
-last_updated: 2026-06-23
+last_updated: '2026-07-03'
 sources:
 - https://www.youtube.com/watch?v=MQ1zpnlMMUc
 - https://spur.us/blog/how-proxy-providers-co-opt-entire-networks
+- 2026-07-fbi-seizes-netnut-proxy-platform-popa-botnet.md
 ---
 
 # Netnut

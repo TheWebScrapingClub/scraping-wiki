@@ -2,7 +2,7 @@
 name: browser-fingerprinting
 type: concept
 first_seen: 2010-01-01
-last_updated: '2026-06-23'
+last_updated: '2026-07-03'
 sources:
 - browser-fingerprinting-how-it-works.md
 - understanding-browser-fingerprint.md
@@ -35,6 +35,7 @@ sources:
 - feder-cr-invisibleplaywright.md
 - writing-wasm-simd-fingerprinting.md
 - https://www.brokenbrowser.com/blog/2024-11-12-detecting-chrome-extensions-without-console-noise
+- geospoof-com.md
 ---
 
 # Browser Fingerprinting

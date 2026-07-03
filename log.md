@@ -1075,3 +1075,16 @@ Appended 3 sources to existing wiki pages:
 - concepts/llm-scraping.md: 1 new source
 - concepts/scraping-infrastructure.md: 1 new source
 
+
+## [2026-07-03] update | Pass 3 source linking
+
+Created 3 new entity pages from orphan RELEVANT news:
+- socks5-proxy (proxy-provider) — SOCKS5 proxy
+- geospoof (browser) — GeoSpoof
+- hn-attention-cliff (library) — hn-attention-cliff
+
+Appended 4 sources to existing wiki pages:
+- concepts/browser-fingerprinting.md: 1 new source
+- concepts/proxy-fundamentals.md: 2 new sources
+- entities/netnut.md: 1 new source
+

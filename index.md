@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-01
+Last updated: 2026-07-03
 
 ## Visual maps and views
 
@@ -36,6 +36,7 @@ Last updated: 2026-07-01
 - [browserbase-chrome](entities/browserbase-chrome.md) — Browserbase Chrome is utilized for running real-browser Quality Assurance (QA) against deployed previews of projects.
 - [camoufox-reverse](entities/camoufox-reverse.md) — A Camoufox fork (WhiteNightShadow) that adds an engine-level PropertyTracer recording which DOM getters a page reads. A reverse-engineering instrument, not a stealth build. TWSC used it to watch Datadome read canvas/WebGL/navigator on leboncoin.
 - [chromiumfish](entities/chromiumfish.md) — ChromiumFish is a stealth Chromium fork designed to present a consistent browser identity through fingerprint hardening.
+- [geospoof](entities/geospoof.md) — GeoSpoof is a browser extension and application designed to match the user's VPN IP address to the browser's reported location, allowing it to spoof the geographical identity of the user.
 - [invisible-playwright](entities/invisible-playwright.md) — invisible_playwright is a patched replacement for Playwright designed specifically for Firefox that is engineered to pass advanced bot detection tests.
 - [konform-browser](entities/konform-browser.md) — Konform Browser is a stealth browser based on Firefox ESR for web scraping and automation.
 - [lightpanda](entities/lightpanda.md) — Lightpanda is a browser built for AI and automation, offering faster execution and lower memory usag
@@ -68,6 +69,7 @@ Last updated: 2026-07-01
 - [purroute](entities/purroute.md) — Purroute is an advanced proxy server designed to act as an auto-detecting proxy router or gateway.
 - [residential-proxy](entities/residential-proxy.md) — A residential proxy is software designed to route other people's internet traffic out through a user's home network.
 - [residential-proxy-networks](entities/residential-proxy-networks.md) — Residential proxy networks route internet traffic through real consumer IP addresses.
+- [socks5-proxy](entities/socks5-proxy.md) — A SOCKS5 proxy is used by systems, such as Claude Code’s sandbox, to route outbound traffic and enforce an egress allowlist.
 - [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
 - [vnc2go](entities/vnc2go.md) — VNC2Go is described as a private, in-browser service that routes traffic through a random proxy.
 
@@ -101,6 +103,7 @@ Last updated: 2026-07-01
 - [goscrapy](entities/goscrapy.md) — A high-performance web scraping framework for Go, designed with the familiar architecture of Python'
 - [groxy](entities/groxy.md) — Groxy is a small Go library designed for building forward proxy servers.
 - [guestlist-tools](entities/guestlist-tools.md) — guestlist is a free Python library and HTTP API designed to check whether AI agents and computer-use agents can access specific websites.
+- [hn-attention-cliff](entities/hn-attention-cliff.md) — hn-attention-cliff is a repository containing the scraper, analysis, and data used to measure the half-life of Show HN launches on Hacker News.
 - [hodor](entities/hodor.md) — Hodor is a tiny reverse proxy written in Rust designed to gate web applications behind a single shared password.
 - [hRequests](entities/hrequests.md) — TLS-fingerprinted HTTP with embedded headless browser. Akamai/Cloudflare/PX pass; DataDome/Kasada fail.
 - [iherb-cli](entities/iherb-cli.md) — A Rust command-line tool for querying product data from iHerb using a headless browser.
