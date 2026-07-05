@@ -2,7 +2,7 @@
 name: ai-scraping-assistants
 type: concept
 first_seen: 2025-03-21
-last_updated: '2026-06-09'
+last_updated: '2026-07-05'
 sources:
 - cursor-mcp-web-scraping-assistant.md
 - claude-cursor-ai-scraping-assistant.md
@@ -15,6 +15,7 @@ sources:
 - www-notesasm-com.md
 - docs.md
 - intunedhq-com.md
+- pjperez-proxyboy.md
 ---
 
 # AI Scraping Assistants

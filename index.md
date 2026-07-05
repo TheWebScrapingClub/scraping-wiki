@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-03
+Last updated: 2026-07-05
 
 ## Visual maps and views
 
@@ -69,6 +69,7 @@ Last updated: 2026-07-03
 - [purroute](entities/purroute.md) — Purroute is an advanced proxy server designed to act as an auto-detecting proxy router or gateway.
 - [residential-proxy](entities/residential-proxy.md) — A residential proxy is software designed to route other people's internet traffic out through a user's home network.
 - [residential-proxy-networks](entities/residential-proxy-networks.md) — Residential proxy networks route internet traffic through real consumer IP addresses.
+- [sandbox-proxy](entities/sandbox-proxy.md) — sandbox-proxy is a zero-dependency, stdlib-only Go forward proxy designed to inject real credentials, such as GitHub tokens or npm tokens, into outbound requests on the wire.
 - [socks5-proxy](entities/socks5-proxy.md) — A SOCKS5 proxy is used by systems, such as Claude Code’s sandbox, to route outbound traffic and enforce an egress allowlist.
 - [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
 - [vnc2go](entities/vnc2go.md) — VNC2Go is described as a private, in-browser service that routes traffic through a random proxy.
@@ -129,6 +130,7 @@ Last updated: 2026-07-03
 - [playwright](entities/playwright.md) — Microsoft browser automation. Detectable by default, patchable via Patchright/Undetected Playwright.
 - [proxelar](entities/proxelar.md) — A Rust-based MITM proxy for intercepting and modifying HTTP/HTTPS traffic.
 - [proxy-server](entities/proxy-server.md) — A service that brokers connections between the browser and phone.
+- [proxyboy](entities/proxyboy.md) — ProxyBoy is a Windows-native HTTP/HTTPS debugging proxy designed to capture, inspect, and modify network traffic, similar to tools like Charles Proxy or Proxyman.
 - [puppeteer](entities/puppeteer.md) — A Node.js library which provides a high-level API to control Chrome or Chromium over the DevTools Pr
 - [pydoll](entities/pydoll.md) — Async CDP Chrome automation. Stability issues in 2026 benchmarks.
 - [python-requests](entities/python-requests.md) — A Python HTTP library for making HTTP(s) requests.
