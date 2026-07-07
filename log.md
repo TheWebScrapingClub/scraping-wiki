@@ -1099,3 +1099,15 @@ Appended 2 sources to existing wiki pages:
 - concepts/agent-sandboxing.md: 1 new source
 - concepts/ai-scraping-assistants.md: 1 new source
 
+
+## [2026-07-07] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- quiet-sky-privacy-proxy (proxy-provider) — Quiet Sky Privacy Proxy
+- fender (tool) — fender
+
+Appended 4 sources to existing wiki pages:
+- concepts/scraping-infrastructure.md: 2 new sources
+- concepts/web-unblockers.md: 1 new source
+- entities/netnut.md: 1 new source
+

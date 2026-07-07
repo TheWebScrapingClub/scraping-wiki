@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-05
+Last updated: 2026-07-07
 
 ## Visual maps and views
 
@@ -67,6 +67,7 @@ Last updated: 2026-07-05
 - [pangolin](entities/pangolin.md) — Pangolin is a peer-to-peer alternative to Cloudflare Tunnels that utilizes a client-to-site VPN combined with an edge reverse proxy to provide cloaked HTTPS traffic.
 - [productivityproxy](entities/productivityproxy.md) — ProductivityProxy is a local macOS application that runs a proxy on the user's machine, allowing them to define custom request and response policies using a visual graph interface.
 - [purroute](entities/purroute.md) — Purroute is an advanced proxy server designed to act as an auto-detecting proxy router or gateway.
+- [quiet-sky-privacy-proxy](entities/quiet-sky-privacy-proxy.md) — The Quiet Sky Privacy Proxy is a Cloudflare Worker designed to serve as a privacy core for the Quiet Sky weather proxy.
 - [residential-proxy](entities/residential-proxy.md) — A residential proxy is software designed to route other people's internet traffic out through a user's home network.
 - [residential-proxy-networks](entities/residential-proxy-networks.md) — Residential proxy networks route internet traffic through real consumer IP addresses.
 - [sandbox-proxy](entities/sandbox-proxy.md) — sandbox-proxy is a zero-dependency, stdlib-only Go forward proxy designed to inject real credentials, such as GitHub tokens or npm tokens, into outbound requests on the wire.
@@ -96,6 +97,7 @@ Last updated: 2026-07-05
 - [envoy](entities/envoy.md) — Envoy is an infrastructure component discussed in the context of Reddit's feed serving path.
 - [facebookexternalhit](entities/facebookexternalhit.md) — A specific user agent string used by the Facebook crawler to retrieve information about shared conte
 - [feedstock](entities/feedstock.md) — A high-performance web crawler and scraper for TypeScript, powered by Bun and Playwright.
+- [fender](entities/fender.md) — fender is a transparent Docker Unix socket proxy designed to eliminate the lock-in to the implicit Docker Hub registry.
 - [fingerprinterjs](entities/fingerprinterjs.md) — FingerprinterJS v2.0 is a browser fingerprinting and bot detection tool.
 - [fpscanner](entities/fpscanner.md) — A lightweight browser fingerprinting library for bot detection.
 - [ghost-cursor](entities/ghost-cursor.md) — Bezier/Fitts's Law mouse movement for Playwright. OxyMouse is a newer alternative with Gaussian and Perlin noise options.
