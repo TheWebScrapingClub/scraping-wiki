@@ -1111,3 +1111,14 @@ Appended 4 sources to existing wiki pages:
 - concepts/web-unblockers.md: 1 new source
 - entities/netnut.md: 1 new source
 
+
+## [2026-07-08] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- webone (proxy-provider) — WebOne
+- mycel (library) — mycel
+
+Appended 2 sources to existing wiki pages:
+- concepts/proxy-fundamentals.md: 1 new source
+- concepts/scraping-infrastructure.md: 1 new source
+

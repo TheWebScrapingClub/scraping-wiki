@@ -2,7 +2,7 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-07-03'
+last_updated: '2026-07-08'
 sources:
 - everything-about-proxies.md
 - choosing-proxy-provider-scraping.md
@@ -57,6 +57,7 @@ sources:
 - https://spur.us/blog/smart-tv-apps-residential-proxy-sdks
 - 2026-07-fbi-seizes-netnut-proxy-platform-popa-botnet.md
 - Koukyosyumei-claude-codes-socks5-proxy-bypass-why-egress-filtering-must-happen-a.md
+- atauenis-webone.md
 ---
 
 # Proxy Fundamentals

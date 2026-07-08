@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-07
+Last updated: 2026-07-08
 
 ## Visual maps and views
 
@@ -74,6 +74,7 @@ Last updated: 2026-07-07
 - [socks5-proxy](entities/socks5-proxy.md) — A SOCKS5 proxy is used by systems, such as Claude Code’s sandbox, to route outbound traffic and enforce an egress allowlist.
 - [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
 - [vnc2go](entities/vnc2go.md) — VNC2Go is described as a private, in-browser service that routes traffic through a random proxy.
+- [webone](entities/webone.md) — WebOne is an HTTP 1.x proxy server designed to make older web browsers, media players, and messengers functional within the modern Web 2.0 environment.
 
 ### Tools and libraries
 - [ag2b](entities/ag2b.md) — AG2B (Agent to Browser) is a client-side agentic runtime designed to allow an agent to execute its tasks directly within the user's browser.
@@ -123,6 +124,7 @@ Last updated: 2026-07-07
 - [masterhttprelayvpn](entities/masterhttprelayvpn.md) — A domain-fronted HTTP/SOCKS5 proxy tool that tunnels traffic through Google Apps Script for scraping
 - [mitmproxy](entities/mitmproxy.md) — mitmproxy is a small interceptor written in Python used to build a proxy, exemplified by the `simple-proxy` project.
 - [mochi-js](entities/mochi-js.md) — mochi.js is a Bun-native, raw-CDP browser automation framework designed to create relationally-coherent fingerprints.
+- [mycel](entities/mycel.md) — Mycel is a fast, decentralized web crawler, indexer, and search engine implemented in a Rust binary.
 - [nodejs-based-scraper](entities/nodejs-based-scraper.md) — A previous project mentioned in the series used NodeJS to collect temporary phone numbers and messag
 - [Nodriver](entities/nodriver.md) — Chrome automation without WebDriver layer. Passes CDP tests natively but cannot forge hardware fingerprint.
 - [obscrd](entities/obscrd.md) — An open-source content protection system for React that scrambles HTML and blocks AI crawlers.
