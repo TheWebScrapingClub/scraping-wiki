@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-10
+Last updated: 2026-07-11
 
 ## Visual maps and views
 
@@ -37,6 +37,7 @@ Last updated: 2026-07-10
 - [camoufox-reverse](entities/camoufox-reverse.md) — A Camoufox fork (WhiteNightShadow) that adds an engine-level PropertyTracer recording which DOM getters a page reads. A reverse-engineering instrument, not a stealth build. TWSC used it to watch Datadome read canvas/WebGL/navigator on leboncoin.
 - [chromiumfish](entities/chromiumfish.md) — ChromiumFish is a stealth Chromium fork designed to present a consistent browser identity through fingerprint hardening.
 - [ember-browser](entities/ember-browser.md) — ember is a lightweight, headless browser written in Python designed specifically for use by AI agents.
+- [fortress](entities/fortress.md) — Fortress is an open-source stealth browser designed to bypass various anti-bot measures encountered on websites.
 - [geospoof](entities/geospoof.md) — GeoSpoof is a browser extension and application designed to match the user's VPN IP address to the browser's reported location, allowing it to spoof the geographical identity of the user.
 - [invisible-playwright](entities/invisible-playwright.md) — invisible_playwright is a patched replacement for Playwright designed specifically for Firefox that is engineered to pass advanced bot detection tests.
 - [konform-browser](entities/konform-browser.md) — Konform Browser is a stealth browser based on Firefox ESR for web scraping and automation.
