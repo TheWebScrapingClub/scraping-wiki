@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-11
+Last updated: 2026-07-13
 
 ## Visual maps and views
 
@@ -124,6 +124,7 @@ Last updated: 2026-07-11
 - [llmcap](entities/llmcap.md) — LLMCap is a service designed to enforce hard dollar caps on LLM API calls across various providers.
 - [lucidextractor](entities/lucidextractor.md) — An enterprise web scraping and SEO analysis platform.
 - [masterhttprelayvpn](entities/masterhttprelayvpn.md) — A domain-fronted HTTP/SOCKS5 proxy tool that tunnels traffic through Google Apps Script for scraping
+- [math-tanh](entities/math-tanh.md) — The implementation of the `Math.tanh` function varies between operating systems, which serves as a subtle signal for browser fingerprinting.
 - [mitmproxy](entities/mitmproxy.md) — mitmproxy is a small interceptor written in Python used to build a proxy, exemplified by the `simple-proxy` project.
 - [mochi-js](entities/mochi-js.md) — mochi.js is a Bun-native, raw-CDP browser automation framework designed to create relationally-coherent fingerprints.
 - [mycel](entities/mycel.md) — Mycel is a fast, decentralized web crawler, indexer, and search engine implemented in a Rust binary.

@@ -1149,3 +1149,12 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/mobile-proxy-farming.md: 1 new source
 
+
+## [2026-07-13] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- math-tanh (library) — Math.tanh
+
+Appended 1 sources to existing wiki pages:
+- concepts/browser-fingerprinting.md: 1 new source
+
