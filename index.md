@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-13
+Last updated: 2026-07-14
 
 ## Visual maps and views
 
@@ -154,6 +154,7 @@ Last updated: 2026-07-13
 - [scrapy](entities/scrapy.md) — Scrapy is a Python library that is used in typical web scraping setups.
 - [sensecollect](entities/sensecollect.md) — SenseCollect is a self-service platform designed to simplify web data extraction for lead generation and market intelligence.
 - [simple-selenium-chrome-crawler](entities/simple-selenium-chrome-crawler.md) — A Python script that uses Selenium and Chrome to crawl web pages and extract links.
+- [socks5-bridge](entities/socks5-bridge.md) — `socks5-bridge` is a local HTTP-to-SOCKS5 proxy bridge designed for Chrome.
 - [spidersuite](entities/spidersuite.md) — A powerful web crawler and security testing tool for penetration testers and security researchers.
 - [spidra](entities/spidra.md) — A web scraping platform that uses AI to extract data from websites.
 - [supercrawl](entities/supercrawl.md) — SuperCrawl is an open-source web crawler implemented in the Rust programming language.

@@ -1158,3 +1158,12 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/browser-fingerprinting.md: 1 new source
 
+
+## [2026-07-14] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- socks5-bridge (tool) — socks5-bridge
+
+Appended 1 sources to existing wiki pages:
+- concepts/scraping-infrastructure.md: 1 new source
+
