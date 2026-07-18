@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-14
+Last updated: 2026-07-18
 
 ## Visual maps and views
 
@@ -59,6 +59,7 @@ Last updated: 2026-07-14
 - [ipidea](entities/ipidea.md) — A residential proxy network that enrolled 9 million Android devices into a botnet.
 - [IPXO](entities/ipxo.md) — IPv4 leasing marketplace; abuse.radar.com is its reporting surface; most static ISP proxy infrastructure traces back here.
 - [kampala](entities/kampala.md) — Kampala is a tool for intercepting and automating web traffic.
+- [latch](entities/latch.md) — Latch is a lightweight, high-performance infrastructure proxy server designed to tunnel legacy TCP traffic securely.
 - [lte-modems](entities/lte-modems.md) — The LTE modems serve as the physical source for a production residential IP proxy pool.
 - [meshscrape](entities/meshscrape.md) — A service that offers a distributed IP network for web scraping to avoid blocks and rate limits.
 - [momoproxy](entities/momoproxy.md) — MoMoProxy is a service that provides free and paid proxy lists for various protocols, including HTTP, HTTPS, and SOCKS.
@@ -128,6 +129,7 @@ Last updated: 2026-07-14
 - [mitmproxy](entities/mitmproxy.md) — mitmproxy is a small interceptor written in Python used to build a proxy, exemplified by the `simple-proxy` project.
 - [mochi-js](entities/mochi-js.md) — mochi.js is a Bun-native, raw-CDP browser automation framework designed to create relationally-coherent fingerprints.
 - [mycel](entities/mycel.md) — Mycel is a fast, decentralized web crawler, indexer, and search engine implemented in a Rust binary.
+- [mysysinfo-api](entities/mysysinfo-api.md) — The MySysInfo API is a tool that provides system information gathered from the user's browser and device, including details such as the IP address, operating system, browser version, screen resolution, and device memory.
 - [nodejs-based-scraper](entities/nodejs-based-scraper.md) — A previous project mentioned in the series used NodeJS to collect temporary phone numbers and messag
 - [Nodriver](entities/nodriver.md) — Chrome automation without WebDriver layer. Passes CDP tests natively but cannot forge hardware fingerprint.
 - [obscrd](entities/obscrd.md) — An open-source content protection system for React that scrambles HTML and blocks AI crawlers.
@@ -146,6 +148,7 @@ Last updated: 2026-07-14
 - [ricci-flow-ai-web-scraper](entities/ricci-flow-ai-web-scraper.md) — A Chrome extension for AI-powered web scraping that extracts data from websites and exports it to Ex
 - [roxy](entities/roxy.md) — Roxy is a feature-rich RSS proxy written in Go that is designed to combine multiple RSS feeds into a single, queryable feed.
 - [runo](entities/runo.md) — Runo is an open-source tool designed to extract structured, typed JSON from any URL based on a schema defined by the user.
+- [rustwright](entities/rustwright.md) — Rustwright is a browser automation library designed for Python and Node.js that maintains the familiar Playwright API while driving Chromium using a native Rust engine.
 - [ScrapeGraphAI](entities/scrapegraphai.md) — LLM-powered scraping library and commercial API. Non-deterministic, best for horizontal multi-site extraction.
 - [scrapingduck](entities/scrapingduck.md) — A scraping API that handles IP rotation, JavaScript rendering, and provides a free tier for web scra
 - [scrapingsandbox](entities/scrapingsandbox.md) — A web scraping sandbox for learning and testing web scraping techniques.
