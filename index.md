@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-18
+Last updated: 2026-07-22
 
 ## Visual maps and views
 
@@ -52,6 +52,7 @@ Last updated: 2026-07-18
 - [antigravity-proxy](entities/antigravity-proxy.md) — The `antigravity-proxy` is a local Node.js proxy designed to function as a TLS-terminating server.
 - [atproxy](entities/atproxy.md) — atproxy is a program written in Rust designed to transparently proxy TCP traffic originating from an Android application.
 - [blanktrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints
+- [bright-data](entities/bright-data.md) — Bright Data is a residential proxy network identified in research concerning proxy software development kits (SDKs) embedded in smart TV applications.
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
 - [firehol](entities/firehol.md) — A community-driven project that aggregates multiple IP lists, including open proxies, Tor exit nodes
 - [greyfox-community-edition](entities/greyfox-community-edition.md) — GreyFox Community Edition is a self-hosted AI traffic proxy and local operator console designed for teams seeking to control LLM token usage, enforce per-user limits, reuse exact cached responses, and maintain visibility into AI traffic within their own infrastructure.

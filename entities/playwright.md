@@ -3,19 +3,20 @@ name: playwright
 type: entity
 category: tool
 first_seen: 2023-01-01
-last_updated: 2026-04-22
+last_updated: '2026-07-22'
 sources:
-  - playwright-stealth-cdp.md
-  - fingerprint-injection-playwright.md
-  - bypass-datadome-mouse-movements-in-playwright.md
-  - the-lab-35-bypassing-perimeterx-with.md
-  - the-lab-56-bypassing-perimeterx-3.md
-  - the-stealth-stack-web-scraping.md
-  - playwright-scrapers-undetected.md
-  - how-to-start-with-scrapy-and-playwright.md
-  - advanced-logging-in-playwright.md
-  - playwright-tips-tricks-scraping.md
-  - 5-features-playwright-web-scraping.md
+- playwright-stealth-cdp.md
+- fingerprint-injection-playwright.md
+- bypass-datadome-mouse-movements-in-playwright.md
+- the-lab-35-bypassing-perimeterx-with.md
+- the-lab-56-bypassing-perimeterx-3.md
+- the-stealth-stack-web-scraping.md
+- playwright-scrapers-undetected.md
+- how-to-start-with-scrapy-and-playwright.md
+- advanced-logging-in-playwright.md
+- playwright-tips-tricks-scraping.md
+- 5-features-playwright-web-scraping.md
+- browser-tools.md
 ---
 
 # Playwright

@@ -1179,3 +1179,13 @@ Appended 2 sources to existing wiki pages:
 - concepts/tls-fingerprinting.md: 1 new source
 - concepts/webdriver-vs-cdp-vs-bidi.md: 1 new source
 
+
+## [2026-07-22] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- bright-data (proxy-provider) — Bright Data
+
+Appended 2 sources to existing wiki pages:
+- concepts/scraping-infrastructure.md: 1 new source
+- entities/playwright.md: 1 new source
+

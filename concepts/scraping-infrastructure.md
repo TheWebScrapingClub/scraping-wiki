@@ -2,7 +2,7 @@
 name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-07-14'
+last_updated: '2026-07-22'
 sources:
 - the-costs-of-web-scraping.md
 - optimizing-costs-for-web-scraping.md
@@ -30,6 +30,7 @@ sources:
 - marketplace-actions-fender-ci.md
 - mycel.md
 - proxybasehq-socks5-bridge.md
+- 2026-07-lg-to-ban-residential-proxies-from-smart-tv-apps.md
 ---
 
 # Scraping Infrastructure
