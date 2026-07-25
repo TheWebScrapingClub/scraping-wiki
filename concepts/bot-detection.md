@@ -2,7 +2,7 @@
 name: Bot Detection
 type: concept
 first_seen: 2024-01-01
-last_updated: '2026-06-29'
+last_updated: '2026-07-25'
 sources:
 - dbi-everything-about-user-agent.md
 - https://konstantinlebedev.com/bypassing-automated-traffic-detection/
@@ -18,6 +18,7 @@ sources:
 - blog-anatomy-of-a-55k-bot-attack.md
 - blog-reverse-once-run-forever.md
 - https://browser-use.com/posts/bot-detection
+- tools-keycheck.md
 ---
 
 # Bot Detection

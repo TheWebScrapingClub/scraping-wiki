@@ -1189,3 +1189,12 @@ Appended 2 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 1 new source
 - entities/playwright.md: 1 new source
 
+
+## [2026-07-25] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- web-bot-auth (anti-bot) — Web Bot Auth
+
+Appended 1 sources to existing wiki pages:
+- concepts/bot-detection.md: 1 new source
+
