@@ -3,9 +3,10 @@ name: residential-proxy-networks
 type: entity
 category: proxy-provider
 first_seen: 2026-06-25
-last_updated: 2026-06-25
+last_updated: '2026-08-15'
 sources:
-  - 50-of-lg-and-samsung-smart-tv-apps-embed-residential-proxies.md
+- 50-of-lg-and-samsung-smart-tv-apps-embed-residential-proxies.md
+- investigate-cyber-alerts-2026-evading-residential-proxy-networks-protecting-your.md
 ---
 
 # Residential proxy networks

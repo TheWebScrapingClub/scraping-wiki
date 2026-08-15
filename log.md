@@ -1208,3 +1208,11 @@ Appended 2 sources to existing wiki pages:
 - concepts/proxy-fundamentals.md: 1 new source
 - concepts/scraping-infrastructure.md: 1 new source
 
+
+## [2026-08-15] update | Pass 3 source linking
+
+Appended 3 sources to existing wiki pages:
+- concepts/browser-fingerprinting.md: 1 new source
+- concepts/web-unblockers.md: 1 new source
+- entities/residential-proxy-networks.md: 1 new source
+
