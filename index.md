@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-07-25
+Last updated: 2026-08-15
 
 ## Visual maps and views
 
@@ -56,6 +56,7 @@ Last updated: 2026-07-25
 - [bright-data](entities/bright-data.md) — Bright Data is a residential proxy network identified in research concerning proxy software development kits (SDKs) embedded in smart TV applications.
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
 - [firehol](entities/firehol.md) — A community-driven project that aggregates multiple IP lists, including open proxies, Tor exit nodes
+- [freesocks](entities/freesocks.md) — FreeSocks is a VPN designed for individuals whose internet access is censored, functioning as a privacy-respecting VPN in other regions.
 - [greyfox-community-edition](entities/greyfox-community-edition.md) — GreyFox Community Edition is a self-hosted AI traffic proxy and local operator console designed for teams seeking to control LLM token usage, enforce per-user limits, reuse exact cached responses, and maintain visibility into AI traffic within their own infrastructure.
 - [hysteria](entities/hysteria.md) — Hysteria is a powerful, lightning fast, and censorship-resistant proxy.
 - [ipidea](entities/ipidea.md) — A residential proxy network that enrolled 9 million Android devices into a botnet.
