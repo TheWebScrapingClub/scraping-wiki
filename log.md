@@ -1216,3 +1216,12 @@ Appended 3 sources to existing wiki pages:
 - concepts/web-unblockers.md: 1 new source
 - entities/residential-proxy-networks.md: 1 new source
 
+
+## [2026-08-15] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- xcancel-com-antibot-captcha (anti-bot) — xcancel.com/antibot/captcha
+
+Appended 1 sources to existing wiki pages:
+- concepts/web-unblockers.md: 1 new source
+

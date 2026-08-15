@@ -32,6 +32,7 @@ Last updated: 2026-08-15
 - [selenium-headless-chrome-detection](entities/selenium-headless-chrome-detection.md) — Describes four methods to detect bots using Selenium running in headless Chrome environments.
 - [usehuma](entities/usehuma.md) — useHUMA is an anti-bot startup that provides bot detection services.
 - [web-bot-auth](entities/web-bot-auth.md) — Web Bot Auth is a system built on RFC 9421 and HTTP Message Signatures that allows a verifier like Cloudflare to authenticate a crawler from a signing-key directory that the user publishes.
+- [xcancel-com-antibot-captcha](entities/xcancel-com-antibot-captcha.md) — This page presents a CAPTCHA challenge requiring users to "Type the coloured characters." It includes an image for verification and provides options for retrying the challenge or obtaining a new image if the initial attempt does not match.
 
 ### Browsers
 - [browserbase-chrome](entities/browserbase-chrome.md) — Browserbase Chrome is utilized for running real-browser Quality Assurance (QA) against deployed previews of projects.
