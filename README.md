@@ -41,9 +41,16 @@ The Web Scraping Wiki is free to read and stays that way thanks to the companies
 ## Awesome Sponsors
 
 <!--
-  AWESOME SPONSORS — logo-only links, no description.
+  AWESOME SPONSORS — logo links, optional one-line offer under the logo.
   To add a real sponsor, duplicate an <a>, swap the logo (images/...) and the URL.
+  MangoProxy: added 2026-09-02, scheduled for removal on the 2026-10-02 run.
 -->
+<p>
+  <a href="https://mangoproxy.com/?utm_source=thewebscrapingclub&utm_medium=partner&utm_campaign=thewebscrapingclub_github" title="MangoProxy — premium residential, ISP, mobile and datacenter proxies"><img src="images/mangoproxy.png" width="420"></a>
+  <br>
+  <a href="https://mangoproxy.com/?utm_source=thewebscrapingclub&utm_medium=partner&utm_campaign=thewebscrapingclub_github"><b>MangoProxy</b> — code <b>SCRAPING</b> for 8% off ISP Static proxies</a>
+</p>
+
 <p>
   <a href="mailto:pier@thewebscraping.club" title="Your slot — get in touch"><img src="images/sponsor-placeholder-strip.png" width="160"></a>
   <a href="mailto:pier@thewebscraping.club" title="Your slot — get in touch"><img src="images/sponsor-placeholder-strip.png" width="160"></a>
