@@ -2,7 +2,7 @@
 name: llm-scraping
 type: concept
 first_seen: 2024-05-30
-last_updated: '2026-07-10'
+last_updated: '2026-09-02'
 sources:
 - scraping-with-llms-gpt-vision.md
 - how-to-use-llms-in-scraping.md
@@ -24,6 +24,8 @@ sources:
 - traceaio-org.md
 - rhymeswithlimo-runo.md
 - andalabx-ember.md
+- danubia-tech.md
+- driftwatchproxy-com.md
 ---
 
 # LLM Scraping

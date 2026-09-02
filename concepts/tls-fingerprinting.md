@@ -2,7 +2,7 @@
 name: tls-fingerprinting
 type: concept
 first_seen: 2017-01-01
-last_updated: '2026-07-18'
+last_updated: '2026-09-02'
 sources:
 - bypass-akamai-bot-protection.md
 - https://konstantinlebedev.com/bypassing-automated-traffic-detection/
@@ -15,6 +15,7 @@ sources:
 - antibot-microlink-io.md
 - dbi-analyze-open-bullet2-request-mode.md
 - itsVentie-Latch.md
+- ytkoka-impersonate-proxy.md
 ---
 
 # TLS Fingerprinting

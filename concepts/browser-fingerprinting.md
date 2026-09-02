@@ -2,7 +2,7 @@
 name: browser-fingerprinting
 type: concept
 first_seen: 2010-01-01
-last_updated: '2026-08-15'
+last_updated: '2026-09-02'
 sources:
 - browser-fingerprinting-how-it-works.md
 - understanding-browser-fingerprint.md
@@ -38,6 +38,8 @@ sources:
 - geospoof-com.md
 - posts-browser-math-os-fingerprint.md
 - posts-browser-hyphenation-os-fingerprint.md
+- fingerprint-scan-com.md
+- security-2026-08-aliexpress-caught-fingerprinting-visitors-after-sending-inaudib.md
 ---
 
 # Browser Fingerprinting

@@ -2,7 +2,7 @@
 name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-08-15'
+last_updated: '2026-09-02'
 sources:
 - the-costs-of-web-scraping.md
 - optimizing-costs-for-web-scraping.md
@@ -32,6 +32,11 @@ sources:
 - proxybasehq-socks5-bridge.md
 - 2026-07-lg-to-ban-residential-proxies-from-smart-tv-apps.md
 - smokevpn-com.md
+- how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet.md
+- ninadphalak-LLM-Shield-Proxy.md
+- proxmint-free-proxy-list.md
+- puppetflow-puppetflow.md
+- story-fbi-disrupts-chinese-proxy-tools-used-in-mass-hacking-of-us-agencies-and-i.md
 ---
 
 # Scraping Infrastructure

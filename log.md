@@ -1225,3 +1225,43 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/web-unblockers.md: 1 new source
 
+
+## [2026-09-02] update | Pass 3 source linking
+
+Created 21 new entity pages from orphan RELEVANT news:
+- h5i (browser) — h5i
+- pagesieve (browser) — PageSieve
+- anvil (proxy-provider) — Anvil
+- makraexafirecrawl (tool) — MakraExaFirecrawl
+- ai-generated-content-detection (anti-bot) — AI-Generated Content Detection
+- grith (anti-bot) — Grith
+- rama (library) — Rama
+- danubia (tool) — Danubia
+- browser-fingerprint-scanner (anti-bot) — Browser Fingerprint Scanner
+- pingora (proxy-provider) — Pingora
+- pyscrappy (library) — PyScrappy
+- proxy-botnet-malware (anti-bot) — proxy botnet malware
+- llm-shield-proxy (anti-bot) — LLM-Shield-Proxy
+- proxmint-free-proxy-list (proxy-provider) — proxmint/free-proxy-list
+- puppetflow (tool) — Puppetflow
+- slick-search-engine (tool) — Slick Search Engine
+- qtrouter (tool) — QTRouter
+- stunt (tool) — stunt
+- agent-web-crawlers (tool) — Agent web crawlers
+- customhouse (anti-bot) — Customhouse
+- impersonate-proxy (anti-bot) — impersonate-proxy
+
+Appended 22 sources to existing wiki pages:
+- concepts/agent-sandboxing.md: 4 new sources
+- concepts/ai-scraping-assistants.md: 1 new source
+- concepts/bot-detection.md: 1 new source
+- concepts/browser-fingerprinting.md: 2 new sources
+- concepts/hybrid-scraping.md: 1 new source
+- concepts/llm-scraping.md: 2 new sources
+- concepts/ml-bot-detection.md: 1 new source
+- concepts/mobile-proxy-farming.md: 1 new source
+- concepts/proxy-fundamentals.md: 2 new sources
+- concepts/scraping-infrastructure.md: 5 new sources
+- concepts/tls-fingerprinting.md: 1 new source
+- entities/rama.md: 1 new source
+

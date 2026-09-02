@@ -2,11 +2,15 @@
 name: Agent Sandboxing
 type: concept
 first_seen: 2026-06-23
-last_updated: '2026-07-05'
+last_updated: '2026-09-02'
 sources:
 - https://browser-use.com/posts/two-ways-to-sandbox-agents
 - rajibbora1965-WhatsAppCoding.md
 - yagop-sandbox.md
+- Koukyosyumei-i-built-a-headless-browser-for-ai-agents-entirely-in-rust-no-chromi.md
+- blog-grith-is-live.md
+- stuntapi-stunt.md
+- vineetpant-customhouse.md
 ---
 
 # Agent Sandboxing

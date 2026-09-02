@@ -2,7 +2,7 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-08-15'
+last_updated: '2026-09-02'
 sources:
 - everything-about-proxies.md
 - choosing-proxy-provider-scraping.md
@@ -59,6 +59,8 @@ sources:
 - Koukyosyumei-claude-codes-socks5-proxy-bypass-why-egress-filtering-must-happen-a.md
 - atauenis-webone.md
 - freesocks-org.md
+- blog-rama-0-4.md
+- blog-rama-cli-0-5-proxy-inspector.md
 ---
 
 # Proxy Fundamentals
