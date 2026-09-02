@@ -79,7 +79,6 @@ Last updated: 2026-09-02
 - [momoproxy](entities/momoproxy.md) — MoMoProxy is a service that provides free and paid proxy lists for various protocols, including HTTP, HTTPS, and SOCKS.
 - [nakshguard](entities/nakshguard.md) — NakshGuard is an on-premises reverse proxy designed to detect and block runaway loops in AI agent traffic before they consume excessive API tokens.
 - [ncro](entities/ncro.md) — Nix Cache Route Optimizer, or ncro, is a small HTTP proxy written in Rust that functions as an intermediary between the `nix-daemon` and configured substituters.
-- [Netnut](entities/netnut.md) — ISP proxy provider using border router co-option via Divvy Networks; GRE tunnel architecture; detectable via TCP source port 40,000–40,200.
 - [nyxproxy](entities/nyxproxy.md) — A tool for building a self-hosted, rotating proxy gateway using IPv6 /64 subnets.
 - [pangolin](entities/pangolin.md) — Pangolin is a peer-to-peer alternative to Cloudflare Tunnels that utilizes a client-to-site VPN combined with an edge reverse proxy to provide cloaked HTTPS traffic.
 - [pingora](entities/pingora.md) — Pingora is an in-house HTTP proxy built in Rust by Cloudflare, designed to serve over a trillion requests daily.

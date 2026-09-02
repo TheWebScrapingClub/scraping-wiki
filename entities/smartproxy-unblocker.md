@@ -44,7 +44,7 @@ The improvement from 0% Kasada success in July 2023 to 92% in June 2024 is signi
 ## Known Limitations
 
 - Overall benchmark score of 80/100 is lower than Oxylabs (96/100) and Zyte (100/100 with rendering).
-- Kasada success rate of 92% in June 2024 is the lowest among passing providers (vs. Oxylabs 96%, Bright Data 96%, NetNut 97%).
+- Kasada success rate of 92% in June 2024 is the lowest among passing providers (vs. Oxylabs 96%, Bright Data 96%).
 - F5 performance remains mixed in 2023 testing; no updated F5 data in 2024 benchmarks.
 
 ## Related

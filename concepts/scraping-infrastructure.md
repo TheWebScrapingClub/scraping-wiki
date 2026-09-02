@@ -26,7 +26,6 @@ sources:
 - 50-of-lg-and-samsung-smart-tv-apps-embed-residential-proxies.md
 - kmcheung12-goodshelf.md
 - newsletter-issue138thethreatofresidentialproxies.md
-- business-media-telecom-google-disrupts-netnut-proxy-network-used-malware-operati.md
 - marketplace-actions-fender-ci.md
 - mycel.md
 - proxybasehq-socks5-bridge.md

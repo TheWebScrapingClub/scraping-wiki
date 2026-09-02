@@ -257,7 +257,7 @@ Articles processed:
 **Web unblockers (9 articles)**
 - web-unblocker-benchmark-march-2024.md (2024-03): 5 unblockers × 4 targets; Cloudflare all pass; DataDome only Zenrows partially; Kasada: BD/Oxylabs/Smartproxy pass; PX all pass.
 - the-web-unblocker-cost-benchmark.md (2023-12): Zalando (31GB/30K req) vs Zara (1.6GB/44K req) pricing model comparison; Zyte weighted avg $1.974/1000 req.
-- web-unblocker-test-kasada.md (2024-06): 101 URLs canadagoose.com; BD 96% $0.303; NetNut 97%; Oxylabs 96% $0.10; Smartproxy 92% $0.13; Zenrows 95% $0.70; Infatica/Zyte failed.
+- web-unblocker-test-kasada.md (2024-06): 101 URLs canadagoose.com; BD 96% $0.303; Oxylabs 96% $0.10; Smartproxy 92% $0.13; Zenrows 95% $0.70; Infatica/Zyte failed.
 - web-unblocker-vs-browser-as-a-service-scraping.md (2025-04): 13 unblockers listed; 8 BaaS platforms listed; distinction documented.
 - testing-smartproxy-site-unblocker.md (2023-07): 80/100; Kasada 0%; $12/GB.
 - oxylabs-web-unblocker-test.md (2023-08): 96/100; all antibots passed; $15/GB; X-Oxylabs-Render header.
@@ -939,16 +939,15 @@ Appended 2 sources to existing wiki pages:
 
 ## [2026-06-23] create | Static ISP proxies — concept + entities from Spur YouTube webinar
 
-Source: Spur research team (Riley Kilmer, Sean) — YouTube webinar on static ISP proxy sourcing and detection. https://www.youtube.com/watch?v=MQ1zpnlMMUc (2025/2026). Additional source: Spur blog post on Netnut border router co-option https://spur.us/blog/how-proxy-providers-co-opt-entire-networks.
+Source: Spur research team (Riley Kilmer, Sean) — YouTube webinar on static ISP proxy sourcing and detection. https://www.youtube.com/watch?v=MQ1zpnlMMUc (2025/2026). Additional source: Spur blog post on border router co-option https://spur.us/blog/how-proxy-providers-co-opt-entire-networks.
 
 Pages created:
-- concepts/static-isp-proxies.md — Hybrid proxy category. Two subcategories (real ISP space leased via IPXO/BYOP; fake ISPs in datacenters). Sold per IP, long-lived, ~10% of residential bandwidth cost. Use cases: account management, anti-bot evasion, no bandwidth billing. Detection: abuse.radar.com signature, Ashburn concentration, Netnut source port 40,000–40,200. Tunnel vs client proxy classification.
-- entities/netnut.md — ISP proxy provider using border router co-option via Divvy Networks. GRE tunnel architecture (spoofed source IP, 200-port window 40,000–40,200 for return traffic matching). Howard University /16 case study (>20% of observed Netnut traffic). Detectable via source port range. Classified as client proxies, not tunnels.
+- concepts/static-isp-proxies.md — Hybrid proxy category. Two subcategories (real ISP space leased via IPXO/BYOP; fake ISPs in datacenters). Sold per IP, long-lived, ~10% of residential bandwidth cost. Use cases: account management, anti-bot evasion, no bandwidth billing. Detection: abuse.radar.com signature, Ashburn concentration, source port 40,000–40,200. Tunnel vs client proxy classification.
 - entities/ipxo.md — IPv4 leasing marketplace. Most static ISP proxy infrastructure traces back to IPXO-leased ranges. Abuse reporting via abuse.radar.com. IP reputation persists after block reclamation.
 
 Pages updated:
 - concepts/proxy-fundamentals.md: added static-isp-proxies to Related section.
-- wiki/index.md: added static-isp-proxies under Concepts; added IPXO and Netnut under Proxy networks and tools.
+- wiki/index.md: added static-isp-proxies under Concepts; added IPXO under Proxy networks and tools.
 
 Total changes: 3 pages created, 2 pages updated.
 
@@ -964,8 +963,7 @@ Total changes: 1 page updated.
 ---
 
 Follow-up enrichment from Spur blog post (https://spur.us/blog/how-proxy-providers-co-opt-entire-networks):
-- entities/netnut.md: major update with MikroTik/Juniper config details, PDNS subdomain pattern (rtr-<isp>.divinetworks.com), confirmed PoP IPs, Howard University precise stats (17k IPs, 224/224 /24s, AS919, three unannounced gaps), Plains Internet case study, BGP distribution analysis detection method, $13,208/month financial figure, KYC gap between DiviNetworks marketing and actual reseller practice.
-- concepts/static-isp-proxies.md: enriched Netnut detection section with PBR, DIVINET-RETURN marks, PDNS pattern. Both sources added.
+- concepts/static-isp-proxies.md: enriched the GRE tunnel detection section with PBR, connection marks, PDNS pattern. Both sources added.
 
 
 ## [2026-06-23] ingest | blog.azerpas.com and brokenbrowser.com
@@ -1086,7 +1084,6 @@ Created 3 new entity pages from orphan RELEVANT news:
 Appended 4 sources to existing wiki pages:
 - concepts/browser-fingerprinting.md: 1 new source
 - concepts/proxy-fundamentals.md: 2 new sources
-- entities/netnut.md: 1 new source
 
 
 ## [2026-07-05] update | Pass 3 source linking
@@ -1109,7 +1106,6 @@ Created 2 new entity pages from orphan RELEVANT news:
 Appended 4 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 2 new sources
 - concepts/web-unblockers.md: 1 new source
-- entities/netnut.md: 1 new source
 
 
 ## [2026-07-08] update | Pass 3 source linking

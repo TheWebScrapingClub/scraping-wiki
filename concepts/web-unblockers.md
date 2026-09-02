@@ -65,7 +65,6 @@ DataDome emerged as the hardest target for unblockers across testing.
 | Provider | Success | Time | Cost |
 |---|---|---|---|
 | Bright Data | 96/100 | 58 min | $0.303 |
-| NetNut | 97/100 | 595s | not disclosed |
 | Oxylabs | 96/100 | 10 min | $0.10 |
 | Smartproxy | 92/100 | 413s | $0.13 EUR |
 | Zenrows | 95/100 | 76 min | $0.70 EUR |
@@ -94,7 +93,7 @@ Zara: 1.6GB across 44,000 requests. Per-request models are more competitive here
 
 ## Current State
 
-As of April 2025, thirteen unblocker providers have been identified in the TWSC corpus. Pricing ranges from NetNut at $4.80/GB to Bright Data at $1.05/1,000 URLs at the per-request end. No single provider dominates across all anti-bot targets. DataDome remains the hardest target for unblockers. Kasada is hard but solvable by the leading providers (Bright Data, Oxylabs, NetNut, Smartproxy). Cloudflare and PerimeterX are passed by most providers.
+As of April 2025, twelve unblocker providers have been identified in the TWSC corpus. Pricing spans per-GB models at one end and Bright Data at $1.05/1,000 URLs at the per-request end. No single provider dominates across all anti-bot targets. DataDome remains the hardest target for unblockers. Kasada is hard but solvable by the leading providers (Bright Data, Oxylabs, Smartproxy). Cloudflare and PerimeterX are passed by most providers.
 
 The gap between unblockers and Browser-as-a-Service is closing as BaaS platforms add managed navigation features and unblockers add stateful session support.
 

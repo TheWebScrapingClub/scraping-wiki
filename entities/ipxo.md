@@ -33,7 +33,6 @@ No direct TWSC testing of IPXO as a platform. IPXO ranges were identified incide
 ## Related
 
 - [static-isp-proxies](../concepts/static-isp-proxies.md)
-- [netnut](./netnut.md)
 - [proxy-fundamentals](../concepts/proxy-fundamentals.md)
 
 ## Sources

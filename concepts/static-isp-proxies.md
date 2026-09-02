@@ -65,11 +65,11 @@ The presence of `abuse.radar.com` (IPXO's abuse reporting mechanism) as the abus
 
 Fake ISPs share a consistent set of indicators: datacenter routing despite ISP branding, IPXO-leased ranges, geo feeds that contradict the actual server location, and websites with non-functional signup forms.
 
-### Netnut / GRE Tunnel Variant (Client Proxy Classification)
+### GRE Tunnel Variant (Client Proxy Classification)
 
-[Netnut](../entities/netnut.md) uses a distinct architecture that co-opts real ISP border routers via GRE tunnels and policy-based routing installed by partner company DiviNetworks. Because real users exist on those ISP allocations, these IPs cannot be treated as pure tunnels. Threat intelligence systems classify them as **client proxies** instead, indicating collateral damage risk if blocked at the IP level.
+A separate architecture co-opts real ISP border routers through GRE tunnels and policy-based routing, installed on the partner ISP's own equipment by an intermediary that resells the resulting capacity. Because real users exist on those ISP allocations, these IPs cannot be treated as pure tunnels. Threat intelligence systems classify them as **client proxies** instead, indicating collateral damage risk if blocked at the IP level.
 
-The network fingerprint: outbound Netnut connections use TCP source ports in the range **40,000–40,200**. The partner ISP's edge router matches return traffic by destination port (same range) and routes it through the GRE tunnel via connection marks. Observing multiple connections from the same IP where every source port falls within this 200-wide window is a reliable detection signal. The infrastructure is also discoverable via passive DNS: each partner ISP carries a subdomain under `divinetworks.com` following the pattern `rtr-<isp-name>.divinetworks.com`, most resolving to a small number of centralized PoPs.
+Outbound connections from this architecture use TCP source ports in the range **40,000–40,200**. The partner ISP's edge router matches return traffic by destination port (same range) and routes it through the GRE tunnel via connection marks. Observing multiple connections from the same IP where every source port falls within this 200-wide window is a reliable detection signal. The infrastructure is also discoverable via passive DNS, since each partner ISP is given a dedicated GRE endpoint subdomain following an `rtr-<isp-name>` naming pattern, most of them resolving to a small number of centralized PoPs.
 
 ## Current State
 
@@ -78,12 +78,11 @@ As of late 2025 / early 2026:
 - AT&T's policy change requiring BYOP operators to supply their own ASN has reduced AT&T-based static ISP proxy inventory. Some legacy arrangements persist.
 - RCN is the dominant US provider of real ISP space used for static ISP proxying.
 - Ashburn, Virginia remains the primary concentration point for US static ISP infrastructure.
-- The Netnut/Divvy Networks border router co-option model (see [Netnut](../entities/netnut.md)) represents a distinct and harder-to-block trajectory from the traditional leasing approach.
+- The border router co-option model described above represents a distinct and harder-to-block trajectory from the traditional leasing approach.
 
 ## Related
 
 - [proxy-fundamentals](./proxy-fundamentals.md)
-- [Netnut](../entities/netnut.md)
 - [IPXO](../entities/ipxo.md)
 - [mobile-proxy-farming](./mobile-proxy-farming.md)
 - [web-unblockers](./web-unblockers.md)
