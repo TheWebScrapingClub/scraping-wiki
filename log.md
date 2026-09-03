@@ -1261,3 +1261,12 @@ Appended 22 sources to existing wiki pages:
 - concepts/tls-fingerprinting.md: 1 new source
 - entities/rama.md: 1 new source
 
+
+## [2026-09-03] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- powblock (anti-bot) — POWBlock
+
+Appended 1 sources to existing wiki pages:
+- concepts/bot-detection.md: 1 new source
+

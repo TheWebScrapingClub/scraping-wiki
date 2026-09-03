@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-02
+Last updated: 2026-09-03
 
 ## Visual maps and views
 
@@ -33,6 +33,7 @@ Last updated: 2026-09-02
 - [Kasada](entities/kasada.md) — Australian company. 429 signature. Hardware fingerprinting. Zero-trust first-request philosophy.
 - [llm-shield-proxy](entities/llm-shield-proxy.md) — LLM-Shield-Proxy is a stateless, zero-latency reverse proxy designed for real-time Personally Identifiable Information (PII) redaction within Large Language Model (LLM) streams.
 - [PerimeterX (HUMAN Bot Defender)](entities/perimeterx.md) — Now HUMAN Security. More IP-focused than fingerprint-focused (as of 2023). Scrapy Impersonate documented as a working bypass (2024).
+- [powblock](entities/powblock.md) — POWBlock is a simple, high-performance, zero-dependency, system/stack-agnostic Proof of Work microservice designed to act as a defense gate against AI scrapers, bots, and DDoS attacks.
 - [proxy-botnet-malware](entities/proxy-botnet-malware.md) — This malware is part of a supply-chain attack targeting Android-based car head units.
 - [reCAPTCHA](entities/recaptcha.md) — Google CAPTCHA system (v1/v2/v3). v3 is invisible risk scoring. Camoufox bypasses it; open-source token extractors do not.
 - [sec-ch-ua-form-factors](entities/sec-ch-ua-form-factors.md) — A new HTTP client hint supported by Chrome that describes the user's device type (e.g., Desktop, Mob
