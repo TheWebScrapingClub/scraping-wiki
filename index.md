@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-03
+Last updated: 2026-09-04
 
 ## Visual maps and views
 
@@ -25,6 +25,7 @@ Last updated: 2026-09-03
 - [client-side-bot-detection](entities/client-side-bot-detection.md) — Client-side bot detection involves running detection logic within the browser environment, which presents an asymmetry where the code executes in an environment controlled by the attacker, including their CPU, debugger, and clock.
 - [Cloudflare](entities/cloudflare.md) — Multi-layer defense (TLS, JSD, Turnstile, ML scoring). Most tested anti-bot in TWSC corpus.
 - [cloudflare-bot-management](entities/cloudflare-bot-management.md) — BotScope is a platform designed to audit anti-agentic defenses for any website, utilizing advanced heuristics to detect anti-bot and anti-agent measures with precision.
+- [crowdsec](entities/crowdsec.md) — CrowdSec is a Web Application Firewall (WAF) solution that has incorporated bot detection capabilities.
 - [customhouse](entities/customhouse.md) — Customhouse is a deterministic MCP proxy designed to block money-moving and data-egress tool calls within AI agent sessions that have received untrusted content.
 - [Datadome](entities/datadome.md) — Behavioral analysis focus. Hermes.com is the canonical hard target. Chrome leaks automation signals that Firefox/Brave do not.
 - [F5 Bot Defense](entities/f5-bot-defense.md) — Enterprise anti-bot from F5 Networks. AI/behavioral focus. Second largest by market share (2022).
@@ -145,6 +146,7 @@ Last updated: 2026-09-03
 - [makraexafirecrawl](entities/makraexafirecrawl.md) — MakraExaFirecrawl is a work-in-progress implementation designed for a continual learning harness focusing on Browser-use.
 - [masterhttprelayvpn](entities/masterhttprelayvpn.md) — A domain-fronted HTTP/SOCKS5 proxy tool that tunnels traffic through Google Apps Script for scraping
 - [math-tanh](entities/math-tanh.md) — The implementation of the `Math.tanh` function varies between operating systems, which serves as a subtle signal for browser fingerprinting.
+- [mitmcloak](entities/mitmcloak.md) — mitmcloak is a drop-in mitmproxy addon designed to replace mitmproxy's upstream leg by mirroring the client's real TLS and HTTP/2 fingerprints.
 - [mitmproxy](entities/mitmproxy.md) — mitmproxy is a small interceptor written in Python used to build a proxy, exemplified by the `simple-proxy` project.
 - [mochi-js](entities/mochi-js.md) — mochi.js is a Bun-native, raw-CDP browser automation framework designed to create relationally-coherent fingerprints.
 - [mycel](entities/mycel.md) — Mycel is a fast, decentralized web crawler, indexer, and search engine implemented in a Rust binary.

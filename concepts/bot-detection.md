@@ -2,7 +2,7 @@
 name: Bot Detection
 type: concept
 first_seen: 2024-01-01
-last_updated: '2026-09-03'
+last_updated: '2026-09-04'
 sources:
 - dbi-everything-about-user-agent.md
 - https://konstantinlebedev.com/bypassing-automated-traffic-detection/
@@ -21,6 +21,7 @@ sources:
 - tools-keycheck.md
 - tools-agent-census.md
 - 8Protons-POWBlock.md
+- blog-crowdsec-1-8-waf-bot-detection-kubernetes.md
 ---
 
 # Bot Detection

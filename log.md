@@ -1270,3 +1270,14 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/bot-detection.md: 1 new source
 
+
+## [2026-09-04] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- crowdsec (anti-bot) — CrowdSec
+- mitmcloak (tool) — mitmcloak
+
+Appended 2 sources to existing wiki pages:
+- concepts/bot-detection.md: 1 new source
+- concepts/tls-fingerprinting.md: 1 new source
+
