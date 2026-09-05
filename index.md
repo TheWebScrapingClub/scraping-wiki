@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-04
+Last updated: 2026-09-05
 
 ## Visual maps and views
 
@@ -68,6 +68,7 @@ Last updated: 2026-09-04
 - [blanktrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints
 - [bright-data](entities/bright-data.md) — Bright Data is a residential proxy network identified in research concerning proxy software development kits (SDKs) embedded in smart TV applications.
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
+- [doh-proxy](entities/doh-proxy.md) — doh-proxy is an extremely simple DNS-over-HTTPS (DoH) proxy server written in Go.
 - [firehol](entities/firehol.md) — A community-driven project that aggregates multiple IP lists, including open proxies, Tor exit nodes
 - [freesocks](entities/freesocks.md) — FreeSocks is a VPN designed for individuals whose internet access is censored, functioning as a privacy-respecting VPN in other regions.
 - [greyfox-community-edition](entities/greyfox-community-edition.md) — GreyFox Community Edition is a self-hosted AI traffic proxy and local operator console designed for teams seeking to control LLM token usage, enforce per-user limits, reuse exact cached responses, and maintain visibility into AI traffic within their own infrastructure.
