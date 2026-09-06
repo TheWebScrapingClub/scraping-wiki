@@ -1290,3 +1290,9 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/proxy-fundamentals.md: 1 new source
 
+
+## [2026-09-06] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- shibuya-waf (anti-bot) — Shibuya WAF
+

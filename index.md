@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-05
+Last updated: 2026-09-06
 
 ## Visual maps and views
 
@@ -39,6 +39,7 @@ Last updated: 2026-09-05
 - [reCAPTCHA](entities/recaptcha.md) — Google CAPTCHA system (v1/v2/v3). v3 is invisible risk scoring. Camoufox bypasses it; open-source token extractors do not.
 - [sec-ch-ua-form-factors](entities/sec-ch-ua-form-factors.md) — A new HTTP client hint supported by Chrome that describes the user's device type (e.g., Desktop, Mob
 - [selenium-headless-chrome-detection](entities/selenium-headless-chrome-detection.md) — Describes four methods to detect bots using Selenium running in headless Chrome environments.
+- [shibuya-waf](entities/shibuya-waf.md) — Shibuya WAF is a Web Application Firewall written in Rust that functions as a reverse proxy.
 - [usehuma](entities/usehuma.md) — useHUMA is an anti-bot startup that provides bot detection services.
 - [web-bot-auth](entities/web-bot-auth.md) — Web Bot Auth is a system built on RFC 9421 and HTTP Message Signatures that allows a verifier like Cloudflare to authenticate a crawler from a signing-key directory that the user publishes.
 - [xcancel-com-antibot-captcha](entities/xcancel-com-antibot-captcha.md) — This page presents a CAPTCHA challenge requiring users to "Type the coloured characters." It includes an image for verification and provides options for retrying the challenge or obtaining a new image if the initial attempt does not match.
