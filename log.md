@@ -1296,3 +1296,12 @@ Appended 1 sources to existing wiki pages:
 Created 1 new entity pages from orphan RELEVANT news:
 - shibuya-waf (anti-bot) — Shibuya WAF
 
+
+## [2026-09-09] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- keyfence (proxy-provider) — Keyfence
+
+Appended 1 sources to existing wiki pages:
+- concepts/agent-sandboxing.md: 1 new source
+

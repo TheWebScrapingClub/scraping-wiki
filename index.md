@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-06
+Last updated: 2026-09-09
 
 ## Visual maps and views
 
@@ -77,6 +77,7 @@ Last updated: 2026-09-06
 - [ipidea](entities/ipidea.md) — A residential proxy network that enrolled 9 million Android devices into a botnet.
 - [IPXO](entities/ipxo.md) — IPv4 leasing marketplace; abuse.radar.com is its reporting surface; most static ISP proxy infrastructure traces back here.
 - [kampala](entities/kampala.md) — Kampala is a tool for intercepting and automating web traffic.
+- [keyfence](entities/keyfence.md) — Keyfence is a local proxy designed to prevent API keys and other secrets from being exposed when making requests to Large Language Model (LLM) APIs.
 - [latch](entities/latch.md) — Latch is a lightweight, high-performance infrastructure proxy server designed to tunnel legacy TCP traffic securely.
 - [lte-modems](entities/lte-modems.md) — The LTE modems serve as the physical source for a production residential IP proxy pool.
 - [meshscrape](entities/meshscrape.md) — A service that offers a distributed IP network for web scraping to avoid blocks and rate limits.
