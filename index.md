@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-09
+Last updated: 2026-09-10
 
 ## Visual maps and views
 
@@ -94,6 +94,7 @@ Last updated: 2026-09-09
 - [residential-proxy](entities/residential-proxy.md) — A residential proxy is software designed to route other people's internet traffic out through a user's home network.
 - [residential-proxy-networks](entities/residential-proxy-networks.md) — Residential proxy networks route internet traffic through real consumer IP addresses.
 - [sandbox-proxy](entities/sandbox-proxy.md) — sandbox-proxy is a zero-dependency, stdlib-only Go forward proxy designed to inject real credentials, such as GitHub tokens or npm tokens, into outbound requests on the wire.
+- [socklight](entities/socklight.md) — sockLight is a development SOCKS5 proxy featuring a live Terminal User Interface (TUI) that allows users to monitor, block, and throttle every outbound connection in real time.
 - [socks5-proxy](entities/socks5-proxy.md) — A SOCKS5 proxy is used by systems, such as Claude Code’s sandbox, to route outbound traffic and enforce an egress allowlist.
 - [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
 - [vnc2go](entities/vnc2go.md) — VNC2Go is described as a private, in-browser service that routes traffic through a random proxy.
