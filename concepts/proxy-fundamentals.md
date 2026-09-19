@@ -2,7 +2,7 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-09-10'
+last_updated: '2026-09-19'
 sources:
 - everything-about-proxies.md
 - choosing-proxy-provider-scraping.md
@@ -62,6 +62,7 @@ sources:
 - blog-rama-cli-0-5-proxy-inspector.md
 - afonsofrancof-doh-proxy.md
 - kosmrljt-socklight.md
+- nodemaven-proxy-benchmark.md
 ---
 
 # Proxy Fundamentals

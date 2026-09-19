@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-11
+Last updated: 2026-09-19
 
 ## Visual maps and views
 
@@ -163,6 +163,7 @@ Last updated: 2026-09-11
 - [owl-browser](entities/owl-browser.md) — A self-hosted browser automation engine for automation at scale with 256 parallel contexts and undet
 - [playwright](entities/playwright.md) — Microsoft browser automation. Detectable by default, patchable via Patchright/Undetected Playwright.
 - [proxelar](entities/proxelar.md) — A Rust-based MITM proxy for intercepting and modifying HTTP/HTTPS traffic.
+- [proxy-benchmark](entities/proxy-benchmark.md) — `proxy-benchmark` is a measurement harness designed to test various combinations of proxies, browser engines, and scraping targets to diagnose request failures.
 - [proxy-server](entities/proxy-server.md) — A service that brokers connections between the browser and phone.
 - [proxyboy](entities/proxyboy.md) — ProxyBoy is a Windows-native HTTP/HTTPS debugging proxy designed to capture, inspect, and modify network traffic, similar to tools like Charles Proxy or Proxyman.
 - [puppeteer](entities/puppeteer.md) — A Node.js library which provides a high-level API to control Chrome or Chromium over the DevTools Pr
@@ -185,6 +186,7 @@ Last updated: 2026-09-11
 - [Scrapoxy](entities/scrapoxy.md) — Open-source proxy aggregator. Unifies providers and cloud VM egress. ~20% cost savings vs. pure cloud.
 - [scrapy](entities/scrapy.md) — Scrapy is a Python library that is used in typical web scraping setups.
 - [sensecollect](entities/sensecollect.md) — SenseCollect is a self-service platform designed to simplify web data extraction for lead generation and market intelligence.
+- [shellroute-cli](entities/shellroute-cli.md) — The shellroute CLI is a command-line interface designed to route terminal commands through a configured proxy.
 - [simple-selenium-chrome-crawler](entities/simple-selenium-chrome-crawler.md) — A Python script that uses Selenium and Chrome to crawl web pages and extract links.
 - [slick-search-engine](entities/slick-search-engine.md) — Slick is a customizable search engine designed to give users control over their search results.
 - [socks5-bridge](entities/socks5-bridge.md) — `socks5-bridge` is a local HTTP-to-SOCKS5 proxy bridge designed for Chrome.
