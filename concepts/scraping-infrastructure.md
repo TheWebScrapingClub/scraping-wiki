@@ -2,7 +2,7 @@
 name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-09-19'
+last_updated: '2026-09-21'
 sources:
 - the-costs-of-web-scraping.md
 - optimizing-costs-for-web-scraping.md
@@ -38,6 +38,7 @@ sources:
 - story-fbi-disrupts-chinese-proxy-tools-used-in-mass-hacking-of-us-agencies-and-i.md
 - x402socks-com.md
 - shellroute-shellroute-cli.md
+- ghuntley-underclass.md
 ---
 
 # Scraping Infrastructure

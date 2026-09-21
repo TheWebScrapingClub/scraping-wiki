@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-19
+Last updated: 2026-09-21
 
 ## Visual maps and views
 
@@ -97,6 +97,7 @@ Last updated: 2026-09-19
 - [socklight](entities/socklight.md) — sockLight is a development SOCKS5 proxy featuring a live Terminal User Interface (TUI) that allows users to monitor, block, and throttle every outbound connection in real time.
 - [socks5-proxy](entities/socks5-proxy.md) — A SOCKS5 proxy is used by systems, such as Claude Code’s sandbox, to route outbound traffic and enforce an egress allowlist.
 - [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
+- [underclass](entities/underclass.md) — underclass is a local, OpenAI-compatible proxy designed to pool multiple subscriptions, such as ChatGPT/Codex and GitHub Copilot, behind a single endpoint.
 - [vnc2go](entities/vnc2go.md) — VNC2Go is described as a private, in-browser service that routes traffic through a random proxy.
 - [webone](entities/webone.md) — WebOne is an HTTP 1.x proxy server designed to make older web browsers, media players, and messengers functional within the modern Web 2.0 environment.
 
