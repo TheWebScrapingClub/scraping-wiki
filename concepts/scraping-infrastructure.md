@@ -2,7 +2,7 @@
 name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-09-21'
+last_updated: '2026-09-23'
 sources:
 - the-costs-of-web-scraping.md
 - optimizing-costs-for-web-scraping.md
@@ -39,6 +39,7 @@ sources:
 - x402socks-com.md
 - shellroute-shellroute-cli.md
 - ghuntley-underclass.md
+- hack-tramp-ESP-MQTTunnel.md
 ---
 
 # Scraping Infrastructure

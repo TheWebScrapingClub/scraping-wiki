@@ -1347,3 +1347,12 @@ Source: `https://github.com/Sec-CH-Lemon/google-search-guard-vm-reversing` (READ
 Pages created: entities/google-searchguard.md (anti-bot), entities/google-search-guard-vm-reversing.md (tool), concepts/javascript-proxy-tracing.md, concepts/vm-based-javascript-obfuscation.md
 Pages updated: entities/client-side-bot-detection.md, entities/camoufox-reverse.md, concepts/browser-fingerprinting.md, concepts/cdp-detection.md (cross-links)
 Key additions: Google's cookieless search challenge is a JavaScript VM that sets the client-side SG_SS cookie (30 s TTL, ~1,660 chars, exactly 871 on detected tampering). Full list of the 72 names it reads on first visit, split into automation markers, Chrome-presence probes and environment values. VM structure for build f6ad334abefc (ARX cipher 15 rounds, 98 handlers, runtime opcode install, integrity self-check, 635-byte plaintext record). Five builds rotated between mid-August and 15 September 2026 with names and opcode numbers changing each time. Proxy stand-in tracing technique with mandatory tapped/untapped byte-equality control. Linked to TWSC's August 2026 SERP goto experiment.
+
+## [2026-09-23] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- esp32 (tool) — ESP32
+
+Appended 1 sources to existing wiki pages:
+- concepts/scraping-infrastructure.md: 1 new source
+
