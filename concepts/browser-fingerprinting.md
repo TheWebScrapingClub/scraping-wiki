@@ -2,7 +2,7 @@
 name: browser-fingerprinting
 type: concept
 first_seen: 2010-01-01
-last_updated: '2026-09-02'
+last_updated: '2026-09-22'
 sources:
 - browser-fingerprinting-how-it-works.md
 - understanding-browser-fingerprint.md
@@ -164,6 +164,8 @@ The practical challenge for scrapers is not understanding what is collected but 
 - [Camoufox](../entities/camoufox.md)
 - [Cloudflare](../entities/cloudflare.md)
 - [Akamai](../entities/akamai.md)
+- [Google SearchGuard](../entities/google-searchguard.md) - the exact property list read on a cookieless Google search (Sep 2026)
+- [javascript-proxy-tracing](./javascript-proxy-tracing.md)
 
 ## Sources
 

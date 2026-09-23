@@ -3,7 +3,7 @@ name: camoufox-reverse
 type: entity
 category: browser
 first_seen: 2026-06-04
-last_updated: 2026-06-04
+last_updated: 2026-09-22
 sources:
   - lab-camoufox-forks-cloverlabs-draft.md
 ---
@@ -37,6 +37,7 @@ We used camoufox-reverse to see what [Datadome](datadome.md) reads on leboncoin.
 - [browser-fingerprinting](../concepts/browser-fingerprinting.md)
 - [Datadome](datadome.md)
 - [Camoufox vs forks](../comparisons/camoufox-vs-forks.md)
+- [javascript-proxy-tracing](../concepts/javascript-proxy-tracing.md) - the JS-level alternative to the engine-level PropertyTracer, used on Google SearchGuard
 
 ## Sources
 

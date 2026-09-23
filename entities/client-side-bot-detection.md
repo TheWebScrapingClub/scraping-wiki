@@ -3,7 +3,7 @@ name: client-side-bot-detection
 type: entity
 category: anti-bot
 first_seen: 2026-06-22
-last_updated: 2026-06-22
+last_updated: 2026-09-22
 sources:
   - blog-reverse-once-run-forever.md
 ---
@@ -29,6 +29,8 @@ Not yet tested by TWSC.
 * [browser-use](../entities/browser-use.md)
 * [bot-detection-system](../entities/bot-detection-system.md)
 * [browserbase-chrome](../entities/browserbase-chrome.md)
+* [Google SearchGuard](google-searchguard.md) - a live instance of these principles: VM-delivered checks, per-build regeneration, tamper folded into a degraded token
+* [vm-based-javascript-obfuscation](../concepts/vm-based-javascript-obfuscation.md)
 
 
 ## Sources
