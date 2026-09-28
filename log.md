@@ -1356,3 +1356,15 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 1 new source
 
+
+## [2026-09-28] update | Pass 3 source linking
+
+Created 3 new entity pages from orphan RELEVANT news:
+- proxy-scraper-cli (tool) — proxy-scraper-cli
+- stalker (tool) — Stalker
+- propylea (tool) — Propylea
+
+Appended 3 sources to existing wiki pages:
+- concepts/canvas-fingerprinting.md: 1 new source
+- concepts/scraping-infrastructure.md: 2 new sources
+

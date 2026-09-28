@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-23
+Last updated: 2026-09-28
 
 ## Visual maps and views
 
@@ -166,8 +166,10 @@ Last updated: 2026-09-23
 - [open-bullet-2](entities/open-bullet-2.md) — A credential stuffing tool that can be used for web scraping and automation.
 - [owl-browser](entities/owl-browser.md) — A self-hosted browser automation engine for automation at scale with 256 parallel contexts and undet
 - [playwright](entities/playwright.md) — Microsoft browser automation. Detectable by default, patchable via Patchright/Undetected Playwright.
+- [propylea](entities/propylea.md) — Propylea is a sovereign, ultra-low-memory L7 reverse proxy, multi-domain SNI TLS multiplexer, and active perimeter defense gateway written in pure Rust.
 - [proxelar](entities/proxelar.md) — A Rust-based MITM proxy for intercepting and modifying HTTP/HTTPS traffic.
 - [proxy-benchmark](entities/proxy-benchmark.md) — `proxy-benchmark` is a measurement harness designed to test various combinations of proxies, browser engines, and scraping targets to diagnose request failures.
+- [proxy-scraper-cli](entities/proxy-scraper-cli.md) — proxy-scraper-cli is a command-line tool written in Python designed to scrape and verify free HTTP, SOCKS4, and SOCKS5 proxies.
 - [proxy-server](entities/proxy-server.md) — A service that brokers connections between the browser and phone.
 - [proxyboy](entities/proxyboy.md) — ProxyBoy is a Windows-native HTTP/HTTPS debugging proxy designed to capture, inspect, and modify network traffic, similar to tools like Charles Proxy or Proxyman.
 - [puppeteer](entities/puppeteer.md) — A Node.js library which provides a high-level API to control Chrome or Chromium over the DevTools Pr
@@ -196,6 +198,7 @@ Last updated: 2026-09-23
 - [socks5-bridge](entities/socks5-bridge.md) — `socks5-bridge` is a local HTTP-to-SOCKS5 proxy bridge designed for Chrome.
 - [spidersuite](entities/spidersuite.md) — A powerful web crawler and security testing tool for penetration testers and security researchers.
 - [spidra](entities/spidra.md) — A web scraping platform that uses AI to extract data from websites.
+- [stalker](entities/stalker.md) — Stalker is a tool designed to check and report various browser and network fingerprints for privacy and analysis.
 - [stunt](entities/stunt.md) — stunt is a local simulator that spins up stateful, realistic stand-ins for public APIs, serving as mock or stub servers for testing purposes.
 - [supercrawl](entities/supercrawl.md) — SuperCrawl is an open-source web crawler implemented in the Rust programming language.
 - [tadpole](entities/tadpole.md) — A language for writing declarative, modular scraping code.
