@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-28
+Last updated: 2026-09-30
 
 ## Visual maps and views
 
@@ -156,6 +156,7 @@ Last updated: 2026-09-28
 - [math-tanh](entities/math-tanh.md) — The implementation of the `Math.tanh` function varies between operating systems, which serves as a subtle signal for browser fingerprinting.
 - [mitmcloak](entities/mitmcloak.md) — mitmcloak is a drop-in mitmproxy addon designed to replace mitmproxy's upstream leg by mirroring the client's real TLS and HTTP/2 fingerprints.
 - [mitmproxy](entities/mitmproxy.md) — mitmproxy is a small interceptor written in Python used to build a proxy, exemplified by the `simple-proxy` project.
+- [mitty](entities/mitty.md) — Mitty is a transport-agnostic proxy RPC designed for executing method chains from any isolated context, such as Web Workers, browser Tabs, or Servers, utilizing lazy evaluation.
 - [mochi-js](entities/mochi-js.md) — mochi.js is a Bun-native, raw-CDP browser automation framework designed to create relationally-coherent fingerprints.
 - [mycel](entities/mycel.md) — Mycel is a fast, decentralized web crawler, indexer, and search engine implemented in a Rust binary.
 - [mysysinfo-api](entities/mysysinfo-api.md) — The MySysInfo API is a tool that provides system information gathered from the user's browser and device, including details such as the IP address, operating system, browser version, screen resolution, and device memory.
