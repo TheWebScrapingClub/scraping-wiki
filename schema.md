@@ -175,7 +175,7 @@ Authoring rules:
 ## Source references
 
 - Sources are listed at the bottom of each page in a `## Sources` section as a bulleted list of markdown links
-- Use the full URL: `- [https://substack.thewebscraping.club/p/<slug>](https://substack.thewebscraping.club/p/<slug>)`
+- Use the full URL: `- [https://www.scraping.club/p/<slug>](https://www.scraping.club/p/<slug>)`
 - For news and research sources, use the `url_canonical` from the article's frontmatter
 - For inline text references, use markdown links with the URL
 - Always add the source URL to the page's Sources section when adding information from a new article

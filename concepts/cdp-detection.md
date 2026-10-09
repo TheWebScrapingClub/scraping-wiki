@@ -69,7 +69,7 @@ Patchright is the recommended drop-in solution for teams running Playwright on C
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/playwright-stealth-cdp](https://substack.thewebscraping.club/p/playwright-stealth-cdp)
-- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
-- [https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi](https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi)
-- [https://substack.thewebscraping.club/p/playwright-scrapers-undetected](https://substack.thewebscraping.club/p/playwright-scrapers-undetected)
+- [https://www.scraping.club/p/playwright-stealth-cdp](https://www.scraping.club/p/playwright-stealth-cdp)
+- [https://www.scraping.club/p/the-stealth-stack-web-scraping](https://www.scraping.club/p/the-stealth-stack-web-scraping)
+- [https://www.scraping.club/p/webdriver-vs-cdp-vs-bidi](https://www.scraping.club/p/webdriver-vs-cdp-vs-bidi)
+- [https://www.scraping.club/p/playwright-scrapers-undetected](https://www.scraping.club/p/playwright-scrapers-undetected)

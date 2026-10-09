@@ -94,7 +94,7 @@ Certificate pinning bypass via Frida on a rooted Android virtual device is the s
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypass-certificate-pinning](https://substack.thewebscraping.club/p/bypass-certificate-pinning)
-- [https://substack.thewebscraping.club/p/how-to-scrape-data-from-mobile-apps](https://substack.thewebscraping.club/p/how-to-scrape-data-from-mobile-apps)
-- [https://substack.thewebscraping.club/p/jwt-tokens-and-api-scraping](https://substack.thewebscraping.club/p/jwt-tokens-and-api-scraping)
-- [https://substack.thewebscraping.club/p/http-toolkit-network-intercept](https://substack.thewebscraping.club/p/http-toolkit-network-intercept)
+- [https://www.scraping.club/p/bypass-certificate-pinning](https://www.scraping.club/p/bypass-certificate-pinning)
+- [https://www.scraping.club/p/how-to-scrape-data-from-mobile-apps](https://www.scraping.club/p/how-to-scrape-data-from-mobile-apps)
+- [https://www.scraping.club/p/jwt-tokens-and-api-scraping](https://www.scraping.club/p/jwt-tokens-and-api-scraping)
+- [https://www.scraping.club/p/http-toolkit-network-intercept](https://www.scraping.club/p/http-toolkit-network-intercept)

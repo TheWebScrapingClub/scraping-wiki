@@ -85,6 +85,6 @@ The world grid pattern is reusable infrastructure. A filtered, populated grid at
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/the-lab-31-scraping-location-data](https://substack.thewebscraping.club/p/the-lab-31-scraping-location-data)
-- [https://substack.thewebscraping.club/p/scraping-food-delivery-apps](https://substack.thewebscraping.club/p/scraping-food-delivery-apps)
-- [https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory](https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory)
+- [https://www.scraping.club/p/the-lab-31-scraping-location-data](https://www.scraping.club/p/the-lab-31-scraping-location-data)
+- [https://www.scraping.club/p/scraping-food-delivery-apps](https://www.scraping.club/p/scraping-food-delivery-apps)
+- [https://www.scraping.club/p/the-lab-28-deep-dive-on-inventory](https://www.scraping.club/p/the-lab-28-deep-dive-on-inventory)

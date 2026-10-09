@@ -60,7 +60,7 @@ Cost benchmark (2023): Zyte's weighted average pricing across their top 250,000 
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api](https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api)
-- [https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024](https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024)
-- [https://substack.thewebscraping.club/p/web-unblocker-test-kasada](https://substack.thewebscraping.club/p/web-unblocker-test-kasada)
-- [https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark](https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark)
+- [https://www.scraping.club/p/hands-on-2-testing-the-new-zyte-api](https://www.scraping.club/p/hands-on-2-testing-the-new-zyte-api)
+- [https://www.scraping.club/p/web-unblocker-benchmark-march-2024](https://www.scraping.club/p/web-unblocker-benchmark-march-2024)
+- [https://www.scraping.club/p/web-unblocker-test-kasada](https://www.scraping.club/p/web-unblocker-test-kasada)
+- [https://www.scraping.club/p/the-web-unblocker-cost-benchmark](https://www.scraping.club/p/the-web-unblocker-cost-benchmark)

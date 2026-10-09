@@ -74,7 +74,7 @@ A cost experiment across 100 URLs from 33 e-commerce sites produced: 72% success
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/scraping-with-llms-scrapegraphai](https://substack.thewebscraping.club/p/scraping-with-llms-scrapegraphai)
-- [https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping](https://substack.thewebscraping.club/p/llm-scrapegraphai-costs-web-scraping)
-- [https://substack.thewebscraping.club/p/writing-scrapers-with-llms](https://substack.thewebscraping.club/p/writing-scrapers-with-llms)
-- [https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping](https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping)
+- [https://www.scraping.club/p/scraping-with-llms-scrapegraphai](https://www.scraping.club/p/scraping-with-llms-scrapegraphai)
+- [https://www.scraping.club/p/llm-scrapegraphai-costs-web-scraping](https://www.scraping.club/p/llm-scrapegraphai-costs-web-scraping)
+- [https://www.scraping.club/p/writing-scrapers-with-llms](https://www.scraping.club/p/writing-scrapers-with-llms)
+- [https://www.scraping.club/p/the-lab-84-ai-driven-web-scraping](https://www.scraping.club/p/the-lab-84-ai-driven-web-scraping)

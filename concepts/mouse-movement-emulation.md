@@ -82,7 +82,7 @@ As of 2024-2026, Akamai's MACT analysis reveals that the defender's toolbox for 
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright](https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright)
-- [https://substack.thewebscraping.club/p/oxymouse-and-playwright-mouse-movements](https://substack.thewebscraping.club/p/oxymouse-and-playwright-mouse-movements)
-- [https://substack.thewebscraping.club/p/bezier-curves-web-scraping](https://substack.thewebscraping.club/p/bezier-curves-web-scraping)
+- [https://www.scraping.club/p/bypass-datadome-mouse-movements-in-playwright](https://www.scraping.club/p/bypass-datadome-mouse-movements-in-playwright)
+- [https://www.scraping.club/p/oxymouse-and-playwright-mouse-movements](https://www.scraping.club/p/oxymouse-and-playwright-mouse-movements)
+- [https://www.scraping.club/p/bezier-curves-web-scraping](https://www.scraping.club/p/bezier-curves-web-scraping)
 - [https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/](https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/)

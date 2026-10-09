@@ -59,7 +59,7 @@ Oxylabs Unblocker was the most cost-efficient provider in the Kasada benchmark. 
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test](https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test)
-- [https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024](https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024)
-- [https://substack.thewebscraping.club/p/web-unblocker-test-kasada](https://substack.thewebscraping.club/p/web-unblocker-test-kasada)
-- [https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping](https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping)
+- [https://www.scraping.club/p/oxylabs-web-unblocker-test](https://www.scraping.club/p/oxylabs-web-unblocker-test)
+- [https://www.scraping.club/p/web-unblocker-benchmark-march-2024](https://www.scraping.club/p/web-unblocker-benchmark-march-2024)
+- [https://www.scraping.club/p/web-unblocker-test-kasada](https://www.scraping.club/p/web-unblocker-test-kasada)
+- [https://www.scraping.club/p/web-unblocker-vs-browser-as-a-service-scraping](https://www.scraping.club/p/web-unblocker-vs-browser-as-a-service-scraping)

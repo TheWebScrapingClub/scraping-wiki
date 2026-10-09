@@ -59,4 +59,4 @@ Not all websites are supported — the UI displays an error for unsupported targ
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/kadoa-review-ai-powered-scraping](https://substack.thewebscraping.club/p/kadoa-review-ai-powered-scraping)
+- [https://www.scraping.club/p/kadoa-review-ai-powered-scraping](https://www.scraping.club/p/kadoa-review-ai-powered-scraping)

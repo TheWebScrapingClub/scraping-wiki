@@ -50,4 +50,4 @@ The setup worked: requests routed through JA3Proxy with the Chrome profile passe
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypass-akamai-bot-protection](https://substack.thewebscraping.club/p/bypass-akamai-bot-protection)
+- [https://www.scraping.club/p/bypass-akamai-bot-protection](https://www.scraping.club/p/bypass-akamai-bot-protection)

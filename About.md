@@ -6,7 +6,7 @@ A structured, LLM-maintained knowledge base covering anti-bot systems, scraping 
 
 ## What is this
 
-This wiki compiles and organizes the knowledge accumulated across 300+ articles published on [The Web Scraping Club](https://thewebscraping.club/) newsletter since 2022, plus selected research from outside sources (Antoine Vastel's [Device and Browser Info](https://deviceandbrowserinfo.com/), Castle.io research, vendor blogs from DataDome, Cloudflare, Akamai, Bright Data, Oxylabs, and others).
+This wiki compiles and organizes the knowledge accumulated across 300+ articles published on [The Web Scraping Club](https://www.scraping.club/) newsletter since 2022, plus selected research from outside sources (Antoine Vastel's [Device and Browser Info](https://deviceandbrowserinfo.com/), Castle.io research, vendor blogs from DataDome, Cloudflare, Akamai, Bright Data, Oxylabs, and others).
 
 Instead of searching through years of articles to find what we tested on Cloudflare, how Akamai's TLS detection works, or which tool bypassed Kasada last, the wiki keeps it all in one place, cross-referenced and continuously updated.
 
@@ -20,7 +20,7 @@ The Obsidian-friendly authoring conventions and the use of `.canvas` (JSON Canva
 
 The wiki is built from publicly available articles, posts, and READMEs. The main feeds are:
 
-- [The Web Scraping Club](https://thewebscraping.club/) — every TWSC article from 2022 onward.
+- [The Web Scraping Club](https://www.scraping.club/) — every TWSC article from 2022 onward.
 - [Device and Browser Info](https://deviceandbrowserinfo.com/) — Antoine Vastel's research on browser fingerprinting and bot detection.
 - [Hacker News](https://news.ycombinator.com/) — front-page submissions matching the wiki domain (web scraping, anti-bot, proxies, browsers, fingerprinting).
 - Vendor research blogs (DataDome, Cloudflare, Akamai, Castle.io, Bright Data, Oxylabs, and more).
@@ -106,4 +106,4 @@ If you find something outdated, wrong, or misattributed, please open an issue on
 
 ## License
 
-The content of this wiki is derived from articles published on [The Web Scraping Club](https://thewebscraping.club/) and from third-party sources cited in each page. The wiki itself is open for reading and reference. For reuse of substantial portions, please credit the source.
+The content of this wiki is derived from articles published on [The Web Scraping Club](https://www.scraping.club/) and from third-party sources cited in each page. The wiki itself is open for reading and reference. For reuse of substantial portions, please credit the source.

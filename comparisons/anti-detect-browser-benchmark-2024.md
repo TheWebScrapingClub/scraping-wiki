@@ -75,5 +75,5 @@ Kameleo's WebRTC gap, confirmed as a configuration error, illustrates a recurrin
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
-- [https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments](https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments)
+- [https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests](https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://www.scraping.club/p/anti-detect-browser-royal-rumble-comments](https://www.scraping.club/p/anti-detect-browser-royal-rumble-comments)

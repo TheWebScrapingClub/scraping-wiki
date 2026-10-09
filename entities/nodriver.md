@@ -59,5 +59,5 @@ A direct comparison: Playwright with the same local machine also opened Harrods 
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver](https://substack.thewebscraping.club/p/bypassing-cloudflare-with-nodriver)
-- [https://substack.thewebscraping.club/p/open-source-python-libraries-scraping](https://substack.thewebscraping.club/p/open-source-python-libraries-scraping)
+- [https://www.scraping.club/p/bypassing-cloudflare-with-nodriver](https://www.scraping.club/p/bypassing-cloudflare-with-nodriver)
+- [https://www.scraping.club/p/open-source-python-libraries-scraping](https://www.scraping.club/p/open-source-python-libraries-scraping)

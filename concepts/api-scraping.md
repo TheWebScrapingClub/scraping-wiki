@@ -106,13 +106,13 @@ API scraping is a first-line technique for any professional scraping project. Th
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/apis-in-web-scraping](https://substack.thewebscraping.club/p/apis-in-web-scraping)
-- [https://substack.thewebscraping.club/p/scraping-apis-with-bearer-token](https://substack.thewebscraping.club/p/scraping-apis-with-bearer-token)
-- [https://substack.thewebscraping.club/p/jwt-tokens-and-api-scraping](https://substack.thewebscraping.club/p/jwt-tokens-and-api-scraping)
-- [https://substack.thewebscraping.club/p/scraping-algolia-endpoints](https://substack.thewebscraping.club/p/scraping-algolia-endpoints)
-- [https://substack.thewebscraping.club/p/algolia-and-web-scraping-an-introduction](https://substack.thewebscraping.club/p/algolia-and-web-scraping-an-introduction)
-- [https://substack.thewebscraping.club/p/the-lab-1-scraping-data-from-an-app](https://substack.thewebscraping.club/p/the-lab-1-scraping-data-from-an-app)
-- [https://substack.thewebscraping.club/p/the-lab-12-reverse-engineering-mobile](https://substack.thewebscraping.club/p/the-lab-12-reverse-engineering-mobile)
-- [https://substack.thewebscraping.club/p/scraping-linkedin-public-data](https://substack.thewebscraping.club/p/scraping-linkedin-public-data)
-- [https://substack.thewebscraping.club/p/the-lab-26-from-internal-api-to-insights](https://substack.thewebscraping.club/p/the-lab-26-from-internal-api-to-insights)
-- [https://substack.thewebscraping.club/p/scraping-food-delivery-apps](https://substack.thewebscraping.club/p/scraping-food-delivery-apps)
+- [https://www.scraping.club/p/apis-in-web-scraping](https://www.scraping.club/p/apis-in-web-scraping)
+- [https://www.scraping.club/p/scraping-apis-with-bearer-token](https://www.scraping.club/p/scraping-apis-with-bearer-token)
+- [https://www.scraping.club/p/jwt-tokens-and-api-scraping](https://www.scraping.club/p/jwt-tokens-and-api-scraping)
+- [https://www.scraping.club/p/scraping-algolia-endpoints](https://www.scraping.club/p/scraping-algolia-endpoints)
+- [https://www.scraping.club/p/algolia-and-web-scraping-an-introduction](https://www.scraping.club/p/algolia-and-web-scraping-an-introduction)
+- [https://www.scraping.club/p/the-lab-1-scraping-data-from-an-app](https://www.scraping.club/p/the-lab-1-scraping-data-from-an-app)
+- [https://www.scraping.club/p/the-lab-12-reverse-engineering-mobile](https://www.scraping.club/p/the-lab-12-reverse-engineering-mobile)
+- [https://www.scraping.club/p/scraping-linkedin-public-data](https://www.scraping.club/p/scraping-linkedin-public-data)
+- [https://www.scraping.club/p/the-lab-26-from-internal-api-to-insights](https://www.scraping.club/p/the-lab-26-from-internal-api-to-insights)
+- [https://www.scraping.club/p/scraping-food-delivery-apps](https://www.scraping.club/p/scraping-food-delivery-apps)

@@ -73,5 +73,5 @@ hRequests was also recommended as the HTTP client for API scraping (apis-in-web-
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/the-lab-32-hrequests-vs-anti-bots](https://substack.thewebscraping.club/p/the-lab-32-hrequests-vs-anti-bots)
-- [https://substack.thewebscraping.club/p/apis-in-web-scraping](https://substack.thewebscraping.club/p/apis-in-web-scraping)
+- [https://www.scraping.club/p/the-lab-32-hrequests-vs-anti-bots](https://www.scraping.club/p/the-lab-32-hrequests-vs-anti-bots)
+- [https://www.scraping.club/p/apis-in-web-scraping](https://www.scraping.club/p/apis-in-web-scraping)

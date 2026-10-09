@@ -54,5 +54,5 @@ At the time of the 2026 test, the repository had not received an update in 7 mon
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome](https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome)
-- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)
+- [https://www.scraping.club/p/undetected-chromedriver-cloudflare-datadome](https://www.scraping.club/p/undetected-chromedriver-cloudflare-datadome)
+- [https://www.scraping.club/p/bypassing-cloudflare-in-2026](https://www.scraping.club/p/bypassing-cloudflare-in-2026)

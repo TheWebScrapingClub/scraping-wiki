@@ -52,7 +52,7 @@ WAFs that operate on WebSocket traffic (including AWS WAF) can use connection be
 
 ## What we tested
 
-TWSC's coverage of WebSocket bot detection (as of March 2026) is primarily conceptual rather than empirical. The article [websocket-bot-detection-scraping](https://substack.thewebscraping.club/p/websocket-bot-detection-scraping) documents the detection techniques and recommended countermeasures but does not report specific bypass experiments on named targets.
+TWSC's coverage of WebSocket bot detection (as of March 2026) is primarily conceptual rather than empirical. The article [websocket-bot-detection-scraping](https://www.scraping.club/p/websocket-bot-detection-scraping) documents the detection techniques and recommended countermeasures but does not report specific bypass experiments on named targets.
 
 Key practical guidance from that article:
 - Always include an `Origin` header in WebSocket handshakes; many servers reject requests without one.
@@ -74,4 +74,4 @@ As of March 2026, WebSocket bot detection is a growing but underexplored area in
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/websocket-bot-detection-scraping](https://substack.thewebscraping.club/p/websocket-bot-detection-scraping)
+- [https://www.scraping.club/p/websocket-bot-detection-scraping](https://www.scraping.club/p/websocket-bot-detection-scraping)

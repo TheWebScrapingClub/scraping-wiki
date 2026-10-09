@@ -111,11 +111,11 @@ The gap between unblockers and Browser-as-a-Service is closing as BaaS platforms
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api](https://substack.thewebscraping.club/p/hands-on-2-testing-the-new-zyte-api)
-- [https://substack.thewebscraping.club/p/testing-smartproxy-site-unblocker](https://substack.thewebscraping.club/p/testing-smartproxy-site-unblocker)
-- [https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test](https://substack.thewebscraping.club/p/oxylabs-web-unblocker-test)
-- [https://substack.thewebscraping.club/p/hands-on-6-testing-the-infatica-web](https://substack.thewebscraping.club/p/hands-on-6-testing-the-infatica-web)
-- [https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024](https://substack.thewebscraping.club/p/web-unblocker-benchmark-march-2024)
-- [https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark](https://substack.thewebscraping.club/p/the-web-unblocker-cost-benchmark)
-- [https://substack.thewebscraping.club/p/web-unblocker-test-kasada](https://substack.thewebscraping.club/p/web-unblocker-test-kasada)
-- [https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping](https://substack.thewebscraping.club/p/web-unblocker-vs-browser-as-a-service-scraping)
+- [https://www.scraping.club/p/hands-on-2-testing-the-new-zyte-api](https://www.scraping.club/p/hands-on-2-testing-the-new-zyte-api)
+- [https://www.scraping.club/p/testing-smartproxy-site-unblocker](https://www.scraping.club/p/testing-smartproxy-site-unblocker)
+- [https://www.scraping.club/p/oxylabs-web-unblocker-test](https://www.scraping.club/p/oxylabs-web-unblocker-test)
+- [https://www.scraping.club/p/hands-on-6-testing-the-infatica-web](https://www.scraping.club/p/hands-on-6-testing-the-infatica-web)
+- [https://www.scraping.club/p/web-unblocker-benchmark-march-2024](https://www.scraping.club/p/web-unblocker-benchmark-march-2024)
+- [https://www.scraping.club/p/the-web-unblocker-cost-benchmark](https://www.scraping.club/p/the-web-unblocker-cost-benchmark)
+- [https://www.scraping.club/p/web-unblocker-test-kasada](https://www.scraping.club/p/web-unblocker-test-kasada)
+- [https://www.scraping.club/p/web-unblocker-vs-browser-as-a-service-scraping](https://www.scraping.club/p/web-unblocker-vs-browser-as-a-service-scraping)

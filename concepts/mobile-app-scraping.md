@@ -123,9 +123,9 @@ Mobile app scraping is an established technique with a well-understood toolchain
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/the-lab-1-scraping-data-from-an-app](https://substack.thewebscraping.club/p/the-lab-1-scraping-data-from-an-app)
-- [https://substack.thewebscraping.club/p/the-lab-12-reverse-engineering-mobile](https://substack.thewebscraping.club/p/the-lab-12-reverse-engineering-mobile)
-- [https://substack.thewebscraping.club/p/how-to-scrape-data-from-mobile-apps](https://substack.thewebscraping.club/p/how-to-scrape-data-from-mobile-apps)
-- [https://substack.thewebscraping.club/p/bypass-certificate-pinning](https://substack.thewebscraping.club/p/bypass-certificate-pinning)
-- [https://substack.thewebscraping.club/p/jwt-tokens-and-api-scraping](https://substack.thewebscraping.club/p/jwt-tokens-and-api-scraping)
-- [https://substack.thewebscraping.club/p/http-toolkit-network-intercept](https://substack.thewebscraping.club/p/http-toolkit-network-intercept)
+- [https://www.scraping.club/p/the-lab-1-scraping-data-from-an-app](https://www.scraping.club/p/the-lab-1-scraping-data-from-an-app)
+- [https://www.scraping.club/p/the-lab-12-reverse-engineering-mobile](https://www.scraping.club/p/the-lab-12-reverse-engineering-mobile)
+- [https://www.scraping.club/p/how-to-scrape-data-from-mobile-apps](https://www.scraping.club/p/how-to-scrape-data-from-mobile-apps)
+- [https://www.scraping.club/p/bypass-certificate-pinning](https://www.scraping.club/p/bypass-certificate-pinning)
+- [https://www.scraping.club/p/jwt-tokens-and-api-scraping](https://www.scraping.club/p/jwt-tokens-and-api-scraping)
+- [https://www.scraping.club/p/http-toolkit-network-intercept](https://www.scraping.club/p/http-toolkit-network-intercept)

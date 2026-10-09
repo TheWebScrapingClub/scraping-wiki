@@ -68,11 +68,11 @@ HTTP/3 fingerprinting is an emerging frontier. WAFs have not yet widely deployed
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypass-akamai-bot-protection](https://substack.thewebscraping.club/p/bypass-akamai-bot-protection)
+- [https://www.scraping.club/p/bypass-akamai-bot-protection](https://www.scraping.club/p/bypass-akamai-bot-protection)
 - [https://konstantinlebedev.com/bypassing-automated-traffic-detection/](https://konstantinlebedev.com/bypassing-automated-traffic-detection/)
-- [https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different](https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different)
-- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
-- [https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi)
-- [https://substack.thewebscraping.club/p/change-ciphers-scrapy](https://substack.thewebscraping.club/p/change-ciphers-scrapy)
-- [https://substack.thewebscraping.club/p/faster-web-scraping-with-http3](https://substack.thewebscraping.club/p/faster-web-scraping-with-http3)
-- [https://substack.thewebscraping.club/p/http-caching-scraping](https://substack.thewebscraping.club/p/http-caching-scraping)
+- [https://www.scraping.club/p/the-lab-33-fingerprinting-at-different](https://www.scraping.club/p/the-lab-33-fingerprinting-at-different)
+- [https://www.scraping.club/p/the-stealth-stack-web-scraping](https://www.scraping.club/p/the-stealth-stack-web-scraping)
+- [https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi)
+- [https://www.scraping.club/p/change-ciphers-scrapy](https://www.scraping.club/p/change-ciphers-scrapy)
+- [https://www.scraping.club/p/faster-web-scraping-with-http3](https://www.scraping.club/p/faster-web-scraping-with-http3)
+- [https://www.scraping.club/p/http-caching-scraping](https://www.scraping.club/p/http-caching-scraping)

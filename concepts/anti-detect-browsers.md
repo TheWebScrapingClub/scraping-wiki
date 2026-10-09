@@ -126,13 +126,13 @@ Pricing reference (2024):
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright](https://substack.thewebscraping.club/p/bypass-cloudflare-scraping-playwright)
-- [https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh](https://substack.thewebscraping.club/p/bypassing-cloudflare-gologin-playwrigh)
-- [https://substack.thewebscraping.club/p/bypassing-cloudflare-with-kameleo](https://substack.thewebscraping.club/p/bypassing-cloudflare-with-kameleo)
-- [https://substack.thewebscraping.club/p/bypassing-cloudflare-free-tools](https://substack.thewebscraping.club/p/bypassing-cloudflare-free-tools)
-- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
-- [https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments](https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments)
-- [https://substack.thewebscraping.club/p/antidetect-browser-webscraping](https://substack.thewebscraping.club/p/antidetect-browser-webscraping)
-- [https://substack.thewebscraping.club/p/dolphin-anty-product-review](https://substack.thewebscraping.club/p/dolphin-anty-product-review)
-- [https://substack.thewebscraping.club/p/browser-automation-landscape-2025](https://substack.thewebscraping.club/p/browser-automation-landscape-2025)
-- [https://substack.thewebscraping.club/p/anti-detect-pricing-comparison](https://substack.thewebscraping.club/p/anti-detect-pricing-comparison)
+- [https://www.scraping.club/p/bypass-cloudflare-scraping-playwright](https://www.scraping.club/p/bypass-cloudflare-scraping-playwright)
+- [https://www.scraping.club/p/bypassing-cloudflare-gologin-playwrigh](https://www.scraping.club/p/bypassing-cloudflare-gologin-playwrigh)
+- [https://www.scraping.club/p/bypassing-cloudflare-with-kameleo](https://www.scraping.club/p/bypassing-cloudflare-with-kameleo)
+- [https://www.scraping.club/p/bypassing-cloudflare-free-tools](https://www.scraping.club/p/bypassing-cloudflare-free-tools)
+- [https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests](https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://www.scraping.club/p/anti-detect-browser-royal-rumble-comments](https://www.scraping.club/p/anti-detect-browser-royal-rumble-comments)
+- [https://www.scraping.club/p/antidetect-browser-webscraping](https://www.scraping.club/p/antidetect-browser-webscraping)
+- [https://www.scraping.club/p/dolphin-anty-product-review](https://www.scraping.club/p/dolphin-anty-product-review)
+- [https://www.scraping.club/p/browser-automation-landscape-2025](https://www.scraping.club/p/browser-automation-landscape-2025)
+- [https://www.scraping.club/p/anti-detect-pricing-comparison](https://www.scraping.club/p/anti-detect-pricing-comparison)

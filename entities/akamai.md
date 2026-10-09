@@ -85,13 +85,13 @@ scrapy-impersonate has a known issue when combined with proxies: network errors 
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypass-akamai-bot-protection](https://substack.thewebscraping.club/p/bypass-akamai-bot-protection)
-- [https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected](https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected)
-- [https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi)
-- [https://substack.thewebscraping.club/p/bypassing-akamai-for-free](https://substack.thewebscraping.club/p/bypassing-akamai-for-free)
-- [https://substack.thewebscraping.club/p/bypassing-akamai-proxidize](https://substack.thewebscraping.club/p/bypassing-akamai-proxidize)
-- [https://substack.thewebscraping.club/p/scraping-akamai-protected-website](https://substack.thewebscraping.club/p/scraping-akamai-protected-website)
-- [https://substack.thewebscraping.club/p/scraping-akamai-protected-websites](https://substack.thewebscraping.club/p/scraping-akamai-protected-websites)
-- [https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python](https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python)
-- [https://substack.thewebscraping.club/p/nike-scraping-benchmark](https://substack.thewebscraping.club/p/nike-scraping-benchmark)
+- [https://www.scraping.club/p/bypass-akamai-bot-protection](https://www.scraping.club/p/bypass-akamai-bot-protection)
+- [https://www.scraping.club/p/the-lab-30-how-to-bypass-akamai-protected](https://www.scraping.club/p/the-lab-30-how-to-bypass-akamai-protected)
+- [https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi)
+- [https://www.scraping.club/p/bypassing-akamai-for-free](https://www.scraping.club/p/bypassing-akamai-for-free)
+- [https://www.scraping.club/p/bypassing-akamai-proxidize](https://www.scraping.club/p/bypassing-akamai-proxidize)
+- [https://www.scraping.club/p/scraping-akamai-protected-website](https://www.scraping.club/p/scraping-akamai-protected-website)
+- [https://www.scraping.club/p/scraping-akamai-protected-websites](https://www.scraping.club/p/scraping-akamai-protected-websites)
+- [https://www.scraping.club/p/hrequests-bypass-akamai-with-python](https://www.scraping.club/p/hrequests-bypass-akamai-with-python)
+- [https://www.scraping.club/p/nike-scraping-benchmark](https://www.scraping.club/p/nike-scraping-benchmark)
 - [https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/](https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/)

@@ -40,19 +40,19 @@ Wappalyzer detects PerimeterX in the security section for supported sites. Witho
 
 ## TWSC experience
 
-**neimanmarcus.com (2022)**: API-first approach. Browsing the women's clothing category revealed a JSON product API (`/c/dt/api/productlisting?categoryId=...`). A plain Scrapy spider with proper request headers accessed this API successfully, though with intermittent 424 errors after extended crawling. Playwright with random mouse movement and scroll simulation reduced the 424 frequency. A homepage-first visit was required. Covered in [scraping-perimeterx-websites](https://substack.thewebscraping.club/p/scraping-perimeterx-websites).
+**neimanmarcus.com (2022)**: API-first approach. Browsing the women's clothing category revealed a JSON product API (`/c/dt/api/productlisting?categoryId=...`). A plain Scrapy spider with proper request headers accessed this API successfully, though with intermittent 424 errors after extended crawling. Playwright with random mouse movement and scroll simulation reduced the 424 frequency. A homepage-first visit was required. Covered in [scraping-perimeterx-websites](https://www.scraping.club/p/scraping-perimeterx-websites).
 
-**neimanmarcus.com, crunchbase.com, stockx.com (2023)**: Undetected Chromedriver with Brave Browser worked on NeimanMarcus both locally and on a datacenter with residential proxies. Playwright with Firefox worked without proxies from local, required proxies from a datacenter. Playwright with Chrome required `ignore_default_args=["--enable-automation"]` and `--disable-blink-features=AutomationControlled` flags plus slow_mo to pass. Crunchbase required no proxy even from AWS. Session reset requires a full new browser profile directory, not just cookie clearing. Covered in [bypassing-perimeterx-2023](https://substack.thewebscraping.club/p/bypassing-perimeterx-2023).
+**neimanmarcus.com, crunchbase.com, stockx.com (2023)**: Undetected Chromedriver with Brave Browser worked on NeimanMarcus both locally and on a datacenter with residential proxies. Playwright with Firefox worked without proxies from local, required proxies from a datacenter. Playwright with Chrome required `ignore_default_args=["--enable-automation"]` and `--disable-blink-features=AutomationControlled` flags plus slow_mo to pass. Crunchbase required no proxy even from AWS. Session reset requires a full new browser profile directory, not just cookie clearing. Covered in [bypassing-perimeterx-2023](https://www.scraping.club/p/bypassing-perimeterx-2023).
 
-**booking.com and neimanmarcus.com (2024)**: Scrapy Impersonate (`scrapy-impersonate` package, `meta={'impersonate': 'chrome110'}`) bypassed PerimeterX on both targets without a browser. Booking.com HTML is accessible with a good header set in standard Scrapy. NeimanMarcus.com works with Scrapy Impersonate. This is the first documented case of bypassing PerimeterX without headful browser automation. Covered in [bypassing-perimeterx-scrapy](https://substack.thewebscraping.club/p/bypassing-perimeterx-scrapy).
+**booking.com and neimanmarcus.com (2024)**: Scrapy Impersonate (`scrapy-impersonate` package, `meta={'impersonate': 'chrome110'}`) bypassed PerimeterX on both targets without a browser. Booking.com HTML is accessible with a good header set in standard Scrapy. NeimanMarcus.com works with Scrapy Impersonate. This is the first documented case of bypassing PerimeterX without headful browser automation. Covered in [bypassing-perimeterx-scrapy](https://www.scraping.club/p/bypassing-perimeterx-scrapy).
 
 A homepage-first strategy was required across all tested targets. Direct navigation to protected interior pages triggered blocks; entering through the homepage and navigating normally did not.
 
-Session resets require a new browser context folder, not just cookie clearing. Clearing cookies within an existing context left enough residual signals for the sensor to correlate the new session with the blocked one. Covered in [the-lab-35-bypassing-perimeterx-with](https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with) and [the-lab-56-bypassing-perimeterx-3](https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3).
+Session resets require a new browser context folder, not just cookie clearing. Clearing cookies within an existing context left enough residual signals for the sensor to correlate the new session with the blocked one. Covered in [the-lab-35-bypassing-perimeterx-with](https://www.scraping.club/p/the-lab-35-bypassing-perimeterx-with) and [the-lab-56-bypassing-perimeterx-3](https://www.scraping.club/p/the-lab-56-bypassing-perimeterx-3).
 
 Crunchbase.com was the most lenient configuration we encountered. Even Brave browser's partial noise reduction was sufficient there, and no proxy was required when running from AWS infrastructure. This illustrates how much variance exists in how operators configure the product.
 
-Fingerprint injection (Browserforge) was explored in [fingerprint-injection-playwright](https://substack.thewebscraping.club/p/fingerprint-injection-playwright) in the context of PerimeterX alongside other systems.
+Fingerprint injection (Browserforge) was explored in [fingerprint-injection-playwright](https://www.scraping.club/p/fingerprint-injection-playwright) in the context of PerimeterX alongside other systems.
 
 ## Known limitations
 
@@ -75,12 +75,12 @@ Site-level variance is high. Crunchbase, Booking, and NeimanMarcus all behave di
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with](https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with)
-- [https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3](https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3)
-- [https://substack.thewebscraping.club/p/fingerprint-injection-playwright](https://substack.thewebscraping.club/p/fingerprint-injection-playwright)
-- [https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome](https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome)
-- [https://substack.thewebscraping.club/p/bypassing-perimeterx-2023](https://substack.thewebscraping.club/p/bypassing-perimeterx-2023)
-- [https://substack.thewebscraping.club/p/bypassing-perimeterx-scrapy](https://substack.thewebscraping.club/p/bypassing-perimeterx-scrapy)
-- [https://substack.thewebscraping.club/p/scraping-perimeterx-websites](https://substack.thewebscraping.club/p/scraping-perimeterx-websites)
-- [https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix)
-- [https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges)
+- [https://www.scraping.club/p/the-lab-35-bypassing-perimeterx-with](https://www.scraping.club/p/the-lab-35-bypassing-perimeterx-with)
+- [https://www.scraping.club/p/the-lab-56-bypassing-perimeterx-3](https://www.scraping.club/p/the-lab-56-bypassing-perimeterx-3)
+- [https://www.scraping.club/p/fingerprint-injection-playwright](https://www.scraping.club/p/fingerprint-injection-playwright)
+- [https://www.scraping.club/p/undetected-chromedriver-cloudflare-datadome](https://www.scraping.club/p/undetected-chromedriver-cloudflare-datadome)
+- [https://www.scraping.club/p/bypassing-perimeterx-2023](https://www.scraping.club/p/bypassing-perimeterx-2023)
+- [https://www.scraping.club/p/bypassing-perimeterx-scrapy](https://www.scraping.club/p/bypassing-perimeterx-scrapy)
+- [https://www.scraping.club/p/scraping-perimeterx-websites](https://www.scraping.club/p/scraping-perimeterx-websites)
+- [https://www.scraping.club/p/anti-detect-anti-bot-matrix](https://www.scraping.club/p/anti-detect-anti-bot-matrix)
+- [https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges)

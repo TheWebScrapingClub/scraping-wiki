@@ -48,7 +48,7 @@ The tool was also mentioned as a reference point in an earlier 2022 overview whe
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
-- [https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments](https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments)
-- [https://substack.thewebscraping.club/p/antidetect-browser-webscraping](https://substack.thewebscraping.club/p/antidetect-browser-webscraping)
-- [https://substack.thewebscraping.club/p/browser-automation-landscape-2025](https://substack.thewebscraping.club/p/browser-automation-landscape-2025)
+- [https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests](https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://www.scraping.club/p/anti-detect-browser-royal-rumble-comments](https://www.scraping.club/p/anti-detect-browser-royal-rumble-comments)
+- [https://www.scraping.club/p/antidetect-browser-webscraping](https://www.scraping.club/p/antidetect-browser-webscraping)
+- [https://www.scraping.club/p/browser-automation-landscape-2025](https://www.scraping.club/p/browser-automation-landscape-2025)

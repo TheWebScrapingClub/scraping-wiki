@@ -168,13 +168,13 @@ Async scraping is the baseline for any production pipeline. HTTP caching is an u
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/faster-web-scraping-with-http3](https://substack.thewebscraping.club/p/faster-web-scraping-with-http3)
-- [https://substack.thewebscraping.club/p/http-caching-scraping](https://substack.thewebscraping.club/p/http-caching-scraping)
-- [https://substack.thewebscraping.club/p/python-async-for-faster-scraping](https://substack.thewebscraping.club/p/python-async-for-faster-scraping)
-- [https://substack.thewebscraping.club/p/scraping-high-frequency-python](https://substack.thewebscraping.club/p/scraping-high-frequency-python)
-- [https://substack.thewebscraping.club/p/rate-limit-scraping-exponential-backoff](https://substack.thewebscraping.club/p/rate-limit-scraping-exponential-backoff)
-- [https://substack.thewebscraping.club/p/change-ciphers-scrapy](https://substack.thewebscraping.club/p/change-ciphers-scrapy)
-- [https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast](https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast)
-- [https://substack.thewebscraping.club/p/how-fast-can-you-call-polymarket-apis](https://substack.thewebscraping.club/p/how-fast-can-you-call-polymarket-apis)
-- [https://substack.thewebscraping.club/p/scraping-real-time-data-bitstamp](https://substack.thewebscraping.club/p/scraping-real-time-data-bitstamp)
+- [https://www.scraping.club/p/faster-web-scraping-with-http3](https://www.scraping.club/p/faster-web-scraping-with-http3)
+- [https://www.scraping.club/p/http-caching-scraping](https://www.scraping.club/p/http-caching-scraping)
+- [https://www.scraping.club/p/python-async-for-faster-scraping](https://www.scraping.club/p/python-async-for-faster-scraping)
+- [https://www.scraping.club/p/scraping-high-frequency-python](https://www.scraping.club/p/scraping-high-frequency-python)
+- [https://www.scraping.club/p/rate-limit-scraping-exponential-backoff](https://www.scraping.club/p/rate-limit-scraping-exponential-backoff)
+- [https://www.scraping.club/p/change-ciphers-scrapy](https://www.scraping.club/p/change-ciphers-scrapy)
+- [https://www.scraping.club/p/how-to-get-data-from-polymarket-fast](https://www.scraping.club/p/how-to-get-data-from-polymarket-fast)
+- [https://www.scraping.club/p/how-fast-can-you-call-polymarket-apis](https://www.scraping.club/p/how-fast-can-you-call-polymarket-apis)
+- [https://www.scraping.club/p/scraping-real-time-data-bitstamp](https://www.scraping.club/p/scraping-real-time-data-bitstamp)
 - [https://singh-sanjay.com/2026/03/09/concurrent-requests-reverse-proxy.html](https://singh-sanjay.com/2026/03/09/concurrent-requests-reverse-proxy.html)

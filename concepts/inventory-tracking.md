@@ -79,8 +79,8 @@ Inventory tracking is one of the highest-value web scraping applications and one
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/scraping-inventory-level](https://substack.thewebscraping.club/p/scraping-inventory-level)
-- [https://substack.thewebscraping.club/p/scraping-inventory-data](https://substack.thewebscraping.club/p/scraping-inventory-data)
-- [https://substack.thewebscraping.club/p/scraping-inventory-levels](https://substack.thewebscraping.club/p/scraping-inventory-levels)
-- [https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory](https://substack.thewebscraping.club/p/the-lab-28-deep-dive-on-inventory)
-- [https://substack.thewebscraping.club/p/ikea-scraping-kallax](https://substack.thewebscraping.club/p/ikea-scraping-kallax)
+- [https://www.scraping.club/p/scraping-inventory-level](https://www.scraping.club/p/scraping-inventory-level)
+- [https://www.scraping.club/p/scraping-inventory-data](https://www.scraping.club/p/scraping-inventory-data)
+- [https://www.scraping.club/p/scraping-inventory-levels](https://www.scraping.club/p/scraping-inventory-levels)
+- [https://www.scraping.club/p/the-lab-28-deep-dive-on-inventory](https://www.scraping.club/p/the-lab-28-deep-dive-on-inventory)
+- [https://www.scraping.club/p/ikea-scraping-kallax](https://www.scraping.club/p/ikea-scraping-kallax)

@@ -72,5 +72,5 @@ Algolia endpoints can be identified by:
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/algolia-and-web-scraping-an-introduction](https://substack.thewebscraping.club/p/algolia-and-web-scraping-an-introduction)
-- [https://substack.thewebscraping.club/p/scraping-algolia-endpoints](https://substack.thewebscraping.club/p/scraping-algolia-endpoints)
+- [https://www.scraping.club/p/algolia-and-web-scraping-an-introduction](https://www.scraping.club/p/algolia-and-web-scraping-an-introduction)
+- [https://www.scraping.club/p/scraping-algolia-endpoints](https://www.scraping.club/p/scraping-algolia-endpoints)

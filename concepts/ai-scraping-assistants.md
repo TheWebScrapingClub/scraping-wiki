@@ -91,8 +91,8 @@ Alternative hosted MCP servers exist (BrowserBase, Hyperbrowser) with pre-built 
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/cursor-mcp-web-scraping-assistant](https://substack.thewebscraping.club/p/cursor-mcp-web-scraping-assistant)
-- [https://substack.thewebscraping.club/p/claude-cursor-ai-scraping-assistant](https://substack.thewebscraping.club/p/claude-cursor-ai-scraping-assistant)
-- [https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping](https://substack.thewebscraping.club/p/the-lab-84-ai-driven-web-scraping)
-- [https://substack.thewebscraping.club/p/building-self-healing-scrapers-with-gpt](https://substack.thewebscraping.club/p/building-self-healing-scrapers-with-gpt)
-- [https://substack.thewebscraping.club/p/writing-scrapers-with-llms](https://substack.thewebscraping.club/p/writing-scrapers-with-llms)
+- [https://www.scraping.club/p/cursor-mcp-web-scraping-assistant](https://www.scraping.club/p/cursor-mcp-web-scraping-assistant)
+- [https://www.scraping.club/p/claude-cursor-ai-scraping-assistant](https://www.scraping.club/p/claude-cursor-ai-scraping-assistant)
+- [https://www.scraping.club/p/the-lab-84-ai-driven-web-scraping](https://www.scraping.club/p/the-lab-84-ai-driven-web-scraping)
+- [https://www.scraping.club/p/building-self-healing-scrapers-with-gpt](https://www.scraping.club/p/building-self-healing-scrapers-with-gpt)
+- [https://www.scraping.club/p/writing-scrapers-with-llms](https://www.scraping.club/p/writing-scrapers-with-llms)

@@ -60,5 +60,5 @@ TWSC classification: comparable to FireCrawl for LLM pipeline use cases. Not com
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/anycrawl-llm-ready-web-scraping](https://substack.thewebscraping.club/p/anycrawl-llm-ready-web-scraping)
-- [https://substack.thewebscraping.club/p/anycrawl-testing-the-llm-ready-web](https://substack.thewebscraping.club/p/anycrawl-testing-the-llm-ready-web)
+- [https://www.scraping.club/p/anycrawl-testing-the-llm-ready-web](https://www.scraping.club/p/anycrawl-testing-the-llm-ready-web)
+- [https://www.scraping.club/p/anycrawl-testing-the-llm-ready-web](https://www.scraping.club/p/anycrawl-testing-the-llm-ready-web)

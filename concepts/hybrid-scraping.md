@@ -52,6 +52,6 @@ Hybrid scraping is an established pattern with clear implementation requirements
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi)
-- [https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with](https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with)
-- [https://substack.thewebscraping.club/p/hybrid-scraping-browser-login-http-extraction](https://substack.thewebscraping.club/p/hybrid-scraping-browser-login-http-extraction)
+- [https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi)
+- [https://www.scraping.club/p/the-lab-35-bypassing-perimeterx-with](https://www.scraping.club/p/the-lab-35-bypassing-perimeterx-with)
+- [https://www.scraping.club/p/hybrid-scraping-browser-login-http-extraction](https://www.scraping.club/p/hybrid-scraping-browser-login-http-extraction)

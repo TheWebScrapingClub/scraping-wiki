@@ -85,7 +85,7 @@ As of 2025, commercial mobile proxy pricing has dropped to approximately $8/GB f
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/mobile-proxy-raspberry](https://substack.thewebscraping.club/p/mobile-proxy-raspberry)
-- [https://substack.thewebscraping.club/p/building-mobile-proxy-farm](https://substack.thewebscraping.club/p/building-mobile-proxy-farm)
-- [https://substack.thewebscraping.club/p/how-build-mobile-proxy-farm-airproxy](https://substack.thewebscraping.club/p/how-build-mobile-proxy-farm-airproxy)
-- [https://substack.thewebscraping.club/p/differences-residential-mobile-proxies](https://substack.thewebscraping.club/p/differences-residential-mobile-proxies)
+- [https://www.scraping.club/p/mobile-proxy-raspberry](https://www.scraping.club/p/mobile-proxy-raspberry)
+- [https://www.scraping.club/p/building-mobile-proxy-farm](https://www.scraping.club/p/building-mobile-proxy-farm)
+- [https://www.scraping.club/p/how-build-mobile-proxy-farm-airproxy](https://www.scraping.club/p/how-build-mobile-proxy-farm-airproxy)
+- [https://www.scraping.club/p/differences-residential-mobile-proxies](https://www.scraping.club/p/differences-residential-mobile-proxies)

@@ -46,19 +46,19 @@ Datadome sets a distinctive session cookie on the first page load. This is visib
 
 ## TWSC experience
 
-**Hermes.com (2022)**: The earliest documented case. A plain Scrapy spider with default headers was immediately blocked. Impersonating a mobile browser (emulated mobile user agent and headers) bypassed the block and returned a Datadome cookie that could be used for subsequent API calls. The site also required an XSRF token from a `syncform` endpoint, refreshed before each API call. Covered in [scraping-datadome-api-hermes](https://substack.thewebscraping.club/p/scraping-datadome-api-hermes).
+**Hermes.com (2022)**: The earliest documented case. A plain Scrapy spider with default headers was immediately blocked. Impersonating a mobile browser (emulated mobile user agent and headers) bypassed the block and returned a Datadome cookie that could be used for subsequent API calls. The site also required an XSRF token from a `syncform` endpoint, refreshed before each API call. Covered in [scraping-datadome-api-hermes](https://www.scraping.club/p/scraping-datadome-api-hermes).
 
-**Footlocker.co.uk / footlocker.it (2023)**: Tested in early 2023. Playwright with standard Chrome was blocked. Playwright with Firefox passed without proxies, both locally and on a datacenter VM. Playwright with Brave Browser also passed. The distinction appears related to Chrome leaking automation-identifiable signals that Firefox and Brave do not. Ghost Cursor was added in late 2023 testing alongside residential proxies (UK-located) to handle behavioral detection during multi-page navigation. Covered in [how-to-scrape-datadome-2023](https://substack.thewebscraping.club/p/how-to-scrape-datadome-2023) and [bypassing-datadome-2023-scraping](https://substack.thewebscraping.club/p/bypassing-datadome-2023-scraping).
+**Footlocker.co.uk / footlocker.it (2023)**: Tested in early 2023. Playwright with standard Chrome was blocked. Playwright with Firefox passed without proxies, both locally and on a datacenter VM. Playwright with Brave Browser also passed. The distinction appears related to Chrome leaking automation-identifiable signals that Firefox and Brave do not. Ghost Cursor was added in late 2023 testing alongside residential proxies (UK-located) to handle behavioral detection during multi-page navigation. Covered in [how-to-scrape-datadome-2023](https://www.scraping.club/p/how-to-scrape-datadome-2023) and [bypassing-datadome-2023-scraping](https://www.scraping.club/p/bypassing-datadome-2023-scraping).
 
-**Anti-Detect Anti-Bot matrix (2023)**: In a structured test across five anti-bots, Datadome was the hardest to consistently bypass. A first load from any tested tool would often succeed, but a second attempt from the same IP would fail. This illustrates the per-session behavioral scoring in practice. Covered in [anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix).
+**Anti-Detect Anti-Bot matrix (2023)**: In a structured test across five anti-bots, Datadome was the hardest to consistently bypass. A first load from any tested tool would often succeed, but a second attempt from the same IP would fail. This illustrates the per-session behavioral scoring in practice. Covered in [anti-detect-anti-bot-matrix](https://www.scraping.club/p/anti-detect-anti-bot-matrix).
 
-**Idealista.com**: Confirmed Datadome deployment. Basic Selenium, Puppeteer, and Playwright out-of-the-box all fail. A commercial proxy API (ScraperAPI) was demonstrated to work. Covered in [scraping-idealista-bypass-datadome](https://substack.thewebscraping.club/p/scraping-idealista-bypass-datadome).
+**Idealista.com**: Confirmed Datadome deployment. Basic Selenium, Puppeteer, and Playwright out-of-the-box all fail. A commercial proxy API (ScraperAPI) was demonstrated to work. Covered in [scraping-idealista-bypass-datadome](https://www.scraping.club/p/scraping-idealista-bypass-datadome).
 
 The combination of [Camoufox](camoufox.md) with a residential proxy and human-paced navigation worked on Hermes until October 2024, when it broke. A workaround was subsequently identified and documented.
 
-Ghost Cursor, a Bezier curve plus Fitts's Law mouse movement library, was necessary to navigate Hermes's menu structure without triggering blocks. Programmatic clicks on menu items without realistic cursor trajectories were caught. Covered in [bypass-datadome-mouse-movements-in-playwright](https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright).
+Ghost Cursor, a Bezier curve plus Fitts's Law mouse movement library, was necessary to navigate Hermes's menu structure without triggering blocks. Programmatic clicks on menu items without realistic cursor trajectories were caught. Covered in [bypass-datadome-mouse-movements-in-playwright](https://www.scraping.club/p/bypass-datadome-mouse-movements-in-playwright).
 
-Cookie and session reuse was explored in [the-lab-94-using-cookies-and-session](https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session). The results across leboncoin.fr, Allegro, and Idealista showed that there is no universal answer: each target requires independent testing to determine whether and how cookies can be reused.
+Cookie and session reuse was explored in [the-lab-94-using-cookies-and-session](https://www.scraping.club/p/the-lab-94-using-cookies-and-session). The results across leboncoin.fr, Allegro, and Idealista showed that there is no universal answer: each target requires independent testing to determine whether and how cookies can be reused.
 
 **leboncoin.fr engine-level trace (2026-06)**: Using [camoufox-reverse](camoufox-reverse.md), a Camoufox fork with a PropertyTracer at the SpiderMonkey layer, we observed which DOM getters Datadome's script reads. The protection is not uniform across the site. The homepage runs a light probe (about 30 distinct properties, 140 reads), while an ad detail page runs a much heavier one (584 reads): `document.cookie.get` jumps from 1 to 220, and `sessionStorage`, `window.scrollY`, `navigator.globalPrivacyControl`, and `mediaDevices.enumerateDevices` appear, none of which the homepage touched. Both pages read the [canvas](../concepts/canvas-fingerprinting.md) and WebGL (`toDataURL`, `getImageData`, `webgl.getParameter`, `offscreenCanvas.getContext`). Ad pages return 403 on a direct connection but pass through a clean residential proxy.
 
@@ -101,13 +101,13 @@ Mobile impersonation can bypass stricter Datadome configurations on some targets
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/scraping-datadome-camoufox](https://substack.thewebscraping.club/p/scraping-datadome-camoufox)
-- [https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright](https://substack.thewebscraping.club/p/bypass-datadome-mouse-movements-in-playwright)
-- [https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session](https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session)
-- [https://substack.thewebscraping.club/p/fingerprint-injection-playwright](https://substack.thewebscraping.club/p/fingerprint-injection-playwright)
-- [https://substack.thewebscraping.club/p/scraping-datadome-api-hermes](https://substack.thewebscraping.club/p/scraping-datadome-api-hermes)
-- [https://substack.thewebscraping.club/p/how-to-scrape-datadome-2023](https://substack.thewebscraping.club/p/how-to-scrape-datadome-2023)
-- [https://substack.thewebscraping.club/p/bypassing-datadome-2023-scraping](https://substack.thewebscraping.club/p/bypassing-datadome-2023-scraping)
-- [https://substack.thewebscraping.club/p/scraping-idealista-bypass-datadome](https://substack.thewebscraping.club/p/scraping-idealista-bypass-datadome)
-- [https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix)
-- [https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges)
+- [https://www.scraping.club/p/scraping-datadome-camoufox](https://www.scraping.club/p/scraping-datadome-camoufox)
+- [https://www.scraping.club/p/bypass-datadome-mouse-movements-in-playwright](https://www.scraping.club/p/bypass-datadome-mouse-movements-in-playwright)
+- [https://www.scraping.club/p/the-lab-94-using-cookies-and-session](https://www.scraping.club/p/the-lab-94-using-cookies-and-session)
+- [https://www.scraping.club/p/fingerprint-injection-playwright](https://www.scraping.club/p/fingerprint-injection-playwright)
+- [https://www.scraping.club/p/scraping-datadome-api-hermes](https://www.scraping.club/p/scraping-datadome-api-hermes)
+- [https://www.scraping.club/p/how-to-scrape-datadome-2023](https://www.scraping.club/p/how-to-scrape-datadome-2023)
+- [https://www.scraping.club/p/bypassing-datadome-2023-scraping](https://www.scraping.club/p/bypassing-datadome-2023-scraping)
+- [https://www.scraping.club/p/scraping-idealista-bypass-datadome](https://www.scraping.club/p/scraping-idealista-bypass-datadome)
+- [https://www.scraping.club/p/anti-detect-anti-bot-matrix](https://www.scraping.club/p/anti-detect-anti-bot-matrix)
+- [https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges)

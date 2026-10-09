@@ -19,9 +19,9 @@ F5 Bot Defense relies heavily on AI/ML-based behavioral analysis. The system is 
 
 ## TWSC experience
 
-**Anti-detect matrix (2023)**: F5 was included as one of five anti-bots in the structured benchmark. It was described as one of the harder systems to pass even for a single-page load. The testing noted that F5 "seems to rely heavily on AI to detect strange behavior in users" and that "even loading a single page of our testing website was not simple." The exact target site used for F5 testing was not published. Covered in [anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix).
+**Anti-detect matrix (2023)**: F5 was included as one of five anti-bots in the structured benchmark. It was described as one of the harder systems to pass even for a single-page load. The testing noted that F5 "seems to rely heavily on AI to detect strange behavior in users" and that "even loading a single page of our testing website was not simple." The exact target site used for F5 testing was not published. Covered in [anti-detect-anti-bot-matrix](https://www.scraping.club/p/anti-detect-anti-bot-matrix).
 
-**Nimble browser test (2023)**: The Nimble AI browser was tested against F5 alongside Cloudflare, Datadome, Kasada, and PerimeterX. Results for F5 were not detailed in the article excerpt. Covered in [the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges).
+**Nimble browser test (2023)**: The Nimble AI browser was tested against F5 alongside Cloudflare, Datadome, Kasada, and PerimeterX. Results for F5 were not detailed in the article excerpt. Covered in [the-lab-21-bypass-anti-bot-challenges](https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges).
 
 Testing against F5 is limited in the TWSC corpus. The two articles that mention it treat it as a significant but less frequently encountered anti-bot compared to Cloudflare, Datadome, Kasada, and PerimeterX.
 
@@ -39,5 +39,5 @@ F5 Bot Defense has limited coverage in the TWSC corpus. The characterization her
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix)
-- [https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges)
+- [https://www.scraping.club/p/anti-detect-anti-bot-matrix](https://www.scraping.club/p/anti-detect-anti-bot-matrix)
+- [https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges)

@@ -88,7 +88,7 @@ As of 2026-06, randomized canvas noise is the mainstream defense and the Pixel-R
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/scraping-datadome-camoufox](https://substack.thewebscraping.club/p/scraping-datadome-camoufox)
+- [https://www.scraping.club/p/scraping-datadome-camoufox](https://www.scraping.club/p/scraping-datadome-camoufox)
 - [https://deviceandbrowserinfo.com/learning_zone/articles/privacy-leak-detecting-canvas-countermeasures](https://deviceandbrowserinfo.com/learning_zone/articles/privacy-leak-detecting-canvas-countermeasures)
 - [Breaking the Shield: Analyzing and Attacking Canvas Fingerprinting Defenses in the Wild (WWW 2025)](https://dl.acm.org/doi/abs/10.1145/3696410.3714713)
 - [Breaking the Shield (author PDF)](https://www.phanivadrevu.com/files/papers/canvas_fp.pdf)

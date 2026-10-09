@@ -54,6 +54,6 @@ The free plan's 10-profile limit makes it usable for evaluation without commitme
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/dolphin-anty-product-review](https://substack.thewebscraping.club/p/dolphin-anty-product-review)
-- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
-- [https://substack.thewebscraping.club/p/browser-automation-landscape-2025](https://substack.thewebscraping.club/p/browser-automation-landscape-2025)
+- [https://www.scraping.club/p/dolphin-anty-product-review](https://www.scraping.club/p/dolphin-anty-product-review)
+- [https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests](https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://www.scraping.club/p/browser-automation-landscape-2025](https://www.scraping.club/p/browser-automation-landscape-2025)

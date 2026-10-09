@@ -54,7 +54,7 @@ Homepage-first navigation is a baseline requirement rather than an advanced tech
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/cloudflare-how-to-scrape](https://substack.thewebscraping.club/p/cloudflare-how-to-scrape)
-- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)
-- [https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3](https://substack.thewebscraping.club/p/the-lab-56-bypassing-perimeterx-3)
-- [https://substack.thewebscraping.club/p/scraping-datadome-camoufox](https://substack.thewebscraping.club/p/scraping-datadome-camoufox)
+- [https://www.scraping.club/p/cloudflare-how-to-scrape](https://www.scraping.club/p/cloudflare-how-to-scrape)
+- [https://www.scraping.club/p/bypassing-cloudflare-in-2026](https://www.scraping.club/p/bypassing-cloudflare-in-2026)
+- [https://www.scraping.club/p/the-lab-56-bypassing-perimeterx-3](https://www.scraping.club/p/the-lab-56-bypassing-perimeterx-3)
+- [https://www.scraping.club/p/scraping-datadome-camoufox](https://www.scraping.club/p/scraping-datadome-camoufox)

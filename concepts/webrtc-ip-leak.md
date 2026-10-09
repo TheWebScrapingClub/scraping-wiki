@@ -58,6 +58,6 @@ As of 2026-06, stock Camoufox 146 still surfaces the real WAN IP through the ref
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypassing-geo-fencing-scraping](https://substack.thewebscraping.club/p/bypassing-geo-fencing-scraping)
+- [https://www.scraping.club/p/bypassing-geo-fencing-scraping](https://www.scraping.club/p/bypassing-geo-fencing-scraping)
 - TWSC Lab article, forthcoming 2026: "Is Camoufox still effective, and do the forks help?" (draft: `drafts/lab-camoufox-forks-cloverlabs-draft.md`)
 - [daijro/camoufox issue #538: Proxy detection on FF146, WebRTC Leak](https://github.com/daijro/camoufox/issues/538)

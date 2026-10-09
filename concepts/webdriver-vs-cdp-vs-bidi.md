@@ -79,5 +79,5 @@ As of early 2026:
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi](https://substack.thewebscraping.club/p/webdriver-vs-cdp-vs-bidi)
-- [https://substack.thewebscraping.club/p/pydoll-webdriver-scraping](https://substack.thewebscraping.club/p/pydoll-webdriver-scraping)
+- [https://www.scraping.club/p/webdriver-vs-cdp-vs-bidi](https://www.scraping.club/p/webdriver-vs-cdp-vs-bidi)
+- [https://www.scraping.club/p/pydoll-webdriver-scraping](https://www.scraping.club/p/pydoll-webdriver-scraping)

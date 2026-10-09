@@ -50,7 +50,7 @@ The local API integration works reliably. Connecting a Playwright script to a ru
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/kameleo-anti-detect-browser](https://substack.thewebscraping.club/p/kameleo-anti-detect-browser)
-- [https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests](https://substack.thewebscraping.club/p/anti-detect-browsers-fingerprint-tests)
-- [https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments](https://substack.thewebscraping.club/p/anti-detect-browser-royal-rumble-comments)
-- [https://substack.thewebscraping.club/p/anti-detect-pricing-comparison](https://substack.thewebscraping.club/p/anti-detect-pricing-comparison)
+- [https://www.scraping.club/p/kameleo-anti-detect-browser](https://www.scraping.club/p/kameleo-anti-detect-browser)
+- [https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests](https://www.scraping.club/p/anti-detect-browsers-fingerprint-tests)
+- [https://www.scraping.club/p/anti-detect-browser-royal-rumble-comments](https://www.scraping.club/p/anti-detect-browser-royal-rumble-comments)
+- [https://www.scraping.club/p/anti-detect-pricing-comparison](https://www.scraping.club/p/anti-detect-pricing-comparison)

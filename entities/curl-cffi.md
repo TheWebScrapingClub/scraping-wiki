@@ -79,13 +79,13 @@ curl-cffi is the correct client for implementing HTTP conditional requests on Cl
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/three-web-scraping-tools-just-discovered](https://substack.thewebscraping.club/p/three-web-scraping-tools-just-discovered)
-- [https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://substack.thewebscraping.club/p/hybrid-scraping-camoufox-curl-cffi)
-- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
-- [https://substack.thewebscraping.club/p/bypass-akamai-bot-protection](https://substack.thewebscraping.club/p/bypass-akamai-bot-protection)
-- [https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot](https://substack.thewebscraping.club/p/the-lab-29-bypass-cloudflare-bot)
-- [https://substack.thewebscraping.club/p/bypassing-akamai-for-free](https://substack.thewebscraping.club/p/bypassing-akamai-for-free)
-- [https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python](https://substack.thewebscraping.club/p/hrequests-bypass-akamai-with-python)
-- [https://substack.thewebscraping.club/p/faster-web-scraping-with-http3](https://substack.thewebscraping.club/p/faster-web-scraping-with-http3)
-- [https://substack.thewebscraping.club/p/http-caching-scraping](https://substack.thewebscraping.club/p/http-caching-scraping)
-- [https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast](https://substack.thewebscraping.club/p/how-to-get-data-from-polymarket-fast)
+- [https://www.scraping.club/p/three-web-scraping-tools-just-discovered](https://www.scraping.club/p/three-web-scraping-tools-just-discovered)
+- [https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi)
+- [https://www.scraping.club/p/the-stealth-stack-web-scraping](https://www.scraping.club/p/the-stealth-stack-web-scraping)
+- [https://www.scraping.club/p/bypass-akamai-bot-protection](https://www.scraping.club/p/bypass-akamai-bot-protection)
+- [https://www.scraping.club/p/the-lab-29-bypass-cloudflare-bot](https://www.scraping.club/p/the-lab-29-bypass-cloudflare-bot)
+- [https://www.scraping.club/p/bypassing-akamai-for-free](https://www.scraping.club/p/bypassing-akamai-for-free)
+- [https://www.scraping.club/p/hrequests-bypass-akamai-with-python](https://www.scraping.club/p/hrequests-bypass-akamai-with-python)
+- [https://www.scraping.club/p/faster-web-scraping-with-http3](https://www.scraping.club/p/faster-web-scraping-with-http3)
+- [https://www.scraping.club/p/http-caching-scraping](https://www.scraping.club/p/http-caching-scraping)
+- [https://www.scraping.club/p/how-to-get-data-from-polymarket-fast](https://www.scraping.club/p/how-to-get-data-from-polymarket-fast)

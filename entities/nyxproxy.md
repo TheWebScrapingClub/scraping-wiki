@@ -30,4 +30,4 @@ Not yet tested by TWSC.
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/use-ipv6-scraping-nyxproxy](https://substack.thewebscraping.club/p/use-ipv6-scraping-nyxproxy)
+- [https://www.scraping.club/p/use-ipv6-scraping-nyxproxy](https://www.scraping.club/p/use-ipv6-scraping-nyxproxy)

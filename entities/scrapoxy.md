@@ -46,4 +46,4 @@ Scrapoxy's datacenter pool capability — using cloud VMs as proxy nodes — pro
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator](https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator)
+- [https://www.scraping.club/p/scrapoxy-proxy-aggregator](https://www.scraping.club/p/scrapoxy-proxy-aggregator)

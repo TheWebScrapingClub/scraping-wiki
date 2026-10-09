@@ -54,6 +54,6 @@ Cookie and session reuse is a fundamental technique with well-understood impleme
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session](https://substack.thewebscraping.club/p/the-lab-94-using-cookies-and-session)
-- [https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected](https://substack.thewebscraping.club/p/the-lab-30-how-to-bypass-akamai-protected)
-- [https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with](https://substack.thewebscraping.club/p/the-lab-35-bypassing-perimeterx-with)
+- [https://www.scraping.club/p/the-lab-94-using-cookies-and-session](https://www.scraping.club/p/the-lab-94-using-cookies-and-session)
+- [https://www.scraping.club/p/the-lab-30-how-to-bypass-akamai-protected](https://www.scraping.club/p/the-lab-30-how-to-bypass-akamai-protected)
+- [https://www.scraping.club/p/the-lab-35-bypassing-perimeterx-with](https://www.scraping.club/p/the-lab-35-bypassing-perimeterx-with)

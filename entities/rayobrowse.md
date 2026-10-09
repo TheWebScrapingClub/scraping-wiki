@@ -52,5 +52,5 @@ The Docker deployment workflow is: pull the image, run the container with port m
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/rayobrowse-browser-scraping](https://substack.thewebscraping.club/p/rayobrowse-browser-scraping)
-- [https://substack.thewebscraping.club/p/two-stealth-browsers-proxy-prices](https://substack.thewebscraping.club/p/two-stealth-browsers-proxy-prices)
+- [https://www.scraping.club/p/rayobrowse-browser-scraping](https://www.scraping.club/p/rayobrowse-browser-scraping)
+- [https://www.scraping.club/p/two-stealth-browsers-proxy-prices](https://www.scraping.club/p/two-stealth-browsers-proxy-prices)

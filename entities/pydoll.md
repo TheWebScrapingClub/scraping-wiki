@@ -51,5 +51,5 @@ The future features listed in the documentation (Bezier curves, physics scrollin
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/pydoll-webdriver-scraping](https://substack.thewebscraping.club/p/pydoll-webdriver-scraping)
-- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)
+- [https://www.scraping.club/p/pydoll-webdriver-scraping](https://www.scraping.club/p/pydoll-webdriver-scraping)
+- [https://www.scraping.club/p/bypassing-cloudflare-in-2026](https://www.scraping.club/p/bypassing-cloudflare-in-2026)

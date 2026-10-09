@@ -153,13 +153,13 @@ As of 2025, the infrastructure decision tree is: sporadic invocation → Lambda/
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/the-costs-of-web-scraping](https://substack.thewebscraping.club/p/the-costs-of-web-scraping)
-- [https://substack.thewebscraping.club/p/optimizing-costs-for-web-scraping](https://substack.thewebscraping.club/p/optimizing-costs-for-web-scraping)
-- [https://substack.thewebscraping.club/p/scraping-aws-lambda-serverless](https://substack.thewebscraping.club/p/scraping-aws-lambda-serverless)
-- [https://substack.thewebscraping.club/p/running-scrapers-on-github-actions](https://substack.thewebscraping.club/p/running-scrapers-on-github-actions)
-- [https://substack.thewebscraping.club/p/scheduling-scrapers-airflow](https://substack.thewebscraping.club/p/scheduling-scrapers-airflow)
-- [https://substack.thewebscraping.club/p/scrapyd-manage-schedule-scrapers](https://substack.thewebscraping.club/p/scrapyd-manage-schedule-scrapers)
-- [https://substack.thewebscraping.club/p/scrapeops-managing-scrapers-execution](https://substack.thewebscraping.club/p/scrapeops-managing-scrapers-execution)
-- [https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator](https://substack.thewebscraping.club/p/scrapoxy-proxy-aggregator)
-- [https://substack.thewebscraping.club/p/the-true-costs-of-a-web-scraping](https://substack.thewebscraping.club/p/the-true-costs-of-a-web-scraping)
+- [https://www.scraping.club/p/the-costs-of-web-scraping](https://www.scraping.club/p/the-costs-of-web-scraping)
+- [https://www.scraping.club/p/optimizing-costs-for-web-scraping](https://www.scraping.club/p/optimizing-costs-for-web-scraping)
+- [https://www.scraping.club/p/scraping-aws-lambda-serverless](https://www.scraping.club/p/scraping-aws-lambda-serverless)
+- [https://www.scraping.club/p/running-scrapers-on-github-actions](https://www.scraping.club/p/running-scrapers-on-github-actions)
+- [https://www.scraping.club/p/scheduling-scrapers-airflow](https://www.scraping.club/p/scheduling-scrapers-airflow)
+- [https://www.scraping.club/p/scrapyd-manage-schedule-scrapers](https://www.scraping.club/p/scrapyd-manage-schedule-scrapers)
+- [https://www.scraping.club/p/scrapeops-managing-scrapers-execution](https://www.scraping.club/p/scrapeops-managing-scrapers-execution)
+- [https://www.scraping.club/p/scrapoxy-proxy-aggregator](https://www.scraping.club/p/scrapoxy-proxy-aggregator)
+- [https://www.scraping.club/p/the-true-costs-of-a-web-scraping](https://www.scraping.club/p/the-true-costs-of-a-web-scraping)
 - [https://andrewkchan.dev/posts/crawler.html](https://andrewkchan.dev/posts/crawler.html)

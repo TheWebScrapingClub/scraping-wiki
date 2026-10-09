@@ -1,6 +1,6 @@
 # The Web Scraping Wiki
 
-A structured, LLM-maintained knowledge base on anti-bot systems, scraping tools, browser fingerprinting, and proxy infrastructure. It compiles what we tested across 300+ [The Web Scraping Club](https://thewebscraping.club/) articles since 2022, cross-referenced and updated daily.
+A structured, LLM-maintained knowledge base on anti-bot systems, scraping tools, browser fingerprinting, and proxy infrastructure. It compiles what we tested across 300+ [The Web Scraping Club](https://www.scraping.club/) articles since 2022, cross-referenced and updated daily.
 
 New here? Read [About.md](About.md) for what this is, where the sources come from, how it is maintained, and how to open it as an Obsidian vault.
 

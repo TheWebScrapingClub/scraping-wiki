@@ -169,14 +169,14 @@ The practical challenge for scrapers is not understanding what is collected but 
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/browser-fingerprinting-how-it-works](https://substack.thewebscraping.club/p/browser-fingerprinting-how-it-works)
-- [https://substack.thewebscraping.club/p/understanding-browser-fingerprint](https://substack.thewebscraping.club/p/understanding-browser-fingerprint)
-- [https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different](https://substack.thewebscraping.club/p/the-lab-33-fingerprinting-at-different)
-- [https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping](https://substack.thewebscraping.club/p/the-stealth-stack-web-scraping)
-- [https://substack.thewebscraping.club/p/browser-fingerprinting-test-online](https://substack.thewebscraping.club/p/browser-fingerprinting-test-online)
-- [https://substack.thewebscraping.club/p/the-latest-papers-about-browser-fingerpinting](https://substack.thewebscraping.club/p/the-latest-papers-about-browser-fingerpinting)
-- [https://substack.thewebscraping.club/p/how-to-mask-device-fingerprint](https://substack.thewebscraping.club/p/how-to-mask-device-fingerprint)
-- [https://substack.thewebscraping.club/p/scraper-fingerprints-and-proxies](https://substack.thewebscraping.club/p/scraper-fingerprints-and-proxies)
+- [https://www.scraping.club/p/browser-fingerprinting-how-it-works](https://www.scraping.club/p/browser-fingerprinting-how-it-works)
+- [https://www.scraping.club/p/understanding-browser-fingerprint](https://www.scraping.club/p/understanding-browser-fingerprint)
+- [https://www.scraping.club/p/the-lab-33-fingerprinting-at-different](https://www.scraping.club/p/the-lab-33-fingerprinting-at-different)
+- [https://www.scraping.club/p/the-stealth-stack-web-scraping](https://www.scraping.club/p/the-stealth-stack-web-scraping)
+- [https://www.scraping.club/p/browser-fingerprinting-test-online](https://www.scraping.club/p/browser-fingerprinting-test-online)
+- [https://www.scraping.club/p/the-latest-papers-about-browser-fingerpinting](https://www.scraping.club/p/the-latest-papers-about-browser-fingerpinting)
+- [https://www.scraping.club/p/how-to-mask-device-fingerprint](https://www.scraping.club/p/how-to-mask-device-fingerprint)
+- [https://www.scraping.club/p/scraper-fingerprints-and-proxies](https://www.scraping.club/p/scraper-fingerprints-and-proxies)
 - [https://blog.castle.io/detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle/](https://blog.castle.io/detecting-browser-extensions-for-bot-detection-lessons-from-linkedin-and-castle/)
 - [https://www.brokenbrowser.com/blog/2024-11-12-detecting-chrome-extensions-without-console-noise](https://www.brokenbrowser.com/blog/2024-11-12-detecting-chrome-extensions-without-console-noise)
 - [https://github.com/antoinevastel/fpscanner](https://github.com/antoinevastel/fpscanner)

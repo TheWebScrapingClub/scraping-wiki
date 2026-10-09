@@ -56,5 +56,5 @@ The decorator API is clean and the task parallelization genuinely reduces code c
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/botasaurus-web-scraping-framework](https://substack.thewebscraping.club/p/botasaurus-web-scraping-framework)
-- [https://substack.thewebscraping.club/p/testing-the-new-botasaurus-4](https://substack.thewebscraping.club/p/testing-the-new-botasaurus-4)
+- [https://www.scraping.club/p/botasaurus-web-scraping-framework](https://www.scraping.club/p/botasaurus-web-scraping-framework)
+- [https://www.scraping.club/p/testing-the-new-botasaurus-4](https://www.scraping.club/p/testing-the-new-botasaurus-4)

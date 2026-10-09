@@ -57,9 +57,9 @@ Avoid Pydoll for production scraping until stability issues are resolved. Avoid 
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026](https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026)
-- [https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source](https://substack.thewebscraping.club/p/bypassing-kasada-2025-open-source)
-- [https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome](https://substack.thewebscraping.club/p/undetected-chromedriver-cloudflare-datadome)
-- [https://substack.thewebscraping.club/p/scraping-datadome-camoufox](https://substack.thewebscraping.club/p/scraping-datadome-camoufox)
-- [https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile](https://substack.thewebscraping.club/p/how-to-bypass-cloudflare-turnstile)
-- [https://substack.thewebscraping.club/p/cloudflare-bypass-2026](https://substack.thewebscraping.club/p/cloudflare-bypass-2026)
+- [https://www.scraping.club/p/bypassing-cloudflare-in-2026](https://www.scraping.club/p/bypassing-cloudflare-in-2026)
+- [https://www.scraping.club/p/bypassing-kasada-2025-open-source](https://www.scraping.club/p/bypassing-kasada-2025-open-source)
+- [https://www.scraping.club/p/undetected-chromedriver-cloudflare-datadome](https://www.scraping.club/p/undetected-chromedriver-cloudflare-datadome)
+- [https://www.scraping.club/p/scraping-datadome-camoufox](https://www.scraping.club/p/scraping-datadome-camoufox)
+- [https://www.scraping.club/p/how-to-bypass-cloudflare-turnstile](https://www.scraping.club/p/how-to-bypass-cloudflare-turnstile)
+- [https://www.scraping.club/p/cloudflare-bypass-2026](https://www.scraping.club/p/cloudflare-bypass-2026)

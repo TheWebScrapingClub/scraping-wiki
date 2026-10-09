@@ -26,7 +26,7 @@ The `aws-waf-token` cookie name is self-identifying. Inspect session cookies aft
 
 ## TWSC experience
 
-**Traveloka.com (2024)**: Flight fare aggregator for the APAC market. AWS WAF protects the search endpoints. Plain Scrapy retrieves the homepage HTML but does not receive any session cookies suitable for API calls, because the JavaScript challenge runs client-side. The approach that worked: use Playwright (Firefox, headless=False) to load the homepage and the search results page, capture the resulting cookies including `aws-waf-token`, then inject those cookies into Scrapy POST requests to the flight search API. The `aws-waf-token` remained valid for four days in testing, enabling a hybrid pattern: one browser session generates the token, and thousands of Scrapy API calls reuse it until expiration. Covered in [bypassing-aws-waf-scraping](https://substack.thewebscraping.club/p/bypassing-aws-waf-scraping).
+**Traveloka.com (2024)**: Flight fare aggregator for the APAC market. AWS WAF protects the search endpoints. Plain Scrapy retrieves the homepage HTML but does not receive any session cookies suitable for API calls, because the JavaScript challenge runs client-side. The approach that worked: use Playwright (Firefox, headless=False) to load the homepage and the search results page, capture the resulting cookies including `aws-waf-token`, then inject those cookies into Scrapy POST requests to the flight search API. The `aws-waf-token` remained valid for four days in testing, enabling a hybrid pattern: one browser session generates the token, and thousands of Scrapy API calls reuse it until expiration. Covered in [bypassing-aws-waf-scraping](https://www.scraping.club/p/bypassing-aws-waf-scraping).
 
 The hybrid Playwright-plus-Scrapy approach uses `scrapy-playwright` to handle the browser session and extract cookies, which are then passed into standard Scrapy requests for the actual data collection.
 
@@ -47,4 +47,4 @@ Unlike dedicated anti-bot systems, AWS WAF does not perform continuous behaviora
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/bypassing-aws-waf-scraping](https://substack.thewebscraping.club/p/bypassing-aws-waf-scraping)
+- [https://www.scraping.club/p/bypassing-aws-waf-scraping](https://www.scraping.club/p/bypassing-aws-waf-scraping)

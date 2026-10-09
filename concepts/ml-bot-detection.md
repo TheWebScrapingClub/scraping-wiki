@@ -72,11 +72,11 @@ ML detection is present in all anti-bot systems TWSC has tested. Its weight rela
 
 ## What we tested
 
-The anti-detect matrix (February 2023) provided the first systematic TWSC comparison of tool performance against multiple ML-backed anti-bots. Key finding: Playwright with Chrome was the worst performer across all five anti-bots tested, while Playwright with Firefox performed significantly better. Undetected-chromedriver outperformed standard Playwright. The pattern suggests that Chrome's automation surface was the primary ML detection target, while Firefox's automation signals were less well-modeled. Covered in [anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix).
+The anti-detect matrix (February 2023) provided the first systematic TWSC comparison of tool performance against multiple ML-backed anti-bots. Key finding: Playwright with Chrome was the worst performer across all five anti-bots tested, while Playwright with Firefox performed significantly better. Undetected-chromedriver outperformed standard Playwright. The pattern suggests that Chrome's automation surface was the primary ML detection target, while Firefox's automation signals were less well-modeled. Covered in [anti-detect-anti-bot-matrix](https://www.scraping.club/p/anti-detect-anti-bot-matrix).
 
-The Nimble AI browser test (June 2023) demonstrated commercial AI-generated browser fingerprints against the same five anti-bots. The AI vs. AI framing reflects the vendor reality: anti-bot ML models are trained on signals from AI-generated fingerprints just as they are on human traffic. Covered in [the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges).
+The Nimble AI browser test (June 2023) demonstrated commercial AI-generated browser fingerprints against the same five anti-bots. The AI vs. AI framing reflects the vendor reality: anti-bot ML models are trained on signals from AI-generated fingerprints just as they are on human traffic. Covered in [the-lab-21-bypass-anti-bot-challenges](https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges).
 
-The ML bot detection overview article (June 2025) documents the feature engineering side: what signals ML models use and how those signals can be manipulated. Covered in [machine-learning-for-detecting-bots](https://substack.thewebscraping.club/p/machine-learning-for-detecting-bots).
+The ML bot detection overview article (June 2025) documents the feature engineering side: what signals ML models use and how those signals can be manipulated. Covered in [machine-learning-for-detecting-bots](https://www.scraping.club/p/machine-learning-for-detecting-bots).
 
 ### Keystroke Dynamics: isHumanCadence
 
@@ -120,7 +120,7 @@ The industry expectation is that ML models will continue to incorporate hardware
 
 ## Sources
 
-- [https://substack.thewebscraping.club/p/machine-learning-for-detecting-bots](https://substack.thewebscraping.club/p/machine-learning-for-detecting-bots)
-- [https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix](https://substack.thewebscraping.club/p/anti-detect-anti-bot-matrix)
-- [https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://substack.thewebscraping.club/p/the-lab-21-bypass-anti-bot-challenges)
+- [https://www.scraping.club/p/machine-learning-for-detecting-bots](https://www.scraping.club/p/machine-learning-for-detecting-bots)
+- [https://www.scraping.club/p/anti-detect-anti-bot-matrix](https://www.scraping.club/p/anti-detect-anti-bot-matrix)
+- [https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges](https://www.scraping.club/p/the-lab-21-bypass-anti-bot-challenges)
 - [https://github.com/RoloBits/isHumanCadence](https://github.com/RoloBits/isHumanCadence)
