@@ -93,5 +93,5 @@ scrapy-impersonate has a known issue when combined with proxies: network errors 
 - [https://www.scraping.club/p/scraping-akamai-protected-website](https://www.scraping.club/p/scraping-akamai-protected-website)
 - [https://www.scraping.club/p/scraping-akamai-protected-websites](https://www.scraping.club/p/scraping-akamai-protected-websites)
 - [https://www.scraping.club/p/hrequests-bypass-akamai-with-python](https://www.scraping.club/p/hrequests-bypass-akamai-with-python)
-- [https://www.scraping.club/p/nike-scraping-benchmark](https://www.scraping.club/p/nike-scraping-benchmark)
+- [https://www.scraping.club/p/scraping-nike-with-open-source](https://www.scraping.club/p/scraping-nike-with-open-source)
 - [https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/](https://www.mimic.sbs/antibot/Improving-Antibot-Biometric-Protections-Through-Threat-Intelligence-And-Reverse-Engineering/)

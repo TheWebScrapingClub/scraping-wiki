@@ -52,4 +52,4 @@ We covered Scrapling in a hands-on guide that tested all three fetchers against 
 ## Sources
 
 - [https://www.scraping.club/p/scrapling-hands-on-guide](https://www.scraping.club/p/scrapling-hands-on-guide)
-- [https://www.scraping.club/p/nike-scraping-benchmark](https://www.scraping.club/p/nike-scraping-benchmark)
+- [https://www.scraping.club/p/scraping-nike-with-open-source](https://www.scraping.club/p/scraping-nike-with-open-source)

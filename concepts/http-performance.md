@@ -175,6 +175,6 @@ Async scraping is the baseline for any production pipeline. HTTP caching is an u
 - [https://www.scraping.club/p/rate-limit-scraping-exponential-backoff](https://www.scraping.club/p/rate-limit-scraping-exponential-backoff)
 - [https://www.scraping.club/p/change-ciphers-scrapy](https://www.scraping.club/p/change-ciphers-scrapy)
 - [https://www.scraping.club/p/how-to-get-data-from-polymarket-fast](https://www.scraping.club/p/how-to-get-data-from-polymarket-fast)
-- [https://www.scraping.club/p/how-fast-can-you-call-polymarket-apis](https://www.scraping.club/p/how-fast-can-you-call-polymarket-apis)
+- [https://www.scraping.club/p/how-to-get-data-from-polymarket-fast](https://www.scraping.club/p/how-to-get-data-from-polymarket-fast)
 - [https://www.scraping.club/p/scraping-real-time-data-bitstamp](https://www.scraping.club/p/scraping-real-time-data-bitstamp)
 - [https://singh-sanjay.com/2026/03/09/concurrent-requests-reverse-proxy.html](https://singh-sanjay.com/2026/03/09/concurrent-requests-reverse-proxy.html)

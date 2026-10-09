@@ -100,7 +100,7 @@ The AI dimension adds another layer: Google's data access advantage over AI comp
 - [https://www.scraping.club/p/x-vs-bright-data-case-scraping](https://www.scraping.club/p/x-vs-bright-data-case-scraping)
 - [https://www.scraping.club/p/google-vs-serpapi-web-scraping-case](https://www.scraping.club/p/google-vs-serpapi-web-scraping-case)
 - [https://www.scraping.club/p/google-vs-serpapi-scraping-industry-implications](https://www.scraping.club/p/google-vs-serpapi-scraping-industry-implications)
-- [https://www.scraping.club/p/understanding-robots-txt-implications](https://www.scraping.club/p/understanding-robots-txt-implications)
+- [https://www.scraping.club/p/understanding-robotstxt-and-its-implications](https://www.scraping.club/p/understanding-robotstxt-and-its-implications)
 - [https://www.scraping.club/p/understanding-robotstxt-and-its-implications](https://www.scraping.club/p/understanding-robotstxt-and-its-implications)
 - [https://www.scraping.club/p/web-scraping-legal-context](https://www.scraping.club/p/web-scraping-legal-context)
 - [https://www.scraping.club/p/is-it-legal-to-scrape-social-networks](https://www.scraping.club/p/is-it-legal-to-scrape-social-networks)

@@ -109,7 +109,7 @@ A counterintuitive result came out of testing these against [Datadome](datadome.
 - [https://www.scraping.club/p/bypassing-kasada-2025-open-source](https://www.scraping.club/p/bypassing-kasada-2025-open-source)
 - [https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi](https://www.scraping.club/p/hybrid-scraping-camoufox-curl-cffi)
 - [https://www.scraping.club/p/scrapling-hands-on-guide](https://www.scraping.club/p/scrapling-hands-on-guide)
-- [https://www.scraping.club/p/cloudflare-bypass-2026](https://www.scraping.club/p/cloudflare-bypass-2026)
+- [https://www.scraping.club/p/bypassing-cloudflare-in-2026](https://www.scraping.club/p/bypassing-cloudflare-in-2026)
 - [https://www.scraping.club/p/how-to-bypass-cloudflare-turnstile](https://www.scraping.club/p/how-to-bypass-cloudflare-turnstile)
 - [https://www.scraping.club/p/camoufox-server-docker](https://www.scraping.club/p/camoufox-server-docker)
 - [https://www.scraping.club/p/camoufox-server-in-aws](https://www.scraping.club/p/camoufox-server-in-aws)
