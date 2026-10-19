@@ -44,7 +44,7 @@ The Web Scraping Wiki is free to read and stays that way thanks to the companies
 <!--
   AWESOME SPONSORS — logo links, optional one-line offer under the logo.
   To add a real sponsor, duplicate an <a>, swap the logo (images/...) and the URL.
-  MangoProxy: added 2026-09-02, scheduled for removal on the 2026-10-02 run.
+  MangoProxy: added 2026-09-02, renewed until 2026-10-31.
 -->
 <p>
   <a href="https://mangoproxy.com/?utm_source=thewebscrapingclub&utm_medium=partner&utm_campaign=thewebscrapingclub_github" title="MangoProxy — premium residential, ISP, mobile and datacenter proxies"><img src="images/mangoproxy.png" width="420"></a>
