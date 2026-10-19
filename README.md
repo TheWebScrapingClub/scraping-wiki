@@ -11,7 +11,7 @@ The Web Scraping Wiki is free to read and stays that way thanks to the companies
 <!--
   GREAT SPONSORS — placeholder rows.
   To add a real sponsor, duplicate a <tr>, swap the logo (images/...), the URL, the name, and the copy.
-  Bright Data: added 2026-10-19.
+  Bright Data: added 2026-10-19, remove on 2026-11-30 unless renewed.
   Logo cell is fixed at 200px; the pitch goes on the right.
 -->
 <table>
