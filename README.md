@@ -9,33 +9,22 @@ The Web Scraping Wiki is free to read and stays that way thanks to the companies
 ## Great Sponsors
 
 <!--
-  GREAT SPONSORS — placeholder rows.
-  To add a real sponsor, duplicate a <tr>, swap the logo (images/...), the URL, the name, and the copy.
+  GREAT SPONSORS — one block per sponsor: banner on top, pitch underneath.
+  To add a real sponsor, duplicate a <p>, swap the banner (images/...), the URL, the name, and the copy.
+  Banners render at width 600 (larger than the 420 used in Awesome Sponsors).
   Bright Data: added 2026-10-19, remove on 2026-11-30 unless renewed.
-  Logo cell is fixed at 200px; the pitch goes on the right.
 -->
-<table>
-  <tr>
-    <td width="200">
-      <a href="https://get.brightdata.com/pisbe" title="Bright Data Web Unlocker API">
-        <img src="images/brightdata.png" width="200">
-      </a>
-    </td>
-    <td>
-      <a href="https://get.brightdata.com/pisbe"><b>Bright Data</b></a> Web Unlocker API: one call to reach any site, with a 98% success rate. Start with a free trial.
-    </td>
-  </tr>
-  <tr>
-    <td width="200">
-      <a href="mailto:pier@thewebscraping.club" title="Your slot — get in touch">
-        <img src="images/sponsor-placeholder.png" width="200">
-      </a>
-    </td>
-    <td>
-      <a href="mailto:pier@thewebscraping.club"><b>Your company here</b></a> a short description of what you offer and why it matters to people scraping the web.
-    </td>
-  </tr>
-</table>
+<p>
+  <a href="https://get.brightdata.com/pisbe" title="Bright Data Web Unlocker API"><img src="images/brightdata.png" width="600"></a>
+  <br>
+  <a href="https://get.brightdata.com/pisbe"><b>Bright Data</b></a> Web Unlocker API: one call to reach any site, with a 98% success rate. Start with a free trial.
+</p>
+
+<p>
+  <a href="mailto:pier@thewebscraping.club" title="Your slot — get in touch"><img src="images/sponsor-placeholder.png" width="600"></a>
+  <br>
+  <a href="mailto:pier@thewebscraping.club"><b>Your company here</b></a> a short description of what you offer and why it matters to people scraping the web.
+</p>
 
 <i><sub>Want your logo here? <a href="mailto:pier@thewebscraping.club">Reach out</a> and we will add you.</sub></i>
 
