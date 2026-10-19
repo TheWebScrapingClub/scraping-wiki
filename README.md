@@ -11,17 +11,17 @@ The Web Scraping Wiki is free to read and stays that way thanks to the companies
 <!--
   GREAT SPONSORS — one block per sponsor: banner on top, pitch underneath.
   To add a real sponsor, duplicate a <p>, swap the banner (images/...), the URL, the name, and the copy.
-  Banners render at width 420.
+  Banners render at width 200 (native size of the Bright Data banner, 200x60).
   Bright Data: added 2026-10-19, remove on 2026-11-30 unless renewed.
 -->
 <p>
-  <a href="https://get.brightdata.com/pisbe" title="Bright Data Web Unlocker API"><img src="images/brightdata.png" width="420"></a>
+  <a href="https://get.brightdata.com/pisbe" title="Bright Data Web Unlocker API"><img src="images/brightdata.png" width="200"></a>
   <br>
   <a href="https://get.brightdata.com/pisbe"><b>Bright Data</b></a> Web Unlocker API: one call to reach any site, with a 98% success rate. Start with a free trial.
 </p>
 
 <p>
-  <a href="mailto:pier@thewebscraping.club" title="Your slot — get in touch"><img src="images/sponsor-placeholder.png" width="420"></a>
+  <a href="mailto:pier@thewebscraping.club" title="Your slot — get in touch"><img src="images/sponsor-placeholder.png" width="200"></a>
   <br>
   <a href="mailto:pier@thewebscraping.club"><b>Your company here</b></a> a short description of what you offer and why it matters to people scraping the web.
 </p>
@@ -36,7 +36,7 @@ The Web Scraping Wiki is free to read and stays that way thanks to the companies
   MangoProxy: added 2026-09-02, renewed until 2026-10-31.
 -->
 <p>
-  <a href="https://mangoproxy.com/?utm_source=thewebscrapingclub&utm_medium=partner&utm_campaign=thewebscrapingclub_github" title="MangoProxy — premium residential, ISP, mobile and datacenter proxies"><img src="images/mangoproxy.png" width="420"></a>
+  <a href="https://mangoproxy.com/?utm_source=thewebscrapingclub&utm_medium=partner&utm_campaign=thewebscrapingclub_github" title="MangoProxy — premium residential, ISP, mobile and datacenter proxies"><img src="images/mangoproxy.png" width="200"></a>
   <br>
   <a href="https://mangoproxy.com/?utm_source=thewebscrapingclub&utm_medium=partner&utm_campaign=thewebscrapingclub_github"><b>MangoProxy</b> — code <b>SCRAPING</b> for 8% off ISP Static proxies</a>
 </p>
