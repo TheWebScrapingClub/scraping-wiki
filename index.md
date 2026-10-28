@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-09-30
+Last updated: 2026-10-28
 
 ## Visual maps and views
 
@@ -15,12 +15,14 @@ Last updated: 2026-09-30
 ## Entities
 
 ### Anti-bot systems
+- [aegis](entities/aegis.md) — Aegis is an open-source, high-performance Web Application Firewall (WAF) and reverse proxy built in Go.
 - [ai-agent-reader-page](entities/ai-agent-reader-page.md) — This page is designed to present different content versions of a web page, distinguishing between what a human reader sees and what a software agent reads.
 - [ai-generated-content-detection](entities/ai-generated-content-detection.md) — This research addresses the challenge posed by the convergence of large language models (LLMs) and social bots, which enables malicious actors to generate human-like content at scale to manipulate the information ecosystem.
 - [Akamai Bot Manager](entities/akamai.md) — TLS/JA3-heavy detection with behavioral JS sensor. Silent drop on mismatch. Nike.com catalog uses Akamai only; TLS impersonation sufficient.
 - [AWS WAF](entities/aws-waf.md) — Amazon WAF with JavaScript challenge. Cookie factory pattern works: browser gets aws-waf-token, Scrapy reuses it.
 - [bot-detection-system](entities/bot-detection-system.md) — A bot detection system separates real users from unwanted automation by employing probabilistic scoring rather than relying on a single check.
 - [browser-fingerprint-scanner](entities/browser-fingerprint-scanner.md) — The Browser Fingerprint Scanner is a tool designed to run live tests to inspect browser, device, WebRTC leak exposure, network signals, headers, GPU, DRM support, and automation indicators.
+- [circuit-breaker-sage](entities/circuit-breaker-sage.md) — Circuit Breaker Sage is a drop-in reverse proxy designed to prevent autonomous agents from draining API budgets by catching infinite tool loops and enforcing hard spend caps within volatile RAM.
 - [claw-patrol](entities/claw-patrol.md) — Claw Patrol is a security firewall designed to sit between agents and production environments.
 - [client-side-bot-detection](entities/client-side-bot-detection.md) — Client-side bot detection involves running detection logic within the browser environment, which presents an asymmetry where the code executes in an environment controlled by the attacker, including their CPU, debugger, and clock.
 - [Cloudflare](entities/cloudflare.md) — Multi-layer defense (TLS, JSD, Turnstile, ML scoring). Most tested anti-bot in TWSC corpus.
@@ -29,18 +31,24 @@ Last updated: 2026-09-30
 - [customhouse](entities/customhouse.md) — Customhouse is a deterministic MCP proxy designed to block money-moving and data-egress tool calls within AI agent sessions that have received untrusted content.
 - [Datadome](entities/datadome.md) — Behavioral analysis focus. Hermes.com is the canonical hard target. Chrome leaks automation signals that Firefox/Brave do not.
 - [F5 Bot Defense](entities/f5-bot-defense.md) — Enterprise anti-bot from F5 Networks. AI/behavioral focus. Second largest by market share (2022).
+- [farmfence](entities/farmfence.md) — farmfence is a TypeScript package that provides functions for detecting and flagging traffic originating from known bot farms, scrapers, and headless probes.
 - [Google SearchGuard](entities/google-searchguard.md) — The challenge Google serves on a cookieless search request. A JavaScript VM with an encrypted program collects browser signals and sets the client-side SG_SS cookie (30 s TTL). Reads 72 distinct names, 32 of them automation markers or Chrome-presence probes. Builds rotate every ~2 weeks (Aug-Sep 2026).
 - [grith](entities/grith.md) — Grith is a security proxy designed to supervise AI coding agents by enforcing security decisions at the operating system level.
 - [impersonate-proxy](entities/impersonate-proxy.md) — impersonate-proxy is a local MITM proxy implemented in Go that allows users to control various network fingerprints and headers via a single YAML configuration file.
 - [Kasada](entities/kasada.md) — Australian company. 429 signature. Hardware fingerprinting. Zero-trust first-request philosophy.
 - [llm-shield-proxy](entities/llm-shield-proxy.md) — LLM-Shield-Proxy is a stateless, zero-latency reverse proxy designed for real-time Personally Identifiable Information (PII) redaction within Large Language Model (LLM) streams.
+- [midnight-mimosa-malware](entities/midnight-mimosa-malware.md) — Midnight Mimosa is a malware campaign discovered on low-cost Android smartphones where malicious software is embedded directly into the device's firmware during the manufacturing process.
 - [PerimeterX (HUMAN Bot Defender)](entities/perimeterx.md) — Now HUMAN Security. More IP-focused than fingerprint-focused (as of 2023). Scrapy Impersonate documented as a working bypass (2024).
 - [powblock](entities/powblock.md) — POWBlock is a simple, high-performance, zero-dependency, system/stack-agnostic Proof of Work microservice designed to act as a defense gate against AI scrapers, bots, and DDoS attacks.
+- [proof-of-human](entities/proof-of-human.md) — Proof of Human is a detection system designed to classify web sessions as either human or automated.
 - [proxy-botnet-malware](entities/proxy-botnet-malware.md) — This malware is part of a supply-chain attack targeting Android-based car head units.
 - [reCAPTCHA](entities/recaptcha.md) — Google CAPTCHA system (v1/v2/v3). v3 is invisible risk scoring. Camoufox bypasses it; open-source token extractors do not.
 - [sec-ch-ua-form-factors](entities/sec-ch-ua-form-factors.md) — A new HTTP client hint supported by Chrome that describes the user's device type (e.g., Desktop, Mob
 - [selenium-headless-chrome-detection](entities/selenium-headless-chrome-detection.md) — Describes four methods to detect bots using Selenium running in headless Chrome environments.
+- [sentinelmcp](entities/sentinelmcp.md) — SentinelMCP is a stateless enterprise policy firewall and token-cost proxy designed for the Model Context Protocol (MCP).
 - [shibuya-waf](entities/shibuya-waf.md) — Shibuya WAF is a Web Application Firewall written in Rust that functions as a reverse proxy.
+- [sibuna](entities/sibuna.md) — Sibuna is an open-source web application firewall (WAF) designed to provide web protection against unwanted bot traffic.
+- [tanuki](entities/tanuki.md) — Tanuki is an anonymization proxy built for AI-assisted security testing and bug bounty hunting.
 - [usehuma](entities/usehuma.md) — useHUMA is an anti-bot startup that provides bot detection services.
 - [web-bot-auth](entities/web-bot-auth.md) — Web Bot Auth is a system built on RFC 9421 and HTTP Message Signatures that allows a verifier like Cloudflare to authenticate a crawler from a signing-key directory that the user publishes.
 - [xcancel-com-antibot-captcha](entities/xcancel-com-antibot-captcha.md) — This page presents a CAPTCHA challenge requiring users to "Type the coloured characters." It includes an image for verification and provides options for retrying the challenge or obtaining a new image if the initial attempt does not match.
@@ -60,6 +68,7 @@ Last updated: 2026-09-30
 - [pagesieve](entities/pagesieve.md) — PageSieve is a browser extension designed for declarative web scraping.
 - [rayobrowse](entities/rayobrowse.md) — Rayobyte's stealth Chromium fork. Closed-source, Docker-based, CDP compatible. C++ patching. 100% benchmark score. Beta (2026).
 - [real-browser](entities/real-browser.md) — A real browser is a tool used to actively check job boards to determine if job postings are still live and active.
+- [tilefinch](entities/tilefinch.md) — Tilefinch is a project focused on improving page rendering, handling large scripts, and enhancing the overall browsing experience on complex websites.
 
 ### Proxy networks and tools
 - [3rd-party-proxy](entities/3rd-party-proxy.md) — The 3rd Party Proxy is recommended as the browser runtime for the TraceAIO project.
@@ -70,6 +79,7 @@ Last updated: 2026-09-30
 - [blanktrace](entities/blanktrace.md) — A cross-platform Rust CLI proxy that anonymizes browser traffic by randomizing digital fingerprints
 - [bright-data](entities/bright-data.md) — Bright Data is a residential proxy network identified in research concerning proxy software development kits (SDKs) embedded in smart TV applications.
 - [clashmac](entities/clashmac.md) — A macOS native proxy tool with real-time traffic monitoring, topology visualization, and multi-hop t
+- [contabo-gmbh](entities/contabo-gmbh.md) — Contabo is a cloud provider that rents virtual private servers and dedicated servers.
 - [doh-proxy](entities/doh-proxy.md) — doh-proxy is an extremely simple DNS-over-HTTPS (DoH) proxy server written in Go.
 - [firehol](entities/firehol.md) — A community-driven project that aggregates multiple IP lists, including open proxies, Tor exit nodes
 - [freesocks](entities/freesocks.md) — FreeSocks is a VPN designed for individuals whose internet access is censored, functioning as a privacy-respecting VPN in other regions.
@@ -82,13 +92,16 @@ Last updated: 2026-09-30
 - [latch](entities/latch.md) — Latch is a lightweight, high-performance infrastructure proxy server designed to tunnel legacy TCP traffic securely.
 - [lte-modems](entities/lte-modems.md) — The LTE modems serve as the physical source for a production residential IP proxy pool.
 - [meshscrape](entities/meshscrape.md) — A service that offers a distributed IP network for web scraping to avoid blocks and rate limits.
+- [mnemonic-proxy](entities/mnemonic-proxy.md) — Mnemonic Proxy is a transparent HTTP proxy designed to sit between a coding agent and various local models or OpenAI-compatible servers.
 - [momoproxy](entities/momoproxy.md) — MoMoProxy is a service that provides free and paid proxy lists for various protocols, including HTTP, HTTPS, and SOCKS.
+- [mozprox](entities/mozprox.md) — mozprox is a session-scoped, memory-safe web proxy designed for private research and threat inspection.
 - [nakshguard](entities/nakshguard.md) — NakshGuard is an on-premises reverse proxy designed to detect and block runaway loops in AI agent traffic before they consume excessive API tokens.
 - [ncro](entities/ncro.md) — Nix Cache Route Optimizer, or ncro, is a small HTTP proxy written in Rust that functions as an intermediary between the `nix-daemon` and configured substituters.
 - [nyxproxy](entities/nyxproxy.md) — A tool for building a self-hosted, rotating proxy gateway using IPv6 /64 subnets.
 - [pangolin](entities/pangolin.md) — Pangolin is a peer-to-peer alternative to Cloudflare Tunnels that utilizes a client-to-site VPN combined with an edge reverse proxy to provide cloaked HTTPS traffic.
 - [pingora](entities/pingora.md) — Pingora is an in-house HTTP proxy built in Rust by Cloudflare, designed to serve over a trillion requests daily.
 - [productivityproxy](entities/productivityproxy.md) — ProductivityProxy is a local macOS application that runs a proxy on the user's machine, allowing them to define custom request and response policies using a visual graph interface.
+- [proxium](entities/proxium.md) — Proxium is a self-hosted HTTP and SOCKS5 proxy gateway that includes an administrative user interface for managing accounts, access control lists (ACLs), TLS settings, quotas, and outgoing IP pools.
 - [proxmint-free-proxy-list](entities/proxmint-free-proxy-list.md) — This repository provides a dynamically updated and re-validated list of free network proxies supporting HTTP, HTTPS, SOCKS4, and SOCKS5 protocols.
 - [purroute](entities/purroute.md) — Purroute is an advanced proxy server designed to act as an auto-detecting proxy router or gateway.
 - [quiet-sky-privacy-proxy](entities/quiet-sky-privacy-proxy.md) — The Quiet Sky Privacy Proxy is a Cloudflare Worker designed to serve as a privacy core for the Quiet Sky weather proxy.
@@ -99,8 +112,10 @@ Last updated: 2026-09-30
 - [socks5-proxy](entities/socks5-proxy.md) — A SOCKS5 proxy is used by systems, such as Claude Code’s sandbox, to route outbound traffic and enforce an egress allowlist.
 - [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
 - [underclass](entities/underclass.md) — underclass is a local, OpenAI-compatible proxy designed to pool multiple subscriptions, such as ChatGPT/Codex and GitHub Copilot, behind a single endpoint.
+- [vericto-proxy](entities/vericto-proxy.md) — Vericto Proxy is a transparent wire-protocol proxy designed to stop destructive SQL statements before they reach a PostgreSQL or MySQL database, requiring no code changes in the application.
 - [vnc2go](entities/vnc2go.md) — VNC2Go is described as a private, in-browser service that routes traffic through a random proxy.
 - [webone](entities/webone.md) — WebOne is an HTTP 1.x proxy server designed to make older web browsers, media players, and messengers functional within the modern Web 2.0 environment.
+- [wirepane](entities/wirepane.md) — Wirepane is an HTTPS debugging proxy designed to be used inside Claude Code, functioning as an alternative to tools like Proxyman or Charles.
 
 ### Tools and libraries
 - [ag2b](entities/ag2b.md) — AG2B (Agent to Browser) is a client-side agentic runtime designed to allow an agent to execute its tasks directly within the user's browser.
@@ -108,6 +123,7 @@ Last updated: 2026-09-30
 - [aiohttp](entities/aiohttp.md) — AIOHTTP is an asynchronous HTTP Client/Server for asyncio and Python, used for creating bots and scr
 - [Algolia](entities/algolia.md) — Client-side search API. EndClothing full catalog with no anti-bot despite Akamai on site.
 - [AnyCrawl](entities/anycrawl.md) — MIT-licensed LLM-ready scraping API. JSON extraction mode, MCP server. No anti-bot bypass. Comparable to FireCrawl.
+- [apiaxess](entities/apiaxess.md) — apiaxess is an open-source tool designed to capture, analyze, and interact with APIs from both mobile and web applications.
 - [beautiful-code-screenshots-codeshot](entities/beautiful-code-screenshots-codeshot.md) — CodeShot is an API toolkit designed for developers and AI agents that facilitates code screenshotting, website scraping, and link preview generation.
 - [botasaurus](entities/botasaurus.md) — Python scraping framework with decorator-based API. Works locally against Cloudflare/DataDome/Kasada. Fails from server (SwiftShader exposure).
 - [browser-use](entities/browser-use.md) — Cloud browser automation with a low-level Chromium fork for stealth. Fully headless (81% block avoidance). Cloud runs one Firecracker microVM per session on regular EC2; $0.02/browser-hour, <400ms VM cold start.
@@ -117,12 +133,16 @@ Last updated: 2026-09-30
 - [cheerio](entities/cheerio.md) — A library used in the Node.js environment for parsing HTML and extracting data from web pages.
 - [childflow](entities/childflow.md) — childflow is a per-command-tree network sandbox designed for Linux environments.
 - [clashmax](entities/clashmax.md) — ClashMax is a native macOS graphical client built with SwiftUI that serves as a Mihomo proxy client.
+- [cloudgrip](entities/cloudgrip.md) — CloudGrip is a lightweight, self-hosted AI proxy gateway and dashboard developed using Node.js, Express, and SQLite.
 - [coorl](entities/coorl.md) — Curl-compatible CLI that mimics Chrome's TLS (JA3/JA4) fingerprint. No browser, no JS. TLS-layer only. Narrower CLI peer to curl-cffi (by Konstantin Lebedev).
 - [crawl4ai](entities/crawl4ai.md) — An open-source web crawler and scraper for LLM-friendly Markdown output.
+- [curl](entities/curl.md) — curl is a specific bot specimen cataloged in the crawlerzoo zoo, designed for making HTTP requests.
 - [curl-cffi](entities/curl-cffi.md) — Python HTTP client with TLS impersonation. Critical for hybrid scraping. Also covers scrapy-impersonate and hrequests.
+- [d-nw](entities/d-nw.md) — Dánwò is the most complete open-source end-to-end testing framework designed for the agentic era, serving as an end-to-end testing framework for both web and mobile applications.
 - [danubia](entities/danubia.md) — Danubia is a clean text extraction API designed to take a URL as input and return the page's main content formatted as clean markdown.
 - [device-and-browser-info](entities/device-and-browser-info.md) — A platform offering tools and articles for browser fingerprinting and bot detection.
 - [dolphin-anty](entities/dolphin-anty.md) — Anti-detect browser for multi-account workflows. Scenarios builder, Profile Synchronizer, REST API. Free tier (10 profiles).
+- [elcapture](entities/elcapture.md) — elcapture is a native HTTPS debugging proxy designed for Mac users.
 - [envoy](entities/envoy.md) — Envoy is an infrastructure component discussed in the context of Reddit's feed serving path.
 - [esp32](entities/esp32.md) — The ESP32 functions as the hardware endpoint in an MQTT TCP proxy setup.
 - [facebookexternalhit](entities/facebookexternalhit.md) — A specific user agent string used by the Facebook crawler to retrieve information about shared conte
@@ -131,8 +151,10 @@ Last updated: 2026-09-30
 - [fingerprinterjs](entities/fingerprinterjs.md) — FingerprinterJS v2.0 is a browser fingerprinting and bot detection tool.
 - [fpscanner](entities/fpscanner.md) — A lightweight browser fingerprinting library for bot detection.
 - [ghost-cursor](entities/ghost-cursor.md) — Bezier/Fitts's Law mouse movement for Playwright. OxyMouse is a newer alternative with Gaussian and Perlin noise options.
+- [ghx](entities/ghx.md) — ghx is a caching proxy designed for the GitHub CLI that utilizes singleflight coalescing to ensure that repeated commands are executed instantly.
 - [go-http-client](entities/go-http-client.md) — An HTTP(s) client implemented in Golang used to make HTTP(s) requests from a Golang program.
 - [gologin](entities/gologin.md) — Anti-detect browser, Orbita engine. Top benchmark performer 223/260 in 2024.
+- [google-browser-scraper](entities/google-browser-scraper.md) — google-browser-scraper is a Python tool designed to scrape Google search results by utilizing a real browser session routed through a user-provided sticky proxy.
 - [google-search-guard-vm-reversing](entities/google-search-guard-vm-reversing.md) — MIT Node.js toolkit (Ihar Kazlouski, Aug 2026) that tears down Google SearchGuard offline: a Proxy probe that lists every browser property the challenge reads, and a VM pipeline that lifts the interpreter, profiles opcodes, traces execution and recovers the plaintext record before SG_SS encryption. Does not generate tokens.
 - [goscrapy](entities/goscrapy.md) — A high-performance web scraping framework for Go, designed with the familiar architecture of Python'
 - [groxy](entities/groxy.md) — Groxy is a small Go library designed for building forward proxy servers.
@@ -141,9 +163,11 @@ Last updated: 2026-09-30
 - [hodor](entities/hodor.md) — Hodor is a tiny reverse proxy written in Rust designed to gate web applications behind a single shared password.
 - [hRequests](entities/hrequests.md) — TLS-fingerprinted HTTP with embedded headless browser. Akamai/Cloudflare/PX pass; DataDome/Kasada fail.
 - [iherb-cli](entities/iherb-cli.md) — A Rust command-line tool for querying product data from iHerb using a headless browser.
+- [impersonate-http](entities/impersonate-http.md) — impersonate-http is a Go `http.Client` designed to mimic the TLS handshake and HTTP/2 frames of a real browser.
 - [intuned-agent](entities/intuned-agent.md) — Intuned Agent is an agent designed to build, deploy, and maintain production-ready Playwright code for scrapers, crawlers, and RPA automations.
 - [is-antibot](entities/is-antibot.md) — A library that detects antibot and CAPTCHA challenges from 30+ providers using signals.
 - [ja3proxy](entities/ja3proxy.md) — Go-based TLS Client Hello rewriter via uTLS.
+- [jevcrawl](entities/jevcrawl.md) — Jevcrawl is an MCP server and CLI tool designed to crawl websites specifically for AI agents.
 - [Kadoa](entities/kadoa.md) — Commercial AI scraping workflow platform. UI-driven, anti-bot included, 5 proxy locations.
 - [kameleo](entities/kameleo.md) — Anti-detect browser. Junglefox + Chroma. First to support Selenium + Playwright + Puppeteer simultaneously.
 - [kimurai](entities/kimurai.md) — A Ruby-based web scraping framework that uses AI to assist in data extraction.
@@ -175,6 +199,7 @@ Last updated: 2026-09-30
 - [proxyboy](entities/proxyboy.md) — ProxyBoy is a Windows-native HTTP/HTTPS debugging proxy designed to capture, inspect, and modify network traffic, similar to tools like Charles Proxy or Proxyman.
 - [puppeteer](entities/puppeteer.md) — A Node.js library which provides a high-level API to control Chrome or Chromium over the DevTools Pr
 - [puppetflow](entities/puppetflow.md) — Puppetflow is a self-hosted browser automation platform designed for building, running, scheduling, and monitoring JavaScript workflows.
+- [pw-repl](entities/pw-repl.md) — pw-repl is a Playwright-powered tool designed to allow users and AI agents to share control over a Chromium browser session through command-line interaction.
 - [pydoll](entities/pydoll.md) — Async CDP Chrome automation. Stability issues in 2026 benchmarks.
 - [pyscrappy](entities/pyscrappy.md) — PyScrappy is an AI-native web scraping toolkit designed to transform websites into structured, LLM-ready data.
 - [python-requests](entities/python-requests.md) — A Python HTTP library for making HTTP(s) requests.
@@ -200,6 +225,7 @@ Last updated: 2026-09-30
 - [spidersuite](entities/spidersuite.md) — A powerful web crawler and security testing tool for penetration testers and security researchers.
 - [spidra](entities/spidra.md) — A web scraping platform that uses AI to extract data from websites.
 - [stalker](entities/stalker.md) — Stalker is a tool designed to check and report various browser and network fingerprints for privacy and analysis.
+- [stop-bots](entities/stop-bots.md) — stop-bots is a TUI and a CLI tool written in Rust designed to configure web servers and firewalls to block malicious bots without requiring the user to hide behind a Content Delivery Network (CDN).
 - [stunt](entities/stunt.md) — stunt is a local simulator that spins up stateful, realistic stand-ins for public APIs, serving as mock or stub servers for testing purposes.
 - [supercrawl](entities/supercrawl.md) — SuperCrawl is an open-source web crawler implemented in the Rust programming language.
 - [tadpole](entities/tadpole.md) — A language for writing declarative, modular scraping code.
@@ -208,7 +234,9 @@ Last updated: 2026-09-30
 - [undetected-chromedriver](entities/undetected-chromedriver.md) — Patched Selenium. Stagnant repo, succeeded by Nodriver/Zendriver.
 - [webassembly-simd](entities/webassembly-simd.md) — WebAssembly SIMD refers to Single Instruction, Multiple Data operations introduced to the WebAssembly specification.
 - [wick](entities/wick.md) — Wick is an open-source tool that allows AI agents to access web pages as if they were real browsers.
+- [wmimo](entities/wmimo.md) — Wmimo is a modern, cross-platform GUI client developed using Flutter, designed for managing Clash and Mihomo proxy configurations on both desktop and mobile platforms.
 - [wxpath](entities/wxpath.md) — wxpath is a Python library for declarative web crawling using XPath.
+- [zenrows-batch](entities/zenrows-batch.md) — Zenrows Batch is an asynchronous scraping API designed to manage large URL lists as a single, managed job.
 
 ### Web Unblockers
 - [Oxylabs Web Unblocker](entities/oxylabs-unblocker.md) — 96/100 overall. Cheapest on Kasada benchmark ($0.10/101 URLs). Best dashboard.

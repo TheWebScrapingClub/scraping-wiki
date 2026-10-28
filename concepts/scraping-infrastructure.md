@@ -2,7 +2,7 @@
 name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-09-28'
+last_updated: '2026-10-28'
 sources:
 - the-costs-of-web-scraping.md
 - optimizing-costs-for-web-scraping.md
@@ -42,6 +42,14 @@ sources:
 - hack-tramp-ESP-MQTTunnel.md
 - maximilianfeix-proxy-scraper.md
 - xuoxod-propylea.md
+- Aliyunazeer-cloudgrip-backend.md
+- asctttt-sentinelmcp.md
+- blog-hidden-economy-residential-proxies.md
+- blog-large-scale-web-scraping-zenrows-batch.md
+- circuit-breaker-sage-vercel-app.md
+- ghx.md
+- koldakov-proxium.md
+- nodemaven-google-browser-scraper.md
 ---
 
 # Scraping Infrastructure

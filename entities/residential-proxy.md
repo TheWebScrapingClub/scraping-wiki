@@ -3,9 +3,10 @@ name: residential-proxy
 type: entity
 category: proxy-provider
 first_seen: 2026-06-23
-last_updated: 2026-06-23
+last_updated: '2026-10-28'
 sources:
-  - blog-smart-tv-apps-residential-proxy-sdks.md
+- blog-smart-tv-apps-residential-proxy-sdks.md
+- hideproxy-io.md
 ---
 
 # Residential Proxy

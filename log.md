@@ -1378,3 +1378,51 @@ Appended 2 sources to existing wiki pages:
 - concepts/bot-detection.md: 1 new source
 - concepts/websocket-scraping.md: 1 new source
 
+
+## [2026-10-28] update | Pass 3 source linking
+
+Created 28 new entity pages from orphan RELEVANT news:
+- cloudgrip (tool) — CloudGrip
+- impersonate-http (library) — impersonate-http
+- jevcrawl (tool) — Jevcrawl
+- wmimo (tool) — Wmimo
+- apiaxess (tool) — apiaxess
+- pw-repl (tool) — pw-repl
+- sentinelmcp (anti-bot) — SentinelMCP
+- zenrows-batch (tool) — Zenrows Batch
+- proof-of-human (anti-bot) — Proof of Human
+- d-nw (tool) — Dánwò
+- circuit-breaker-sage (anti-bot) — Circuit Breaker Sage
+- curl (tool) — curl
+- aegis (anti-bot) — Aegis
+- elcapture (tool) — elcapture
+- ghx (tool) — ghx
+- sibuna (anti-bot) — Sibuna
+- stop-bots (tool) — stop-bots
+- proxium (proxy-provider) — Proxium
+- mnemonic-proxy (proxy-provider) — mnemonic-proxy
+- wirepane (proxy-provider) — Wirepane
+- mozprox (proxy-provider) — mozprox
+- midnight-mimosa-malware (anti-bot) — Midnight Mimosa malware
+- google-browser-scraper (tool) — google-browser-scraper
+- farmfence (anti-bot) — farmfence
+- tanuki (anti-bot) — Tanuki
+- contabo-gmbh (proxy-provider) — Contabo GmbH
+- tilefinch (browser) — Tilefinch
+- vericto-proxy (proxy-provider) — Vericto Proxy
+
+Appended 27 sources to existing wiki pages:
+- concepts/ai-scraping-assistants.md: 2 new sources
+- concepts/api-scraping.md: 1 new source
+- concepts/bot-detection.md: 4 new sources
+- concepts/browser-fingerprinting.md: 1 new source
+- concepts/llm-scraping.md: 1 new source
+- concepts/mobile-app-scraping.md: 2 new sources
+- concepts/proxy-fundamentals.md: 2 new sources
+- concepts/scraping-infrastructure.md: 8 new sources
+- concepts/static-isp-proxies.md: 1 new source
+- concepts/tls-fingerprinting.md: 1 new source
+- concepts/web-unblockers.md: 2 new sources
+- concepts/webdriver-vs-cdp-vs-bidi.md: 1 new source
+- entities/residential-proxy.md: 1 new source
+
