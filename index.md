@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-10-28
+Last updated: 2026-10-29
 
 ## Visual maps and views
 
@@ -97,6 +97,7 @@ Last updated: 2026-10-28
 - [mozprox](entities/mozprox.md) — mozprox is a session-scoped, memory-safe web proxy designed for private research and threat inspection.
 - [nakshguard](entities/nakshguard.md) — NakshGuard is an on-premises reverse proxy designed to detect and block runaway loops in AI agent traffic before they consume excessive API tokens.
 - [ncro](entities/ncro.md) — Nix Cache Route Optimizer, or ncro, is a small HTTP proxy written in Rust that functions as an intermediary between the `nix-daemon` and configured substituters.
+- [novawire](entities/novawire.md) — NovaWire is a fast, native debugging proxy designed to intercept, read, rewrite, and replay HTTP/HTTPS traffic.
 - [nyxproxy](entities/nyxproxy.md) — A tool for building a self-hosted, rotating proxy gateway using IPv6 /64 subnets.
 - [pangolin](entities/pangolin.md) — Pangolin is a peer-to-peer alternative to Cloudflare Tunnels that utilizes a client-to-site VPN combined with an edge reverse proxy to provide cloaked HTTPS traffic.
 - [pingora](entities/pingora.md) — Pingora is an in-house HTTP proxy built in Rust by Cloudflare, designed to serve over a trillion requests daily.
@@ -129,6 +130,7 @@ Last updated: 2026-10-28
 - [browser-use](entities/browser-use.md) — Cloud browser automation with a low-level Chromium fork for stealth. Fully headless (81% block avoidance). Cloud runs one Firecracker microVM per session on regular EC2; $0.02/browser-hour, <400ms VM cold start.
 - [camoufox](entities/camoufox.md) — Custom Firefox build. Best performer on strict Cloudflare/DataDome configs. Bypasses reCAPTCHA v3 (2025).
 - [canvas-fingerprint-defender](entities/canvas-fingerprint-defender.md) — A browser extension that defends against canvas fingerprinting.
+- [cfsolve](entities/cfsolve.md) — cfsolve is a Rust library and command line tool designed to solve Cloudflare Turnstile widgets and challenge pages without requiring a full headless browser.
 - [chaser-oxide](entities/chaser-oxide.md) — A Rust-based fork of `chromiumoxide` for hardened, undetectable browser automation.
 - [cheerio](entities/cheerio.md) — A library used in the Node.js environment for parsing HTML and extracting data from web pages.
 - [childflow](entities/childflow.md) — childflow is a per-command-tree network sandbox designed for Linux environments.
@@ -175,6 +177,7 @@ Last updated: 2026-10-28
 - [linkedinbot](entities/linkedinbot.md) — A scraper used by LinkedIn to gather information about shared URLs in posts or messages.
 - [llmcap](entities/llmcap.md) — LLMCap is a service designed to enforce hard dollar caps on LLM API calls across various providers.
 - [lucidextractor](entities/lucidextractor.md) — An enterprise web scraping and SEO analysis platform.
+- [lumi-geo](entities/lumi-geo.md) — Lumi GEO is a free Chrome extension designed to analyze a webpage to show the difference between what AI crawlers see and what a human user sees, providing code fixes to improve visibility.
 - [makraexafirecrawl](entities/makraexafirecrawl.md) — MakraExaFirecrawl is a work-in-progress implementation designed for a continual learning harness focusing on Browser-use.
 - [masterhttprelayvpn](entities/masterhttprelayvpn.md) — A domain-fronted HTTP/SOCKS5 proxy tool that tunnels traffic through Google Apps Script for scraping
 - [math-tanh](entities/math-tanh.md) — The implementation of the `Math.tanh` function varies between operating systems, which serves as a subtle signal for browser fingerprinting.

@@ -1426,3 +1426,16 @@ Appended 27 sources to existing wiki pages:
 - concepts/webdriver-vs-cdp-vs-bidi.md: 1 new source
 - entities/residential-proxy.md: 1 new source
 
+
+## [2026-10-29] update | Pass 3 source linking
+
+Created 3 new entity pages from orphan RELEVANT news:
+- cfsolve (library) — cfsolve
+- lumi-geo (tool) — Lumi GEO
+- novawire (proxy-provider) — NovaWire
+
+Appended 3 sources to existing wiki pages:
+- concepts/anti-detect-browsers.md: 1 new source
+- concepts/llm-scraping.md: 1 new source
+- concepts/websocket-scraping.md: 1 new source
+
