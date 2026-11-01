@@ -1439,3 +1439,13 @@ Appended 3 sources to existing wiki pages:
 - concepts/llm-scraping.md: 1 new source
 - concepts/websocket-scraping.md: 1 new source
 
+
+## [2026-11-01] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- molehill (proxy-provider) — molehill
+- apify (tool) — Apify
+
+Appended 2 sources to existing wiki pages:
+- concepts/scraping-infrastructure.md: 2 new sources
+

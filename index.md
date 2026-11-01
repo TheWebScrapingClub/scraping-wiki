@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-10-29
+Last updated: 2026-11-01
 
 ## Visual maps and views
 
@@ -93,6 +93,7 @@ Last updated: 2026-10-29
 - [lte-modems](entities/lte-modems.md) — The LTE modems serve as the physical source for a production residential IP proxy pool.
 - [meshscrape](entities/meshscrape.md) — A service that offers a distributed IP network for web scraping to avoid blocks and rate limits.
 - [mnemonic-proxy](entities/mnemonic-proxy.md) — Mnemonic Proxy is a transparent HTTP proxy designed to sit between a coding agent and various local models or OpenAI-compatible servers.
+- [molehill](entities/molehill.md) — molehill is a tool that utilizes the Mullvad VPN service to function as a rotating HTTP CONNECT proxy.
 - [momoproxy](entities/momoproxy.md) — MoMoProxy is a service that provides free and paid proxy lists for various protocols, including HTTP, HTTPS, and SOCKS.
 - [mozprox](entities/mozprox.md) — mozprox is a session-scoped, memory-safe web proxy designed for private research and threat inspection.
 - [nakshguard](entities/nakshguard.md) — NakshGuard is an on-premises reverse proxy designed to detect and block runaway loops in AI agent traffic before they consume excessive API tokens.
@@ -125,6 +126,7 @@ Last updated: 2026-10-29
 - [Algolia](entities/algolia.md) — Client-side search API. EndClothing full catalog with no anti-bot despite Akamai on site.
 - [AnyCrawl](entities/anycrawl.md) — MIT-licensed LLM-ready scraping API. JSON extraction mode, MCP server. No anti-bot bypass. Comparable to FireCrawl.
 - [apiaxess](entities/apiaxess.md) — apiaxess is an open-source tool designed to capture, analyze, and interact with APIs from both mobile and web applications.
+- [apify](entities/apify.md) — Apify is highlighted as the best provider for LLMs and Markdown generation, offering turnkey web-to-LLM scrapers and pre-built actors.
 - [beautiful-code-screenshots-codeshot](entities/beautiful-code-screenshots-codeshot.md) — CodeShot is an API toolkit designed for developers and AI agents that facilitates code screenshotting, website scraping, and link preview generation.
 - [botasaurus](entities/botasaurus.md) — Python scraping framework with decorator-based API. Works locally against Cloudflare/DataDome/Kasada. Fails from server (SwiftShader exposure).
 - [browser-use](entities/browser-use.md) — Cloud browser automation with a low-level Chromium fork for stealth. Fully headless (81% block avoidance). Cloud runs one Firecracker microVM per session on regular EC2; $0.02/browser-hour, <400ms VM cold start.

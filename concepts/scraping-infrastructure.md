@@ -2,7 +2,7 @@
 name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-10-28'
+last_updated: '2026-11-01'
 sources:
 - the-costs-of-web-scraping.md
 - optimizing-costs-for-web-scraping.md
@@ -50,6 +50,8 @@ sources:
 - ghx.md
 - koldakov-proxium.md
 - nodemaven-google-browser-scraper.md
+- nicorobinreal-molehill.md
+- tianjun588-llm-web-scraping-benchmark.md
 ---
 
 # Scraping Infrastructure
