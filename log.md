@@ -1449,3 +1449,12 @@ Created 2 new entity pages from orphan RELEVANT news:
 Appended 2 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 2 new sources
 
+
+## [2026-11-03] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- brave-browser (browser) — Brave Browser
+
+Appended 1 sources to existing wiki pages:
+- concepts/web-scraping-legal-landscape.md: 1 new source
+

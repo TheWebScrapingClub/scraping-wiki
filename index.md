@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-01
+Last updated: 2026-11-03
 
 ## Visual maps and views
 
@@ -54,6 +54,7 @@ Last updated: 2026-11-01
 - [xcancel-com-antibot-captcha](entities/xcancel-com-antibot-captcha.md) — This page presents a CAPTCHA challenge requiring users to "Type the coloured characters." It includes an image for verification and provides options for retrying the challenge or obtaining a new image if the initial attempt does not match.
 
 ### Browsers
+- [brave-browser](entities/brave-browser.md) — Brave is an 11-year-old, privacy-focused browser company.
 - [browserbase-chrome](entities/browserbase-chrome.md) — Browserbase Chrome is utilized for running real-browser Quality Assurance (QA) against deployed previews of projects.
 - [camoufox-reverse](entities/camoufox-reverse.md) — A Camoufox fork (WhiteNightShadow) that adds an engine-level PropertyTracer recording which DOM getters a page reads. A reverse-engineering instrument, not a stealth build. TWSC used it to watch Datadome read canvas/WebGL/navigator on leboncoin.
 - [chromiumfish](entities/chromiumfish.md) — ChromiumFish is a stealth Chromium fork designed to present a consistent browser identity through fingerprint hardening.

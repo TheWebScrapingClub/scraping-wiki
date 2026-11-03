@@ -2,7 +2,7 @@
 name: web-scraping-legal-landscape
 type: concept
 first_seen: 2023-02-07
-last_updated: '2026-05-07'
+last_updated: '2026-11-03'
 sources:
 - is-web-scraping-legal.md
 - meta-vs-bright-data-court-ruling.md
@@ -19,6 +19,7 @@ sources:
 - web-scraping-and-ai-2023-legal-wrap-up.md
 - blog-from-browser-tabs-to-startup-birjob.md
 - spidersuite-io.md
+- 2026-11-02-new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-c.md
 ---
 
 # Web Scraping Legal Landscape
