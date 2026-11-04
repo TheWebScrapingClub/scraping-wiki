@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-03
+Last updated: 2026-11-04
 
 ## Visual maps and views
 
@@ -110,6 +110,7 @@ Last updated: 2026-11-03
 - [quiet-sky-privacy-proxy](entities/quiet-sky-privacy-proxy.md) — The Quiet Sky Privacy Proxy is a Cloudflare Worker designed to serve as a privacy core for the Quiet Sky weather proxy.
 - [residential-proxy](entities/residential-proxy.md) — A residential proxy is software designed to route other people's internet traffic out through a user's home network.
 - [residential-proxy-networks](entities/residential-proxy-networks.md) — Residential proxy networks route internet traffic through real consumer IP addresses.
+- [residential-proxy-services](entities/residential-proxy-services.md) — Residential proxy services allow customers to rent Internet addresses to anonymize their web traffic or spoof their true location.
 - [sandbox-proxy](entities/sandbox-proxy.md) — sandbox-proxy is a zero-dependency, stdlib-only Go forward proxy designed to inject real credentials, such as GitHub tokens or npm tokens, into outbound requests on the wire.
 - [socklight](entities/socklight.md) — sockLight is a development SOCKS5 proxy featuring a live Terminal User Interface (TUI) that allows users to monitor, block, and throttle every outbound connection in real time.
 - [socks5-proxy](entities/socks5-proxy.md) — A SOCKS5 proxy is used by systems, such as Claude Code’s sandbox, to route outbound traffic and enforce an egress allowlist.
@@ -123,6 +124,7 @@ Last updated: 2026-11-03
 ### Tools and libraries
 - [ag2b](entities/ag2b.md) — AG2B (Agent to Browser) is a client-side agentic runtime designed to allow an agent to execute its tasks directly within the user's browser.
 - [agent-web-crawlers](entities/agent-web-crawlers.md) — Agent web crawlers are named bots and agents designed to probe, grade, index, and scrape endpoints for various purposes.
+- [ai-page-audit-tool](entities/ai-page-audit-tool.md) — The AI Page Audit Tool is a free utility designed to assess a webpage's suitability for being read and quoted by large language models such as ChatGPT, Claude, Perplexity, and Google AI.
 - [aiohttp](entities/aiohttp.md) — AIOHTTP is an asynchronous HTTP Client/Server for asyncio and Python, used for creating bots and scr
 - [Algolia](entities/algolia.md) — Client-side search API. EndClothing full catalog with no anti-bot despite Akamai on site.
 - [AnyCrawl](entities/anycrawl.md) — MIT-licensed LLM-ready scraping API. JSON extraction mode, MCP server. No anti-bot bypass. Comparable to FireCrawl.

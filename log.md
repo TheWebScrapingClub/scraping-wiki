@@ -1458,3 +1458,13 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/web-scraping-legal-landscape.md: 1 new source
 
+
+## [2026-11-04] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- residential-proxy-services (proxy-provider) — Residential Proxy Services
+- ai-page-audit-tool (tool) — AI Page Audit Tool
+
+Appended 1 sources to existing wiki pages:
+- concepts/scraping-infrastructure.md: 1 new source
+
