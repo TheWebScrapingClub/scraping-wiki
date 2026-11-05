@@ -2,7 +2,7 @@
 name: Scraping Infrastructure
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-11-04'
+last_updated: '2026-11-05'
 sources:
 - the-costs-of-web-scraping.md
 - optimizing-costs-for-web-scraping.md
@@ -53,6 +53,8 @@ sources:
 - nicorobinreal-molehill.md
 - tianjun588-llm-web-scraping-benchmark.md
 - 2026-11-tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies.md
+- blog-residential-proxies-white-house-network.md
+- blog-where-residential-proxies-really-come-from.md
 ---
 
 # Scraping Infrastructure

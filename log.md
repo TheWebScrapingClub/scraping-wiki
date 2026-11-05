@@ -1468,3 +1468,13 @@ Created 2 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 1 new source
 
+
+## [2026-11-05] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- residential-proxy-observatory (anti-bot) — Residential Proxy Observatory
+- residential-proxy-ips (proxy-provider) — Residential Proxy IPs
+
+Appended 2 sources to existing wiki pages:
+- concepts/scraping-infrastructure.md: 2 new sources
+

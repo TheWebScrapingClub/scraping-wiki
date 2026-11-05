@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-04
+Last updated: 2026-11-05
 
 ## Visual maps and views
 
@@ -43,6 +43,7 @@ Last updated: 2026-11-04
 - [proof-of-human](entities/proof-of-human.md) — Proof of Human is a detection system designed to classify web sessions as either human or automated.
 - [proxy-botnet-malware](entities/proxy-botnet-malware.md) — This malware is part of a supply-chain attack targeting Android-based car head units.
 - [reCAPTCHA](entities/recaptcha.md) — Google CAPTCHA system (v1/v2/v3). v3 is invisible risk scoring. Camoufox bypasses it; open-source token extractors do not.
+- [residential-proxy-observatory](entities/residential-proxy-observatory.md) — The Residential Proxy Observatory is a first-of-its-kind interface designed to provide researchers with a global view of residential proxy activity and anonymized internet activity.
 - [sec-ch-ua-form-factors](entities/sec-ch-ua-form-factors.md) — A new HTTP client hint supported by Chrome that describes the user's device type (e.g., Desktop, Mob
 - [selenium-headless-chrome-detection](entities/selenium-headless-chrome-detection.md) — Describes four methods to detect bots using Selenium running in headless Chrome environments.
 - [sentinelmcp](entities/sentinelmcp.md) — SentinelMCP is a stateless enterprise policy firewall and token-cost proxy designed for the Model Context Protocol (MCP).
@@ -109,6 +110,7 @@ Last updated: 2026-11-04
 - [purroute](entities/purroute.md) — Purroute is an advanced proxy server designed to act as an auto-detecting proxy router or gateway.
 - [quiet-sky-privacy-proxy](entities/quiet-sky-privacy-proxy.md) — The Quiet Sky Privacy Proxy is a Cloudflare Worker designed to serve as a privacy core for the Quiet Sky weather proxy.
 - [residential-proxy](entities/residential-proxy.md) — A residential proxy is software designed to route other people's internet traffic out through a user's home network.
+- [residential-proxy-ips](entities/residential-proxy-ips.md) — Residential proxy IPs are IP addresses provided by networks sourced from residential devices, which are utilized for web scraping activities.
 - [residential-proxy-networks](entities/residential-proxy-networks.md) — Residential proxy networks route internet traffic through real consumer IP addresses.
 - [residential-proxy-services](entities/residential-proxy-services.md) — Residential proxy services allow customers to rent Internet addresses to anonymize their web traffic or spoof their true location.
 - [sandbox-proxy](entities/sandbox-proxy.md) — sandbox-proxy is a zero-dependency, stdlib-only Go forward proxy designed to inject real credentials, such as GitHub tokens or npm tokens, into outbound requests on the wire.
