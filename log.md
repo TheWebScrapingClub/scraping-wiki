@@ -1478,3 +1478,10 @@ Created 2 new entity pages from orphan RELEVANT news:
 Appended 2 sources to existing wiki pages:
 - concepts/scraping-infrastructure.md: 2 new sources
 
+
+## [2026-11-06] update | Pass 3 source linking
+
+Appended 2 sources to existing wiki pages:
+- concepts/scraping-infrastructure.md: 1 new source
+- entities/socks5-proxy.md: 1 new source
+

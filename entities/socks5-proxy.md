@@ -3,9 +3,10 @@ name: socks5-proxy
 type: entity
 category: proxy-provider
 first_seen: 2026-07-03
-last_updated: 2026-07-03
+last_updated: '2026-11-06'
 sources:
-  - Koukyosyumei-claude-codes-socks5-proxy-bypass-why-egress-filtering-must-happen-a.md
+- Koukyosyumei-claude-codes-socks5-proxy-bypass-why-egress-filtering-must-happen-a.md
+- posts-2026-11-04-turning-a-cloud-serial-console-into-a-socks5-proxy.md
 ---
 
 # SOCKS5 proxy
