@@ -2,7 +2,7 @@
 name: Web Unblockers
 type: concept
 first_seen: 2023-04-06
-last_updated: '2026-10-28'
+last_updated: '2026-11-09'
 sources:
 - hands-on-2-testing-the-new-zyte-api.md
 - testing-smartproxy-site-unblocker.md
@@ -20,6 +20,8 @@ sources:
 - antibot-captcha.md
 - divinelabio-Aegis.md
 - mozprox-io.md
+- blog-best-antibot-bypass-api.md
+- blog-bypass-api-vs-headless-browser.md
 ---
 
 # Web Unblockers

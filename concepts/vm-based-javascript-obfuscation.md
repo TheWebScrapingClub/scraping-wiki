@@ -2,11 +2,17 @@
 name: VM-based JavaScript obfuscation
 type: concept
 first_seen: 2026-09-22
-last_updated: 2026-09-22
+last_updated: '2026-11-09'
 sources:
-  - https://github.com/Sec-CH-Lemon/google-search-guard-vm-reversing
-  - https://igorkozlowski.substack.com/p/google-searchguard-anti-bot-system
-  - https://igorkozlowski.substack.com/p/google-searchguard-reversing-the
+- https://github.com/Sec-CH-Lemon/google-search-guard-vm-reversing
+- https://igorkozlowski.substack.com/p/google-searchguard-anti-bot-system
+- https://igorkozlowski.substack.com/p/google-searchguard-reversing-the
+- blog-analyzing-datadome-latest-changes.md
+- blog-datadome-plv3-vm-disassembler.md
+- devirtualizing-nike-vm-1.md
+- devirtualizing-nike-vm-2.md
+- reverse-engineering-tiktok-vm-1.md
+- tackling-javascript-client-side-security-pt-1.md
 ---
 
 # VM-based JavaScript obfuscation

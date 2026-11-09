@@ -3,21 +3,26 @@ name: Datadome
 type: entity
 category: anti-bot
 first_seen: 2022-09-15
-last_updated: 2026-06-23
+last_updated: '2026-11-09'
 sources:
-  - scraping-datadome-camoufox.md
-  - bypass-datadome-mouse-movements-in-playwright.md
-  - the-lab-94-using-cookies-and-session.md
-  - fingerprint-injection-playwright.md
-  - scraping-datadome-api-hermes.md
-  - how-to-scrape-datadome-2023.md
-  - bypassing-datadome-2023-scraping.md
-  - scraping-idealista-bypass-datadome.md
-  - anti-detect-anti-bot-matrix.md
-  - the-lab-21-bypass-anti-bot-challenges.md
-  - lab-camoufox-forks-cloverlabs-draft.md
-  - https://datadome.co/threat-research/how-chromes-new-ai-web-apis-enable-hardware-fingerprinting/
-  - https://datadome.co/threat-research/end-of-fingerprinting-how-browser-privacy-reshaping-bot-detection/
+- scraping-datadome-camoufox.md
+- bypass-datadome-mouse-movements-in-playwright.md
+- the-lab-94-using-cookies-and-session.md
+- fingerprint-injection-playwright.md
+- scraping-datadome-api-hermes.md
+- how-to-scrape-datadome-2023.md
+- bypassing-datadome-2023-scraping.md
+- scraping-idealista-bypass-datadome.md
+- anti-detect-anti-bot-matrix.md
+- the-lab-21-bypass-anti-bot-challenges.md
+- lab-camoufox-forks-cloverlabs-draft.md
+- https://datadome.co/threat-research/how-chromes-new-ai-web-apis-enable-hardware-fingerprinting/
+- https://datadome.co/threat-research/end-of-fingerprinting-how-browser-privacy-reshaping-bot-detection/
+- blog-analyzing-datadome-latest-changes.md
+- blog-breaking-down-datadome-captcha-waf.md
+- blog-datadome-plv3-vm-disassembler.md
+- blog-how-datadome-detects-bots.md
+- blog-how-to-bypass-datadome.md
 ---
  
 ## What it is

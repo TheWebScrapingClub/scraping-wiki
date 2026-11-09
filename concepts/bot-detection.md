@@ -2,7 +2,7 @@
 name: Bot Detection
 type: concept
 first_seen: 2024-01-01
-last_updated: '2026-10-28'
+last_updated: '2026-11-09'
 sources:
 - dbi-everything-about-user-agent.md
 - https://konstantinlebedev.com/bypassing-automated-traffic-detection/
@@ -27,6 +27,17 @@ sources:
 - insanai-sibuna.md
 - ivankovic-stop-bots.md
 - package-farmfence.md
+- blog-akamai-v3-sensor-data-deep-dive-into-encryption-decryption-and-bypass-tools.md
+- blog-botdeflector-solver-chrome-extension.md
+- blog-breaking-down-a-unique-anti-bot-measure.md
+- blog-breaking-down-datadome-captcha-waf.md
+- blog-how-datadome-detects-bots.md
+- blog-how-to-bypass-datadome.md
+- blog-understanding-and-bypassing-botdeflector.md
+- breaking-the-4chan-captcha.md
+- compiling-browser-to-bypass-antibot-measures.md
+- evading-anti-debugging-techniques.md
+- reversing-botid.md
 ---
 
 # Bot Detection

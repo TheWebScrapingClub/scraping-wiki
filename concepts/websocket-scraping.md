@@ -2,7 +2,7 @@
 name: websocket-scraping
 type: concept
 first_seen: 2024-04-04
-last_updated: '2026-10-29'
+last_updated: '2026-11-09'
 sources:
 - scraping-real-time-data-bitstamp.md
 - how-to-get-data-from-polymarket-fast.md
@@ -10,6 +10,7 @@ sources:
 - telepat-io-otto.md
 - jcubic-mitty.md
 - novawire-dev.md
+- blog-medium-good-words-solver.md
 ---
 
 # WebSocket Scraping

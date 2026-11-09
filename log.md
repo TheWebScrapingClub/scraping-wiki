@@ -1503,3 +1503,41 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/proxy-fundamentals.md: 1 new source
 
+
+## [2026-11-09] update | Pass 3 source linking
+
+Created 20 new entity pages from orphan RELEVANT news:
+- supreme-bot (tool) — Supreme bot
+- dzt-s-captcha-harvester (tool) — dzt's captcha-harvester
+- akamai-v3-sensor-data (anti-bot) — Akamai v3 Sensor Data
+- takion-api (anti-bot) — Takion API
+- botdeflector-solver-chrome-extension (tool) — botdeflector-solver-chrome-extension
+- selenium (browser) — Selenium
+- hcaptcha (anti-bot) — hCaptcha
+- medium-good-words-solver (tool) — Medium Good Words Solver
+- botdeflector (anti-bot) — BotDeflector
+- icloud-hme (tool) — icloud-hme
+- twitter-generator (library) — twitter-generator
+- x-twitter-ui-metrics (tool) — x-twitter-ui-metrics
+- 4chan-captcha-solver (tool) — 4Chan CAPTCHA Solver
+- ticket-js (anti-bot) — ticket.js
+- bytecode-traversal (tool) — Bytecode Traversal
+- customized-firefox (browser) — Customized Firefox
+- softpasskey (tool) — softpasskey
+- webcrack (tool) — Webcrack
+- botid (anti-bot) — BotID
+- jscrambler (anti-bot) — Jscrambler
+
+Appended 35 sources to existing wiki pages:
+- concepts/api-scraping.md: 3 new sources
+- concepts/bot-detection.md: 11 new sources
+- concepts/canvas-fingerprinting.md: 1 new source
+- concepts/javascript-proxy-tracing.md: 3 new sources
+- concepts/ml-bot-detection.md: 1 new source
+- concepts/vm-based-javascript-obfuscation.md: 6 new sources
+- concepts/web-unblockers.md: 2 new sources
+- concepts/websocket-scraping.md: 1 new source
+- entities/datadome.md: 5 new sources
+- entities/kasada.md: 1 new source
+- entities/playwright.md: 1 new source
+

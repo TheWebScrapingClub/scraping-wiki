@@ -3,7 +3,7 @@ name: playwright
 type: entity
 category: tool
 first_seen: 2023-01-01
-last_updated: '2026-07-22'
+last_updated: '2026-11-09'
 sources:
 - playwright-stealth-cdp.md
 - fingerprint-injection-playwright.md
@@ -17,6 +17,7 @@ sources:
 - playwright-tips-tricks-scraping.md
 - 5-features-playwright-web-scraping.md
 - browser-tools.md
+- fingerprinting-bioweapons.md
 ---
 
 # Playwright

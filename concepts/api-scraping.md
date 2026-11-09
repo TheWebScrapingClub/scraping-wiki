@@ -2,7 +2,7 @@
 name: API Scraping
 type: concept
 first_seen: 2022-09-04
-last_updated: '2026-10-28'
+last_updated: '2026-11-09'
 sources:
 - apis-in-web-scraping.md
 - scraping-apis-with-bearer-token.md
@@ -17,6 +17,9 @@ sources:
 - lucidextractor-liceron-in.md
 - dbi-overview-open-bullet2.md
 - elcapture-com.md
+- anatomy-of-a-supreme-bot-part-1.md
+- anatomy-of-a-supreme-bot-part-2.md
+- blog-using-icloud-subscription-as-its-best.md
 ---
 
 # API Scraping

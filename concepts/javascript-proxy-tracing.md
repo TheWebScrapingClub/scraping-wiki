@@ -2,10 +2,13 @@
 name: JavaScript Proxy tracing
 type: concept
 first_seen: 2026-09-22
-last_updated: 2026-09-22
+last_updated: '2026-11-09'
 sources:
-  - https://github.com/Sec-CH-Lemon/google-search-guard-vm-reversing
-  - https://igorkozlowski.substack.com/p/google-searchguard-anti-bot-system
+- https://github.com/Sec-CH-Lemon/google-search-guard-vm-reversing
+- https://igorkozlowski.substack.com/p/google-searchguard-anti-bot-system
+- blog-x-former-twitter-login-flow-reconstruction-episode-1-headers-generation.md
+- blog-x-former-twitter-login-flow-reconstruction-episode-2-ui-metrics.md
+- reverse-engineering-browser.md
 ---
 
 # JavaScript Proxy tracing
