@@ -1494,3 +1494,12 @@ Created 1 new entity pages from orphan RELEVANT news:
 Appended 1 sources to existing wiki pages:
 - concepts/proxy-fundamentals.md: 1 new source
 
+
+## [2026-11-09] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- retroweb-2-0 (proxy-provider) — RetroWEB 2.0
+
+Appended 1 sources to existing wiki pages:
+- concepts/proxy-fundamentals.md: 1 new source
+

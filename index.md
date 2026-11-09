@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-07
+Last updated: 2026-11-09
 
 ## Visual maps and views
 
@@ -113,6 +113,7 @@ Last updated: 2026-11-07
 - [residential-proxy-ips](entities/residential-proxy-ips.md) — Residential proxy IPs are IP addresses provided by networks sourced from residential devices, which are utilized for web scraping activities.
 - [residential-proxy-networks](entities/residential-proxy-networks.md) — Residential proxy networks route internet traffic through real consumer IP addresses.
 - [residential-proxy-services](entities/residential-proxy-services.md) — Residential proxy services allow customers to rent Internet addresses to anonymize their web traffic or spoof their true location.
+- [retroweb-2-0](entities/retroweb-2-0.md) — RetroWEB is a forwarding proxy designed to bridge the gap between old web browsers and modern websites.
 - [sandbox-proxy](entities/sandbox-proxy.md) — sandbox-proxy is a zero-dependency, stdlib-only Go forward proxy designed to inject real credentials, such as GitHub tokens or npm tokens, into outbound requests on the wire.
 - [socklight](entities/socklight.md) — sockLight is a development SOCKS5 proxy featuring a live Terminal User Interface (TUI) that allows users to monitor, block, and throttle every outbound connection in real time.
 - [socks5-proxy](entities/socks5-proxy.md) — A SOCKS5 proxy is used by systems, such as Claude Code’s sandbox, to route outbound traffic and enforce an egress allowlist.
