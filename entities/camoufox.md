@@ -3,19 +3,20 @@ name: camoufox
 type: entity
 category: tool
 first_seen: 2024-10-01
-last_updated: 2026-06-04
+last_updated: '2026-11-11'
 sources:
-  - scraping-datadome-camoufox.md
-  - bypassing-cloudflare-in-2026.md
-  - bypassing-kasada-2025-open-source.md
-  - hybrid-scraping-camoufox-curl-cffi.md
-  - scrapling-hands-on-guide.md
-  - cloudflare-bypass-2026.md
-  - how-to-bypass-cloudflare-turnstile.md
-  - camoufox-server-docker.md
-  - camoufox-server-in-aws.md
-  - how-to-create-camoufox-docker-image.md
-  - lab-camoufox-forks-cloverlabs-draft.md
+- scraping-datadome-camoufox.md
+- bypassing-cloudflare-in-2026.md
+- bypassing-kasada-2025-open-source.md
+- hybrid-scraping-camoufox-curl-cffi.md
+- scrapling-hands-on-guide.md
+- cloudflare-bypass-2026.md
+- how-to-bypass-cloudflare-turnstile.md
+- camoufox-server-docker.md
+- camoufox-server-in-aws.md
+- how-to-create-camoufox-docker-image.md
+- lab-camoufox-forks-cloverlabs-draft.md
+- blog-posts-camoufox-for-web-scraping.md
 ---
 
 # Camoufox

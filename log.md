@@ -1541,3 +1541,19 @@ Appended 35 sources to existing wiki pages:
 - entities/kasada.md: 1 new source
 - entities/playwright.md: 1 new source
 
+
+## [2026-11-11] update | Pass 3 source linking
+
+Created 3 new entity pages from orphan RELEVANT news:
+- pg-interleave (tool) — pg-interleave
+- scrapeops (proxy-provider) — ScrapeOps
+- relinos (tool) — Relinos
+
+Appended 8 sources to existing wiki pages:
+- concepts/anti-detect-browsers.md: 1 new source
+- concepts/bot-detection.md: 3 new sources
+- concepts/scraping-economics.md: 1 new source
+- concepts/tls-fingerprinting.md: 1 new source
+- entities/camoufox.md: 1 new source
+- entities/propylea.md: 1 new source
+

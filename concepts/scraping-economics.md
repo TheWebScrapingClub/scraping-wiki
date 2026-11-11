@@ -2,7 +2,7 @@
 name: scraping-economics
 type: concept
 first_seen: 2022-08-06
-last_updated: '2026-05-24'
+last_updated: '2026-11-11'
 sources:
 - from-0-to-2-billion-prices-scraped.md
 - is-web-scraping-a-profitable-industry.md
@@ -19,6 +19,7 @@ sources:
 - https://scrapeops.io/blog/scraping-shock
 - https://foura.ai/blog/web-scraping-tarpits-collateral-damage
 - scraping-at-scale-without-breaking-the-bank-a-guide-for-ai-startups.md
+- alekseev04051988-blip-ai-cost-calculator.md
 ---
 
 # Scraping Economics
