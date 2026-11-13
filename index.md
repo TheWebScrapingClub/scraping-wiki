@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-11
+Last updated: 2026-11-13
 
 ## Visual maps and views
 
@@ -56,6 +56,7 @@ Last updated: 2026-11-11
 - [sibuna](entities/sibuna.md) — Sibuna is an open-source web application firewall (WAF) designed to provide web protection against unwanted bot traffic.
 - [takion-api](entities/takion-api.md) — Takion API is a service that bypasses anti-bot walls by solving challenges server-side and returning tokens and cookies.
 - [tanuki](entities/tanuki.md) — Tanuki is an anonymization proxy built for AI-assisted security testing and bug bounty hunting.
+- [telltale-bot](entities/telltale-bot.md) — Telltale Bot is a service designed to detect and classify website visitors as human, AI agent, or bot.
 - [ticket-js](entities/ticket-js.md) — `ticket.js` was an anti-bot system used by Supreme during their Spring 2021 season.
 - [usehuma](entities/usehuma.md) — useHUMA is an anti-bot startup that provides bot detection services.
 - [web-bot-auth](entities/web-bot-auth.md) — Web Bot Auth is a system built on RFC 9421 and HTTP Message Signatures that allows a verifier like Cloudflare to authenticate a crawler from a signing-key directory that the user publishes.
@@ -72,6 +73,7 @@ Last updated: 2026-11-11
 - [geospoof](entities/geospoof.md) — GeoSpoof is a browser extension and application designed to match the user's VPN IP address to the browser's reported location, allowing it to spoof the geographical identity of the user.
 - [h5i](entities/h5i.md) — h5i is a lightweight, open-source headless browser implemented entirely in Rust.
 - [invisible-playwright](entities/invisible-playwright.md) — invisible_playwright is a patched replacement for Playwright designed specifically for Firefox that is engineered to pass advanced bot detection tests.
+- [kittybrowser](entities/kittybrowser.md) — KittyBrowser is a web browser designed to run within a terminal pane.
 - [konform-browser](entities/konform-browser.md) — Konform Browser is a stealth browser based on Firefox ESR for web scraping and automation.
 - [lightpanda](entities/lightpanda.md) — Lightpanda is a browser built for AI and automation, offering faster execution and lower memory usag
 - [otto](entities/otto.md) — Otto is a secure remote browser automation platform designed to control real browser tabs without the need to host a browser farm or manage significant infrastructure overhead.

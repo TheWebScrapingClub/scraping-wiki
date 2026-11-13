@@ -3,7 +3,7 @@ name: puppeteer
 type: entity
 category: tool
 first_seen: 2026-05-07
-last_updated: '2026-05-07'
+last_updated: '2026-11-13'
 sources:
 - dbi-getting-started-bot-detection.md
 - dbi-analyze-open-bullet2-puppeteer-mode.md
@@ -11,6 +11,7 @@ sources:
 - dbi-exclude-bots-from-google-analytics-2024.md
 - dbi-take-good-screenshots-with-puppeteer.md
 - dbi-use-puppeteer-with-chrome-macos.md
+- blog-posts-puppeteer-vs-selenium.md
 ---
 
 # Puppeteer
