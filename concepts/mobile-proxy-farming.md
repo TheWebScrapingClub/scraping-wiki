@@ -2,7 +2,7 @@
 name: Mobile Proxy Farming
 type: concept
 first_seen: 2023-01-15
-last_updated: '2026-09-02'
+last_updated: '2026-11-14'
 sources:
 - mobile-proxy-raspberry.md
 - building-mobile-proxy-farm.md
@@ -11,6 +11,7 @@ sources:
 - writing-lte-proxy-pool.md
 - SubscriberLink-1080822-990a8a5e2d379085.md
 - news-security-hackers-infect-android-car-head-units-with-proxy-botnet-malware.md
+- security-2026-11-05-the-white-house-is-apparently-a-popular-residential-proxy-ex.md
 ---
 
 # Mobile Proxy Farming

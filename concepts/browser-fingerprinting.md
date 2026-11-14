@@ -2,7 +2,7 @@
 name: browser-fingerprinting
 type: concept
 first_seen: 2010-01-01
-last_updated: '2026-10-28'
+last_updated: '2026-11-14'
 sources:
 - browser-fingerprinting-how-it-works.md
 - understanding-browser-fingerprint.md
@@ -41,6 +41,7 @@ sources:
 - fingerprint-scan-com.md
 - security-2026-08-aliexpress-caught-fingerprinting-visitors-after-sending-inaudib.md
 - bot-benchmarking-2026.md
+- who-1ms-dog.md
 ---
 
 # Browser Fingerprinting

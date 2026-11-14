@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-13
+Last updated: 2026-11-14
 
 ## Visual maps and views
 
@@ -199,6 +199,7 @@ Last updated: 2026-11-13
 - [Kadoa](entities/kadoa.md) — Commercial AI scraping workflow platform. UI-driven, anti-bot included, 5 proxy locations.
 - [kameleo](entities/kameleo.md) — Anti-detect browser. Junglefox + Chroma. First to support Selenium + Playwright + Puppeteer simultaneously.
 - [kimurai](entities/kimurai.md) — A Ruby-based web scraping framework that uses AI to assist in data extraction.
+- [layer3-intel](entities/layer3-intel.md) — Layer3 Intel is a security firm that launched a Residential Proxy Observatory.
 - [libretto](entities/libretto.md) — A toolkit for building robust web integrations and maintaining browser automations.
 - [linkedinbot](entities/linkedinbot.md) — A scraper used by LinkedIn to gather information about shared URLs in posts or messages.
 - [llmcap](entities/llmcap.md) — LLMCap is a service designed to enforce hard dollar caps on LLM API calls across various providers.
@@ -269,6 +270,7 @@ Last updated: 2026-11-13
 - [undetected-chromedriver](entities/undetected-chromedriver.md) — Patched Selenium. Stagnant repo, succeeded by Nodriver/Zendriver.
 - [webassembly-simd](entities/webassembly-simd.md) — WebAssembly SIMD refers to Single Instruction, Multiple Data operations introduced to the WebAssembly specification.
 - [webcrack](entities/webcrack.md) — Webcrack is a tool designed to assist in the reverse-engineering of web pages, specifically by aiding in the deobfuscation of JavaScript snippets.
+- [who-1ms-dog](entities/who-1ms-dog.md) — 1ms.dog is a website that tests and reveals browser fingerprinting signals to users.
 - [wick](entities/wick.md) — Wick is an open-source tool that allows AI agents to access web pages as if they were real browsers.
 - [wmimo](entities/wmimo.md) — Wmimo is a modern, cross-platform GUI client developed using Flutter, designed for managing Clash and Mihomo proxy configurations on both desktop and mobile platforms.
 - [wxpath](entities/wxpath.md) — wxpath is a Python library for declarative web crawling using XPath.

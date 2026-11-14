@@ -1570,3 +1570,14 @@ Appended 4 sources to existing wiki pages:
 - concepts/webdriver-vs-cdp-vs-bidi.md: 1 new source
 - entities/puppeteer.md: 1 new source
 
+
+## [2026-11-14] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- layer3-intel (tool) — Layer3 Intel
+- who-1ms-dog (tool) — who.1ms.dog
+
+Appended 2 sources to existing wiki pages:
+- concepts/browser-fingerprinting.md: 1 new source
+- concepts/mobile-proxy-farming.md: 1 new source
+
