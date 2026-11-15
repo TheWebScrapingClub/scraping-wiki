@@ -61,9 +61,9 @@ def convert(rel: Path, text: str) -> str:
     if h1:
         meta.setdefault("title", re.sub(r"[*_`]", "", h1.group(1)))
         body = body[:h1.start()] + body[h1.end():].lstrip("\n")
-    if rel.name == "README.md":
+    if rel == Path("README.md"):
         meta["title"] = "The Web Scraping Wiki"
-    elif rel.name == "index.md":
+    elif rel == Path("index.md"):
         meta["title"] = "Index of all pages"
     meta.setdefault("title", str(meta.get("name") or rel.stem.replace("-", " ")))
 

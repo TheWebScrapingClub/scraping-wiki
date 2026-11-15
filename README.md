@@ -58,6 +58,7 @@ The full, page-by-page catalog lives in [index.md](index.md), regenerated on eve
 - [Comparisons](index.md#comparisons) (3) — side-by-side analyses when the question is "which one and when?".
 - [Timelines](index.md#timelines) (1) — how a moving target evolved across sources over time.
 - [Canvases](index.md#visual-maps-and-views) (1) — JSON Canvas landscape maps, rendered as interactive whiteboards in Obsidian.
+- [Article summaries](articles/) — one page per The Web Scraping Club article: what it covers and a link to the full text on the newsletter.
 - [Views](index.md#visual-maps-and-views) (4) — Obsidian Bases live queries that surface pages by frontmatter.
 
 For everything else (sources, maintenance pipeline, Obsidian setup, error reporting, license), see [About.md](About.md).
