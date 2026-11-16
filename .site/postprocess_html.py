@@ -133,6 +133,11 @@ def main():
         page = page.replace("</head>", extra + "</head>", 1)
         path.write_text(page, encoding="utf-8")
         done += 1
+    sitemap = public / "sitemap.xml"  # Quartz leaves out the XML declaration
+    if sitemap.exists():
+        xml = sitemap.read_text(encoding="utf-8")
+        if not xml.startswith("<?xml"):
+            sitemap.write_text('<?xml version="1.0" encoding="UTF-8"?>\n' + xml, encoding="utf-8")
     print(f"search tags written on {done} pages ({with_meta} with page metadata)")
 
 
