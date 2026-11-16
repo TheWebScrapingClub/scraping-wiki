@@ -26,6 +26,9 @@ TITLE = re.compile(r"<title>.*?</title>", re.DOTALL)
 TITLE_META = re.compile(r'(<meta (?:name|property)="(?:og:title|twitter:title)" content=")[^"]*(")')
 DESC_META = re.compile(
     r'(<meta (?:name|property)="(?:description|og:description|twitter:description)" content=")[^"]*(")')
+WIKI_SECTIONS = ("entities", "concepts", "comparisons", "timelines")
+MIN_WORDS = 120
+SITEMAP_URL = re.compile(r"<url>\s*<loc>([^<]+)</loc>.*?</url>", re.DOTALL)
 HOME_TITLE = "The Web Scraping Wiki: anti-bot systems, scraping tools, proxies"
 NO_DESC = "No description provided"
 SECTIONS = {
@@ -101,6 +104,7 @@ def main():
         metas[Path(str(rel).replace(" ", "-"))] = frontmatter(md)
 
     done = with_meta = 0
+    hidden = set()
     for path in sorted(public.rglob("*.html")):
         rel = path.relative_to(public)
         if rel == Path("404.html"):
@@ -130,15 +134,25 @@ def main():
             name = TITLE.search(page).group(0)[7:-8].replace(SUFFIX, "").replace("Tag: ", "")
             desc = html.escape(f"Wiki pages and article summaries about {name} on {SITE_NAME}.", quote=True)
             page = DESC_META.sub(lambda m: m.group(1) + desc + m.group(2), page)
+        # Tag pages and wiki pages with very little text stay out of Google's index
+        # (their links are still followed): they would lower the average quality of the site.
+        thin = meta is not None and rel.parts[0] in WIKI_SECTIONS and rel.stem != "index" \
+            and int(meta.get("word_count") or 0) < MIN_WORDS
+        if rel.parts[0] == "tags" or thin:
+            extra += '<meta name="robots" content="noindex,follow"/>'
+            hidden.add(url)
         page = page.replace("</head>", extra + "</head>", 1)
         path.write_text(page, encoding="utf-8")
         done += 1
     sitemap = public / "sitemap.xml"  # Quartz leaves out the XML declaration
     if sitemap.exists():
         xml = sitemap.read_text(encoding="utf-8")
+        xml = SITEMAP_URL.sub(lambda m: "" if m.group(1) in hidden else m.group(0), xml)
         if not xml.startswith("<?xml"):
-            sitemap.write_text('<?xml version="1.0" encoding="UTF-8"?>\n' + xml, encoding="utf-8")
-    print(f"search tags written on {done} pages ({with_meta} with page metadata)")
+            xml = '<?xml version="1.0" encoding="UTF-8"?>\n' + xml
+        sitemap.write_text(xml, encoding="utf-8")
+    print(f"search tags written on {done} pages ({with_meta} with page metadata, "
+          f"{len(hidden)} kept out of the index)")
 
 
 if __name__ == "__main__":

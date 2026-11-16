@@ -97,16 +97,25 @@ def load_site_data(src: Path):
                 related.setdefault(slug, []).append((folder, path.stem, name))
     seo_file = src / ".site" / "seo.json"
     seo = json.loads(seo_file.read_text(encoding="utf-8")) if seo_file.exists() else {}
+    for slug, pages in related.items():  # the display names written by build_wiki_seo.py
+        related[slug] = [(f, stem, (seo.get(f"{f}/{stem}.md") or {}).get("name") or name)
+                         for f, stem, name in pages]
     return {"articles": articles, "related": related, "seo": seo}
 
 
 def convert(rel: Path, text: str, data: dict) -> str:
     meta, body = split(text)
 
+    seo = data["seo"].get(rel.as_posix()) or {}
+    meta["word_count"] = len(body.split())
+    if seo.get("name"):
+        meta["title"] = seo["name"]
     h1 = top_heading(body)
     if h1:
         meta.setdefault("title", re.sub(r"[*_`]", "", h1.group(1)))
         body = body[:h1.start()] + body[h1.end():].lstrip("\n")
+    if seo.get("answer"):
+        body = f"**In short:** {seo['answer']}\n\n" + body.lstrip("\n")
     if rel == Path("README.md"):
         meta["title"] = "The Web Scraping Wiki"
         body = re.sub(r"^Browse it as a website:.*\n\n?", "", body, flags=re.MULTILINE)
@@ -123,7 +132,6 @@ def convert(rel: Path, text: str, data: dict) -> str:
     if meta.get("topics") and not meta.get("tags"):
         meta["tags"] = list(meta["topics"])
 
-    seo = data["seo"].get(rel.as_posix()) or {}
     if seo.get("title"):
         meta["seo_title"] = seo["title"]
     if seo.get("description"):
