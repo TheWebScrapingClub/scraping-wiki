@@ -43,6 +43,8 @@ jobs:
         run: |
           npm ci
           npx quartz build
+      - name: Search tags (canonical, titles, descriptions, structured data)
+        run: python3 wiki/.site/postprocess_html.py quartz/content quartz/public
       - uses: actions/upload-pages-artifact@v3
         with:
           path: quartz/public

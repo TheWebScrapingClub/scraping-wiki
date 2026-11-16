@@ -2,6 +2,8 @@
 
 A structured, LLM-maintained knowledge base on anti-bot systems, scraping tools, browser fingerprinting, and proxy infrastructure. It compiles what we tested across 300+ [The Web Scraping Club](https://www.scraping.club/) articles since 2022, cross-referenced and updated daily.
 
+Browse it as a website: [wiki.scraping.club](https://wiki.scraping.club/).
+
 New here? Read [About.md](About.md) for what this is, where the sources come from, how it is maintained, and how to open it as an Obsidian vault.
 
 The Web Scraping Wiki is free to read and stays that way thanks to the companies below. If you want your product in front of a technical audience that scrapes for a living, [get in touch](mailto:pier@thewebscraping.club).
