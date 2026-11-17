@@ -1070,6 +1070,12 @@
   "name": "Hodor",
   "answer": "Hodor is a tiny Rust reverse proxy that gates a web application behind one shared password, with no user accounts, databases, or OAuth. It limits login attempts to 5 per 60 seconds per IP and does not proxy WebSockets (501 response); TWSC has not tested it yet."
  },
+ "entities/hosts-tray.md": {
+  "title": "Hosts Tray: hosts file switcher and HTTPS proxy",
+  "description": "Hosts Tray is a macOS and Windows tray tool that switches hosts files and runs an HTTPS reverse proxy on port 443 with a local CA and WebSocket support.",
+  "name": "Hosts Tray",
+  "answer": "Hosts Tray is a macOS and Windows tray tool that switches between hosts files and runs an automatic HTTPS reverse proxy on port 443 with a locally trusted CA. For scrapers it can help point test hostnames at local targets without browser warnings, but TWSC has not tested it, and the Windows build is unsigned."
+ },
  "entities/hrequests.md": {
   "title": "hRequests: Python TLS client tested against anti-bots",
   "description": "hRequests is a Python HTTP client with TLS fingerprints and a .render() browser mode. Lab results on Akamai, Cloudflare, DataDome, PerimeterX, Kasada.",
@@ -1964,6 +1970,12 @@
   "name": "Vericto Proxy",
   "answer": "Vericto Proxy is a transparent wire-protocol proxy that parses each query with the vericto-engine and blocks destructive SQL before it reaches PostgreSQL or MySQL, with no application code changes. It is a database safeguard, not a scraping tool, and TWSC has not tested it. Other dialects need the HTTP API, CLI, or MCP."
  },
+ "entities/violens.md": {
+  "title": "VioLens: open-source Fiddler Classic successor proxy",
+  "description": "VioLens is an MIT-licensed HTTP/HTTPS debugging proxy for Windows, macOS and Linux. Covers HTTPS decryption, HTTP/2 and WebSocket views, and TextWizard.",
+  "name": "VioLens",
+  "answer": "VioLens is an open-source, MIT-licensed HTTP/HTTPS debugging proxy meant as a successor to Fiddler Classic, running on Windows, macOS, and Linux. It decrypts HTTPS through an installed root certificate and handles HTTP/2 and WebSocket, but TWSC has not tested it, and version 1.0 is still a release candidate."
+ },
  "entities/vnc2go.md": {
   "title": "VNC2Go: private in-browser proxy with 10-minute sessions",
   "description": "VNC2Go is a private, in-browser service that routes traffic through a random proxy. The page covers how it works and its 10-minute session limit.",
@@ -2035,6 +2047,12 @@
   "description": "Page for the xcancel.com antibot CAPTCHA: users type the coloured characters shown in an image, then retry or get a new image. Not yet tested by TWSC.",
   "name": "xcancel.com/antibot/captcha",
   "answer": "xcancel.com/antibot/captcha is a CAPTCHA page that asks users to type the coloured characters shown in an image. If the entry does not match, it offers a retry or a new image. TWSC has not tested it yet, so no bypass results are reported."
+ },
+ "entities/xtreme-download-manager-xdm.md": {
+  "title": "Xtreme Download Manager (XDM): video and file downloader",
+  "description": "XDM splits files across multiple connections, resumes broken downloads and grabs HLS and MPEG-DASH video through a browser extension. Not yet tested by TWSC.",
+  "name": "Xtreme Download Manager (XDM)",
+  "answer": "Xtreme Download Manager (XDM) is a download accelerator and video downloader that splits files into segments fetched concurrently, resumes broken downloads, and supports HLS and MPEG-DASH streams through a browser extension. TWSC has not tested it yet, and the project is being rewritten, so its codebase changes often."
  },
  "entities/zenrows-batch.md": {
   "title": "Zenrows Batch: async API for scraping large URL lists",

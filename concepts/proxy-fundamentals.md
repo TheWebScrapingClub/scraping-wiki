@@ -2,7 +2,7 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-11-09'
+last_updated: '2026-11-17'
 sources:
 - everything-about-proxies.md
 - choosing-proxy-provider-scraping.md
@@ -67,6 +67,8 @@ sources:
 - posts-contabo-crawler.md
 - Modanez-HomeMinerProxy.md
 - retroweb-now-works-as-a-real-web-proxy.md
+- MarkSPowell-VioLens.md
+- maxmart-hoststray.md
 ---
 
 # Proxy Fundamentals

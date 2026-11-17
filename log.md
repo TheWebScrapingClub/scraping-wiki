@@ -1581,3 +1581,14 @@ Appended 2 sources to existing wiki pages:
 - concepts/browser-fingerprinting.md: 1 new source
 - concepts/mobile-proxy-farming.md: 1 new source
 
+
+## [2026-11-17] update | Pass 3 source linking
+
+Created 3 new entity pages from orphan RELEVANT news:
+- violens (tool) — VioLens
+- hosts-tray (tool) — Hosts Tray
+- xtreme-download-manager-xdm (tool) — Xtreme Download Manager (XDM)
+
+Appended 2 sources to existing wiki pages:
+- concepts/proxy-fundamentals.md: 2 new sources
+

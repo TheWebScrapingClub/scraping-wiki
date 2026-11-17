@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-14
+Last updated: 2026-11-17
 
 ## Visual maps and views
 
@@ -188,6 +188,7 @@ Last updated: 2026-11-14
 - [guestlist-tools](entities/guestlist-tools.md) — guestlist is a free Python library and HTTP API designed to check whether AI agents and computer-use agents can access specific websites.
 - [hn-attention-cliff](entities/hn-attention-cliff.md) — hn-attention-cliff is a repository containing the scraper, analysis, and data used to measure the half-life of Show HN launches on Hacker News.
 - [hodor](entities/hodor.md) — Hodor is a tiny reverse proxy written in Rust designed to gate web applications behind a single shared password.
+- [hosts-tray](entities/hosts-tray.md) — Hosts Tray is a local development tool designed for macOS and Windows that allows users to switch between different hosts files and provides an automatic HTTPS reverse proxy with trusted certificates.
 - [hRequests](entities/hrequests.md) — TLS-fingerprinted HTTP with embedded headless browser. Akamai/Cloudflare/PX pass; DataDome/Kasada fail.
 - [icloud-hme](entities/icloud-hme.md) — A command-line interface (CLI) tool designed to automate the generation of iCloud HideMyEmail aliases.
 - [iherb-cli](entities/iherb-cli.md) — A Rust command-line tool for querying product data from iHerb using a headless browser.
@@ -268,6 +269,7 @@ Last updated: 2026-11-14
 - [twitter-generator](entities/twitter-generator.md) — A Python module designed to reverse-engineer and replicate X (formerly Twitter) login headers for automation.
 - [uaparser-js](entities/uaparser-js.md) — A JavaScript library recommended for parsing user agents to extract browser and OS information.
 - [undetected-chromedriver](entities/undetected-chromedriver.md) — Patched Selenium. Stagnant repo, succeeded by Nodriver/Zendriver.
+- [violens](entities/violens.md) — VioLens is an open-source, MIT-licensed HTTP/HTTPS debugging proxy and network analysis tool.
 - [webassembly-simd](entities/webassembly-simd.md) — WebAssembly SIMD refers to Single Instruction, Multiple Data operations introduced to the WebAssembly specification.
 - [webcrack](entities/webcrack.md) — Webcrack is a tool designed to assist in the reverse-engineering of web pages, specifically by aiding in the deobfuscation of JavaScript snippets.
 - [who-1ms-dog](entities/who-1ms-dog.md) — 1ms.dog is a website that tests and reveals browser fingerprinting signals to users.
@@ -275,6 +277,7 @@ Last updated: 2026-11-14
 - [wmimo](entities/wmimo.md) — Wmimo is a modern, cross-platform GUI client developed using Flutter, designed for managing Clash and Mihomo proxy configurations on both desktop and mobile platforms.
 - [wxpath](entities/wxpath.md) — wxpath is a Python library for declarative web crawling using XPath.
 - [x-twitter-ui-metrics](entities/x-twitter-ui-metrics.md) — x-twitter-ui-metrics is a GitHub repository containing Node.js, Go, and Python implementations designed to reconstruct and bypass X (formerly Twitter)'s UI metrics login flow challenge.
+- [xtreme-download-manager-xdm](entities/xtreme-download-manager-xdm.md) — Xtreme Download Manager (XDM) is a fast, resumable download accelerator and video downloader that supports torrents and one-click video grabbing from browsers.
 - [zenrows-batch](entities/zenrows-batch.md) — Zenrows Batch is an asynchronous scraping API designed to manage large URL lists as a single, managed job.
 
 ### Web Unblockers
