@@ -1592,3 +1592,13 @@ Created 3 new entity pages from orphan RELEVANT news:
 Appended 2 sources to existing wiki pages:
 - concepts/proxy-fundamentals.md: 2 new sources
 
+
+## [2026-11-20] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- tpb-run (proxy-provider) — TPB.Run
+- vpndetection (tool) — VPNDetection
+
+Appended 2 sources to existing wiki pages:
+- concepts/proxy-fundamentals.md: 2 new sources
+

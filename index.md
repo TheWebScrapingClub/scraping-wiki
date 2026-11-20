@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-17
+Last updated: 2026-11-20
 
 ## Visual maps and views
 
@@ -131,6 +131,7 @@ Last updated: 2026-11-17
 - [socks5-proxy](entities/socks5-proxy.md) — A SOCKS5 proxy is used by systems, such as Claude Code’s sandbox, to route outbound traffic and enforce an egress allowlist.
 - [squid](entities/squid.md) — Squid is a network proxy server that was historically used by IT administrators to block various sites deemed unproductive or out of bounds for education.
 - [stratum-proxy](entities/stratum-proxy.md) — The Stratum proxy is a component designed to facilitate home solo Bitcoin mining operations.
+- [tpb-run](entities/tpb-run.md) — TPB.Run is a proxy website that provides access to The Pirate Bay.
 - [underclass](entities/underclass.md) — underclass is a local, OpenAI-compatible proxy designed to pool multiple subscriptions, such as ChatGPT/Codex and GitHub Copilot, behind a single endpoint.
 - [vericto-proxy](entities/vericto-proxy.md) — Vericto Proxy is a transparent wire-protocol proxy designed to stop destructive SQL statements before they reach a PostgreSQL or MySQL database, requiring no code changes in the application.
 - [vnc2go](entities/vnc2go.md) — VNC2Go is described as a private, in-browser service that routes traffic through a random proxy.
@@ -270,6 +271,7 @@ Last updated: 2026-11-17
 - [uaparser-js](entities/uaparser-js.md) — A JavaScript library recommended for parsing user agents to extract browser and OS information.
 - [undetected-chromedriver](entities/undetected-chromedriver.md) — Patched Selenium. Stagnant repo, succeeded by Nodriver/Zendriver.
 - [violens](entities/violens.md) — VioLens is an open-source, MIT-licensed HTTP/HTTPS debugging proxy and network analysis tool.
+- [vpndetection](entities/vpndetection.md) — VPNDetection is a service that identifies and classifies IP addresses, providing detailed information about their nature.
 - [webassembly-simd](entities/webassembly-simd.md) — WebAssembly SIMD refers to Single Instruction, Multiple Data operations introduced to the WebAssembly specification.
 - [webcrack](entities/webcrack.md) — Webcrack is a tool designed to assist in the reverse-engineering of web pages, specifically by aiding in the deobfuscation of JavaScript snippets.
 - [who-1ms-dog](entities/who-1ms-dog.md) — 1ms.dog is a website that tests and reveals browser fingerprinting signals to users.

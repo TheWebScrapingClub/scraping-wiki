@@ -1928,6 +1928,12 @@
   "name": "Tilefinch",
   "answer": "Tilefinch is a project that aims to improve page rendering on complex, JavaScript-heavy websites by admitting large scripts and styles within measured memory bounds, which is meant to reduce pauses and repeated work. It has not yet been tested by TWSC, so there are no reported results on blocking or scraping success."
  },
+ "entities/tpb-run.md": {
+  "title": "TPB.Run: Pirate Bay proxy site that bypasses ISP blocks",
+  "description": "TPB.Run is a retro-themed proxy site for The Pirate Bay. The page explains how it fetches and rewrites links to get around regional and ISP blocks.",
+  "name": "TPB.Run",
+  "answer": "TPB.Run is a proxy website for The Pirate Bay with a retro theme, described as very fast, meant to get around geographical restrictions and ISP blocks. It fetches pages from The Pirate Bay and rewrites links to point back to itself. TWSC has not tested it yet."
+ },
  "entities/transparenttorproxy.md": {
   "title": "TransparentTorProxy: route Linux traffic through Tor",
   "description": "Linux CLI that sends all system traffic through Tor with nftables. Covers IP rotation, DNS and IPv6 leak prevention, atomic rules and a crash-safe lock file.",
@@ -1981,6 +1987,12 @@
   "description": "VNC2Go is a private, in-browser service that routes traffic through a random proxy. The page covers how it works and its 10-minute session limit.",
   "name": "VNC2Go",
   "answer": "VNC2Go is a private, in-browser service that routes traffic through a random proxy. For scraping, the page reports one limit: sessions last 10 minutes, so it suits short manual browsing through a proxy and not long-running jobs. No test results are reported."
+ },
+ "entities/vpndetection.md": {
+  "title": "VPNDetection: IP API for VPN, proxy and Tor detection",
+  "description": "VPNDetection classifies IPs as VPN, hosting, Tor, CDN, privacy relay or proxy (residential, datacenter, mobile, public), via API or daily MMDB databases.",
+  "name": "VPNDetection",
+  "answer": "VPNDetection is an IP classification service that flags addresses as VPN, hosting, Tor, CDN, privacy relay, or residential, datacenter, mobile and public proxy, with operator name, last-seen time and confidence. Scrapers can query its API or run its daily-updated CSVGZ or MMDB databases locally, but TWSC has not tested it yet."
  },
  "entities/web-bot-auth.md": {
   "title": "Web Bot Auth: crawler authentication with RFC 9421",
