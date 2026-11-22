@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-20
+Last updated: 2026-11-22
 
 ## Visual maps and views
 
@@ -225,6 +225,7 @@ Last updated: 2026-11-20
 - [owl-browser](entities/owl-browser.md) — A self-hosted browser automation engine for automation at scale with 256 parallel contexts and undet
 - [pg-interleave](entities/pg-interleave.md) — pg-interleave is a wire-protocol proxy for PostgreSQL.
 - [playwright](entities/playwright.md) — Microsoft browser automation. Detectable by default, patchable via Patchright/Undetected Playwright.
+- [pqcrypta-proxy](entities/pqcrypta-proxy.md) — PQCrypta Proxy is a Layer-7 reverse proxy written in Rust that supports HTTP/1.1, HTTP/2, HTTP/3/QUIC, and WebTransport.
 - [propylea](entities/propylea.md) — Propylea is a sovereign, ultra-low-memory L7 reverse proxy, multi-domain SNI TLS multiplexer, and active perimeter defense gateway written in pure Rust.
 - [proxelar](entities/proxelar.md) — A Rust-based MITM proxy for intercepting and modifying HTTP/HTTPS traffic.
 - [proxy-benchmark](entities/proxy-benchmark.md) — `proxy-benchmark` is a measurement harness designed to test various combinations of proxies, browser engines, and scraping targets to diagnose request failures.
@@ -266,6 +267,7 @@ Last updated: 2026-11-20
 - [supercrawl](entities/supercrawl.md) — SuperCrawl is an open-source web crawler implemented in the Rust programming language.
 - [supreme-bot](entities/supreme-bot.md) — A Supreme bot is a tool designed to automate the process of purchasing items from the Supreme website.
 - [tadpole](entities/tadpole.md) — A language for writing declarative, modular scraping code.
+- [torgrid](entities/torgrid.md) — TorGrid is a self-healing, rotating proxy pool that provides access to a large number of Tor exit IP addresses.
 - [transparenttorproxy](entities/transparenttorproxy.md) — A Linux CLI utility that transparently routes all system traffic through the Tor network using nftab
 - [twitter-generator](entities/twitter-generator.md) — A Python module designed to reverse-engineer and replicate X (formerly Twitter) login headers for automation.
 - [uaparser-js](entities/uaparser-js.md) — A JavaScript library recommended for parsing user agents to extract browser and OS information.

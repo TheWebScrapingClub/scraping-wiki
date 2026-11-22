@@ -1602,3 +1602,14 @@ Created 2 new entity pages from orphan RELEVANT news:
 Appended 2 sources to existing wiki pages:
 - concepts/proxy-fundamentals.md: 2 new sources
 
+
+## [2026-11-22] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- pqcrypta-proxy (tool) — PQCrypta Proxy
+- torgrid (tool) — TorGrid
+
+Appended 2 sources to existing wiki pages:
+- concepts/proxy-fundamentals.md: 1 new source
+- concepts/tls-fingerprinting.md: 1 new source
+

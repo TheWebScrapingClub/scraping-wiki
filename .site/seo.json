@@ -1478,6 +1478,12 @@
   "name": "POWBlock",
   "answer": "POWBlock is a proof-of-work microservice written in pure C with EPOLL, placed behind a reverse proxy to gate AI scrapers, bots, and DDoS traffic. Clients without a valid cookie must mine a SHA-256 or SHA-512 hash with enough leading zeros to get a POW_TOKEN. TWSC has not tested it yet."
  },
+ "entities/pqcrypta-proxy.md": {
+  "title": "PQCrypta Proxy: Rust reverse proxy, PQC TLS and WAF",
+  "description": "Rust Layer-7 reverse proxy with hybrid post-quantum TLS, ECH, JA3/JA4 fingerprinting, GeoIP blocking, WAF and proof-of-work challenge. Not yet tested.",
+  "name": "PQCrypta Proxy",
+  "answer": "PQCrypta Proxy is a Rust Layer-7 reverse proxy supporting HTTP/1.1, HTTP/2, HTTP/3/QUIC, and WebTransport, with hybrid post-quantum TLS, JA3/JA4 fingerprinting, GeoIP blocking, a WAF, and a proof-of-work challenge. Scrapers may meet these defenses on sites running it, but TWSC has not tested it yet."
+ },
  "entities/productivityproxy.md": {
   "title": "ProductivityProxy: local macOS proxy, graph policies",
   "description": "ProductivityProxy is a macOS menu bar app that runs a local proxy on mitmproxy. Policies are graphs of Python nodes, grouped in modes like Deep Work.",
@@ -1927,6 +1933,12 @@
   "description": "Tilefinch is a browser project admitting large scripts and styles within measured memory bounds to cut pauses on JavaScript-heavy pages. Untested by TWSC.",
   "name": "Tilefinch",
   "answer": "Tilefinch is a project that aims to improve page rendering on complex, JavaScript-heavy websites by admitting large scripts and styles within measured memory bounds, which is meant to reduce pauses and repeated work. It has not yet been tested by TWSC, so there are no reported results on blocking or scraping success."
+ },
+ "entities/torgrid.md": {
+  "title": "TorGrid: rotating Tor exit proxy pool, SOCKS5 and HTTP",
+  "description": "TorGrid is a self-healing rotating Tor proxy pool with 100 to 1,100 exit IPs. Covers SOCKS5 and HTTP ports, Android split-tunnel VPN and obfs4 bridges.",
+  "name": "TorGrid",
+  "answer": "TorGrid is a self-healing, rotating proxy pool that exposes many Tor exit IPs through a local SOCKS5 and HTTP gateway, with an Android split-tunnel VPN mode. For scrapers it rotates the exit IP per request and heals dead circuits, with grids of 100 to 1,100 IPs. TWSC has not tested it yet."
  },
  "entities/tpb-run.md": {
   "title": "TPB.Run: Pirate Bay proxy site that bypasses ISP blocks",
