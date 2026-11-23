@@ -2,7 +2,7 @@
 name: proxy-fundamentals
 type: concept
 first_seen: 2022-09-11
-last_updated: '2026-11-22'
+last_updated: '2026-11-23'
 sources:
 - everything-about-proxies.md
 - choosing-proxy-provider-scraping.md
@@ -72,6 +72,7 @@ sources:
 - thepiratebay-proxy-list.md
 - vpndetection-io.md
 - localhost-server-TorGrid.md
+- zenkdom-reverse-socks-go.md
 ---
 
 # Proxy Fundamentals

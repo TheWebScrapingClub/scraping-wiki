@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-22
+Last updated: 2026-11-23
 
 ## Visual maps and views
 
@@ -243,6 +243,7 @@ Last updated: 2026-11-22
 - [reader](entities/reader.md) — An open-source, production-grade web scraping engine built for LLMs.
 - [relinos](entities/relinos.md) — Relinos is a programmable browser that functions as a REST API, enabling users to render and interact with websites.
 - [resurf](entities/resurf.md) — Resurf is a deterministic and reproducible test environment designed for systematically testing AI browser agents against realistic, stateful environments.
+- [reverse-socks-go](entities/reverse-socks-go.md) — reverse-socks-go is a high-performance reverse proxy cluster written in Go.
 - [ricci-flow-ai-web-scraper](entities/ricci-flow-ai-web-scraper.md) — A Chrome extension for AI-powered web scraping that extracts data from websites and exports it to Ex
 - [roxy](entities/roxy.md) — Roxy is a feature-rich RSS proxy written in Go that is designed to combine multiple RSS feeds into a single, queryable feed.
 - [runo](entities/runo.md) — Runo is an open-source tool designed to extract structured, typed JSON from any URL based on a schema defined by the user.
