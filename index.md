@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-23
+Last updated: 2026-11-24
 
 ## Visual maps and views
 
@@ -25,6 +25,7 @@ Last updated: 2026-11-23
 - [botdeflector](entities/botdeflector.md) — BotDeflector is a captcha system developed by Martin Pronk, co-founder of Queue-IT, used to protect websites.
 - [botid](entities/botid.md) — BotID is an invisible CAPTCHA system developed by Vercel designed to protect against sophisticated bots without presenting visible challenges or requiring manual user intervention.
 - [browser-fingerprint-scanner](entities/browser-fingerprint-scanner.md) — The Browser Fingerprint Scanner is a tool designed to run live tests to inspect browser, device, WebRTC leak exposure, network signals, headers, GPU, DRM support, and automation indicators.
+- [castle](entities/castle.md) — Castle is an anti-bot system used by X (formerly Twitter) that scores tokens at each step of the login process to detect automation.
 - [circuit-breaker-sage](entities/circuit-breaker-sage.md) — Circuit Breaker Sage is a drop-in reverse proxy designed to prevent autonomous agents from draining API budgets by catching infinite tool loops and enforcing hard spend caps within volatile RAM.
 - [claw-patrol](entities/claw-patrol.md) — Claw Patrol is a security firewall designed to sit between agents and production environments.
 - [client-side-bot-detection](entities/client-side-bot-detection.md) — Client-side bot detection involves running detection logic within the browser environment, which presents an asymmetry where the code executes in an environment controlled by the attacker, including their CPU, debugger, and clock.

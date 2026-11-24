@@ -716,6 +716,12 @@
   "name": "Canvas fingerprint defender",
   "answer": "Canvas fingerprint defender is a browser extension that randomizes the value of certain canvas pixels, which changes the canvas fingerprint and makes a user harder to identify across sites. It is one countermeasure against canvas fingerprinting, and TWSC has not tested it, so its effect against real anti-bot systems is unreported."
  },
+ "entities/castle.md": {
+  "title": "Castle: how it detects bots on X login and Selenium",
+  "description": "Castle anti-bot on the X (Twitter) login page: per-step encrypted tokens, signals scored server-side, and why Selenium with stealth plugins may be flagged.",
+  "name": "Castle",
+  "answer": "Castle is an anti-bot system used by X (formerly Twitter) that scores a token at each login step to detect automation. Its SDK collects device, environment, and interaction signals, and negative scores lead to login restrictions. TWSC has not tested it, and the source suggests Selenium with stealth plugins may still be flagged."
+ },
  "entities/cfsolve.md": {
   "title": "cfsolve: Rust Cloudflare Turnstile and challenge solver",
   "description": "cfsolve is a Rust library and CLI that returns Turnstile tokens or cf_clearance cookies without a headless browser, using recorded browser profiles.",
@@ -1681,6 +1687,12 @@
   "description": "RetroWEB 2.0 is a forwarding proxy that fetches HTTPS pages, strips scripts and styling, and serves HTML 2.0, 3.2 or 4.01 over plain HTTP to old browsers.",
   "name": "RetroWEB 2.0",
   "answer": "RetroWEB 2.0 is a public HTTP forwarding proxy that fetches modern HTTPS pages, strips scripts and styling, rewrites links and forms, and returns simplified HTML that old browsers can read. TWSC has not tested it, so its use for scraping is unproven, and links from the first version may no longer work."
+ },
+ "entities/reverse-socks-go.md": {
+  "title": "reverse-socks-go: Go reverse proxy for SOCKS5 and HTTP",
+  "description": "Go reverse proxy cluster with one port for SOCKS5, SOCKS4/4a and HTTP(S), exit nodes behind NAT, a multi-Tor module and MTProto Fake-TLS for Telegram.",
+  "name": "reverse-socks-go",
+  "answer": "reverse-socks-go is a reverse proxy cluster written in Go that accepts SOCKS5, SOCKS4/4a, HTTP, and HTTPS proxy traffic on a single port, plus Telegram's MTProto Fake-TLS. Exit nodes connect back to a control server, so they can run behind NAT or CGNAT. TWSC has not tested it yet."
  },
  "entities/ricci-flow-ai-web-scraper.md": {
   "title": "Ricci Flow AI Web Scraper: AI Chrome extension",

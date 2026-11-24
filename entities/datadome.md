@@ -3,7 +3,7 @@ name: Datadome
 type: entity
 category: anti-bot
 first_seen: 2022-09-15
-last_updated: '2026-11-09'
+last_updated: '2026-11-24'
 sources:
 - scraping-datadome-camoufox.md
 - bypass-datadome-mouse-movements-in-playwright.md
@@ -23,6 +23,7 @@ sources:
 - blog-datadome-plv3-vm-disassembler.md
 - blog-how-datadome-detects-bots.md
 - blog-how-to-bypass-datadome.md
+- blog-how-to-bypass-datadome-selenium-playwright.md
 ---
  
 ## What it is
