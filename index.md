@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 ## Visual maps and views
 
@@ -225,6 +225,7 @@ Last updated: 2026-11-24
 - [open-bullet-2](entities/open-bullet-2.md) — A credential stuffing tool that can be used for web scraping and automation.
 - [owl-browser](entities/owl-browser.md) — A self-hosted browser automation engine for automation at scale with 256 parallel contexts and undet
 - [pg-interleave](entities/pg-interleave.md) — pg-interleave is a wire-protocol proxy for PostgreSQL.
+- [php-webvpn](entities/php-webvpn.md) — PHP-WebVPN is a serverless tool that transforms standard PHP web hosting into a censorship-resistant stealth VPN and multi-protocol proxy.
 - [playwright](entities/playwright.md) — Microsoft browser automation. Detectable by default, patchable via Patchright/Undetected Playwright.
 - [pqcrypta-proxy](entities/pqcrypta-proxy.md) — PQCrypta Proxy is a Layer-7 reverse proxy written in Rust that supports HTTP/1.1, HTTP/2, HTTP/3/QUIC, and WebTransport.
 - [propylea](entities/propylea.md) — Propylea is a sovereign, ultra-low-memory L7 reverse proxy, multi-domain SNI TLS multiplexer, and active perimeter defense gateway written in pure Rust.
@@ -246,6 +247,7 @@ Last updated: 2026-11-24
 - [resurf](entities/resurf.md) — Resurf is a deterministic and reproducible test environment designed for systematically testing AI browser agents against realistic, stateful environments.
 - [reverse-socks-go](entities/reverse-socks-go.md) — reverse-socks-go is a high-performance reverse proxy cluster written in Go.
 - [ricci-flow-ai-web-scraper](entities/ricci-flow-ai-web-scraper.md) — A Chrome extension for AI-powered web scraping that extracts data from websites and exports it to Ex
+- [roblox-captchav2-bypass](entities/roblox-captchav2-bypass.md) — This document describes a method and provides example code for bypassing the PerimeterX (HUMAN) press and hold captcha that Roblox uses for login and game joins.
 - [roxy](entities/roxy.md) — Roxy is a feature-rich RSS proxy written in Go that is designed to combine multiple RSS feeds into a single, queryable feed.
 - [runo](entities/runo.md) — Runo is an open-source tool designed to extract structured, typed JSON from any URL based on a schema defined by the user.
 - [rustwright](entities/rustwright.md) — Rustwright is a browser automation library designed for Python and Node.js that maintains the familiar Playwright API while driving Chromium using a native Rust engine.

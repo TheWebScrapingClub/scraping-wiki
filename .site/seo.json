@@ -1466,6 +1466,12 @@
   "name": "pg-interleave",
   "answer": "pg-interleave is a PostgreSQL wire-protocol proxy that sits between an application and the database to pause, reorder, and fuzz queries, so concurrency tests can reproduce race conditions on demand. It is not a scraping tool and TWSC has not tested it. It is alpha, plaintext only, and its APIs may change."
  },
+ "entities/php-webvpn.md": {
+  "title": "PHP-WebVPN: PHP hosting as a stealth VPN and proxy",
+  "description": "PHP-WebVPN turns shared PHP hosting into a proxy that hides traffic in HTTPS POST requests. Covers Decoy Mode, HTTP, SOCKS5 and MTProto, and chained backends.",
+  "name": "PHP-WebVPN",
+  "answer": "PHP-WebVPN is a serverless tool that turns ordinary PHP shared hosting into a stealth VPN and multi-protocol proxy, wrapping traffic in HTTPS POST requests to get past censorship and DPI. It supports HTTP, HTTPS, SOCKS5 and MTProto, and can chain several backends, but TWSC has not tested it yet."
+ },
  "entities/pingora.md": {
   "title": "Pingora: Cloudflare's Rust HTTP proxy replacing NGINX",
   "description": "Pingora is Cloudflare's in-house Rust HTTP proxy. See why it replaced NGINX, how it improves connection reuse and TTFB, and which Cloudflare services use it.",
@@ -1699,6 +1705,12 @@
   "description": "Chrome extension that uses AI to detect fields, tables and lists on a page and export to Excel, CSV or JSON. Handles pagination and infinite scroll.",
   "name": "Ricci Flow, AI Web Scraper",
   "answer": "Ricci Flow, AI Web Scraper is a Chrome extension that uses AI models to detect fields, tables, and lists on a page, then exports the data to Excel, CSV, or JSON. Users point and click, and it handles pagination and infinite scroll, but TWSC has not tested it yet."
+ },
+ "entities/roblox-captchav2-bypass.md": {
+  "title": "Roblox captchav2 bypass: PerimeterX press and hold",
+  "description": "How the PerimeterX press and hold captcha on Roblox login and game joins is solved: PX session, proof of work, cookie redemption, and the ~100 second limit.",
+  "name": "Roblox captchav2 bypass",
+  "answer": "Roblox captchav2 bypass is a method, with example code, for getting past the PerimeterX (HUMAN) press and hold captcha Roblox uses for login and game joins. It needs a PX session, a proof of work solution, and a solve within about 100 seconds. TWSC has not tested it, and some accounts get Arkose or no captcha."
  },
  "entities/roxy.md": {
   "title": "Roxy: Go RSS proxy that merges feeds into one",

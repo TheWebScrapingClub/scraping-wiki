@@ -1632,3 +1632,14 @@ Appended 3 sources to existing wiki pages:
 - concepts/bot-detection.md: 2 new sources
 - entities/datadome.md: 1 new source
 
+
+## [2026-11-25] update | Pass 3 source linking
+
+Created 2 new entity pages from orphan RELEVANT news:
+- roblox-captchav2-bypass (tool) — Roblox captchav2 bypass
+- php-webvpn (tool) — PHP-WebVPN
+
+Appended 2 sources to existing wiki pages:
+- concepts/bot-detection.md: 1 new source
+- concepts/proxy-fundamentals.md: 1 new source
+
