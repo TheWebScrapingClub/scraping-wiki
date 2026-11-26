@@ -2,10 +2,11 @@
 name: webrtc-ip-leak
 type: concept
 first_seen: 2024-03-01
-last_updated: '2026-06-04'
+last_updated: '2026-11-26'
 sources:
 - bypassing-geo-fencing-scraping.md
 - lab-camoufox-forks-cloverlabs-draft.md
+- blog-webrtc-leaks-behind-a-socks5-proxy-how-we-closed-the-udp-gap.md
 ---
 
 # WebRTC IP Leak

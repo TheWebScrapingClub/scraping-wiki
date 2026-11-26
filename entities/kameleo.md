@@ -3,12 +3,13 @@ name: kameleo
 type: entity
 category: tool
 first_seen: 2023-01-01
-last_updated: 2026-04-22
+last_updated: '2026-11-26'
 sources:
-  - kameleo-anti-detect-browser.md
-  - anti-detect-browsers-fingerprint-tests.md
-  - anti-detect-browser-royal-rumble-comments.md
-  - anti-detect-pricing-comparison.md
+- kameleo-anti-detect-browser.md
+- anti-detect-browsers-fingerprint-tests.md
+- anti-detect-browser-royal-rumble-comments.md
+- anti-detect-pricing-comparison.md
+- blog-webrtc-leaks-behind-a-socks5-proxy-how-we-closed-the-udp-gap.md
 ---
 
 # Kameleo

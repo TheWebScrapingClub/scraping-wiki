@@ -1,6 +1,6 @@
 # TWSC Wiki Index
 
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Visual maps and views
 
@@ -259,6 +259,7 @@ Last updated: 2026-11-25
 - [scrapy](entities/scrapy.md) — Scrapy is a Python library that is used in typical web scraping setups.
 - [sensecollect](entities/sensecollect.md) — SenseCollect is a self-service platform designed to simplify web data extraction for lead generation and market intelligence.
 - [shellroute-cli](entities/shellroute-cli.md) — The shellroute CLI is a command-line interface designed to route terminal commands through a configured proxy.
+- [shomei](entities/shomei.md) — Shomei is a Rust-based authentication proxy designed for both HTTP and TCP traffic.
 - [simple-selenium-chrome-crawler](entities/simple-selenium-chrome-crawler.md) — A Python script that uses Selenium and Chrome to crawl web pages and extract links.
 - [slick-search-engine](entities/slick-search-engine.md) — Slick is a customizable search engine designed to give users control over their search results.
 - [socks5-bridge](entities/socks5-bridge.md) — `socks5-bridge` is a local HTTP-to-SOCKS5 proxy bridge designed for Chrome.

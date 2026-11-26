@@ -1643,3 +1643,13 @@ Appended 2 sources to existing wiki pages:
 - concepts/bot-detection.md: 1 new source
 - concepts/proxy-fundamentals.md: 1 new source
 
+
+## [2026-11-26] update | Pass 3 source linking
+
+Created 1 new entity pages from orphan RELEVANT news:
+- shomei (tool) — shomei
+
+Appended 2 sources to existing wiki pages:
+- concepts/webrtc-ip-leak.md: 1 new source
+- entities/kameleo.md: 1 new source
+

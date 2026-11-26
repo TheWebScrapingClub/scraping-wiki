@@ -1820,6 +1820,12 @@
   "name": "Shibuya WAF",
   "answer": "Shibuya WAF is a Rust reverse proxy that checks every incoming request against the OWASP Core Rule Set and custom rules, with Redis rate limiting and a dashboard. TWSC has not tested it. Known gaps: no response inspection, no XML/SOAP body reading, and request-body DoS protections not compiled."
  },
+ "entities/shomei.md": {
+  "title": "shomei: YubiKey authentication proxy for HTTP and TCP",
+  "description": "shomei is a Rust proxy that gates HTTP and TCP access with hardware-attested YubiKeys: WebAuthn, CLI assertions, mTLS certificates, and OpenSSH tunneling.",
+  "name": "shomei",
+  "answer": "shomei is a Rust-based authentication proxy for HTTP and TCP traffic that uses hardware-attested YubiKeys, with WebAuthn, one-use CLI assertions, and short-lived mTLS certificates. For scraping, it is a gate that needs a YubiKey 5 Series key (firmware 5.7.4 or later), a PIN, and touch. TWSC has not tested it yet."
+ },
  "entities/sibuna.md": {
   "title": "Sibuna: open-source proof-of-work WAF against bots",
   "description": "Sibuna is an open-source WAF that makes clients solve a proof-of-work puzzle. Covers signed sessions, rate limits, WebAssembly solver and proxy setups.",
